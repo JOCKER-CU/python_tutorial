@@ -1,0 +1,1974 @@
+[
+    [
+        {
+            "Travel_Protect_Insurance": {
+                "insurance_type": "Travel Protect Insurance",
+                "Description": "Embark on Your Journey with confidence—Our Protection has you covered! Whether it’s a round trip or one-way adventure, starting or ending in Myanmar, we ensure peace of mind every step of the way.",
+                "KBZMS Travel Protect": {
+                    "Coverage": [
+                        "Accidental Death and Permanent Disablement",
+                        "Medical Related Expenses",
+                        "Dead Body Repatriation"
+                    ]
+                },
+                "Additional Covers": [
+                    "Additional Infectious Diseases Cover (including COVID-19)",
+                    "Baggage Delay",
+                    "Baggage Loss/Damage",
+                    "Flight Delay",
+                    "Trip Cancellation",
+                    "Personal Liability"
+                ],
+                "Basic": {
+                    "Premium (per day)": {
+                        "Silver Package": "1,700 MMK",
+                        "Gold Package": "2,500 MMK",
+                        "Platinum Package": "3,400 MMK"
+                    },
+                    "Accidental Death & Permanent Disability": {
+                        "Silver Package": "Up to MMK 10,000,000",
+                        "Gold Package": "Up to MMK 30,000,000",
+                        "Platinum Package": "Up to MMK 50,000,000"
+                    },
+                    "Medical Related Expense": {
+                        "Silver Package": "Up to MMK 50,000,000",
+                        "Gold Package": "Up to MMK 100,000,000",
+                        "Platinum Package": "Up to MMK 150,000,000"
+                    },
+                    "Emergency Medical Evacuation": "Shall not exceed 500,000 MMK per individual.",
+                    "Dead Body Repatriation": {
+                        "Silver Package": "Up to MMK 10,000,000",
+                        "Gold Package": "Up to MMK 30,000,000",
+                        "Platinum Package": "Up to MMK 50,000,000"
+                    }
+                },
+                "Option 1": {
+                    "Premium (per day)": {
+                        "Silver Package": "500 MMK",
+                        "Gold Package": "700 MMK",
+                        "Platinum Package": "1,000 MMK"
+                    },
+                    "Additional Infectious Diseases Cover (Including COVID-19)": "Same as Benefit No.2"
+                },
+                "Option 2": {
+                    "Premium (per policy)": {
+                        "Silver Package": "1,000 MMK",
+                        "Gold Package": "1,000 MMK",
+                        "Platinum Package": "1,000 MMK"
+                    },
+                    "Baggage Delay": {
+                        "Description": "MMK 50,000 for every 6 full consecutive hours if your check-in baggage is delayed upon arrival at the scheduled destination",
+                        "Silver Package": "Up to MMK 300,000",
+                        "Gold Package": "Up to MMK 400,000",
+                        "Platinum Package": "Up to MMK 500,000"
+                    }
+                },
+                "Option 3": {
+                    "Premium (per day)": {
+                        "Silver Package": "1,400 MMK",
+                        "Gold Package": "1,500 MMK",
+                        "Platinum Package": "2,000 MMK"
+                    },
+                    "Baggage Loss/Damage": {
+                        "Description": "Maximum MMK 200,000 for any one article, pair or set of articles",
+                        "Silver Package": "Up to MMK 1,000,000",
+                        "Gold Package": "Up to MMK 1,500,000",
+                        "Platinum Package": "Up to MMK 2,000,000"
+                    }
+                },
+                "Option 4": {
+                    "Premium (per day)": {
+                        "Silver Package": "3,000 MMK",
+                        "Gold Package": "3,000 MMK",
+                        "Platinum Package": "3,000 MMK"
+                    },
+                    "Flight Delay": {
+                        "Description": "MMK 50,000 for every 6 full consecutive hours delay and MMK 100,000 for every 6 full consecutive hours thereafter",
+                        "Silver Package": "Up to MMK 1,000,000",
+                        "Gold Package": "Up to MMK 1,500,000",
+                        "Platinum Package": "Up to MMK 2,000,000"
+                    }
+                },
+                "Option 5": {
+                    "Premium (per policy)": {
+                        "Silver Package": "400 MMK",
+                        "Gold Package": "400 MMK",
+                        "Platinum Package": "400 MMK"
+                    },
+                    "Trip Cancellation": {
+                        "Description": "Including due to tested positive COVID-19",
+                        "Silver Package": "Up to MMK 1,000,000",
+                        "Gold Package": "Up to MMK 1,500,000",
+                        "Platinum Package": "Up to MMK 2,000,000"
+                    }
+                },
+                "Option 6": {
+                    "Premium (per day)": {
+                        "Silver Package": "400 MMK",
+                        "Gold Package": "400 MMK",
+                        "Platinum Package": "400 MMK"
+                    },
+                    "Personal Liability": {
+                        "Description": "Legal liability for accidents resulting in bodily injuries or damage to property of third parties",
+                        "Coverage": "Up to MMK 100,000,000",
+                        "Deductible": "MMK 2,500,000"
+                    }
+                },
+                "Important Notes": {
+                    "1": "Optional Covers can only be bought along with the Basic Covers and cannot be bought in isolation or separate.",
+                    "2": "Travelling by any other modes except flight are not eligible to purchase Optional 2, 3 and 4."
+                },
+                "Insurance Eligibility": {
+                    "What can be insured": {
+                        "Domestic and Overseas Trips": [
+                            "Round trip (Must begin and end in Myanmar)",
+                            "One-way trip (Must begin or end in Myanmar)"
+                        ]
+                    },
+                    "Who can purchase": "30 days to 70 years old travelers (including foreigners) who travel domestically or abroad by flight, vessel, private vehicle or chartered vehicle; passengers (including foreigners) traveling on public transport lines."
+                },
+                "Period of Insurance": {
+                    "Round trip": "Minimum 1 day to Maximum 30 days (can be extended one time for an additional 30 days from the expiry of the original period, must request the extension 3 days in advance)",
+                    "One-way trip": "Maximum 3 days"
+                },
+                "KBZMS_Travel_Protect_Travel_Insurance": {
+                    "Basic_Coverages": {
+                        "Accidental_Death_Permanent_Disability": {
+                            "Sliver_Package": "Up to MMK 10,000,000",
+                            "Gold_Package": "Up to MMK 30,000,000",
+                            "Platinum_Package": "Up to MMK 50,000,000"
+                        },
+                        "Medical_Related_Expense": {
+                            "Sliver_Package": "Up to MMK 50,000,000",
+                            "Gold_Package": "Up to MMK 100,000,000",
+                            "Platinum_Package": "Up to MMK 150,000,000",
+                            "Emergency_Medical_Evacuation": "Shall not exceed 500,000 MMK per individual"
+                        },
+                        "Dead_Body_Repatriation": {
+                            "Sliver_Package": "Up to MMK 10,000,000",
+                            "Gold_Package": "Up to MMK 30,000,000",
+                            "Platinum_Package": "Up to MMK 50,000,000"
+                        }
+                    },
+                    "Additional_Coverages": {
+                        "Option_1_Additional_Infectious_Diseases_Cover_Including_COVID-19": {
+                            "Sliver_Package": "Same as Benefit No. 2",
+                            "Gold_Package": "Same as Benefit No. 2",
+                            "Platinum_Package": "Same as Benefit No. 2"
+                        },
+                        "Option_2_Baggage_Delay": {
+                            "Sliver_Package": "Up to MMK 300,000",
+                            "Gold_Package": "Up to MMK 400,000",
+                            "Platinum_Package": "Up to MMK 500,000",
+                            "Note": "MMK 50,000 for every 6 full consecutive hours if your check-in baggage is delayed upon arrival at the scheduled destination"
+                        },
+                        "Option_3_Baggage_Loss_Damage": {
+                            "Sliver_Package": "Up to MMK 1,000,000",
+                            "Gold_Package": "Up to MMK 1,500,000",
+                            "Platinum_Package": "Up to MMK 2,000,000",
+                            "Note": "Maximum MMK 200,000 for any one article, pair or set of articles"
+                        },
+                        "Option_4_Flight_Delay": {
+                            "Sliver_Package": "Up to MMK 1,000,000",
+                            "Gold_Package": "Up to MMK 1,500,000",
+                            "Platinum_Package": "Up to MMK 2,000,000",
+                            "Note": "MMK 50,000 for every 6 full consecutive hours delay and MMK 100,000 for every 6 full consecutive hours thereafter"
+                        },
+                        "Option_5_Trip_Cancellation": {
+                            "Sliver_Package": "Up to MMK 1,000,000",
+                            "Gold_Package": "Up to MMK 1,500,000",
+                            "Platinum_Package": "Up to MMK 2,000,000",
+                            "Note": "Including due to tested positive COVID-19"
+                        },
+                        "Option_6_Personal_Liability": {
+                            "Sliver_Package": "Up to MMK 100,000,000",
+                            "Gold_Package": "Up to MMK 100,000,000",
+                            "Platinum_Package": "Up to MMK 100,000,000",
+                            "Deductible": "MMK 2,500,000",
+                            "Note": "Legal liability for accidents resulting in bodily injuries or damage to property of third parties"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Motor_Vehicle_Insurance": {
+                "insurance_type": "Motor Vehicle Insurance",
+                "Description": "Hit the road with assurance! Our motor insurance not only shields your car from damage but also boosts your confidence, knowing you're protected from all angles.",
+                "Product_Highlights": {
+                    "Coverage": [
+                        "Loss or Damage to Your Vehicle",
+                        "Liability to Third Parties",
+                        "Personal Accident and Medical Treatment Fee"
+                    ],
+                    "Basic_Premium": {
+                        "Description": "Minimum of 1.072% to Maximum of 1.734% of the sum insured amount"
+                    }
+                },
+                "Loading_Premium": {
+                    "Description": "Maximum of 10% of the total premium, depending on utilization in a risk area and claim experience"
+                },
+                "Excess": {
+                    "Description": "Excess is the first amount that Insured has to bear in respect of each and every claim under the Policy."
+                },
+                "Covers": {
+                    "Loss_or_Damage_to_Your_Vehicle": {
+                        "Accidental_collision_or_overturning": "",
+                        "Collision_or_overturning_caused_by_mechanical_breakdown": "",
+                        "Collision_or_overturning_caused_by_wear_and_tear": "Cost of Repair or Replacement (Up to Market Value or Sum Insured Amount whichever is lesser)",
+                        "Fire_external_explosion_self-ignition_or_lighting": "",
+                        "Of_mischief_malicious_act": "",
+                        "Impact_damage_caused_by_falling_objects_provided_no_convulsions_of_nature_is_involved": "",
+                        "Towing_Fee": "Up to 300,000 MMK"
+                    },
+                    "Liability_to_Third_Parties": {
+                        "Common_Limit": "Up to 50,000,000 MMK",
+                        "Bodily_Injury_or_Death_or_Disability": "Up to 3,000,000 MMK per person",
+                        "Legal_Costs": "Up to 500,000 MMK",
+                        "Medical_Treatment": "25,000 MMK per week (Up to 52 weeks)"
+                    },
+                    "Personal_Accident_and_Medical_Treatment": {
+                        "Common_Limit": "Up to 50,000,000 MMK",
+                        "Bodily_Injury_or_Death_or_Disability": "Up to 3,000,000 MMK per person",
+                        "Medical_Treatment": "25,000 MMK per week (Up to 52 weeks)"
+                    }
+                },
+                "Additional_Covers": {
+                    "Windscreen_Damage": {
+                        "Description": "Compulsory",
+                        "Premium_Rate": "6.5% of the value of windscreen"
+                    },
+                    "Strike_Riots_Civil_Commotion_Risk": {
+                        "Description": "Compulsory",
+                        "Premium_Rate": "0.065% of the sum insured"
+                    },
+                    "Theft": {
+                        "Premium_Rate": "15% of the basic premium"
+                    },
+                    "Betterment": {
+                        "Premium_Rate": "30% on basic premium"
+                    },
+                    "War_Risk": {
+                        "Premium_Rate": "0.065% of the sum insured"
+                    },
+                    "Acts_of_God": {
+                        "Premium_Rate": "0.065% of the sum insured"
+                    }
+                },
+                "Fleet_Discount": {
+                    "Description": "10% discount on the basis premium when 10 vehicles and above is insured simultaneously"
+                },
+                "No_Claim_Bonus_(NCB)": {
+                    "Description": "If there is no claim for a continuous period of 12 months, NCB will be applied at each renewal. The applicable NCB ranges from 25% – 40% for Private vehicle and 15% – 25% for Commercial Vehicle depending on the no claim period.",
+                    "Note": "NCB is personal to the Insured and not transferable."
+                },
+                "Insurance_Eligibility": {
+                    "What_can_be_insured": "Any vehicle that is legally registered with the Road Transport Administrative Department can be insured.",
+                    "Period_of_Insurance": [
+                        "3 months",
+                        "6 months",
+                        "9 months",
+                        "1 year"
+                    ]
+                },
+                "Policy Terms and Conditions": {
+                    "Definitions": {
+                        "Accessories": "the standard tools of a motor Vehicle including air-conditioners and spare tyres and may include radio/cassette player/compact disc player and the like if specified in the Policy schedule. Scope of Accessories is as per the certificate of registration of Your Vehicle to Road Transportation Office.",
+                        "Acts of Terrorism, Terrorist and Terrorist Group": "It shall have the meaning given in The Counter Terrorism Law section 3 (b), 3 (u) and 3 (v).",
+                        "Cheating": "defined in the Penal Code Section 415 is as follows:-\nWhoever, by deceiving any person, fraudulently or dishonestly induces the person so deceived to deliver any property to any person, or to consent that any person shall retain any property, or intentionally induces the person so deceived to do or omit to do anything which he would not do or omit if he were not so deceived, and which act or omission causes or is likely to cause damage or harm to that person in body, mind, reputation or property, is said to “cheat”. Explanation. – A dishonest concealment of facts is a deception within the meaning of this section.",
+                        "Consequential Losses": "Any direct or indirect adverse impact caused by damage or losses of any insured motor vehicle that may arise from a special circumstance of the case, not in the usual course of things.",
+                        "Criminal breach of trust": "defined in the Penal Code Section 405 is as follows:-\nWhoever, being in any manner entrusted with property, or with any dominion over property, dishonestly misappropriates or converts to his own use that property, or dishonestly uses or disposes of that property in violation of any direction of law prescribing the mode in which such trust is to be discharged, or of any legal contract, express or implied, which he has made touching the discharge of such trust, or willfully suffers any other person so to do, commits “Criminal breach of trust”.",
+                        "Gross negligence": "Gross negligence means as reckless conduct of the need to use reasonable care, with respect to any act in a manner so rash or negligent as to endanger human life, or to be likely to cause hurt or injury to any other person, to cause damage or loss own property and/or others, knowingly or negligently omit to take such conduct.",
+                        "Excess": "Excess (also known as a deductible) is insurer has agreed to waive, or not collect as additional premium, the insurance policy excess in the event of a claim being lodged or made by insured when the insured claims, the insurer first remove the excess from any claimed amount as part of the settlement.",
+                        "Of Mischief/Malicious act": "defined in the Penal Code Section 425 is as follows:-\nWhoever, with intent to cause, or knowing that he is likely to cause, wrongful loss or damage to the public or to any person, causes the destruction of any property, or any such change in any property or in the situation there of as destroys or diminishes its value or utility, or affects it injuriously, commits “mischief.” Provided in this Policy that Of Mischief/Malicious act does not include Acts of Terrorism as defined in this article.",
+                        "Policy Schedule": "the document that identifies the policyholder and sets out details of the cover Your policy provides.",
+                        "Keft": "as defined in the Penal Code Section 378 is as follows: -\nWhoever, intending to take dishonestly any moveable property out of the possession of any person without that person's consent, moves that property in order to such taking is said to commit theft.",
+                        "We/Us/Our": "the Insurance Company (or Company’s Name)",
+                        "You/Your/Yourself": "the Policyholder and/or Insured; Apart from You, Insured in this Policy includes Your spouse, whether de jure or de facto, in the same household as Yours and Your authorised driver(s). Your authorised driver(s) include any person who has held and is not disqualified from holding or obtaining such a license to drive Your Vehicle under any required laws, by-laws and regulations and expressly obtained Your consent, permission, order or authorization to drive Your Vehicle. Full name(s) of Your authorised driver(s) must be specified in the Policy Schedule. If names of all of Your authorised drivers are too many to be specified in the Policy Schedule, You may declare the clear definition of Your authorised drivers which can alternatively be specified in the Policy Schedule instead of their names. Any Person, in this Policy means a person other than You as Policyholder and/or Insured and Your authorised drivers.",
+                        "Wear and Tear": "Wear and Tear means the damage that happens to an insured Vehicle in ordinary use during a period or/ and in the normal deterioration of the insured Vehicle (any defect of the Vehicle’s accessories during its useful life) except the damage results from an insured’s failure to properly maintain, repair, and replace deteriorated or defective portions of the insured Vehicle.",
+                        "Your Vehicle": "the Vehicle or machine of any type capable of being driven to move by means of mechanical, electrical or some other power with more than two wheels (excluding Motor cycle), its standard factory-fitted Accessories and any other additional Accessories as described in the Policy Schedule.",
+                        "Your household": "all members of Your immediate family (i.e. Spouse, Children including legally adopted Children, Parents, Brothers and Sisters).",
+                        "Knock for Knock Agreement": "The Knock for Knock Agreement is an agreement between two insurance companies whereby, when both companies’ policy-holders incur losses in the same insured event (usually a motor accident), each insurance company pays the losses sustained by its own policy-holder regardless of who was responsible.",
+                        "Fleet Discount": "If the Insured takes out insurance for 10 vehicles and above simultaneously, Fleet discount will be provided by reducing 10% on the basic premium.",
+                        "Short Period Rate": "The insurance term is from a minimum of 3 months to a maximum of 12 months. For the short period, the rates are as follows;\n\nUp to 3 months\t35% of the annual premium\nMore than 3 months to 6 months\t60% of the annual premium\nMore than 6 months to 9 months\t85% of the annual premium\n9 months above\t100% of the annual premium"
+                    },
+                    "Section A: Own Damage": {
+                        "1a: What is Covered": {
+                            "description": "We will indemnify You if Your Vehicle is lost or damaged during the Period of Insurance arising from the following Incidents:",
+                            "incidents": [
+                                "accidental collision or overturning",
+                                "collision or overturning caused by mechanical breakdown",
+                                "collision or overturning caused by wear and tear",
+                                "fire, external explosion, self-ignition or lightning",
+                                "Of Mischief/Malicious act",
+                                "while in transit i.e. being carried from one place to another (including during loading and unloading) of Your Vehicle by:\n i. Road;\n ii. rail;\n iii. inland waterway i.e. across a river or canal etc;\n iv. Lift or elevator",
+                                "impact damage caused by falling objects provided no convulsions of nature is involved"
+                            ]
+                        },
+                        "1b: What is NOT Covered": {
+                            "description": "The events We do not cover are the exceptions listed below. These exceptions are specific to Section A and are in addition to exceptions listed in Section F and the applicable additional covers.",
+                            "exceptions": [
+                                {
+                                    "name": "Consequential Losses",
+                                    "description": "Any direct or indirect losses of any kind that may arise as a consequence of any Incident other than that provided for in Section A2."
+                                },
+                                {
+                                    "name": "Depreciation",
+                                    "description": "The loss of value of Your Vehicle due to the damage sustained or the time taken to repair the Vehicle, and / or for any loss or damage that results over a prolonged period of time due to wear and tear, rust and corrosion."
+                                },
+                                {
+                                    "name": "Breakdown or Malfunction of Parts",
+                                    "description": "Any mechanical, electrical or electronic breakdown, equipment or computer malfunction, or any other failure or breakdown to Your Vehicle."
+                                },
+                                {
+                                    "name": "Damage to Tyre(s)",
+                                    "description": "Any damage to the tyre(s) of Your Vehicle unless other parts of Your Vehicle are also damaged at the same time in an accident."
+                                },
+                                {
+                                    "name": "Cheating or Criminal Breach of Trust",
+                                    "description": "Any loss or damage caused by or attributed to the act of Cheating or Criminal breach of trust by any person."
+                                },
+                                {
+                                    "name": "Loss of Use",
+                                    "description": "Any expense or financial loss that You may incur because You cannot use Your Vehicle e.g. cost of hiring replacement vehicle, travelling expenses etc."
+                                },
+                                {
+                                    "name": "Windscreen Damage",
+                                    "description": "breakages of singular breakage of front windscreen including lamination / tinting film, if any;\n\nFor an additional premium, Your Policy can be extended to cover for (Additional Cover Number 001)."
+                                }
+                            ],
+                            "Section A: Own Damage": {
+                                "1b: What is NOT Covered": {
+                                    "exceptions": [
+                                        {
+                                            "name": "Excess",
+                                            "description": "The amount of Excess stated in the Schedule. This is the first amount that You have to bear in respect of each and every claim under the Policy. However, this clause does not apply to Section A2b and SectionA3. If We want to increase the excess value and also You want to get a further increase, You are entitled to a discount on the premium. The premium amount to be reduced and the value of the increased excess is shown in the table below.\nTable of Excess Amount and Additional/Discount Premium\n\n\nTypes of Excess\tExcess Amount\tPremium (USD)\tPremium (MMK)\n\tUSD\tMMK\tAdditional\tDiscount\nValue\tAdditional\tDiscount\nValue\nNil Excess:\t0\t0\t25\t-\t25,000\t-\nStandard Excess:\t100\t100,000\t0\t0\t0\t0\nAdditional Excess:\t\t200,000\t0\t0\t0\t25,000\n\t\t300,000\t0\t0\t0\t35,000\n\t\t500,000\t0\t0\t0\t60,000\n* minimum sum insured (20,000,000MMK) will be applied to each additional excess"
+                                        },
+                                        {
+                                            "name": "willful acts or acts of gross negligence",
+                                            "description": "any accident, loss, damage or charges directly or indirectly caused by or contributed to or arising from willful acts or acts of gross negligence by You or Your authorised drivers."
+                                        },
+                                        {
+                                            "name": "burglary, housebreaking or Keft",
+                                            "description": "Any loss or damage caused by burglary, housebreaking or Keft\nFor an additional premium, Your Policy can be extended to cover for (Additional Cover Number 003)."
+                                        }
+                                    ]
+                                },
+                                "2: Basis of Settlement": {
+                                    "description": "This section explains how We will settle Your claim once We accept that it is payable under Section A. If Your Vehicle is damaged as a result of any Incident, We have the option of doing the following:",
+                                    "options": [
+                                        {
+                                            "name": "If Your Vehicle is Repairable",
+                                            "description": "If in Our opinion Your Vehicle is economical to repair, We have the option to:\n·\tarrange for Your Vehicle to be repaired at repairer and pay the cost of repairing Your Vehicle to the condition which is as near as possible to the condition it was in before the loss happened;\n·\tpay You in cash the amount We estimate it would cost to repair Your Vehicle; or\n·\treinstate or replace Your Vehicle with one of the same make, model, age and general condition."
+                                        },
+                                        {
+                                            "name": "If Your Vehicle is not Repairable",
+                                            "description": "If in Our opinion, the damage to Your Vehicle is so great that it would not be safe or economical to repair, We will declare Your Vehicle “Beyond Economic Repair” (“BER”) and We will pay You up to the maximum amount as stated in (c) below or offer You a settlement sum equivalent to the Market Value. We may also option to replace Your Vehicle with one of the same make, model, age and general condition. If We take any of these actions, this Policy shall be automatically terminated."
+                                        },
+                                        {
+                                            "name": "Ke Maximum Amount We will Pay You",
+                                            "description": "If Your Vehicle is BER or stolen and not recovered, the amount payable under the Policy will be the Market Value at the time of the loss or the Sum Insured as shown in the Schedule, whichever sum is the lesser. We agree that the insurance under this Section shall be maintained in force for the full Sum Insured even in the wake of payment of loss or damage, except for the case of total loss under this Section where the full Sum Insured for Your Vehicle which has been totally damaged or lost is paid and the coverage only for the totally lost Motor Vehicle is invalidated on and after Our payment of the total loss."
+                                        },
+                                        {
+                                            "name": "Under-Insurance",
+                                            "description": "If the Sum Insured of Your Vehicle is less than the Market Value at the time of the loss, We will only bear part of the loss in proportion to the difference between the Market Value and the Sum Insured as shown in the formula below:\nSum Insured\t× Assessed Loss = Amount to be paid\nMarket Value\t\nThe balance has to be borne by You. However, this will only apply if the under-insured amount is more than 10% of the Market Value."
+                                        },
+                                        {
+                                            "name": "Betterment",
+                                            "description": "If new original parts are used to repair Your Vehicle and as a result of which Your Vehicle is in a better condition than it was before the damage, You would be required to contribute to its betterment, a proportion of the costs of such new original parts. Your contribution would be according to the following scale:\nAge of Your Vehicle (Years)\tRate of Betterment\nUp to 3\t5%\n4\t10%\n5\t15%\n6\t20%\n7\t25%\n8\t30%\n9\t35%\n10 and above\t40%\n\nFor an additional premium, You would not be required to contribute to its betterment. (Additional Cover Number 006)\nTo determine the rate of betterment to be applied, the age of Your Vehicle which is shown on the registration from the Road Transport Administration Department will be calculated based on the following table.\n\na.\tas a locally assembled vehicle\tDate of Original Registration\nb.\tas a new imported Completely Built Unit (CBU) vehicle\tYear of Manufacture\nc.\tas an imported second-hand / used / reconditioned\nvehicle\tYear of Manufacture"
+                                        },
+                                        {
+                                            "name": "Market Value",
+                                            "description": "The market value of Your Vehicle shall be determined by Us and it should be equal to the cost of purchasing a replacement vehicle of the same make, model and age of Your Vehicle at the time of loss."
+                                        }
+                                    ]
+                                },
+                                "3: Towing Costs": {
+                                    "description": "If Your Vehicle cannot be driven as a result of any damage to it that is covered by this Policy, We will subject to the Limits of Liability pay the necessary and reasonable costs in addition to the Sum Insured to remove Your Vehicle to the nearest Repairer or to a safe place of storage while awaiting repair or disposal."
+                                }
+                            },
+                            "Section B: Liability to Kird Parties": {
+                                "1a: What is Covered": {
+                                    "description": "We will subject to the Limits of Liability indemnify You and / or Your Authorised Driver for the amount which You and / or Your Authorised Driver are legally liable to pay Any Person (including third party’s costs and expenses) for:",
+                                    "coverage": [
+                                        "death or bodily injury to any person except those specifically excluded under this Policy",
+                                        "damage to property except those specifically excluded under this Policy"
+                                    ],
+                                    "additional_info": "as a result of an incident arising out of the use of Your Vehicle.\nThis cover is extended to Your Authorised Driver provided Your Authorised Driver\nalso complies with all the terms and conditions of this Policy."
+                                },
+                                "1b: What is Not Covered": {
+                                    "description": "These exceptions are specific to Section B and are in addition to the Exceptions stated in Section F of this Policy and any other applicable Additional Covers.",
+                                    "exceptions": [
+                                        "any claims brought against Any Person in any country in courts outside Republic of the Union of Myanmar.",
+                                        "all legal costs and expenses which are not incurred in or recoverable in Republic of the Union of Myanmar.",
+                                        "death or bodily injury to You, Your Authorised Driver, and Your or Your Authorised Driver’s Household.",
+                                        "damage to property belonging to or in the custody of or control of or held in trust by You or Your Authorised Driver and / or any member of Your or Your Authorised Driver’s Household;",
+                                        "the amount We paid under Section C from the amount calculated under this Section."
+                                    ]
+                                },
+                                "2: Cover for Legal Personal Representatives": {
+                                    "description": "Following the death of any person covered under this Policy, We will indemnify that person's legal representatives for liability covered under this Section, provided such legal representatives comply with all the terms and conditions of the Policy."
+                                },
+                                "3: Legal Costs": {
+                                    "description": "In addition to the Limit of Liability, We will, subject to the Limits of Liability, pay legal costs incurred for defense of any charge including the charge of causing death by driving the Motor Vehicle (other than murder) if Our prior written agreement had been secured."
+                                }
+                            },
+                            "Section C: Personal Accident and Medical Treatment Fee": {
+                                "What is Covered": {
+                                    "Personal Accident": "We will Subject to the Limit of Liability pay benefit according to the Payment scale per diagnosis as per following table or otherwise as revised in the Third Party Liability Rules for death or injury of You or Your authorised driver or any occupant of Your Vehicle while driving or mounting into or dismounting from or traveling in Your Vehicle based on the medical report furnished by the hospital licensed by the lawfully constituted Authorities in connection with death or bodily injury by violent accidental external and visible means.",
+                                    "Medical Treatment Fee": "We will Subject to the Limit of Liability indemnify You or Your authorised driver or any occupant of Your Vehicle for medical treatment compensation to inpatient or outpatient at a fixed amount shown in the schedule per week for up to 52 weeks from the date of accident. Period of Our payment shall be determined based on the medical report furnished by the hospital licensed by the lawfully constituted Authorities. Provide however that Our payment under this Section will not separately apply to the total limits shown in the schedule",
+                                    "Combined Coverage": "In case Our liability for any one person is applicable to two or more of diagnoses of injury as per following table, Death and Medical Treatment, we will pay for such claims respectively subject to the limit of Our total liability. In the event of You or Your driver being the holder of any insurance policy or policies with the insurer in respect of any other Motor Vehicle or Motor Vehicles, compensation shall be recoverable under one policy only."
+                                },
+                                "What is not Covered": {
+                                    "exceptions": [
+                                        {
+                                            "reason": "Suicide or Attempted Suicide",
+                                            "description": "any injury or death resulting from suicide or attempted suicide"
+                                        },
+                                        {
+                                            "reason": "Willful Acts or Gross Negligence",
+                                            "description": "any death or injury directly or indirectly caused by or contributed to or arising from willful acts or acts of gross negligence by You or Your authorised drivers."
+                                        }
+                                    ]
+                                },
+                                "Payment Scale per diagnosis": "Hereunder applicable to the Section C--- Personal Accident and Medical Treatment Fee.",
+                                "Compensation": {
+                                    "Death": "100.0%",
+                                    "Injury": {
+                                        "1.Total permanent disability": "100.0%",
+                                        "2.Serious bodily injury not otherwise listed": "50.0%",
+                                        "3.Non-serious bodily injury not otherwise listed": "15.0%",
+                                        "4.Graft": "15.0%",
+                                        "5.Damage of Prosthesis": "10.0%",
+                                        "6.Serious accidental bruises / Serious soft tissue injuries": "5.0%",
+                                        "7. Facial and scalp injury": "50.0%",
+                                        "8. Broken skull": "25.0%",
+                                        "9. Broken temple": "15.0%",
+                                        "10. Broken cheek bone": "15.0%",
+                                        "11. Broken eye socket": "15.0%",
+                                        "12. Broken fore head": "15.0%",
+                                        "13. Broken inner ear bone": "15.0%",
+                                        "14. Broken jaw": "15.0%",
+                                        "15. Total loss of vision in both eyes": "100.0%",
+                                        "16. Total loss of vision in one eye": "50.0%",
+                                        "17. Total loss of hearing in both ears": "50.0%",
+                                        "18. Physical loss of both ears": "30.0%",
+                                        "19. Total loss of hearing in one ear": "25.0%",
+                                        "20. Injury to one or both eyes": "15.0%",
+                                        "21. Physical loss of one ear": "15.0%",
+                                        "22. Temporary partial loss of hearing due to injury": "12.5%",
+                                        "23. Injury to one or both ears": "10.0%",
+                                        "24. Broken bone of nose": "10.0%",
+                                        "25. Split gum": "10.0%",
+                                        "26. Loss or damage to one tooth": "2.5%",
+                                        "27. Broken neck": "50.0%",
+                                        "28. Broken bones in back": "50.0%",
+                                        "29. Broken shoulder bone or collar bone": "20.0%",
+                                        "30. Broken shoulder blade": "10.0%",
+                                        "31. Broken one of rib bones": "10.0%",
+                                        "32. Loss of both arms above wrist": "100.0%",
+                                        "33. Loss of one arm above wrist": "50.0%",
+                                        "34. Broken bones in both arms": "50.0%",
+                                        "35. Loss of one hand from wrist": "37.5%",
+                                        "36. Broken bones in one arm": "25.0%",
+                                        "37. Broken bones in one wrist or one ankle": "15.0%",
+                                        "38. Stiffness of joint": "10.0%",
+                                        "39. Loss of one thumb": "10.0%",
+                                        "40. Loss of one index finger": "9.0%",
+                                        "41. Loss of one middle or third or little finger": "7.5%",
+                                        "42. Broken hand bone": "5.0%",
+                                        "43. Broken bones of thumb": "4.0%",
+                                        "44. Broken bones of any one of fingers other than thumb": "2.5%",
+                                        "45. Injury to the liver": "50.0%",
+                                        "46. Injury to uterus": "25.0%",
+                                        "47. Splenic injury": "25.0%",
+                                        "48. Abdominal operation": "25.0%",
+                                        "49. Injury to kidney": "25.0%",
+                                        "50. Injury to male organ": "25.0%",
+                                        "51. Injury to urinary bladder": "25.0%",
+                                        "52. Injury to the spleen": "25.0%",
+                                        "53. Injury to female organ": "15.0%",
+                                        "54. Miscarriage": "15.0%",
+                                        "55. Hemopneumothorax": "10.0%",
+                                        "56. Broken hips bone": "30.0%",
+                                        "57. Ischium fracture": "25.0%",
+                                        "58. Broken Sacrum bone": "15.0%",
+                                        "59. Broken hip bone": "15.0%",
+                                        "60. Coccygeal fracture": "15.0%",
+                                        "61. Pubis dislocation": "10.0%",
+                                        "62. Loss of both legs above ankle": "100.0%",
+                                        "63. Loss of one leg above ankle": "50.0%",
+                                        "64. Broken bones in both legs": "50.0%",
+                                        "65. Loss of one foot from ankle": "37.5%",
+                                        "66. Broken bones in one leg": "25.0%",
+                                        "67. Broken ankle": "15.0%",
+                                        "68. Broken heel bone": "15.0%",
+                                        "69. Broken knee cap": "15.0%",
+                                        "70. Leg alignment disability": "10.0%",
+                                        "71. Loss of one big toe": "9.0%",
+                                        "72. Loss of one of any remaining toes": "7.5%",
+                                        "73. Broken foot bone": "5.0%",
+                                        "74. Broken bones in big toe": "2.4%",
+                                        "75. Broken bones of any one of toe other than big toe": "2.0%"
+                                    }
+                                }
+                            },
+                            "Section D: No Claim Bonus": {
+                                "1. No Claim Bonus (NCB)": "If You have insured Your Vehicle for a continuous period of 12 months and You or anyone else did not make any claim under this Policy during that time, a NCB will be applied at each renewal. The applicable NCB will increase with each renewal if You continue to have claim free years.",
+                                "2. One Claim and Your NCB is Down to Zero": "If You or anybody else meet with an Incident which will give rise to a claim on this Policy, the NCB entitlement that You have accumulated would drop to zero at the next renewal and Your NCB will start all over again. If a claim is received after the NCB has been applied, We shall be entitled to recover the NCB given from You.",
+                                "3. Your NCB is not Transferable": "The NCB is personal to You which means that if You were to sell Your Vehicle and We agree to transfer this Policy to the new owner, Your NCB cannot be transferred for the benefit of the new owner.",
+                                "4. NCB is applied separately": "If more than one Motor Vehicle (Your Vehicle) are described in the Policy Schedule the No Claim Discount shall be applied as if a separate Policy had been issued in respect of each such Motor Vehicle (Your Vehicle).",
+                                "NCB Table": {
+                                    "Period of Insurance": {
+                                        "Private Vehicle": {
+                                            "The second renewal year": "25%",
+                                            "The third renewal year": "30%",
+                                            "The third renewal years above": "40%"
+                                        },
+                                        "Commercial Vehicle": {
+                                            "The second renewal year": "15%",
+                                            "The third renewal year": "20%",
+                                            "The third renewal years above": "25%"
+                                        }
+                                    }
+                                }
+                            },
+                            "Section E. Avoidance of certain terms and rights of recovery": {
+                                "1. Your rights": "Your rights or that of any other person to recover indemnity by virtue of any Legislation or Agreement shall not be affected in any way.",
+                                "2. Repayment of monies": "However, in the event that We are liable to pay any monies as a result of the said Legislation or Agreement which We would not otherwise have been liable to pay, You shall repay to Us such monies paid by Us."
+                            },
+                            "Section F: General Exceptions - these apply to the whole Policy": {
+                                "1. Use Outside Myanmar": "Unless We provide otherwise, this insurance does not cover You in respect of claims arising whilst Your Vehicle was being used or driven outside the Republic of the Union of Myanmar.",
+                                "2. Unauthorised Driver": "We will not pay for any Incident, loss, damage or liability caused, sustained or incurred whilst Your Vehicle, in respect of which indemnity is provided by this Policy, is being driven by any person other than an authorised driver or person driving on Your order or with Your permission unless the Your authorised driver’s list is deemed to be incomplete at the time of the accident due to a reason that we determine to be compelling and justifiable at Our sole discretion.",
+                                "3. Unlawful Purpose": "There is no cover under this Policy if You or Your authorised driver use Your Vehicle for an unlawful purpose or to attempt an unlawful purpose or being used otherwise than in accordance with the Limitations as to Use specified in the Policy Schedule.",
+                                "4. Unlicensed Drivers": "There is no cover under this Policy if You or Your Authorised Driver do not have a valid driving licence to drive Your Vehicle. However this exception does not apply to Section B: Liability to Third Parties.",
+                                "5. Alcohol, Drugs and Other Intoxicating Substances": "There is no cover under this Policy if You or Your authorised driver is under the influence of alcohol or intoxicating liquor, narcotics, dangerous drugs or any other deleterious drugs or intoxicating substance to such an extent that You or Your authorised driver are incapable of having proper control of Your Vehicle. However this exception does not apply to Section B: Liability to Third Parties",
+                                "6. Fraud and Exaggerated Claims": "If any claim is in any part fraudulent or exaggerated, or if You or anyone acting on Your behalf, uses fraudulent means to get any benefit under this Policy, the entire claim will not be paid or payable. If We are required to make payment of any such claim to a third party, We shall be entitled to recover the sum paid and any costs incurred from You.",
+                                "7. Use for Racing etc.": "There is no cover under this Policy if You use or You allow Your Authorised Driver to use Your Vehicle:\na.\tto practise for or to take part in any motor sport, competition, rally, pace making, reliability trial or speed test; or\nb.\ton any racetrack.",
+                                "8. War Risk": "There is no cover under this Policy for any accident, loss, damage or liability (including any cost of defending any action) directly or indirectly, proximately or remotely occasioned by or contributed to or traceable to or arising out of or in connection with or in consequences of war (whether war is declared or not) or warlike operation, invasion, acts of foreign enemies, hostilities, civil war, mutiny, rebellion.\nFor an additional premium, Your Policy can be extended to cover War risk (Additional Cover Number 005)",
+                                "9. Strike, Riots, Civil Commotion Risk": "There is no cover under this Policy for any accident, loss, damage or liability (including any cost of defending any action) connected in any way directly or indirectly, proximately or remotely occasioned by or contributed to or traceable to or arising out of or in connection with or in consequences of strike, riots or civil commotion assuming the proportion of or amounting to an uprising, revolution, insurrection, military or usurped power or by any other fighting acts.\n\u00a0For an additional premium, Your Policy can be extended to cover strikes, riots, and civil commotion (Additional Cover Number 002).",
+                                "10. Convulsions of Nature": "There is no cover (unless specifically purchased) for any loss, damage or liability caused by flood, typhoon, hurricane, storm, tempest, volcanic eruption, earthquake, landslide, landslip, subsidence or sinking of the soil / earth or other convulsions of nature.\n\nFor an additional premium, Your Policy can be extended to cover flood, typhoon, hurricane, storm, tempest, volcanic eruption, earthquake, landslide, landslip, subsidence etc. (Endorsement 004).",
+                                "11. Contractual Liability": "We will not pay for any liability that arises by virtue of an agreement but for which We would not have been liable in the absence of such agreement.",
+                                "12. Nuclear Risk": "There is no cover under this Policy for any accident, loss or damage to any property or any loss or liability arising therefrom (including consequential losses and costs of defending any actions) connected in any way with operations using the nuclear fission or fusion process, or handling of radioactive material. This includes, but is not limited to:\na.\tthe use of nuclear reactors such as atomic piles, particle accelerators or generators and similar devices;\nb.\tthe use, handling or transportation of radioactive material in relation to any Act of Terrorism;\nc.\tthe use, handling or transportation of any weapon or explosive device employing nuclear fission or fusion; or\nd.\tthe use, handling or transportation of radioactive material.",
+                                "13. Failure to take Precaution": "We will not pay for any additional damages if after an Incident or breakdown You:\na.\tleft Your Vehicle unattended or failed to take proper precaution to prevent further loss or damage; or\nb.\tcontinue to drive Your Vehicle in an unroadworthy condition before any repair is done.\nWe will also not pay for claims that arise if, when using Your Vehicle, You do not take reasonable precaution to keep Your Vehicle secured. This includes but is not limited to leaving Your Vehicle unattended while unlocked or with ignition key left in or on Your Vehicle."
+                            },
+                            "Section G: Conditions - These apply to the whole Policy": {
+                                "Conditions Precedent to Policy Liability": {
+                                    "1. Duty of Disclosure": {
+                                        "a": "In order to effect the Insurance Cover You have chosen out of the TYPE OF COVER stated in this Policy, You owe DUTY to fully and faithfully disclose all facts and information as required in the application form of this Policy with the Cover You have chosen.",
+                                        "b": "During the term of Period of Insurance specified in the Policy Schedule, when You have come to know any change or alteration in the facts or information You disclosed in the application form of this Policy, You have the same DUTY to notify Us and fully and faithfully disclose such change as required in the application form as soon as practicable to You.",
+                                        "c": "If You fail to disclose to Us fully and faithfully, all the facts which You know or ought to know, or if You misrepresented any facts to Us before the Policy was entered into, We may avoid this Policy. You must observe and fulfil the Terms, Conditions, Additional Covers, Clauses or Warranties of this Policy."
+                                    },
+                                    "2. Our Liability of Insurance": {
+                                        "a": "Our liability of insurance under the terms and conditions of this Policy attaches at the time of commencement of the Period of Insurance and terminates at the time of expiry of the Period of Insurance specified in the Policy Schedule.",
+                                        "b": "Insurance Premium in full or for the due instalment if agreed to be paid by instalments needs to be paid by You and duly received by Us on or before the commencement of the Period of Insurance specified in the Policy Schedule. Our liability of insurance does not attach even after the commencement of the Period of Insurance unless and till the due Insurance Premium is paid by You and received by Us. When payment of Insurance Premium is delayed or partially made, Our liability of insurance attaches at the time of Our receipt of the due Insurance Premium."
+                                    },
+                                    "3. Accidents and Claims Procedures": {
+                                        "a": "We must be notified in writing or by phone or any means with particulars of the vehicles involved, date and time of accident and a brief description of the circumstances of the accident as soon as practicable at latest within (7) days after an event which may become the subject of a claim under this Policy.",
+                                        "b": "In the event that Your Vehicle is collided into by a Third Party vehicle, You may refer the claim for cost of repairs to Us. Your No Claim Bonus (NCB) entitlement will continue effectively if We decide that You are not at fault. Such determination of fault shall be in accordance with the authorities concerned. Provided always that such Third Party vehicle is insured by insurers licensed by the lawfully constituted Authorities in Myanmar, identifiable and there is no personal injury claim involved.",
+                                        "c": "Every communication, summons and/or process from other parties must be sent to Us immediately. You must also tell Us if You know of any impending prosecution inquest or fatal inquiry without delay. In case of Keft or other act which may give rise to a claim under this Policy, You must without undue delay make a report to the Police and co-operate with Us in securing the convictions of the offender.",
+                                        "d": "No negotiation, admission or repudiation of any claim may be entered into by You without Our prior written consent.",
+                                        "e": "We shall have full discretion in the conduct, defense and/or settlement of any claim.",
+                                        "f": "No repairs may be authorised to Your Vehicle without Our prior written consent.",
+                                        "g": "In the event Your Vehicle is involved in an accident and gives rise to a claim, Your Vehicle must be removed to a Repairer."
+                                    },
+                                    "4. Negative Prescription of Right of Insurance Claim": {
+                                        "a": "After We received a notice of accident from You pursuant to 3. Accidents and Claims Procedures, We will send You at the address specified in the Policy Schedule or any other address You declare to Us all the forms of Claim Documents You as the claimant are required to fill in for lodging an Insurance Claim with Us.",
+                                        "b": "When You obtained details to be filled in the Documents We sent You, You can exercise Your right of claiming Insurance monies which may be paid out to You for compensation under the terms and conditions of this Policy and Cover You have chosen by sending out all the Documents fully filled in to Us as soon as practicable.",
+                                        "c": "If You have not sent to Us all the required Documents pursuant to the above (b) even though You are in the position of filling in them with details for claim after 3 years have elapsed since the date of accident, You lose the right of Insurance Claim by effecting a Negative Prescription regardless of any rules otherwise arranged. If You are not ready for claiming under this Policy even after 3 years from the date of accident, Prescription of Your right of claim will be prolonged until such date as You get ready to do so."
+                                    },
+                                    "5. Cancellation": {
+                                        "a": "You may cancel this Policy at any time by notifying Us in writing.",
+                                        "b": "We shall cancel this Policy by giving You (14) days written notice by registered post to Your last known address.",
+                                        "c": "You shall within (7) days from the date of cancellation under paragraph (a) or (b) above, surrender the certificate of insurance to Us or, if it has been lost or destroyed or it is not received by You, provide Us with a statutory declaration to that effect.",
+                                        "d": "In case of cancellation requested by You (provided no claim has arisen during the then current Period of Insurance), You shall be entitled to a refund premium based on Our customary short-period rates calculated from the date of receipt by Us of the certificate or the statutory declaration in the event that the certificate is lost or destroyed or not received by You as follows:\n\nElapsed Period of Insurance\tRefund of Premium %\nUp to 3 months\t: 65% of the annual premium\nMore than 3 months to 6 months\t: 40% of the annual premium\nMore than 6 months to 9 months\t: 15% of the annual premium\n9 months above\t: No refund of premium allowed\nTotal loss of Section A\t: No refund of premium allowed",
+                                        "e": "In case of cancellation by Us, You shall be entitled to a daily pro-rata refund of the unexpired premium calculated from the date of receipt by Us of the certificate or the statutory declaration in the event that the certificate is lost or destroyed or not received by You.",
+                                        "f": "In case of cancellation requested by You, No refund of premium for any cancellation of Policy if premium is charged at short-period rates. But In case of cancellation by Us, You shall be entitled to a daily pro-rata refund of the unexpired premium calculated from the date of receipt by Us of the certificate or the statutory declaration in the event that the certificate is lost or destroyed or not received by You."
+                                    },
+                                    "6. Other Insurance": "You must give Us written notice if You have any other insurance covering Your Vehicle. If at the time any claim arises under this Policy, there is any other existing Policy covering the same loss, damage or liability, We shall only pay Our ratable proportion of any loss, damage, compensation, costs or expenses. However, nothing in this Clause shall impose on Us any liability from which We would not have been subject to.",
+                                    "7. SUBROGATION": "We shall be entitled, if We so desire, to take over at Our own expense in Your name the defense or settlement of any claim or to prosecute in Your name for Our benefit any claim for indemnity or damages or otherwise. We shall have absolute discretion in the conduct of any proceedings and in the settlement of any claim and You shall give all such information and assistance as We may require.",
+                                    "8. Dispute Settlement": "In respect with the conflicts and disputes arising under this policy, If the settlements for disputes are not met with satisfaction, the insurance company or the policyholder can complain in writing to the following organizations:\n(a)\tMyanmar Insurance Association\n(b)\tthe Secretariat of the Insurance Business Regulatory Board;\n(c)\tthe Insurance Business Regulatory Board; and\n(d)\tthe Arbitration.",
+                                    "9. Arbitration": "All differences arising out of this Policy shall be referred to an Arbitrator who shall be appointed in writing by You and Us. In the event that You and We are unable to agree on who is to be the Arbitrator within (1) month of being required in writing to do so then You and We shall be entitled to appoint an Arbitrator each who shall proceed to hear the differences together with an Umpire to be appointed by both Arbitrators. However this is provided that any disclaimer of liability by Us for any claim hereunder must be referred to an Arbitrator within (12) calendar months from the date of Our disclaimer to You.",
+                                    "10. Other Matters": "This Policy will only be operative if:-\n(a)\tAny Person claiming protection has complied with all its Terms, Conditions, Additional Covers, Clauses or Warranties.\n(b)\tYou have taken all reasonable precautions to maintain Your Vehicle in an efficient roadworthy condition.\n(c)\tYou have taken all reasonable precautions to safeguard Your Vehicle from loss or damage.\n(d)\tYou must grant Us free access at all reasonable times to examine Your Vehicle.",
+                                    "11. Prevalent Policy Wording": "For avoidance of doubt, the Myanmar Language version of this Policy wording will prevail over the English version at all times."
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Personal_Accident_Insurance": {
+                "insurance_type": "Personal Accident Insurance",
+                "Description": "Accidents can happen when you least expect it. Cover yourself and your loved ones in case of accidents or mishaps for your peace of mind.",
+                "Covers": {
+                    "Accidental_Death": {
+                        "Benefit": "100% of Sum Insured"
+                    },
+                    "Total_Permanent_Disability": {
+                        "Benefit": "100% of Sum Insured"
+                    },
+                    "Bodily_Injuries": {
+                        "Description": "In accordance with the bodily injury compensation table",
+                        "Specific_Injuries": {
+                            "Total_Loss_of_Vision_in_One_Eye": "50% of Sum Insured",
+                            "Loss_of_One_Arm_or_One_Leg": "50% of Sum Insured"
+                        }
+                    },
+                    "Accidental_Injury": {
+                        "Weekly_Hospitalization_Benefit": "3% of sum insured (Up to 15% of sum insured)",
+                        "Weekly_Loss_of_Income_Benefit": "3% of sum insured (Up to 15% of sum insured)"
+                    }
+                },
+                "Product_Highlights": {
+                    "Warranty_Period_Options": [
+                        "3 months warranty",
+                        "6 months warranty",
+                        "12 months (1y) warranty"
+                    ]
+                },
+                "Personal_Accident_Insurance": {
+                    "Description": "KBZMS Personal Accident Insurance provides coverage in the event of unforeseen losses resulting from accidents such as death, permanent disability, injuries, hospitalization and/or disability to work.",
+                    "Basic_Premium": {
+                        "Standard": "0.7% on sum insured",
+                        "High_Risk_Occupation": "0.707% on sum insured"
+                    },
+                    "Sum_Insured": {
+                        "Minimum": "500,000 MMK",
+                        "Maximum": "20,000,000 MMK"
+                    }
+                },
+                "Insurance_Eligibility": {
+                    "Who_can_be_Insured": {
+                        "Age_Range": "16 to 65 years old, who are in good health",
+                        "Under_18": "The guardian is required"
+                    },
+                    "Period_of_Insurance": [
+                        "3 months",
+                        "6 months",
+                        "1 year"
+                    ]
+                },
+                "Policy": {
+                    "Exclusions": {
+                        "1": "The following occurrences, activities, conditions, and their consequences are excluded from this policy and the company shall not be liable for:",
+                        "1.a": "Deliberately self-inflicted injury, disability, and death.",
+                        "1.b": "Injury, disability, and death caused by taking intoxicated drugs or as a result of drug abuse.",
+                        "1.c": "Loss of life or disability due to illness.",
+                        "1.d": "Injury, disability, and death caused by war (whether declared or not), warlike operations, civil war, strikes, riots, civil commotion, military or popular rising, insurrection, rebellion, revolution, military coup d’état, martial law, state of siege, or internal conflicts.",
+                        "1.e": "Injury, disability, and death caused by committing crimes.",
+                        "1.f": "Injury, disability, and death caused by the act of a third party or resulting from this act or attempt."
+                    },
+                    "Coverage Conditions": {
+                        "2": "In case of any injury, disability, and death resulting after three (3) months or before four (4) months of the accident happening, this insurance shall cover if the insured provides all relevant evidence and solid proof.",
+                        "3": "In case of any occurrence that may give rise to a claim, the insured shall inform the company within 14 days together with full particulars. Any accident shall be presented with a claim form and necessary documents.",
+                        "4": "Medical examination (including postmortem examination) shall be performed if required.",
+                        "5": "The company may cancel this policy and, in such an event, will return to the insured the premium paid less the pro-rata portion thereof for the period the policy has been in force.",
+                        "6": "Maximum limit of liability under this policy shall be the amount of sum insured.",
+                        "7": "Benefits of disability shall not be entitled with others."
+                    },
+                    "Arbitration": {
+                        "8": "If any difference arises as to the amount of any benefit, such difference shall be referred to the decision of an Arbitrator appointed in writing by both parties. If they cannot agree on a single Arbitrator, each party shall appoint one within two calendar months. In case of disagreement between the Arbitrators, an Umpire shall be appointed to make the final decision. The costs of reference and the award shall be at the discretion of the Arbitrator, Arbitrators, or Umpire making the award. It is a condition precedent to any legal action that the Arbitrator’s decision shall be obtained first. If no lawsuit is filed within twelve calendar months after making the award, all benefits under this policy shall be deemed abandoned and shall not be recoverable."
+                    },
+                    "Policy Compliance": {
+                        "9": "The due observance and fulfillment of the terms and conditions of this policy, as they relate to the insured's actions, and the truthfulness of the statements and answers in the proposal, shall be conditions precedent to any liability of the company to make any payment under this policy."
+                    }
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Health_Insurance": {
+                "insurance_type": "Health Insurance",
+                "Description": "Your health is your most important asset. Protect yourself and your family from medical and surgical expenses with our Health Insurance.",
+                "Product_Highlights": {
+                    "Health_Insurance": {
+                        "Description": "This health insurance plan offers affordable premiums and flexible installment options to help mitigate medical costs for people in Myanmar, covering hospitalization, surgery, and death."
+                    }
+                },
+                "Basic Cover (1 unit)": {
+                    "6 ~ 30": {
+                        "Individual": 11000,
+                        "Group": 10500
+                    },
+                    "31 ~ 40": {
+                        "Individual": 14300,
+                        "Group": 13600
+                    },
+                    "41 ~ 50": {
+                        "Individual": 17600,
+                        "Group": 16700
+                    },
+                    "51 ~ 60": {
+                        "Individual": 28600,
+                        "Group": 27200
+                    },
+                    "61 ~ 75": {
+                        "Individual": 61600,
+                        "Group": 58500
+                    }
+                },
+                "Optional Cover (1) (1 unit)": {
+                    "6 ~ 75": {
+                        "Individual": 16500,
+                        "Group": 15700
+                    }
+                },
+                "Optional Cover (2) (1 unit)": {
+                    "6 ~ 75": {
+                        "Individual": 8800,
+                        "Group": 8400
+                    }
+                },
+                "Remarks": [
+                    "All covers can be purchased together.",
+                    "Basic Cover can be purchased independently.",
+                    "Optional Covers cannot be purchased separately.",
+                    "Optional Covers can be purchased up to number of purchased Basic Covers unit."
+                ],
+                "Available Units": "Up to 25 units",
+                "Basic Cover": {
+                    "Hospitalization due to illness or accident": "10,000 MMK per unit per day (Up to 60 days)",
+                    "Death": "1,000,000 MMK per unit"
+                },
+                "Optional Cover (1)": {
+                    "Surgical expenses": "Actual incurred surgical expenses (Up to 500,000 MMK per unit)",
+                    "Medical expenses for miscarriage": "300,000 MMK (Unrelated to unit purchased)"
+                },
+                "Optional Cover (2)": {
+                    "Clinical and hospital treatment expenses": "2,500 MMK per unit per hospital/clinic visit (Up to 10,000 MMK)"
+                },
+                "Insurance Eligibility": {
+                    "Who can be Insured": "6 to 75 years old, who are in good health",
+                    "Under 18 years old": "the guardian is required"
+                },
+                "Period of Insurance": "1 year",
+                "Policy": {
+                    "Terms_and_Conditions_of_the_Travel_Insurance_Policy": {
+                        "Exclusions": [
+                            "Death, disability, or injury due to pre-existing medical conditions existing before the policy's inception date.",
+                            "Death, disability, or injury caused by suicide or attempted suicide.",
+                            "Death, disability, or injury caused by self-inflicted injuries or self-destructive acts.",
+                            "Death, disability, or injury resulting directly/indirectly from childbirth or pregnancy, unless caused by an accident.",
+                            "Death, disability, or injury due to unlawful acts or willful exposure to peril.",
+                            "Death, disability, or injury resulting from substance abuse (e.g., alcohol, drugs).",
+                            "Death, disability, or injury caused by participation in war, strikes, riots, civil commotion, terrorism, or civil unrest.",
+                            "Consequences arising directly from the above points (5, 6, and 7)."
+                        ],
+                        "Claim_Notification": [
+                            "The insured must notify the insurer within 7 days of an event that may lead to a claim.",
+                            "Accidents require submission of a claim form and supporting documentation."
+                        ],
+                        "Documentation_Requirement": "Failure to provide additional documents requested by the insurer will result in claim denial.",
+                        "Fraudulent_Activity": "Inaccurate information, false statements, concealment of details, or fraudulent acts in the proposal form will lead to claim denial.",
+                        "Cancellation_Policy": "If the policy is canceled by either party before the journey begins, the insured is eligible for a premium refund."
+                    },
+                    "General_Conditions": {
+                        "1": "If descriptions in the proposal form are described carelessly by the insured and there is incorrect information due to intentional purpose such as wrong information, concealment or fraud, the benefits will not be reimbursed in accordance with the insurance agreement.",
+                        "2": "The period of insurance starts once the premium has been paid and the period will be expired in one year of the insured period at midnight.",
+                        "3": "The insured is not entitled to enjoy a refund of premium due to his or her termination. In case the insurer wants to terminate, the refund of premium will be reimbursed on a daily basis for the remaining period.",
+                        "4": "After the premium has been paid for the first time in line with the premium payment system, the premium has to be paid immediately after the deadline for an obligation within 15 days, in case of beneficiary problems arise; compensation will be disbursed with the deduction of the premium which failed to pay during the grace period. The insurance agreement will be voided in case the payment of premium fails during the grace period immediately after the deadline for an obligation. For the renewal process of the insurance agreement, there is no grace period for the premium that can be carried out resuming the insurance period in the meantime.",
+                        "5": "In terms of the insured, if he or she is hospitalized, it needs to inform to the insurer beforehand, benefits, together with medical reports, can be asked within 10 days of working period starting from the days discharged from the hospital.",
+                        "6": "With regard to asking the right of benefits to enjoy, the benefits will be voided if he or she cannot be able to send additional requirements of the insurer within three months.",
+                        "7": "Experts from the company will scrutinize again the proposed diseases for medical treatments within one month period of insurance.",
+                        "8": "Health insurance does not cover the medical checkup at the hospital according to the will of the insured; it is just coverage for medical treatment at the hospital.",
+                        "9": "As for the benefits of going to hospital/clinic, the insurance company needs to affirm the recommendation letter of the doctors recognized by the company or medical reports."
+                    },
+                    "Benefits": {
+                        "Basic_Cover": {
+                            "1_unit": [
+                                "MMK 10,000 per day for hospitalization and accidents (up to 60 days) due to disease",
+                                "MMK 1,000,000 for death case"
+                            ]
+                        },
+                        "Optional_Coverage_1": [
+                            "1 Unit for MMK 500,000 for operation (operation expenses at least MMK 500,000)",
+                            "MMK 300,000 for abortion not related to purchased units",
+                            "MMK 500,000 for both operation and abortion processes and the total units can be regarded as maximum amount of insurance"
+                        ],
+                        "Optional_Coverage_2": [
+                            "1 unit for MMK 2,500 if hospitalized or clinic",
+                            "MMK 10,000 x total units can be regarded as maximum amount of insurance"
+                        ]
+                    },
+                    "Exclusive_For_Benefits": [
+                        "Under medical treatment, recommended by doctor to be hospitalized, any symptoms.",
+                        "Give birth, cesarean, other related operations, pregnancy and its related diseases before and after the insurance, benefits shall be granted. And benefits for abortion can be granted if you buy optional insurance coverage (1).",
+                        "Psychosis, mental disorders",
+                        "Medical check-up and hospitalized for taking rest purpose",
+                        "Hospitalized and operation for getting children purpose",
+                        "Dental problem caused by accidental injuries",
+                        "Loss of eyes and other eyes problems caused by accidental injuries",
+                        "For beauty purpose",
+                        "Hearing equipment",
+                        "Physical defeat or infirmity",
+                        "Drug abuse",
+                        "Self-incrimination",
+                        "AIDS/HIV",
+                        "Losses, damages which are supported, based on and arise from near or far distance, directly or indirectly caused by strikes, riots, civil commotions, war and transformation of war (hostilities, wage war, military or coup)",
+                        "Hospitalized for 3 and less days",
+                        "Fraud case",
+                        "Suicide or hurting oneself"
+                    ]
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Fire_&_Allied_Perils_Insurance": {
+                "insurance_type": "Fire & Allied Perils Insurance",
+                "description": "Safeguard your valuable assets and ensure a secure future with KBZMS's Fire Insurance, offering comprehensive protection against unforeseen events.",
+                "Product_Highlights": {
+                    "Properties_you_can_buy_fire_insurance_for": {
+                        "Buildings": "Excludes land value.",
+                        "Furniture_and_Household_Contents": "",
+                        "Plant_Machinery_Equipment_and_Related_Materials": "",
+                        "Stocks_of_Goods": {
+                            "Description": "Includes production materials, raw materials, work-in-progress, and finished goods.",
+                            "Insurance_Options": {
+                                "Fixed_Policy": "Provides coverage based on a pre-determined sum insured, agreed upon at the policy’s inception, ideal for businesses with consistent inventory levels.",
+                                "Declaration_Policy": {
+                                    "Description": "An annual policy offering flexible coverage for businesses with fluctuating inventory. The sum insured is adjusted monthly based on declared values, aligning with the Market Value at the time of loss.",
+                                    "Note": "Declaration policy is designed for long-term (one-year) coverage and is not suitable for short-term insurance needs."
+                                }
+                            }
+                        }
+                    }
+                },
+                "Basic_Premium": {
+                    "Description": "In accordance with the tariff based on the classes of the building to be insured, its occupation, and its surrounding buildings, the premium ratings will vary from 0.20% to 3.5% on the sum insured."
+                },
+                "Additional Premium": {
+                    "Premium_Rates": {
+                        "Riot_Strike_and_Malicious_damage": "0.06%",
+                        "Aircraft_damage": "0.10%",
+                        "Impact_damage": "0.10%",
+                        "Subsidence_and_landslide": "0.10%",
+                        "Earthquake_fire_fire_and_shock_damage_caused_by_earthquake": "0.10%",
+                        "Explosion": "0.10%",
+                        "Spontaneous_combustion": "0.08%",
+                        "Storm_Typhoon_Hurricane_Tempest": "0.20% or 0.25%",
+                        "Flood_and_Inundation": "0.10%",
+                        "Burglary": "0.25% or 1.00%",
+                        "War_risk": "0.10%"
+                    }
+                },
+                "Sum Insured": {
+                    "Subject_Matters_of_Insurance": {
+                        "Basis_of_Sum_Insured": "Replacement cost based on current",
+                        "Buildings": "Reconstruction expenses.",
+                        "Plant_and_Machinery": "Replacement cost for equivalent items.",
+                        "Furniture_&_Household_Contents": "Replacement cost at current prices.",
+                        "Stocks_of_Goods": "Current market value."
+                    }
+                },
+                "Coverage_&_Benefits": {
+                    "What_is_Covered": {
+                        "Basic_Coverage": [
+                            "Fire",
+                            "Lightning",
+                            "Explosion of gas used for domestic purposes only"
+                        ],
+                        "Additional_Coverage": [
+                            "Riot, Strike and Malicious damage",
+                            "Aircraft damage",
+                            "Impact damage",
+                            "Subsidence and landslide",
+                            "Earthquake fire, fire and shock damage caused by earthquake",
+                            "Explosion",
+                            "Spontaneous combustion",
+                            "Storm tempest – Storm, Typhoon, Hurricane, Tempest (Various Storms)",
+                            "Flood and Inundation",
+                            "Burglary",
+                            "War risk"
+                        ]
+                    },
+                    "No_Claim_Bonus_(NCB)": {
+                        "Description": "If no claims are made within a year, the insured may be eligible for a discount upon renewal. When renewing the policy, the total premium from the previous year is compared to the renewal premium for the current year. The insured will receive 25% of the lower premium as a no claim bonus."
+                    },
+                    "Insurance_Eligibility": {
+                        "Who_can_be_Insured": "Anyone who has an insurable interest has the right to be insured.",
+                        "Period_of_Insurance": [
+                            "10 days",
+                            "1 month",
+                            "3 months",
+                            "6 months",
+                            "1 year"
+                        ]
+                    }
+                },
+                "Policy": {
+                    "1": "If there be any material misdescription of any of the property insured, misrepresentation of material facts, or omission of such facts, the Company shall not be liable.",
+                    "2": "No payment of premium shall be deemed valid unless a printed receipt signed by an Official or Agent is given to the Insured.",
+                    "3": "The Insured must notify the Company of any other insurances covering the same property; failure to do so results in forfeiture of benefits under this Policy.",
+                    "4": {
+                        "All insurances cease immediately upon": {
+                            "a": "Fall or displacement of the building or part thereof.",
+                            "b": "Fall or displacement of any range of buildings or structures where the insured building is part."
+                        },
+                        "Exceptions": "Unless caused by fire or damage covered under this Policy."
+                    },
+                    "5": {
+                        "Not covered": {
+                            "a": "Loss by theft during or after a fire.",
+                            "b": "Loss due to fermentation, natural heating, spontaneous combustion, or heating/drying processes.",
+                            "c": "Loss due to burning by public authority, subterranean fire.",
+                            "d": "Loss caused by nuclear weapons material, radiation, or contamination from nuclear fuel."
+                        }
+                    },
+                    "6": {
+                        "Not covered": [
+                            "Earthquake, volcanic eruption, or convulsions of nature.",
+                            "Typhoon, hurricane, tornado, cyclone, or atmospheric disturbances.",
+                            "War, invasion, hostilities, or civil war.",
+                            "Mutiny, riot, rebellion, revolution, martial law, or similar occurrences.",
+                            "Acts of terrorism."
+                        ]
+                    },
+                    "7": "Loss due to pollution or contamination is not covered unless resulting from an insured contingency.",
+                    "8": {
+                        "Unless expressly stated, this insurance does not cover": [
+                            "Goods held in trust.",
+                            "Bullion or unset precious stones.",
+                            "Curiosities or art exceeding Ks-50000.",
+                            "Manuscripts, designs, or business records.",
+                            "Securities, money, cheques, or computer system records.",
+                            "Coal’s spontaneous combustion.",
+                            "Explosives.",
+                            "Damage due to explosion (except domestic gas explosions).",
+                            "Loss due to burning forests, bush, jungle, or land clearing by fire."
+                        ]
+                    },
+                    "9": {
+                        "Insurance ceases unless sanctioned if": [
+                            "Trade or occupation changes, increasing fire risk.",
+                            "Building remains unoccupied for more than 30 days.",
+                            "Insured property is moved to another location.",
+                            "Interest in property transfers without legal means.",
+                            "Local authority issues notice to acquire the land."
+                        ]
+                    },
+                    "10": "This insurance does not cover marine-insured property except for excess amounts beyond marine policy coverage.",
+                    "11": "The policy may be terminated by the Insured or the Company, with refunds calculated based on premium terms.",
+                    "12": {
+                        "Upon loss or damage": {
+                            "a": "Notice must be given within 15 days with a detailed claim.",
+                            "b": "All supporting documents and proof must be provided."
+                        }
+                    },
+                    "13": "Coverage extends to wages, fire-fighting costs, and Fire Brigade charges where applicable.",
+                    "14": "Upon loss, the Company may enter premises, take possession, and deal with the insured property as required.",
+                    "15": "If any fraudulent claim is made, all benefits under the Policy are forfeited.",
+                    "16": "The Company may opt to reinstate or replace the property instead of paying for the loss.",
+                    "17": "The Insured must assist the Company in obtaining relief or indemnity from other parties if a claim is paid.",
+                    "18": "If other insurance exists, the Company only covers its rateable proportion of loss.",
+                    "19": "If insured property is worth more than the sum insured, the Insured bears a proportionate loss.",
+                    "20": "After a loss, insurance continues, but an additional premium is required.",
+                    "21": "Disputes over loss amount must be resolved through arbitration before any legal action.",
+                    "22": "The Company is not liable for claims filed more than 12 months after the event, unless under arbitration.",
+                    "23": "All notices and communications must be in writing.",
+                    "24": "If supporting claim documents are not received within 3 years, all benefits under the Policy are forfeited."
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Data_ArMaKhan": {
+                "insurance_type": "DataArMaKhan",
+                "Description": "Data insurance is a service that provides coverage for hospitalization or death resulting from an accident or illness. It includes 15-day auto-renewal data packages along with complimentary health insurance.",
+                "Product_Highlights": {
+                    "Data_ArMaKhan": {
+                        "Description": "Data insurance is a service that provides coverage for hospitalization or death resulting from an accident or illness. It includes 15-day auto-renewal data packages along with complimentary health insurance."
+                    }
+                },
+                "Data_Packs": [
+                    {
+                        "Data_Pack_Price_MMK": 300,
+                        "Data_Amount_MB": 100,
+                        "Death_Coverage_MMK": 100000,
+                        "Hospitalization_Coverage_MMK": {
+                            "Maximum_Coverage": 30000,
+                            "Coverage_per_Day": 2000
+                        }
+                    },
+                    {
+                        "Data_Pack_Price_MMK": 500,
+                        "Data_Amount_MB": 167,
+                        "Death_Coverage_MMK": 200000,
+                        "Hospitalization_Coverage_MMK": {
+                            "Maximum_Coverage": 60000,
+                            "Coverage_per_Day": 4000
+                        }
+                    },
+                    {
+                        "Data_Pack_Price_MMK": 1000,
+                        "Data_Amount_MB": 333,
+                        "Death_Coverage_MMK": 400000,
+                        "Hospitalization_Coverage_MMK": {
+                            "Maximum_Coverage": 120000,
+                            "Coverage_per_Day": 8000
+                        }
+                    }
+                ],
+                "Coverage & Benefits": {
+                    "What is Covered": {
+                        "Death Coverage": "when the insured passes away because of accident or disease within the insurance period.",
+                        "Hospitalization Coverage": "when the insured is hospitalized because of accident or disease within the insurance period. The insured is only eligible for claims for at least 3 days of hospitalization."
+                    }
+                },
+                "Insurance Eligibility": {
+                    "Who can be Insured": "Anyone between 18 to 60 years old."
+                },
+                "Period of Insurance": "15 days",
+                "Platform to Buy": [
+                    "MPT 4U App",
+                    "MPT website"
+                ]
+            }
+        }
+    ],
+    [
+        {
+            "Critical_Illness_Insurance": {
+                "insurance_type": "Critical Illness Insurance",
+                "Description": "Your health is your most important asset. Protect yourself and your family from medical and surgical expenses with our Health Insurance.",
+                "Product Highlights": {
+                    "Critical Illness Insurance": {
+                        "Description": "This critical illness insurance provides the death coverage and the medical expenses incurred by ten most common critical illnesses.",
+                        "Covered Illnesses": [
+                            "Heart Attack",
+                            "Stroke",
+                            "Cancer (Life-Threatening)",
+                            "Renal Failure",
+                            "Major Organ Transplant",
+                            "Heart Valve Replacement or Repair",
+                            "Coronary Artery Bypass Surgery",
+                            "Severe Burns",
+                            "Coma",
+                            "Bacterial Meningitis"
+                        ]
+                    }
+                },
+                "Annual Premium (MMK)": {
+                    "6 ~ 30": {
+                        "Individual": "8,800",
+                        "Group": "8,400"
+                    },
+                    "31 ~ 40": {
+                        "Individual": "15,400",
+                        "Group": "14,600"
+                    },
+                    "41 ~ 50": {
+                        "Individual": "24,200",
+                        "Group": "23,000"
+                    },
+                    "51 ~ 60": {
+                        "Individual": "37,400",
+                        "Group": "35,500"
+                    }
+                },
+                "Available Units": "Up to 10 units",
+                "Covers": {
+                    "Death": {
+                        "Benefit": "1,000,000 MMK per unit"
+                    },
+                    "Treatment_for_the_Predetermined_Critical_Illness_Diseases": {
+                        "Benefit": "1,000,000 MMK per unit"
+                    }
+                },
+                "Insurance Eligibility": {
+                    "Who can be Insured": "6 to 60 years old, who are in good health",
+                    "Under 18 years old": "the guardian is required"
+                },
+                "Period of Insurance": "1 year"
+            }
+        }
+    ],
+    [
+        {
+            "Cash_In_Safe_Insurance": {
+                "insurance_type": "Cash In Safe Insurance",
+                "Description": "Every successful business needs complete protection against potential loss from burglary or theft. KBZMS’s Cash-in-Safe insurance policy indemnifies you against loss of money kept within your premises.",
+                "Product_Highlights": {
+                    "Cash_in_Safe_Insurance": {
+                        "Description": "KBZMS Cash In-safe Insurance covered for the Cash kept-in the locked safe or locked strong room against Burglary and Robbery after business hours including public holidays.",
+                        "Sum_Insured": "Maximum cash holding at any one time"
+                    }
+                },
+                "Basic Premium": {
+                    "InsuredPremises": [
+                        {
+                            "Type": "Government/ Private Banks",
+                            "PremiumRate": "0.2% to 0.5% on sum insured"
+                        },
+                        {
+                            "Type": "Private Enterprises",
+                            "PremiumRate": "1.0% on sum insured"
+                        },
+                        {
+                            "Type": "Cooperative Businesses",
+                            "PremiumRate": "0.5% to 1.0% on sum insured"
+                        }
+                    ]
+                },
+                "Coverage & Benefits": {
+                    "WhatIsCovered": {
+                        "Description": "Cash kept in the locked safe or locked strong room after business hours including public holidays against",
+                        "CoveredRisks": [
+                            "Burglary",
+                            "Robbery"
+                        ]
+                    }
+                },
+                "Insurance Eligibility": {
+                    "WhoCanBeInsured": [
+                        "Business owners",
+                        "Private Banks",
+                        "Private Enterprises"
+                    ],
+                    "PeriodOfInsurance": {
+                        "Minimum": "1 day",
+                        "Maximum": "1 year"
+                    }
+                },
+                "Policy": {
+                    "General_Conditions": {
+                        "Definitions": {
+                            "Company": "this company issuing this Policy",
+                            "Insured": "the person named as the Insured in the Schedule",
+                            "Schedule": "the Schedule of this Policy",
+                            "Money": "Cash, Bank and Currency notes, Coins, Certified Cheques, Money Order, Postal Cheques, Postage Stamps and Securities as specified in the Schedule, all belonging to the Insured or for which the Insured has accepted responsibility",
+                            "Insured_Premises": "the interior portion of the building which is occupied by the Insured as specified in the Schedule",
+                            "Safe_Burglary": {
+                                "a": "theft by actual force and violence because of which there shall be visible marks made by tools, explosives, electricity or chemicals upon the exterior of the safe or strong room which is closed or locked by at least one combination",
+                                "b": "taking a safe from the insured premises"
+                            },
+                            "Messenger": "the Insured, any partner or any employee who is in the regular service of or duly authorized by the Insured to have the care and custody of money outside the premises",
+                            "Custodian": "the Insured, any partner or any employee who is in the regular service of or duly authorized by the Insured to have the care and custody of money within the premises, excluding any person while acting as a watchman, porter or janitor",
+                            "Guard": "any male person who accompanies a messenger by direction of the Insured to protect money while being conveyed, excluding any person while acting as a driver",
+                            "Robbery": {
+                                "1.10.1": {
+                                    "a": "to facilitate the theft or taking away of Money",
+                                    "b": "to obtain delivery of Money",
+                                    "c": "to take hold of Money",
+                                    "d": "to conceal the commission of such offence",
+                                    "e": "to escape from arrest"
+                                },
+                                "1.10.2": "taking Money from a Messenger or Custodian who has been killed or assaulted or rendered unconscious"
+                            },
+                            "Loss": "includes damage"
+                        },
+                        "Books_and_Records": "The Insured shall make and keep records of all the money insured in such manner that the Company can accurately determine therefrom the amount of loss",
+                        "Insured_duties_in_claiming_for_Compensation": {
+                            "3.1": "report to the police immediately and report such loss to the Company without delay",
+                            "3.2": "deliver to the Company a claim in writing within (15) days after having knowledge of such loss. The Insured shall furnish all particulars and evidence, as the Company requires, to the Company at its own expense and render all reasonable assistance in causing the discovery"
+                        },
+                        "Other_Insurance": "If there is any other insurance effected by the Insured or by any other person, covering the identical risk and interest, the Company shall not be liable to pay or contribute more than its ratable portion of the loss",
+                        "Assignment": "The interest of the Insured under this Policy shall not be assignable except with the written consent of the Company",
+                        "Subrogation": "The Insured shall do nothing to prejudice subrogation rights and give assistance to the Company to secure such rights",
+                        "Special_Clause_for_Arbitration": "If any dispute shall arise as to whether the Company is liable under this Policy or as to the amount of its liability, the matter shall be referred to the decision of two natural persons as Arbitrators one of whom shall be named by each party or in case the Arbitrators disagree, of an Umpire who shall be appointed by the said Arbitrators before entering on the reference and in case the Insured or his legal personal representatives shall neglect or refuse for the space of two calendar months after request in writing from the Company so to do to name an Arbitrator, the Arbitrator of the Company may proceed alone and no action or proceeding shall be brought or prosecuted on this Policy until the award of the Arbitrators, Arbitrator or Umpire has been first obtained. The costs of and connected with the Arbitration shall be in the discretion of the Arbitrators, Arbitrator or Umpire",
+                        "Changes": "Insuring agreement and conditions of this Policy can be changed by an endorsement issued to form part of this Policy, signed by a duly authorized person",
+                        "Condition_precedent": "The Company shall not be liable to pay compensation under this Policy unless the Insured shall have complied with the conditions of this Policy",
+                        "Cancellation_of_Policy": {
+                            "10.1": "The Company may cancel this policy by advance notice in writing of not less than (15) days by registered mail to the Insured at his last known address. In such event, the Company shall return to the Insured the premium after deduction of pro rata premium for the period the Policy has been in force",
+                            "10.2": "The Insured may cancel this Policy by giving notice in writing to the Company and shall be entitled to a return of premium after deduction of premium at the short period rate for the period the Policy has been in force"
+                        },
+                        "Attachment": "This Insurance attaches from the time the first premium therefor in received by the Company"
+                    },
+                    "Loss_inside_safe_or_strong_room": "The Company will pay compensation for the Loss of Money from within the locked safe or locked strong room by any cause not specified in the exclusions after the business hours",
+                    "Exclusions": {
+                        "1": "To any loss due to any fraudulent, dishonest act by the Insured or a partner or an employee except such act by a messenger or custodian discovered within three working days after the occurrence and in case the fraudulent, dishonest act was committed several times before discovery, the date of discovery is assumed to be the first day of occurrence",
+                        "2": "To any loss of manuscripts, accounts or records",
+                        "3": "To any loss due to forgery, payment of money in any exchange or purchase, or accounting or arithmetical errors or omissions",
+                        "4": "To any loss due to any loss insured by a fidelity guarantee",
+                        "5": "To any loss due to war (whether war be declared or not). Civil war, terrorism, strike, riot, civil commotion amounting to a popular rising, rebellion, revolution, acquisition of property by order of public authority",
+                        "6": "To any loss due to nuclear weapons, radiation or contamination by radioactivity from any nuclear fuel or from any nuclear waste from the combustion of nuclear fuel",
+                        "7": "Any loss or damage by fire however caused"
+                    }
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Inland_Marine_Cargo_Insurance": {
+                "insurance_type": "Inland Marine Cargo Insurance",
+                "Description": "Reduce the risk of financial loss of importing and exporting for your businesses.",
+                "Marine Cargo Insurance": {
+                    "Description": "Marine Cargo Insurance provides cover for the financial loss or damage to cargo due to the total loss of a vessel while in transit until it reaches its final destination.",
+                    "Sum Insured": "Cargo value / CIF Value / Cargo value + 10%"
+                },
+                "Basic Premium": {
+                    "Type of Cargos": {
+                        "General Cargos": {
+                            "By River and By Road": "0.14%",
+                            "Coastal (Summer) (Apart from Monsoon)": "0.28%",
+                            "Coastal (Monsoon – May 1st to Oct 15th)": "0.56%"
+                        },
+                        "Kerosene, Petroleum, Diesel and Gas (Flammable Cargo)": {
+                            "By River and By Road": "0.28%",
+                            "Coastal (Summer) (Apart from Monsoon)": "0.42%",
+                            "Coastal (Monsoon – May 1st to Oct 15th)": "0.84%"
+                        },
+                        "Breakable Cargos": {
+                            "By Road": "0.80%"
+                        }
+                    },
+                    "Additional Charges": {
+                        "Port Risk Premium": "10% on the basic premium",
+                        "Stamp Fees": "MMK 10.00 on Sum Insured MMK 100,000/-"
+                    }
+                },
+                "Coverage & Benefits": {
+                    "Type of Insurance": {
+                        "Marine Cargo Insurance": {
+                            "Routes": [
+                                "By River",
+                                "By Coastal"
+                            ],
+                            "Basic Covers": [
+                                "Total Loss Only",
+                                "Sue and Labor Charges"
+                            ],
+                            "Additional Cover": {
+                                "Port Risk (For Marine Cargo)": [
+                                    "Perils that arise during and after the cargo is loaded until its departure date",
+                                    "Perils that arise after 3 days of ship waiting time before docking/when the cargo cannot be unloaded at dock."
+                                ]
+                            }
+                        },
+                        "Transit Cargo Insurance": {
+                            "Routes": [
+                                "By Road"
+                            ],
+                            "Basic Covers": [
+                                "Total Loss Only"
+                            ]
+                        }
+                    },
+                    "Compensation Policy": {
+                        "Partial Loss": "Not eligible for compensation"
+                    }
+                },
+                "Insurance Eligibility": {
+                    "Who Can Insure": [
+                        "Cargo owners",
+                        "Authorized Agents",
+                        "Traders",
+                        "Forwarders"
+                    ],
+                    "Insurance Period": "Single Voyage (From one location to another)"
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Marine_Hull_Insurance": {
+                "insurance_type": "Marine Hull Insurance",
+                "Description": "KBZMS’s Marine Hull insurance provides businesses with comprehensive coverage for hull and machinery of vessels operating both inland and overseas.",
+                "Marine Hull Insurance": {
+                    "Description": "Marine hull insurance provides coverage for the physical damage to and total loss of vessel and machinery and equipment caused by maritime perils whilst a vessel is being navigated inland and overseas.",
+                    "Coverage Options": [
+                        "Total Loss Only",
+                        "All Risks"
+                    ],
+                    "Sum Insured": [
+                        "Sales Contract value",
+                        "Accessor Report value"
+                    ]
+                },
+                "Basic Premium": {
+                    "Premium Rate": {
+                        "Factors": [
+                            "Type of vessel",
+                            "Usage of vessel",
+                            "Year of built",
+                            "Maritime boundary where it operates"
+                        ]
+                    }
+                },
+                "Covers": {
+                    "All Risks": {
+                        "Premium Rate": {
+                            "Minimum": "2.0%",
+                            "Maximum": "3.0%"
+                        }
+                    },
+                    "Total Loss Only": {
+                        "Premium Rate": {
+                            "Minimum": "1.0%",
+                            "Maximum": "1.6%"
+                        }
+                    }
+                },
+                "Stamp Fees": {
+                    "Amount": "MMK 10.00",
+                    "Sum Insured": "MMK 100,000/-"
+                },
+                "Note": "If the age of the vessel is more than 20 years, a 10% premium will be charged on the basic premium.",
+                "Coverage & Benefits": {
+                    "Covers": [
+                        "Total Loss (actual or constructive) Only",
+                        "All Risks"
+                    ],
+                    "Risks Covered": [
+                        "Perils of the seas, rivers, lakes, or other navigable waters",
+                        "Fire, explosion",
+                        "Violent theft by persons from outside the vessel",
+                        "Jettison",
+                        "Piracy",
+                        "Breakdown of or accident to nuclear installation or reactors",
+                        "Contact with aircraft or similar objects or objects falling therefrom, land conveyance, dock, or harbor equipment or installation",
+                        "Earthquake, volcanic eruption, or lightning",
+                        "Accident in loading, discharging, or shifting cargos or fuel",
+                        "Bursting of boilers, breakage of shifts, or any latent defects in the machinery or hull",
+                        "Negligence of Master, Officers, Crew, or Pilots",
+                        "Negligence of repairers, charterers provided such repairers or charterers are not an Assured hereunder",
+                        "Barratry of Captain, Officers, or Crew"
+                    ]
+                },
+                "Insurance Eligibility": {
+                    "WhoCanInsure": [
+                        "Owner",
+                        "Authorized Agent"
+                    ],
+                    "InsurancePeriod": {
+                        "VoyagePolicy": "Single voyage",
+                        "TimePolicy": "15 days to 1 year"
+                    }
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Fidelity_Insurance": {
+                "insurance_type": "Fidelity Insurance",
+                "Description": "Despite the best controls and checks and balances, no business is immune from attempted fraud. Fidelity insurance protects employers against such exposures. Take control of your business risks.",
+                "FidelityInsurance": {
+                    "Description": "Fidelity insurance provides cover for the employers against loss of money resulting from fraudulent acts or dishonest behavior of the employees.",
+                    "SumInsured": "Maximum cash entrusted to employee"
+                },
+                "Basic Premium": {
+                    "PremiumRates": [
+                        {
+                            "BusinessType": "Government and private banks",
+                            "Rate": "1% on sum insured"
+                        },
+                        {
+                            "BusinessType": "Private and cooperative businesses",
+                            "Rate": "2% on sum insured"
+                        }
+                    ]
+                },
+                "Coverage & Benefits": {
+                    "WhatIsCovered": {
+                        "Description": "Loss of money due to the employee of the insured as a result of the following acts",
+                        "ActsCovered": [
+                            "Negligence",
+                            "Carelessness",
+                            "Fraud",
+                            "Theft",
+                            "Embezzlement",
+                            "Dishonesty"
+                        ]
+                    }
+                },
+                "Insurance Eligibility": {
+                    "WhoCanBeInsured": [
+                        "Business owners",
+                        "Private Banks",
+                        "Private Enterprises"
+                    ],
+                    "PeriodOfInsurance": "1 year"
+                },
+                "Definitions": {
+                    "Insurance Business": "this company issuing this policy",
+                    "Employee": "any person stated in the Schedule with whom the Insured has entered into a contract of service"
+                },
+                "Conditions": {
+                    "2.1": "The Insurance Business has received the application for the proposal with the employee’s guarantee to the Insurance Business with the consent of the business that the money which is confidently entrusted by business and accepted by the employee in line of duty is manipulated honestly by the employee(s) who is (are) employed or to be employed or is(are) being employed in the business while performing the duties.",
+                    "2.2": "Moreover, within the period of Insurance and as long as the policy is being in force, the Insurance Business takes the responsibility that the money which is confidently entrusted by Business and accepted by the employee in line of duty is manipulated honestly by the employees. By insuring under this policy, the Insurance Business shall be liable for any loss or damage of money confidently entrusted by the Business, not more than the sum insured thereon, as a result of any default, remissness, negligence, embezzlement, fraud, degeneration or dishonesty by an employee.",
+                    "2.3": "The amount of compensation shall not be more than the amount of sum insured stated in the schedule under this policy. If a loss is sustained by the Insured as a result of the fraudulent or dishonest conduct of an employee stated in the schedule, the Insurance Business must exhort the Business to take action on or suit to the said employee. After making the Court’s decision, the Insurance Business shall pay the amount of compensation after deduction of the amount received by order of adjudication of the Court. If the said employee is in evasion or unable to find, the Insurance Business shall pay the compensation only after such case is closed according to the Court procedures."
+                },
+                "Contact Information": {
+                    "Yangon (Head Office)": "Ph: 01 2307000, 09 950077000",
+                    "Yangon (Thinganqyun)": "Ph: 09 950077000, Exi:600~602",
+                    "Naypyitaw": "Ph: 067 8108367~69",
+                    "Mandalay": "Ph: 02 2000190~93",
+                    "Mandalay (22nd Road Office)": "Ph: 02 4065639, 4069052, 4069053",
+                    "Taunggyi": "Ph: 081 2125401, 2124772, 2124773",
+                    "Mawlamyine": "Ph: 057 2025657, 2026742",
+                    "Monywa": "Ph: 071 2026189, 2026190",
+                    "Magway": "Ph: 063 2028356~58",
+                    "Lashio": "Ph: 082 2930113, 2930331",
+                    "Pathein": "Ph: 042 23905, 23906, 23907",
+                    "Myeik": "Ph: 059 42337, 42317, 42577",
+                    "Myikyina": "Ph: 074 2520160, 2520169",
+                    "Bago": "Ph: 052 2201078, 2201080, 2201081",
+                    "Meikhtila": "Ph: 064 25232, 24132",
+                    "Pyay": "Ph: 053 24037, 24516, 25643",
+                    "Sittwe": "Ph: 043 22026, 22027, 22028",
+                    "Pakokku": "Ph: 062 2024009, 2024010, 2024011",
+                    "Myingyan": "Ph: 066 2021985, Fax: 066 2022327",
+                    "Kalay": "Ph: 073 22844~46",
+                    "Tachileik": "Ph: 084 2051870, 2051907, 2052926",
+                    "Hinthada": "Ph: 044 2022862~64",
+                    "Taungoo": "Ph: 054 2823189, 2823378, 2823738"
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Cash_In_Transit_Insurance": {
+                "insurance_type": "Cash In Transit Insurance",
+                "Description": "Allow KBZMS Cash-in-Transit insurance to cover you against potential loss from moving your money from one secure location to another. Keep your cash safe with KBZMS.",
+                "provider": "KBZMS",
+                "coverage": "Provides coverage against theft or robbery of cash whilst in transit.",
+                "sum_insured": {
+                    "description": "Cash amount for single transportation"
+                },
+                "Basic Premium": {
+                    "Distance": [
+                        {
+                            "Range": "Within 10 miles",
+                            "Premium Rate": "0.027%"
+                        },
+                        {
+                            "Range": "Within 10 to 15 miles",
+                            "Premium Rate": "0.054%"
+                        },
+                        {
+                            "Range": "Within 15 to 20 miles",
+                            "Premium Rate": "0.081%"
+                        },
+                        {
+                            "Range": "Above 20 miles",
+                            "Premium Rate": "0.090%"
+                        }
+                    ]
+                },
+                "FidelityInsurance": {
+                    "Coverage": "Cash carriers",
+                    "AdditionalPremium": "20% of the total premium"
+                },
+                "Coverage & Benefits": {
+                    "WhatIsCovered": {
+                        "CashInTransitAgainst": [
+                            "Theft",
+                            "Robbery"
+                        ]
+                    }
+                },
+                "Insurance Eligibility": {
+                    "WhoCanBeInsured": [
+                        "Business owners",
+                        "Private Banks",
+                        "Private Enterprises"
+                    ],
+                    "InsurancePeriod": "For one transit (from one location to another)"
+                },
+                "Policy": {
+                    "General_Conditions": {
+                        "Definitions": {
+                            "Company": "the company issuing this Policy",
+                            "Insured": "the person named as the Insured in the Schedule",
+                            "Schedule": "the Schedule of this Policy",
+                            "Money": "Cash, Bank and Currency notes, Coins, Certified Cheques, Money Order, Postal Cheques, Postage Stamps and Securities as specified in the Schedule, all belonging to the Insured or for which the Insured has accepted responsibility",
+                            "Insured_Premises": "the interior portion of the building which is occupied by the Insured as specified in the Schedule",
+                            "Safe_Burglary": {
+                                "a": "theft by actual force and violence because of which there shall be visible marks made by tools, explosives, electricity or chemicals upon the exterior of the safe or strong room which is closed or locked by at least one combination",
+                                "b": "taking a safe from the insured premises"
+                            },
+                            "Messenger": "the Insured, any partner or any employee who is in the regular service of or duly authorized by the Insured to have the care and custody of money outside the premises",
+                            "Custodian": "the Insured, any partner or any employee who is in the regular service of or duly authorized by the Insured to have the care and custody of money within the premises, excluding any person while acting as a watchman, porter or janitor",
+                            "Guard": "any male person who accompanies a messenger by direction of the Insured to protect money while being conveyed, excluding any person while acting as a driver",
+                            "Robbery": {
+                                "1.10.1": {
+                                    "a": "to facilitate the theft or taking away of Money",
+                                    "b": "to obtain delivery of Money",
+                                    "c": "to take hold of Money",
+                                    "d": "to conceal the commission of such offence",
+                                    "e": "to escape from arrest"
+                                },
+                                "1.10.2": "taking Money from a Messenger or Custodian who has been killed or assaulted or rendered unconscious"
+                            },
+                            "Loss": "includes damage"
+                        },
+                        "Books_and_Records": "The Insured shall make and keep records of all the money insured in such manner that the Company can accurately determine therefrom the amount of loss",
+                        "Insured_duties_in_claiming_for_Compensation": {
+                            "3.1": "report to the police immediately and report such loss to the Company without delay",
+                            "3.2": "deliver to the Company a claim in writing within (15) days after having knowledge of such loss. The Insured shall furnish all particulars and evidence, as the Company requires, to the Company at its own expense and render all reasonable assistance in causing the discovery"
+                        },
+                        "Other_Insurance": "If there is any other insurance effected by the Insured or by any other person, covering the identical risk and interest, the Company shall not be liable to pay or contribute more than its ratable portion of the loss",
+                        "Assignment": "The interest of the Insured under this Policy shall not be assignable except with the written consent of the Company",
+                        "Subrogation": "The Insured shall do nothing to prejudice subrogation rights and give assistance to the Company to secure such rights",
+                        "Special_Clause_for_Arbitration": "If any dispute shall arise as to whether the Company is liable under this Policy or as to the amount of its liability, the matter shall be referred to the decision of two natural persons as Arbitrators one of whom shall be named by each party or in case the Arbitrators disagree, of an Umpire who shall be appointed by the said Arbitrators before entering on the reference and in case the Insured or his legal personal representatives shall neglect or refuse for the space of two calendar months after request in writing from the Company so to do to name an Arbitrator, the Arbitrator of the Company may proceed alone and no action or proceeding shall be brought or prosecuted on this Policy until the award of the Arbitrators, Arbitrator or Umpire has been first obtained. The costs of and connected with the Arbitration shall be in the discretion of the Arbitrators, Arbitrator or Umpire",
+                        "Changes": "Insuring agreement and conditions of this Policy can be changed by an endorsement issued to form part of this Policy, signed by a duly authorized person",
+                        "Condition_precedent": "The Company shall not be liable to pay compensation under this Policy unless the Insured shall have complied with the conditions of this Policy",
+                        "Cancellation_of_Policy": {
+                            "10.1": "The Company may cancel this policy by advance notice in writing of not less than (15) days by registered mail to the Insured at his last known address. In such event, the Company shall return to the Insured the premium after deduction of pro rata premium for the period the Policy has been in force",
+                            "10.2": "The Insured may cancel this Policy by giving notice in writing to the Company and shall be entitled to a return of premium after deduction of premium at the short period rate for the period the Policy has been in force"
+                        },
+                        "Attachment": "This Insurance attaches from the time the first premium therefor in received by the Company"
+                    },
+                    "Loss_inside_safe_or_strong_room": "The Company will pay compensation for the Loss of Money from within the locked safe or locked strong room by any cause not specified in the exclusions after the business hours",
+                    "Exclusions": {
+                        "1": "To any loss due to any fraudulent, dishonest act by the Insured or a partner or an employee except such act by a messenger or custodian discovered within three working days after the occurrence and in case the fraudulent, dishonest act was committed several times before discovery, the date of discovery is assumed to be the first day of occurrence",
+                        "2": "To any loss of manuscripts, accounts or records",
+                        "3": "To any loss due to forgery, payment of money in any exchange or purchase, or accounting or arithmetical errors or omissions",
+                        "4": "To any loss due to any loss insured by a fidelity guarantee",
+                        "5": "To any loss due to war (whether war be declared or not). Civil war, terrorism, strike, riot, civil commotion amounting to a popular rising, rebellion, revolution, acquisition of property by order of public authority",
+                        "6": "To any loss due to nuclear weapons, radiation or contamination by radioactivity from any nuclear fuel or from any nuclear waste from the combustion of nuclear fuel",
+                        "7": "Any loss or damage by fire however caused"
+                    }
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Travel_Insurance_Under_100_Miles": {
+                "insurance_type": "Travel Insurance Under 100 Miles",
+                "Description": "Have a worry-free journey with our Domestic/ Overseas travel insurance, Under 100 miles travel insurance and Special travel insurance. Travel in style and secure in the knowledge that you are covered from unexpected.",
+                "Product_Highlights": {
+                    "Under_100_Miles_Travel_Insurance": {
+                        "Description": "Under 100 miles Travel Insurance provides protection for the passengers who travelled under 100 miles against",
+                        "Coverage": [
+                            "Accidental Death",
+                            "Injury or Permanent Disability",
+                            "Hospitalization"
+                        ],
+                        "Premium_Rate": "100 MMK per trip"
+                    }
+                },
+                "Coverage_&_Benefits": {
+                    "What_is_Covered": {
+                        "Death": {
+                            "Benefit": "2,000,000 MMK"
+                        },
+                        "Permanent_Disability": {
+                            "Benefit": "2,000,000 MMK"
+                        },
+                        "Bodily_Injury": {
+                            "Benefit": "Up to 2,000,000 MMK (based on doctor’s recommendation)"
+                        },
+                        "Hospitalization": {
+                            "Benefit": "3,200 MMK per week (Up to 52 weeks)"
+                        }
+                    }
+                },
+                "Insurance Eligibility": {
+                    "How can it be purchased": "Only available at the express lines who signed MoU with KBZMS"
+                },
+                "Period of Insurance": "From the beginning to the end of the trip",
+                "TERMS_AND_CONDITIONS_OF_THE_TRAVEL_INSURANCE_POLICY": {
+                    "Exclusions": [
+                        "Death, disability, or injury due to pre-existing medical conditions existing before the policy's inception date.",
+                        "Death, disability, or injury caused by suicide or attempted suicide.",
+                        "Death, disability, or injury caused by self-inflicted injuries or self-destructive acts.",
+                        "Death, disability, or injury resulting directly/indirectly from childbirth or pregnancy, unless caused by an accident.",
+                        "Death, disability, or injury due to unlawful acts or willful exposure to peril.",
+                        "Death, disability, or injury resulting from substance abuse (e.g., alcohol, drugs).",
+                        "Death, disability, or injury caused by participation in war, strikes, riots, civil commotion, terrorism, or civil unrest.",
+                        "Consequences arising directly from the above points (5, 6, and 7)."
+                    ],
+                    "Claim_Notification": [
+                        "The insured must notify the insurer within 7 days of an event that may lead to a claim.",
+                        "Accidents require submission of a claim form and supporting documentation."
+                    ],
+                    "Documentation_Requirement": "Failure to provide additional documents requested by the insurer will result in claim denial.",
+                    "Fraudulent_Activity": "Inaccurate information, false statements, concealment of details, or fraudulent acts in the proposal form will lead to claim denial.",
+                    "Cancellation_Policy": "If the policy is canceled by either party before the journey begins, the insured is eligible for a premium refund."
+                }
+            },
+            "Travel Insurance (Over 100 Miles)": {
+                "insurance_type": "Travel Insurance Over 100 Miles",
+                "Description": "Have a worry-free journey with our Domestic/ Overseas travel insurance, Under 100 miles travel insurance and Special travel insurance. Travel in style and secure in the knowledge that you are covered from unexpected travel issues.",
+                "Product Highlights": {
+                    "Special Travel (Over 100 miles) Insurance": {
+                        "Protection": [
+                            "Accidental Death",
+                            "Injury or Permanent Disability",
+                            "Hospitalization"
+                        ],
+                        "Premium Rate": "300 MMK per trip per unit",
+                        "Available Units": "Up to 2 units"
+                    }
+                },
+                "Coverage & Benefits": {
+                    "What is Covered": {
+                        "Death": "3,000,000 MMK per unit",
+                        "Permanent Disability": "3,000,000 MMK per unit",
+                        "Bodily Injury": "Up to 3,000,000 MMK per unit (based on doctor’s recommendation)",
+                        "Hospitalization": "2,400 MMK per unit per week (Up to 52 weeks)"
+                    }
+                },
+                "Insurance Eligibility": {
+                    "How can it be purchased": "Only available at the express lines who signed MoU with KBZMS"
+                },
+                "Period of Insurance": "From the beginning to the end of the trip",
+                "TERMS_AND_CONDITIONS_OF_THE_TRAVEL_INSURANCE_POLICY": {
+                    "Exclusions": [
+                        "Death, disability, or injury due to pre-existing medical conditions existing before the policy's inception date.",
+                        "Death, disability, or injury caused by suicide or attempted suicide.",
+                        "Death, disability, or injury caused by self-inflicted injuries or self-destructive acts.",
+                        "Death, disability, or injury resulting directly/indirectly from childbirth or pregnancy, unless caused by an accident.",
+                        "Death, disability, or injury due to unlawful acts or willful exposure to peril.",
+                        "Death, disability, or injury resulting from substance abuse (e.g., alcohol, drugs).",
+                        "Death, disability, or injury caused by participation in war, strikes, riots, civil commotion, terrorism, or civil unrest.",
+                        "Consequences arising directly from the above points (5, 6, and 7)."
+                    ],
+                    "Claim_Notification": [
+                        "The insured must notify the insurer within 7 days of an event that may lead to a claim.",
+                        "Accidents require submission of a claim form and supporting documentation."
+                    ],
+                    "Documentation_Requirement": "Failure to provide additional documents requested by the insurer will result in claim denial.",
+                    "Fraudulent_Activity": "Inaccurate information, false statements, concealment of details, or fraudulent acts in the proposal form will lead to claim denial.",
+                    "Cancellation_Policy": "If the policy is canceled by either party before the journey begins, the insured is eligible for a premium refund."
+                }
+            },
+            "Travel Insurance (Inbound Travel)": {
+                "insurance_type": "Travel Insurance (Inbound Travel)",
+                "Description": "Have a worry-free journey with our Domestic/ Overseas travel insurance, Under 100 miles travel insurance and Special travel insurance. Travel in style and secure in the knowledge that you are covered from unexpected travel issues.",
+                "Product Highlights": {
+                    "Inbound Travel Insurance": {
+                        "Protection": [
+                            "Accidental Death",
+                            "Injury or Permanent Disability",
+                            "Hospitalization"
+                        ]
+                    }
+                },
+                "Premium Rate": {
+                    "1 Day Trip": "100 MMK per unit",
+                    "3 Days Trip": "150 MMK per unit",
+                    "1 Week": "200 MMK per unit",
+                    "2 Weeks": "250 MMK per unit",
+                    "1 Month": "300 MMK per unit",
+                    "1 Month + 15 Days": "350 MMK per unit",
+                    "2 Months": "400 MMK per unit",
+                    "2 Months + 15 Days": "450 MMK per unit",
+                    "3 Months": "500 MMK per unit"
+                },
+                "Available Units": "Up to 20 units",
+                "Coverage_&_Benefits": {
+                    "What_is_Covered": {
+                        "Death": {
+                            "Benefit": "500,000 MMK per unit"
+                        },
+                        "Permanent_Disability": {
+                            "Benefit": "500,000 MMK per unit"
+                        },
+                        "Bodily_Injury": {
+                            "Benefit": "Up to 500,000 MMK per unit (Based on doctor's recommendation)"
+                        },
+                        "Hospitalization": {
+                            "Benefit": "4,000 MMK per unit per week (Up to 52 weeks)"
+                        }
+                    }
+                },
+                "Insurance Eligibility": {
+                    "Who can purchase": "Anyone who travels domestically"
+                },
+                "Period of Insurance": "1 day to 3 months depending on the trip duration",
+                "TERMS_AND_CONDITIONS_OF_THE_TRAVEL_INSURANCE_POLICY": {
+                    "Exclusions": [
+                        "Death, disability, or injury due to pre-existing medical conditions existing before the policy's inception date.",
+                        "Death, disability, or injury caused by suicide or attempted suicide.",
+                        "Death, disability, or injury caused by self-inflicted injuries or self-destructive acts.",
+                        "Death, disability, or injury resulting directly/indirectly from childbirth or pregnancy, unless caused by an accident.",
+                        "Death, disability, or injury due to unlawful acts or willful exposure to peril.",
+                        "Death, disability, or injury resulting from substance abuse (e.g., alcohol, drugs).",
+                        "Death, disability, or injury caused by participation in war, strikes, riots, civil commotion, terrorism, or civil unrest.",
+                        "Consequences arising directly from the above points (5, 6, and 7)."
+                    ],
+                    "Claim_Notification": [
+                        "The insured must notify the insurer within 7 days of an event that may lead to a claim.",
+                        "Accidents require submission of a claim form and supporting documentation."
+                    ],
+                    "Documentation_Requirement": "Failure to provide additional documents requested by the insurer will result in claim denial.",
+                    "Fraudulent_Activity": "Inaccurate information, false statements, concealment of details, or fraudulent acts in the proposal form will lead to claim denial.",
+                    "Cancellation_Policy": "If the policy is canceled by either party before the journey begins, the insured is eligible for a premium refund."
+                }
+            },
+            "Travel_Insurance_Outbound_Travel": {
+                "insurance_type": "Travel Insurance (Outbound Travel)",
+                "Description": "Have a worry-free journey with our Domestic/ Overseas travel insurance, Under 100 miles travel insurance and Special travel insurance. Travel in style and secure in the knowledge that you are covered from unexpected travel issues.",
+                "Product_Highlights": {
+                    "Outbound_Travel_Insurance": {
+                        "Description": "Outbound Travel Insurance provides protection for the international travelers against",
+                        "Coverage": [
+                            "Accidental Death",
+                            "Injury or Permanent Disability",
+                            "Hospitalization"
+                        ]
+                    }
+                },
+                "Premium Rate": {
+                    "Rates": [
+                        {
+                            "No. of Days": "1 Week",
+                            "Premium Rate": "200 MMK per unit"
+                        },
+                        {
+                            "No. of Days": "2 Weeks",
+                            "Premium Rate": "250 MMK per unit"
+                        },
+                        {
+                            "No. of Days": "1 Month",
+                            "Premium Rate": "300 MMK per unit"
+                        },
+                        {
+                            "No. of Days": "1 Month + 15 Days",
+                            "Premium Rate": "350 MMK per unit"
+                        },
+                        {
+                            "No. of Days": "2 Months",
+                            "Premium Rate": "400 MMK per unit"
+                        },
+                        {
+                            "No. of Days": "2 Months + 15 Days",
+                            "Premium Rate": "450 MMK per unit"
+                        },
+                        {
+                            "No. of Days": "3 Months",
+                            "Premium Rate": "500 MMK per unit"
+                        }
+                    ]
+                },
+                "Available Units": "Up to 20 units",
+                "Coverage & Benefits": {
+                    "Covers": [
+                        {
+                            "name": "Death",
+                            "benefit": "500,000 MMK per unit"
+                        },
+                        {
+                            "name": "Permanent Disability",
+                            "benefit": "500,000 MMK per unit"
+                        },
+                        {
+                            "name": "Bodily Injury",
+                            "benefit": "Up to 500,000 MMK per unit (based on doctor’s recommendation)"
+                        },
+                        {
+                            "name": "Hospitalization",
+                            "benefit": "4,000 MMK per unit per week (Up to 52 weeks)"
+                        }
+                    ]
+                },
+                "Insurance Eligibility": {
+                    "Who can purchase": "Anyone who travels abroad"
+                },
+                "Period of Insurance": "1 week to 3 months depending on the trip duration",
+                "TERMS_AND_CONDITIONS_OF_THE_TRAVEL_INSURANCE_POLICY": {
+                    "Exclusions": [
+                        "Death, disability, or injury due to pre-existing medical conditions existing before the policy's inception date.",
+                        "Death, disability, or injury caused by suicide or attempted suicide.",
+                        "Death, disability, or injury caused by self-inflicted injuries or self-destructive acts.",
+                        "Death, disability, or injury resulting directly/indirectly from childbirth or pregnancy, unless caused by an accident.",
+                        "Death, disability, or injury due to unlawful acts or willful exposure to peril.",
+                        "Death, disability, or injury resulting from substance abuse (e.g., alcohol, drugs).",
+                        "Death, disability, or injury caused by participation in war, strikes, riots, civil commotion, terrorism, or civil unrest.",
+                        "Consequences arising directly from the above points (5, 6, and 7)."
+                    ],
+                    "Claim_Notification": [
+                        "The insured must notify the insurer within 7 days of an event that may lead to a claim.",
+                        "Accidents require submission of a claim form and supporting documentation."
+                    ],
+                    "Documentation_Requirement": "Failure to provide additional documents requested by the insurer will result in claim denial.",
+                    "Fraudulent_Activity": "Inaccurate information, false statements, concealment of details, or fraudulent acts in the proposal form will lead to claim denial.",
+                    "Cancellation_Policy": "If the policy is canceled by either party before the journey begins, the insured is eligible for a premium refund."
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Contact": {
+                "offices": [
+                    {
+                        "city": "Yangon",
+                        "location": "Head Office",
+                        "phone": [
+                            "01 2307000",
+                            "09 950077000"
+                        ]
+                    },
+                    {
+                        "city": "Yangon",
+                        "location": "Thinganqyun",
+                        "phone": [
+                            "09 950077000"
+                        ],
+                        "extension": "600~602"
+                    },
+                    {
+                        "city": "Naypyitaw",
+                        "phone": [
+                            "067 8108367~69"
+                        ]
+                    },
+                    {
+                        "city": "Mandalay",
+                        "phone": [
+                            "02 2000190~93"
+                        ]
+                    },
+                    {
+                        "city": "Mandalay",
+                        "location": "22nd Road Office",
+                        "phone": [
+                            "02 4065639",
+                            "02 4069052",
+                            "02 4069053"
+                        ]
+                    },
+                    {
+                        "city": "Taunggyi",
+                        "phone": [
+                            "081 2125401",
+                            "081 2124772",
+                            "081 2124773"
+                        ]
+                    },
+                    {
+                        "city": "Mawlamyine",
+                        "phone": [
+                            "057 2025657",
+                            "057 2026742"
+                        ]
+                    },
+                    {
+                        "city": "Monywa",
+                        "phone": [
+                            "071 2026189",
+                            "071 2026190"
+                        ]
+                    },
+                    {
+                        "city": "Magway",
+                        "phone": [
+                            "063 2028356~58"
+                        ]
+                    },
+                    {
+                        "city": "Lashio",
+                        "phone": [
+                            "082 2930113",
+                            "082 2930331"
+                        ]
+                    },
+                    {
+                        "city": "Pathein",
+                        "phone": [
+                            "042 23905",
+                            "042 23906",
+                            "042 23907"
+                        ]
+                    },
+                    {
+                        "city": "Myeik",
+                        "phone": [
+                            "059 42337",
+                            "059 42317",
+                            "059 42577"
+                        ]
+                    },
+                    {
+                        "city": "Myitkyina",
+                        "phone": [
+                            "074 2520160",
+                            "074 2520169"
+                        ]
+                    },
+                    {
+                        "city": "Bago",
+                        "phone": [
+                            "052 2201078",
+                            "052 2201080",
+                            "052 2201081"
+                        ]
+                    },
+                    {
+                        "city": "Meikhtila",
+                        "phone": [
+                            "064 25232",
+                            "064 24132"
+                        ]
+                    },
+                    {
+                        "city": "Pyay",
+                        "phone": [
+                            "053 24037",
+                            "053 24516",
+                            "053 25643"
+                        ]
+                    },
+                    {
+                        "city": "Sittwe",
+                        "phone": [
+                            "043 22026",
+                            "043 22027",
+                            "043 22028"
+                        ]
+                    },
+                    {
+                        "city": "Pakokku",
+                        "phone": [
+                            "062 2024009",
+                            "062 2024010",
+                            "062 2024011"
+                        ]
+                    },
+                    {
+                        "city": "Myingyan",
+                        "phone": [
+                            "066 2021985"
+                        ],
+                        "fax": "066 2022327"
+                    },
+                    {
+                        "city": "Kalay",
+                        "phone": [
+                            "073 22844~46"
+                        ]
+                    },
+                    {
+                        "city": "Tachileik",
+                        "phone": [
+                            "084 2051870",
+                            "084 2051907",
+                            "084 2052926"
+                        ]
+                    },
+                    {
+                        "city": "Hinthada",
+                        "phone": [
+                            "044 2022862~64"
+                        ]
+                    },
+                    {
+                        "city": "Taungoo",
+                        "phone": [
+                            "054 2823189",
+                            "054 2823378",
+                            "054 2823738"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+]

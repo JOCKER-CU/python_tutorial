@@ -1,0 +1,21 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>pid integer\rProcess ID of a backend</td>
+    </tr>
+    <tr>
+      <td>gss_authenticated boolean\rTrue if GSSAPI authentication was used for this connection</td>
+    </tr>
+    <tr>
+      <td>principal text\rPrincipal used to authenticate this connection, or NULL if GSSAPI was not used to authenti-\rcate this connection. This field is truncated if the principal is longer than NAMEDATALEN (64\rcharacters in a standard build).</td>
+    </tr>
+    <tr>
+      <td>encrypted boolean\rTrue if GSSAPI encryption is in use on this connection</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,36 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>If you want to use streaming replication, fill in primary_conninfo with a libpq connection string, including</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>the host name (or IP address) and any additional details needed to connect to the primary server. If the</td>
+    </tr>
+    <tr>
+      <td>primary needs a password for authentication, the password needs to be specified in primary_conninfo as</td>
+    </tr>
+    <tr>
+      <td>well.</td>
+    </tr>
+    <tr>
+      <td>If you're setting up the standby server for high availability purposes, set up WAL archiving, connections</td>
+    </tr>
+    <tr>
+      <td>and authentication like the primary server, because the standby server will work as a primary server after</td>
+    </tr>
+    <tr>
+      <td>failover.</td>
+    </tr>
+    <tr>
+      <td>If you're using a WAL archive, its size can be minimized using the archive_cleanup_command parameter</td>
+    </tr>
+    <tr>
+      <td>to remove files that are no longer required by the standby server. The pg_archivecleanup utility is designed</td>
+    </tr>
+    <tr>
+      <td>specifically to be used with archive_cleanup_command in typical single-standby configurations,</td>
+    </tr>
+  </tbody>
+</table>

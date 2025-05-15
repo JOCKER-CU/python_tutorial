@@ -1,0 +1,54 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>clude/catalog/ directory of the source tree. For each catalog there is a header file named after the</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>catalog (e.g., pg_class.h for pg_class), which defines the set of columns the catalog has, as well</td>
+    </tr>
+    <tr>
+      <td>as some other basic properties such as its OID.</td>
+    </tr>
+    <tr>
+      <td>Many of the catalogs have initial data that must be loaded into them during the “bootstrap” phase of init-</td>
+    </tr>
+    <tr>
+      <td>db, to bring the system up to a point where it is capable of executing SQL commands. (For example,</td>
+    </tr>
+    <tr>
+      <td>pg_class.h must contain an entry for itself, as well as one for each other system catalog and index.)</td>
+    </tr>
+    <tr>
+      <td>This initial data is kept in editable form in data files that are also stored in the src/include/cata-</td>
+    </tr>
+    <tr>
+      <td>log/ directory. For example, pg_proc.dat describes all the initial rows that must be inserted into the</td>
+    </tr>
+    <tr>
+      <td>pg_proc catalog.</td>
+    </tr>
+    <tr>
+      <td>To create the catalog files and load this initial data into them, a backend running in bootstrap mode reads</td>
+    </tr>
+    <tr>
+      <td>a BKI (Backend Interface) file containing commands and initial data. The postgres.bki file used</td>
+    </tr>
+    <tr>
+      <td>in this mode is prepared from the aforementioned header and data files, while building a PostgreSQL</td>
+    </tr>
+    <tr>
+      <td>distribution, by a Perl script named genbki.pl. Although it's specific to a particular PostgreSQL release,</td>
+    </tr>
+    <tr>
+      <td>postgres.bki is platform-independent and is installed in the share subdirectory of the installation</td>
+    </tr>
+    <tr>
+      <td>tree.</td>
+    </tr>
+    <tr>
+      <td>genbki.pl also produces a derived header file for each catalog, for example pg_class_d.h for the</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,41 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Decimal OctetValue</th>
+      <th>Description</th>
+      <th>Escaped InputRepresentation</th>
+      <th>Example</th>
+      <th>Hex Representa-tion</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>zero octet</td>
+      <td>'\000'</td>
+      <td>'\000'::bytea</td>
+      <td>\x00</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>single quote</td>
+      <td>'''' or '\047'</td>
+      <td>''''::bytea</td>
+      <td>\x27</td>
+    </tr>
+    <tr>
+      <td>92</td>
+      <td>backslash</td>
+      <td>'\\' or '\134'</td>
+      <td>'\\'::bytea</td>
+      <td>\x5c</td>
+    </tr>
+    <tr>
+      <td>0 to 31 and 127 to\r255</td>
+      <td>“non-printable”\roctets</td>
+      <td>'\xxx' (octal\rvalue)</td>
+      <td>'\001'::bytea</td>
+      <td>\x01</td>
+    </tr>
+  </tbody>
+</table>

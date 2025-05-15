@@ -1,0 +1,74 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>row4  | row2|</th>
+      <th>1 | row2~row4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>row6  | row4|</td>
+      <td>2 | row2~row4~row6</td>
+    </tr>
+    <tr>
+      <td>row8  | row6|</td>
+      <td>3 | row2~row4~row6~row8</td>
+    </tr>
+    <tr>
+      <td>row5  | row2|</td>
+      <td>1 | row2~row5</td>
+    </tr>
+    <tr>
+      <td>row9  | row5|</td>
+      <td>2 | row2~row5~row9</td>
+    </tr>
+    <tr>
+      <td>(6 rows)</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>-- without branch, without orderby_fld (order of re</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>guaranteed)</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>SELECT * FROM connectby('connectby_tree', 'keyid',</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>'row2', 0)</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>AS t(keyid text, parent_keyid text, level int);</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>keyid | parent_keyid | level</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>-------+--------------+-------</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>row2  ||</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>row4  | row2|</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>row6  | row4|</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>row8  | row6|</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>

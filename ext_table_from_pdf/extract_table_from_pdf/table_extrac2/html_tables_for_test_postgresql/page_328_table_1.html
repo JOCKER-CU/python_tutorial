@@ -1,0 +1,33 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Unlike the case for normal aggregates, the sorting of input rows for an ordered-set aggregate is not done</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>behind the scenes, but is the responsibility of the aggregate's support functions. The typical implementation</td>
+    </tr>
+    <tr>
+      <td>approach is to keep a reference to a “tuplesort” object in the aggregate's state value, feed the incoming rows</td>
+    </tr>
+    <tr>
+      <td>into that object, and then complete the sorting and read out the data in the final function. This design allows</td>
+    </tr>
+    <tr>
+      <td>the final function to perform special operations such as injecting additional “hypothetical” rows into the</td>
+    </tr>
+    <tr>
+      <td>data to be sorted. While normal aggregates can often be implemented with support functions written in</td>
+    </tr>
+    <tr>
+      <td>PL/pgSQL or another PL language, ordered-set aggregates generally have to be written in C, since their</td>
+    </tr>
+    <tr>
+      <td>state values aren't definable as any SQL data type. (In the above example, notice that the state value is</td>
+    </tr>
+    <tr>
+      <td>declared as type internal — this is typical.) Also, because the final function performs the sort, it is</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,318 @@
+[
+    [
+        {
+            "Travel Protect Insurance": {
+                "Description": "Embark on Your Journey with confidence—Our Protection has you covered! Whether it’s a round trip or one-way adventure, starting or ending in Myanmar, we ensure peace of mind every step of the way."
+            }
+        },
+        {
+            "KBZMS Travel Protect": {
+                "Coverage": [
+                    "Accidental Death and Permanent Disablement",
+                    "Medical Related Expenses",
+                    "Dead Body Repatriation"
+                ]
+            }
+        },
+        {
+            "Additional Covers": [
+                "Additional Infectious Diseases Cover (including COVID-19)",
+                "Baggage Delay",
+                "Baggage Loss/Damage",
+                "Flight Delay",
+                "Trip Cancellation",
+                "Personal Liability"
+            ]
+        },
+        {
+            "Basic": {
+                "Premium (per day)": {
+                    "Silver Package": "1,700 MMK",
+                    "Gold Package": "2,500 MMK",
+                    "Platinum Package": "3,400 MMK"
+                },
+                "Accidental Death & Permanent Disability": {
+                    "Silver Package": "Up to MMK 10,000,000",
+                    "Gold Package": "Up to MMK 30,000,000",
+                    "Platinum Package": "Up to MMK 50,000,000"
+                },
+                "Medical Related Expense": {
+                    "Silver Package": "Up to MMK 50,000,000",
+                    "Gold Package": "Up to MMK 100,000,000",
+                    "Platinum Package": "Up to MMK 150,000,000"
+                },
+                "Emergency Medical Evacuation": "Shall not exceed 500,000 MMK per individual.",
+                "Dead Body Repatriation": {
+                    "Silver Package": "Up to MMK 10,000,000",
+                    "Gold Package": "Up to MMK 30,000,000",
+                    "Platinum Package": "Up to MMK 50,000,000"
+                }
+            },
+            "Option 1": {
+                "Premium (per day)": {
+                    "Silver Package": "500 MMK",
+                    "Gold Package": "700 MMK",
+                    "Platinum Package": "1,000 MMK"
+                },
+                "Additional Infectious Diseases Cover (Including COVID-19)": "Same as Benefit No.2"
+            },
+            "Option 2": {
+                "Premium (per policy)": {
+                    "Silver Package": "1,000 MMK",
+                    "Gold Package": "1,000 MMK",
+                    "Platinum Package": "1,000 MMK"
+                },
+                "Baggage Delay": {
+                    "Description": "MMK 50,000 for every 6 full consecutive hours if your check-in baggage is delayed upon arrival at the scheduled destination",
+                    "Silver Package": "Up to MMK 300,000",
+                    "Gold Package": "Up to MMK 400,000",
+                    "Platinum Package": "Up to MMK 500,000"
+                }
+            },
+            "Option 3": {
+                "Premium (per day)": {
+                    "Silver Package": "1,400 MMK",
+                    "Gold Package": "1,500 MMK",
+                    "Platinum Package": "2,000 MMK"
+                },
+                "Baggage Loss/Damage": {
+                    "Description": "Maximum MMK 200,000 for any one article, pair or set of articles",
+                    "Silver Package": "Up to MMK 1,000,000",
+                    "Gold Package": "Up to MMK 1,500,000",
+                    "Platinum Package": "Up to MMK 2,000,000"
+                }
+            },
+            "Option 4": {
+                "Premium (per day)": {
+                    "Silver Package": "3,000 MMK",
+                    "Gold Package": "3,000 MMK",
+                    "Platinum Package": "3,000 MMK"
+                },
+                "Flight Delay": {
+                    "Description": "MMK 50,000 for every 6 full consecutive hours delay and MMK 100,000 for every 6 full consecutive hours thereafter",
+                    "Silver Package": "Up to MMK 1,000,000",
+                    "Gold Package": "Up to MMK 1,500,000",
+                    "Platinum Package": "Up to MMK 2,000,000"
+                }
+            },
+            "Option 5": {
+                "Premium (per policy)": {
+                    "Silver Package": "400 MMK",
+                    "Gold Package": "400 MMK",
+                    "Platinum Package": "400 MMK"
+                },
+                "Trip Cancellation": {
+                    "Description": "Including due to tested positive COVID-19",
+                    "Silver Package": "Up to MMK 1,000,000",
+                    "Gold Package": "Up to MMK 1,500,000",
+                    "Platinum Package": "Up to MMK 2,000,000"
+                }
+            },
+            "Option 6": {
+                "Premium (per day)": {
+                    "Silver Package": "400 MMK",
+                    "Gold Package": "400 MMK",
+                    "Platinum Package": "400 MMK"
+                },
+                "Personal Liability": {
+                    "Description": "Legal liability for accidents resulting in bodily injuries or damage to property of third parties",
+                    "Coverage": "Up to MMK 100,000,000",
+                    "Deductible": "MMK 2,500,000"
+                }
+            },
+            "Important Notes": {
+                "1": "Optional Covers can only be bought along with the Basic Covers and cannot be bought in isolation or separate.",
+                "2": "Travelling by any other modes except flight are not eligible to purchase Optional 2, 3 and 4."
+            }
+        },
+        {
+            "Insurance Eligibility": {
+                "What can be insured": {
+                    "Domestic and Overseas Trips": [
+                        "Round trip (Must begin and end in Myanmar)",
+                        "One-way trip (Must begin or end in Myanmar)"
+                    ]
+                },
+                "Who can purchase": "30 days to 70 years old travelers (including foreigners) who travel domestically or abroad by flight, vessel, private vehicle or chartered vehicle; passengers (including foreigners) traveling on public transport lines."
+            },
+            "Period of Insurance": {
+                "Round trip": "Minimum 1 day to Maximum 30 days (can be extended one time for an additional 30 days from the expiry of the original period, must request the extension 3 days in advance)",
+                "One-way trip": "Maximum 3 days"
+            }
+        }
+    ],
+    [
+        {
+            "Motor_Vehicle_Insurance": {
+                "Description": "Hit the road with assurance! Our motor insurance not only shields your car from damage but also boosts your confidence, knowing you're protected from all angles."
+            }
+        },
+        {
+            "Product_Highlights": {
+                "Coverage": [
+                    "Loss or Damage to Your Vehicle",
+                    "Liability to Third Parties",
+                    "Personal Accident and Medical Treatment Fee"
+                ],
+                "Basic_Premium": {
+                    "Description": "Minimum of 1.072% to Maximum of 1.734% of the sum insured amount"
+                }
+            }
+        },
+    
+        {
+            "Loading_Premium": {
+                "Description": "Maximum of 10% of the total premium, depending on utilization in a risk area and claim experience"
+            },
+            "Excess": {
+                "Description": "Excess is the first amount that Insured has to bear in respect of each and every claim under the Policy."
+            }
+        },
+        {
+            "Covers": {
+                "Loss_or_Damage_to_Your_Vehicle": {
+                    "Accidental_collision_or_overturning": "",
+                    "Collision_or_overturning_caused_by_mechanical_breakdown": "",
+                    "Collision_or_overturning_caused_by_wear_and_tear": "Cost of Repair or Replacement (Up to Market Value or Sum Insured Amount whichever is lesser)",
+                    "Fire_external_explosion_self-ignition_or_lighting": "",
+                    "Of_mischief_malicious_act": "",
+                    "Impact_damage_caused_by_falling_objects_provided_no_convulsions_of_nature_is_involved": "",
+                    "Towing_Fee": "Up to 300,000 MMK"
+                },
+                "Liability_to_Third_Parties": {
+                    "Common_Limit": "Up to 50,000,000 MMK",
+                    "Bodily_Injury_or_Death_or_Disability": "Up to 3,000,000 MMK per person",
+                    "Legal_Costs": "Up to 500,000 MMK",
+                    "Medical_Treatment": "25,000 MMK per week (Up to 52 weeks)"
+                },
+                "Personal_Accident_and_Medical_Treatment": {
+                    "Common_Limit": "Up to 50,000,000 MMK",
+                    "Bodily_Injury_or_Death_or_Disability": "Up to 3,000,000 MMK per person",
+                    "Medical_Treatment": "25,000 MMK per week (Up to 52 weeks)"
+                }
+            }
+        },
+        {
+            "Additional_Covers": {
+                "Windscreen_Damage": {
+                    "Description": "Compulsory",
+                    "Premium_Rate": "6.5% of the value of windscreen"
+                },
+                "Strike_Riots_Civil_Commotion_Risk": {
+                    "Description": "Compulsory",
+                    "Premium_Rate": "0.065% of the sum insured"
+                },
+                "Theft": {
+                    "Premium_Rate": "15% of the basic premium"
+                },
+                "Betterment": {
+                    "Premium_Rate": "30% on basic premium"
+                },
+                "War_Risk": {
+                    "Premium_Rate": "0.065% of the sum insured"
+                },
+                "Acts_of_God": {
+                    "Premium_Rate": "0.065% of the sum insured"
+                }
+            }
+        },
+        {
+            "Fleet_Discount": {
+                "Description": "10% discount on the basis premium when 10 vehicles and above is insured simultaneously"
+            },
+            "No_Claim_Bonus_(NCB)": {
+                "Description": "If there is no claim for a continuous period of 12 months, NCB will be applied at each renewal. The applicable NCB ranges from 25% – 40% for Private vehicle and 15% – 25% for Commercial Vehicle depending on the no claim period.",
+                "Note": "NCB is personal to the Insured and not transferable."
+            },
+            "Insurance_Eligibility": {
+                "What_can_be_insured": "Any vehicle that is legally registered with the Road Transport Administrative Department can be insured.",
+                "Period_of_Insurance": [
+                    "3 months",
+                    "6 months",
+                    "9 months",
+                    "1 year"
+                ]
+            }
+        }
+    ],
+    [
+        {
+            "Health_Insurance": {
+                "Description": "Your health is your most important asset. Protect yourself and your family from medical and surgical expenses with our Health Insurance."
+            }
+        },
+        {
+            "Product_Highlights": {
+                "Health_Insurance": {
+                    "Description": "This health insurance plan offers affordable premiums and flexible installment options to help mitigate medical costs for people in Myanmar, covering hospitalization, surgery, and death."
+                }
+            }
+        },
+        {
+            "Basic Cover (1 unit)": {
+                "6 ~ 30": {
+                    "Individual": 11000,
+                    "Group": 10500
+                },
+                "31 ~ 40": {
+                    "Individual": 14300,
+                    "Group": 13600
+                },
+                "41 ~ 50": {
+                    "Individual": 17600,
+                    "Group": 16700
+                },
+                "51 ~ 60": {
+                    "Individual": 28600,
+                    "Group": 27200
+                },
+                "61 ~ 75": {
+                    "Individual": 61600,
+                    "Group": 58500
+                }
+            },
+            "Optional Cover (1) (1 unit)": {
+                "6 ~ 75": {
+                    "Individual": 16500,
+                    "Group": 15700
+                }
+            },
+            "Optional Cover (2) (1 unit)": {
+                "6 ~ 75": {
+                    "Individual": 8800,
+                    "Group": 8400
+                }
+            },
+            "Remarks": [
+                "All covers can be purchased together.",
+                "Basic Cover can be purchased independently.",
+                "Optional Covers cannot be purchased separately.",
+                "Optional Covers can be purchased up to number of purchased Basic Covers unit."
+            ]
+        },
+        {
+            "Available Units": "Up to 25 units"
+        },
+        {
+            "Basic Cover": {
+                "Hospitalization due to illness or accident": "10,000 MMK per unit per day (Up to 60 days)",
+                "Death": "1,000,000 MMK per unit"
+            },
+            "Optional Cover (1)": {
+                "Surgical expenses": "Actual incurred surgical expenses (Up to 500,000 MMK per unit)",
+                "Medical expenses for miscarriage": "300,000 MMK (Unrelated to unit purchased)"
+            },
+            "Optional Cover (2)": {
+                "Clinical and hospital treatment expenses": "2,500 MMK per unit per hospital/clinic visit (Up to 10,000 MMK)"
+            }
+        },
+        {
+            "Insurance Eligibility": {
+                "Who can be Insured": "6 to 75 years old, who are in good health",
+                "Under 18 years old": "the guardian is required"
+            },
+            "Period of Insurance": "1 year"
+        }
+    ],
+    []
+]

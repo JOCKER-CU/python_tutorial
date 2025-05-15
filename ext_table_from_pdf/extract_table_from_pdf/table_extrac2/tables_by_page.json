@@ -1,0 +1,503 @@
+{
+    "1": [
+        [
+            {
+                "\uf8eb": "cosm\u03b81",
+                "Unnamed: 0": "\u2212sinm\u03b81",
+                "Unnamed: 1": "0",
+                "Unnamed: 2": "0",
+                "Unnamed: 3": "\u00b7 \u00b7 \u00b7",
+                "Unnamed: 4": "0",
+                "Unnamed: 5": "0",
+                "Unnamed: 6": NaN,
+                "\uf8f6": NaN,
+                "Unnamed: 7": NaN
+            },
+            {
+                "\uf8eb": "\uf8ecsinm\u03b81",
+                "Unnamed: 0": "cosm\u03b81",
+                "Unnamed: 1": "0",
+                "Unnamed: 2": "0",
+                "Unnamed: 3": "\u00b7 \u00b7 \u00b7",
+                "Unnamed: 4": "0",
+                "Unnamed: 5": "0",
+                "Unnamed: 6": NaN,
+                "\uf8f6": "\uf8f7",
+                "Unnamed: 7": NaN
+            },
+            {
+                "\uf8eb": "\uf8ec",
+                "Unnamed: 0": NaN,
+                "Unnamed: 1": NaN,
+                "Unnamed: 2": NaN,
+                "Unnamed: 3": NaN,
+                "Unnamed: 4": NaN,
+                "Unnamed: 5": NaN,
+                "Unnamed: 6": NaN,
+                "\uf8f6": "\uf8f7",
+                "Unnamed: 7": NaN
+            },
+            {
+                "\uf8eb": "\uf8ec 0",
+                "Unnamed: 0": "0",
+                "Unnamed: 1": "cosm\u03b82",
+                "Unnamed: 2": "\u2212sinm\u03b82",
+                "Unnamed: 3": "\u00b7 \u00b7 \u00b7",
+                "Unnamed: 4": "0",
+                "Unnamed: 5": "0",
+                "Unnamed: 6": NaN,
+                "\uf8f6": "\uf8f7",
+                "Unnamed: 7": NaN
+            },
+            {
+                "\uf8eb": "fW(xm,m, \u03b8d) = \uf8ec",
+                "Unnamed: 0": NaN,
+                "Unnamed: 1": NaN,
+                "Unnamed: 2": NaN,
+                "Unnamed: 3": NaN,
+                "Unnamed: 4": NaN,
+                "Unnamed: 5": NaN,
+                "Unnamed: 6": NaN,
+                "\uf8f6": "\uf8f7Wx",
+                "Unnamed: 7": ","
+            },
+            {
+                "\uf8eb": "\uf8ec 0",
+                "Unnamed: 0": "0",
+                "Unnamed: 1": "sinm\u03b82",
+                "Unnamed: 2": "cosm\u03b82",
+                "Unnamed: 3": "\u00b7 \u00b7 \u00b7",
+                "Unnamed: 4": "0",
+                "Unnamed: 5": "0",
+                "Unnamed: 6": NaN,
+                "\uf8f6": "m\uf8f7",
+                "Unnamed: 7": NaN
+            },
+            {
+                "\uf8eb": "\uf8ed 0",
+                "Unnamed: 0": "0",
+                "Unnamed: 1": "0",
+                "Unnamed: 2": "0",
+                "Unnamed: 3": "\u00b7 \u00b7 \u00b7",
+                "Unnamed: 4": "cosm\u03b8l",
+                "Unnamed: 5": "\u2212sinm\u03b8l",
+                "Unnamed: 6": NaN,
+                "\uf8f6": "\uf8f8",
+                "Unnamed: 7": NaN
+            },
+            {
+                "\uf8eb": "0",
+                "Unnamed: 0": "0",
+                "Unnamed: 1": "0",
+                "Unnamed: 2": "0",
+                "Unnamed: 3": "\u00b7 \u00b7 \u00b7",
+                "Unnamed: 4": "sinm\u03b8l",
+                "Unnamed: 5": "cosm\u03b8l",
+                "Unnamed: 6": NaN,
+                "\uf8f6": NaN,
+                "Unnamed: 7": NaN
+            }
+        ]
+    ],
+    "2": [
+        [
+            {
+                "Extension": "Method",
+                "Trained": "Tokens",
+                "Context": "Window",
+                "Evaluation Context Window Size": "2048 4096 6144 8192 10240"
+            },
+            {
+                "Extension": "PI (s = 2)",
+                "Trained": "1B",
+                "Context": "8k",
+                "Evaluation Context Window Size": "3.92 3.51 3.51 3.34 8.07"
+            },
+            {
+                "Extension": "NTK (\u03b8 = 20k)",
+                "Trained": "1B",
+                "Context": "8k",
+                "Evaluation Context Window Size": "4.20 3.75 3.74 3.59 6.24"
+            },
+            {
+                "Extension": "YaRN (s = 2)",
+                "Trained": "400M",
+                "Context": "8k",
+                "Evaluation Context Window Size": "3.91 3.50 3.51 3.35 6.04"
+            }
+        ]
+    ],
+    "3": [
+        [
+            {
+                "Model": "Size",
+                "Model.1": "Name",
+                "Context": "Window",
+                "Extension": "Method",
+                "Evaluation Context Window Size": "8192 32768 65536 98304 131072"
+            },
+            {
+                "Model": "7B",
+                "Model.1": "Together",
+                "Context": "32k",
+                "Extension": "PI",
+                "Evaluation Context Window Size": "3.50 2.64 > 102 > 103 > 104"
+            },
+            {
+                "Model": "7B",
+                "Model.1": "Code Llama",
+                "Context": "100k",
+                "Extension": "NTK",
+                "Evaluation Context Window Size": "3.71 2.74 2.55 2.54 2.71"
+            },
+            {
+                "Model": "7B",
+                "Model.1": "YaRN (s = 16)",
+                "Context": "64k",
+                "Extension": "YaRN",
+                "Evaluation Context Window Size": "3.51 2.65 2.42 > 101 > 101"
+            },
+            {
+                "Model": "7B",
+                "Model.1": "YaRN (s = 32)",
+                "Context": "128k",
+                "Extension": "YaRN",
+                "Evaluation Context Window Size": "3.56 2.70 2.45 2.36 2.37"
+            },
+            {
+                "Model": "13B",
+                "Model.1": "Code Llama",
+                "Context": "100k",
+                "Extension": "NTK",
+                "Evaluation Context Window Size": "3.54 2.63 2.41 2.37 2.54"
+            },
+            {
+                "Model": "13B",
+                "Model.1": "YaRN (s = 16)",
+                "Context": "64k",
+                "Extension": "YaRN",
+                "Evaluation Context Window Size": "3.25 2.50 2.29 > 101 > 101"
+            },
+            {
+                "Model": "13B",
+                "Model.1": "YaRN (s = 32)",
+                "Context": "128k",
+                "Extension": "YaRN",
+                "Evaluation Context Window Size": "3.29 2.53 2.31 2.23 2.24"
+            }
+        ]
+    ],
+    "4": [
+        [
+            {
+                "Model": NaN,
+                "Model.1": NaN,
+                "Context": NaN,
+                "Extension": NaN,
+                "Unnamed: 0": "ARC-c",
+                "Unnamed: 1": "Hellaswag",
+                "Unnamed: 2": "MMLU",
+                "Unnamed: 3": "TruthfulQA"
+            },
+            {
+                "Model": "Size",
+                "Model.1": "Name",
+                "Context": "Window",
+                "Extension": "Method",
+                "Unnamed: 0": NaN,
+                "Unnamed: 1": NaN,
+                "Unnamed: 2": NaN,
+                "Unnamed: 3": NaN
+            }
+        ]
+    ],
+    "5": [
+        [
+            {
+                "[1]": "[2]",
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "Introducing Qwen-7B: Open foundation and human-aligned models (of the state-of-the-arts)."
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "URL https://github.com/QwenLM/Qwen-7B/blob/main/tech_memo.md."
+            },
+            {
+                "[1]": "[3]",
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "Long-data collections. URL https://huggingface.co/datasets/togethercomputer/"
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "Long-Data-Collections."
+            },
+            {
+                "[1]": "[4]",
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "Z. Azerbayev, E. Ayers, , and B. Piotrowski. Proof-pile, 2022. URL https://github.com/"
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "zhangir-azerbayev/proof-pile."
+            },
+            {
+                "[1]": "[5]",
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "S. Black, S. Biderman, E. Hallahan, Q. Anthony, L. Gao, L. Golding, H. He, C. Leahy,"
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "K. McDonell, J. Phang, M. Pieler, U. S. Prashanth, S. Purohit, L. Reynolds, J. Tow, B. Wang,"
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "and S. Weinbach. GPT-NeoX-20B: An open-source autoregressive language model, 2022."
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "arXiv: 2204.06745."
+            },
+            {
+                "[1]": "[6]",
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "bloc97. NTK-Aware Scaled RoPE allows LLaMA models to have extended"
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "(8k+) context size without any fine-tuning and minimal perplexity degradation.,"
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "2023. URL https://www.reddit.com/r/LocalLLaMA/comments/14lz7j5/ntkaware_"
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "scaled_rope_allows_llama_models_to_have/."
+            },
+            {
+                "[1]": "[7]",
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "bloc97. Add NTK-Aware interpolation \"by parts\" correction, 2023. URL https://github"
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "com/jquesnelle/scaled-rope/pull/1."
+            },
+            {
+                "[1]": "[8]",
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "C. Chen. Transformer Inference Arithmetic, 2022. URL https://kipp.ly/blog/"
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "transformer-inference-arithmetic/."
+            },
+            {
+                "[1]": "[9]",
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "S. Chen, S. Wong, L. Chen, and Y. Tian. Extending context window of large language models"
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "via positional interpolation, 2023. arXiv: 2306.15595."
+            },
+            {
+                "[1]": "[10]",
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "A. Chowdhery, S. Narang, J. Devlin, M. Bosma, G. Mishra, A. Roberts, P. Barham, H. W."
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "Chung, C. Sutton, S. Gehrmann, P. Schuh, K. Shi, S. Tsvyashchenko, J. Maynez, A. Rao,"
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "P. Barnes, Y. Tay, N. Shazeer, V. Prabhakaran, E. Reif, N. Du, B. Hutchinson, R. Pope,"
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "J. Bradbury, J. Austin, M. Isard, G. Gur-Ari, P. Yin, T. Duke, A. Levskaya, S. Ghemawat,"
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "S. Dev, H. Michalewski, X. Garcia, V. Misra, K. Robinson, L. Fedus, D. Zhou, D. Ippolito,"
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "D. Luan, H. Lim, B. Zoph, A. Spiridonov, R. Sepassi, D. Dohan, S. Agrawal, M. Omernick,"
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "A. M. Dai, T. S. Pillai, M. Pellat, A. Lewkowycz, E. Moreira, R. Child, O. Polozov, K. Lee,"
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "Z. Zhou, X. Wang, B. Saeta, M. Diaz, O. Firat, M. Catasta, J. Wei, K. Meier-Hellstern, D. Eck,"
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "J. Dean, S. Petrov, and N. Fiedel. PaLM: Scaling language modeling with pathways, 2022."
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "arXiv: 2204.02311."
+            },
+            {
+                "[1]": "[11]",
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "P. Clark, I. Cowhey, O. Etzioni, T. Khot, A. Sabharwal, C. Schoenick, and O. Tafjord. Think"
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "you have solved question answering? try ARC, the AI2 Reasoning Challenge, 2018. arXiv:"
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "1803.05457."
+            },
+            {
+                "[1]": "[12]",
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "T. Computer. Redpajama: An open source recipe to reproduce llama training dataset, 2023."
+            },
+            {
+                "[1]": NaN,
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "URL https://github.com/togethercomputer/RedPajama-Data."
+            },
+            {
+                "[1]": "[13]",
+                "Mistrallite. URL https://huggingface.co/amazon/MistralLite.": "T. Dao. Flashattention-2: Faster attention with better parallelism and work partitioning, 2023."
+            }
+        ]
+    ],
+    "6": [
+        [
+            {
+                "Model": NaN,
+                "Model.1": NaN,
+                "Context": NaN,
+                "Extension": NaN,
+                "Unnamed: 0": "Perplexity"
+            },
+            {
+                "Model": "Size",
+                "Model.1": "Name",
+                "Context": "Window",
+                "Extension": "Method",
+                "Unnamed: 0": NaN
+            }
+        ]
+    ],
+    "7": [
+        [
+            {
+                "Model": "Size",
+                "Model.1": "Name",
+                "Scaling": "Factor (s)",
+                "Context": "Window",
+                "Training": "Data Context",
+                "Extension": "Method",
+                "Passkey": "Context",
+                "Passkey.1": "Accuracy"
+            },
+            {
+                "Model": "7B",
+                "Model.1": "Together",
+                "Scaling": "4",
+                "Context": "32k",
+                "Training": "32k",
+                "Extension": "PI",
+                "Passkey": "32k",
+                "Passkey.1": "100%"
+            },
+            {
+                "Model": "7B",
+                "Model.1": "Code Llama",
+                "Scaling": "88.6",
+                "Context": "100k",
+                "Training": "16k",
+                "Extension": "NTK",
+                "Passkey": "112k",
+                "Passkey.1": "94.3%"
+            },
+            {
+                "Model": "7B",
+                "Model.1": "YaRN",
+                "Scaling": "16",
+                "Context": "64k",
+                "Training": "64k",
+                "Extension": "YaRN",
+                "Passkey": "64k",
+                "Passkey.1": "96.3%"
+            },
+            {
+                "Model": "7B",
+                "Model.1": "YaRN",
+                "Scaling": "32",
+                "Context": "128k",
+                "Training": "64k",
+                "Extension": "YaRN",
+                "Passkey": "128k",
+                "Passkey.1": "99.4%"
+            },
+            {
+                "Model": "13B",
+                "Model.1": "Code Llama",
+                "Scaling": "88.6",
+                "Context": "100k",
+                "Training": "16k",
+                "Extension": "NTK",
+                "Passkey": "128k",
+                "Passkey.1": "99.4%"
+            },
+            {
+                "Model": "13B",
+                "Model.1": "YaRN",
+                "Scaling": "16",
+                "Context": "64k",
+                "Training": "64k",
+                "Extension": "YaRN",
+                "Passkey": "64k",
+                "Passkey.1": "97.5%"
+            },
+            {
+                "Model": "13B",
+                "Model.1": "YaRN",
+                "Scaling": "32",
+                "Context": "128k",
+                "Training": "64k",
+                "Extension": "YaRN",
+                "Passkey": "128k",
+                "Passkey.1": "99.4%"
+            }
+        ]
+    ],
+    "8": [
+        [
+            {
+                "Model": "Size",
+                "Model.1": "Name",
+                "Context": "Window",
+                "Extension": "Method",
+                "Evaluation Context Window Size": "4096 8192 16384 65536 131072"
+            },
+            {
+                "Model": "7B",
+                "Model.1": "Mistral v0.1",
+                "Context": "8k",
+                "Extension": "-",
+                "Evaluation Context Window Size": "3.09 2.96 36.8 > 103 > 103"
+            },
+            {
+                "Model": "7B",
+                "Model.1": "MistralLite",
+                "Context": "16k",
+                "Extension": "NTK",
+                "Evaluation Context Window Size": "3.26 3.13 47.3 > 103 > 103"
+            },
+            {
+                "Model": "7B",
+                "Model.1": "YaRN (s = 8)",
+                "Context": "64k",
+                "Extension": "YaRN",
+                "Evaluation Context Window Size": "3.18 3.04 2.65 2.20 57.4"
+            },
+            {
+                "Model": "7B",
+                "Model.1": "YaRN (s = 16)",
+                "Context": "128k",
+                "Extension": "YaRN",
+                "Evaluation Context Window Size": "3.21 3.08 2.68 2.24 2.19"
+            }
+        ]
+    ]
+}

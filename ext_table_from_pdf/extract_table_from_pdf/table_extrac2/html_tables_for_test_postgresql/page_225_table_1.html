@@ -1,0 +1,54 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Lock Wait Event</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>advisory</td>
+      <td>Waiting to acquire an advisory user lock.</td>
+    </tr>
+    <tr>
+      <td>extend</td>
+      <td>Waiting to extend a relation.</td>
+    </tr>
+    <tr>
+      <td>frozenid</td>
+      <td>Waiting to update pg_database.dat-\rfrozenxid and pg_database.datminmxid.</td>
+    </tr>
+    <tr>
+      <td>object</td>
+      <td>Waiting to acquire a lock on a non-relation data-\rbase object.</td>
+    </tr>
+    <tr>
+      <td>page</td>
+      <td>Waiting to acquire a lock on a page of a relation.</td>
+    </tr>
+    <tr>
+      <td>relation</td>
+      <td>Waiting to acquire a lock on a relation.</td>
+    </tr>
+    <tr>
+      <td>spectoken</td>
+      <td>Waiting to acquire a speculative insertion lock.</td>
+    </tr>
+    <tr>
+      <td>transactionid</td>
+      <td>Waiting for a transaction to finish.</td>
+    </tr>
+    <tr>
+      <td>tuple</td>
+      <td>Waiting to acquire a lock on a tuple.</td>
+    </tr>
+    <tr>
+      <td>userlock</td>
+      <td>Waiting to acquire a user lock.</td>
+    </tr>
+    <tr>
+      <td>virtualxid</td>
+      <td>Waiting to acquire a virtual transaction ID lock.</td>
+    </tr>
+  </tbody>
+</table>

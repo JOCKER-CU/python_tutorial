@@ -1,0 +1,22 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Phase</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>initializing</td>
+      <td>CREATE INDEX or REINDEX is preparing to create the index.\rThis phase is expected to be very brief.</td>
+    </tr>
+    <tr>
+      <td>waiting for writers\rbefore build</td>
+      <td>CREATE INDEX CONCURRENTLY or REINDEX CONCUR-\rRENTLY is waiting for transactions with write locks that can poten-\rtially see the table to finish. This phase is skipped when not in con-\rcurrent mode. Columns lockers_total, lockers_done and\rcurrent_locker_pid contain the progress information for this\rphase.</td>
+    </tr>
+    <tr>
+      <td>building index</td>
+      <td>The index is being built by the access method-specific code. In\rthis phase, access methods that support progress reporting fill in\rtheir own progress data, and the subphase is indicated in this col-\rumn. Typically, blocks_total and blocks_done will con-\rtain progress data, as well as potentially tuples_total and tu-\rples_done.</td>
+    </tr>
+  </tbody>
+</table>

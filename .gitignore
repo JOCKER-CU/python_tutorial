@@ -1,0 +1,9 @@
+# Virtual environment
+.venv/
+**/Lib/
+**/__pycache__/
+*.dll
+*.lib
+*.pyd
+*.so
+*.pyc

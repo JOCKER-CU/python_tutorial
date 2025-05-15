@@ -1,0 +1,41 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>object_type</td>
+      <td>text</td>
+      <td>Type of the object</td>
+    </tr>
+    <tr>
+      <td>schema_name</td>
+      <td>text</td>
+      <td>Name of the schema the object\rbelonged in, if any; otherwise\rNULL. No quoting is applied.</td>
+    </tr>
+    <tr>
+      <td>object_name</td>
+      <td>text</td>
+      <td>Name of the object, if the combi-\rnation of schema and name can\rbe used as a unique identifier for\rthe object; otherwise NULL. No\rquoting is applied, and name is\rnever schema-qualified.</td>
+    </tr>
+    <tr>
+      <td>object_identity</td>
+      <td>text</td>
+      <td>Text rendering of the object iden-\rtity, schema-qualified. Each iden-\rtifier included in the identity is\rquoted if necessary.</td>
+    </tr>
+    <tr>
+      <td>address_names</td>
+      <td>text[]</td>
+      <td>An array that, together with\robject_type and ad-\rdress_args, can be used by\rthe pg_get_object_ad-\rdress function to recreate the\robject address in a remote server\rcontaining an identically named\robject of the same kind.</td>
+    </tr>
+    <tr>
+      <td>address_args</td>
+      <td>text[]</td>
+      <td>Complement for ad-\rdress_names</td>
+    </tr>
+  </tbody>
+</table>

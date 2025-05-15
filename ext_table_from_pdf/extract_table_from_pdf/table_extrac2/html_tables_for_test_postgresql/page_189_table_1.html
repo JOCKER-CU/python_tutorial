@@ -1,0 +1,30 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Role</th>
+      <th>Allowed Access</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>pg_read_all_data</td>
+      <td>Read all data (tables, views, sequences), as if having SELECT rights\ron those objects, and USAGE rights on all schemas, even without\rhaving it explicitly. This role does not have the role attribute BY-\rPASSRLS set. If RLS is being used, an administrator may wish to\rset BYPASSRLS on roles which this role is GRANTed to.</td>
+    </tr>
+    <tr>
+      <td>pg_write_all_data</td>
+      <td>Write all data (tables, views, sequences), as if having INSERT, UP-\rDATE, and DELETE rights on those objects, and USAGE rights on\rall schemas, even without having it explicitly. This role does not\rhave the role attribute BYPASSRLS set. If RLS is being used, an ad-\rministrator may wish to set BYPASSRLS on roles which this role is\rGRANTed to.</td>
+    </tr>
+    <tr>
+      <td>pg_read_all_settings</td>
+      <td>Read all configuration variables, even those normally visible only to\rsuperusers.</td>
+    </tr>
+    <tr>
+      <td>pg_read_all_stats</td>
+      <td>Read all pg_stat_* views and use various statistics related exten-\rsions, even those normally visible only to superusers.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_scan_tables</td>
+      <td>Execute monitoring functions that may take ACCESS SHARE locks\ron tables, potentially for a long time.</td>
+    </tr>
+  </tbody>
+</table>

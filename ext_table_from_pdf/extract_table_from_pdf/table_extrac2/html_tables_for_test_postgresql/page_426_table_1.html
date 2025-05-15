@@ -1,0 +1,18 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>loid oid (references pg_largeobject_metadata.oid)\rIdentifier of the large object that includes this page</td>
+    </tr>
+    <tr>
+      <td>pageno int4\rPage number of this page within its large object (counting from zero)</td>
+    </tr>
+    <tr>
+      <td>data bytea\rActual data stored in the large object. This will never be more than LOBLKSIZE bytes and\rmight be less.</td>
+    </tr>
+  </tbody>
+</table>

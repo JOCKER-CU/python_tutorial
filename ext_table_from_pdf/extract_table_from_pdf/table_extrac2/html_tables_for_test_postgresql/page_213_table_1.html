@@ -1,0 +1,46 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Wait Event Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Activity</td>
+      <td>The server process is idle. This event type indi-\rcates a process waiting for activity in its main pro-\rcessing loop. wait_event will identify the spe-\rcific wait point; see Table 28.5.</td>
+    </tr>
+    <tr>
+      <td>BufferPin</td>
+      <td>The server process is waiting for exclusive access\rto a data buffer. Buffer pin waits can be protract-\red if another process holds an open cursor that\rlast read data from the buffer in question. See Ta-\rble 28.6.</td>
+    </tr>
+    <tr>
+      <td>Client</td>
+      <td>The server process is waiting for activity on a\rsocket connected to a user application. Thus, the\rserver expects something to happen that is inde-\rpendent of its internal processes. wait_event\rwill identify the specific wait point; see Ta-\rble 28.7.</td>
+    </tr>
+    <tr>
+      <td>Extension</td>
+      <td>The server process is waiting for some condition\rdefined by an extension module. See Table 28.8.</td>
+    </tr>
+    <tr>
+      <td>IO</td>
+      <td>The server process is waiting for an I/O operation\rto complete. wait_event will identify the spe-\rcific wait point; see Table 28.9.</td>
+    </tr>
+    <tr>
+      <td>IPC</td>
+      <td>The server process is waiting for some interaction\rwith another server process. wait_event will\ridentify the specific wait point; see Table 28.10.</td>
+    </tr>
+    <tr>
+      <td>Lock</td>
+      <td>The server process is waiting for a heavyweight\rlock. Heavyweight locks, also known as lock man-\rager locks or simply locks, primarily protect SQL-\rvisible objects such as tables. However, they are\ralso used to ensure mutual exclusion for certain\rinternal operations such as relation extension.\rwait_event will identify the type of lock await-\red; see Table 28.11.</td>
+    </tr>
+    <tr>
+      <td>LWLock</td>
+      <td>The server process is waiting for a lightweight\rlock. Most such locks protect a particular da-\rta structure in shared memory. wait_event\rwill contain a name identifying the purpose of\rthe lightweight lock. (Some locks have specific\rnames; others are part of a group of locks each\rwith a similar purpose.) See Table 28.12.</td>
+    </tr>
+    <tr>
+      <td>Timeout</td>
+      <td>The server process is waiting for a timeout to ex-\rpire. wait_event will identify the specific wait\rpoint; see Table 28.13.</td>
+    </tr>
+  </tbody>
+</table>

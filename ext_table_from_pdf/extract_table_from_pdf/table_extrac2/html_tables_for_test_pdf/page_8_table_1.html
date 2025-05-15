@@ -1,0 +1,48 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Model</th>
+      <th>Model.1</th>
+      <th>Context</th>
+      <th>Extension</th>
+      <th>Evaluation Context Window Size</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Size</td>
+      <td>Name</td>
+      <td>Window</td>
+      <td>Method</td>
+      <td>4096 8192 16384 65536 131072</td>
+    </tr>
+    <tr>
+      <td>7B</td>
+      <td>Mistral v0.1</td>
+      <td>8k</td>
+      <td>-</td>
+      <td>3.09 2.96 36.8 &gt; 103 &gt; 103</td>
+    </tr>
+    <tr>
+      <td>7B</td>
+      <td>MistralLite</td>
+      <td>16k</td>
+      <td>NTK</td>
+      <td>3.26 3.13 47.3 &gt; 103 &gt; 103</td>
+    </tr>
+    <tr>
+      <td>7B</td>
+      <td>YaRN (s = 8)</td>
+      <td>64k</td>
+      <td>YaRN</td>
+      <td>3.18 3.04 2.65 2.20 57.4</td>
+    </tr>
+    <tr>
+      <td>7B</td>
+      <td>YaRN (s = 16)</td>
+      <td>128k</td>
+      <td>YaRN</td>
+      <td>3.21 3.08 2.68 2.24 2.19</td>
+    </tr>
+  </tbody>
+</table>

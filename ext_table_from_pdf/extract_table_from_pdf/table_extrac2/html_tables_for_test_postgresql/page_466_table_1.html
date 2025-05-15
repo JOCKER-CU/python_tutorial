@@ -1,0 +1,30 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>classes in the same family. Also, it is not sensible for an operator family to register a cross-type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>equalimage function, and attempting to do so will result in an error. This is because “equality</td>
+    </tr>
+    <tr>
+      <td>implies image equality” status does not just depend on sorting/equality semantics, which are more</td>
+    </tr>
+    <tr>
+      <td>or less defined at the operator family level. In general, the semantics that one particular data type</td>
+    </tr>
+    <tr>
+      <td>implements must be considered separately.</td>
+    </tr>
+    <tr>
+      <td>The convention followed by the operator classes included with the core PostgreSQL distribution is to</td>
+    </tr>
+    <tr>
+      <td>register a stock, generic equalimage function. Most operator classes register btequalimage(),</td>
+    </tr>
+    <tr>
+      <td>which indicates that deduplication is safe unconditionally. Operator classes for collatable data types</td>
+    </tr>
+  </tbody>
+</table>

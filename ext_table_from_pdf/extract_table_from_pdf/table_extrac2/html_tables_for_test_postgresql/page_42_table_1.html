@@ -1,0 +1,50 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Unnamed: 0</th>
+      <th>which are known during the initialization phase of execution. Partitions which are pruned during this</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NaN</td>
+      <td>stage will not show up in the query's EXPLAIN or EXPLAIN ANALYZE. It is possible to determine</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>the number of partitions which were removed during this phase by observing the “Subplans Removed”</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>property in the EXPLAIN output.</td>
+    </tr>
+    <tr>
+      <td>•</td>
+      <td>During actual execution of the query plan. Partition pruning may also be performed here to remove</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>partitions using values which are only known during actual query execution. This includes values from</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>subqueries and values from execution-time parameters such as those from parameterized nested loop</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>joins. Since the value of these parameters may change many times during the execution of the query,</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>partition pruning is performed whenever one of the execution parameters being used by partition pruning</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>changes. Determining if partitions were pruned during this phase requires careful inspection of the</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>loops property in the EXPLAIN ANALYZE output. Subplans corresponding to different partitions may</td>
+    </tr>
+  </tbody>
+</table>

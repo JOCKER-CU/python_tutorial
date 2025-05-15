@@ -1,0 +1,54 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>oid oid\rRow identifier</td>
+    </tr>
+    <tr>
+      <td>oprname name\rName of the operator</td>
+    </tr>
+    <tr>
+      <td>oprnamespace oid (references pg_namespace.oid)\rThe OID of the namespace that contains this operator</td>
+    </tr>
+    <tr>
+      <td>oprowner oid (references pg_authid.oid)\rOwner of the operator</td>
+    </tr>
+    <tr>
+      <td>oprkind char\rb = infix operator (“both”), or l = prefix operator (“left”)</td>
+    </tr>
+    <tr>
+      <td>oprcanmerge bool\rThis operator supports merge joins</td>
+    </tr>
+    <tr>
+      <td>oprcanhash bool\rThis operator supports hash joins</td>
+    </tr>
+    <tr>
+      <td>oprleft oid (references pg_type.oid)\rType of the left operand (zero for a prefix operator)</td>
+    </tr>
+    <tr>
+      <td>oprright oid (references pg_type.oid)\rType of the right operand</td>
+    </tr>
+    <tr>
+      <td>oprresult oid (references pg_type.oid)\rType of the result (zero for a not-yet-defined “shell” operator)</td>
+    </tr>
+    <tr>
+      <td>oprcom oid (references pg_operator.oid)\rCommutator of this operator (zero if none)</td>
+    </tr>
+    <tr>
+      <td>oprnegate oid (references pg_operator.oid)\rNegator of this operator (zero if none)</td>
+    </tr>
+    <tr>
+      <td>oprcode regproc (references pg_proc.oid)\rFunction that implements this operator (zero for a not-yet-defined “shell” operator)</td>
+    </tr>
+    <tr>
+      <td>oprrest regproc (references pg_proc.oid)\rRestriction selectivity estimation function for this operator (zero if none)</td>
+    </tr>
+    <tr>
+      <td>oprjoin regproc (references pg_proc.oid)\rJoin selectivity estimation function for this operator (zero if none)</td>
+    </tr>
+  </tbody>
+</table>

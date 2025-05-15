@@ -1,0 +1,42 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>FunctionDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>row_number () → bigint\rReturns the number of the current row within its partition, counting from 1.</td>
+    </tr>
+    <tr>
+      <td>rank () → bigint\rReturns the rank of the current row, with gaps; that is, the row_number of the first row in\rits peer group.</td>
+    </tr>
+    <tr>
+      <td>dense_rank () → bigint\rReturns the rank of the current row, without gaps; this function effectively counts peer\rgroups.</td>
+    </tr>
+    <tr>
+      <td>percent_rank () → double precision\rReturns the relative rank of the current row, that is (rank - 1) / (total partition rows - 1). The\rvalue thus ranges from 0 to 1 inclusive.</td>
+    </tr>
+    <tr>
+      <td>cume_dist () → double precision\rReturns the cumulative distribution, that is (number of partition rows preceding or peers with\rcurrent row) / (total partition rows). The value thus ranges from 1/N to 1.</td>
+    </tr>
+    <tr>
+      <td>ntile ( num_buckets integer ) → integer\rReturns an integer ranging from 1 to the argument value, dividing the partition as equally as\rpossible.</td>
+    </tr>
+    <tr>
+      <td>lag ( value anycompatible [, offset integer [, default anycompatible ]] ) →\ranycompatible\rReturns value evaluated at the row that is offset rows before the current row within the\rpartition; if there is no such row, instead returns default (which must be of a type com-\rpatible with value). Both offset and default are evaluated with respect to the current\rrow. If omitted, offset defaults to 1 and default to NULL.</td>
+    </tr>
+    <tr>
+      <td>lead ( value anycompatible [, offset integer [, default anycompatible ]] ) →\ranycompatible\rReturns value evaluated at the row that is offset rows after the current row within the\rpartition; if there is no such row, instead returns default (which must be of a type com-\rpatible with value). Both offset and default are evaluated with respect to the current\rrow. If omitted, offset defaults to 1 and default to NULL.</td>
+    </tr>
+    <tr>
+      <td>first_value ( value anyelement ) → anyelement\rReturns value evaluated at the row that is the first row of the window frame.</td>
+    </tr>
+    <tr>
+      <td>last_value ( value anyelement ) → anyelement\rReturns value evaluated at the row that is the last row of the window frame.</td>
+    </tr>
+    <tr>
+      <td>nth_value ( value anyelement, n integer ) → anyelement\rReturns value evaluated at the row that is the n'th row of the window frame (counting from\r1); returns NULL if there is no such row.</td>
+    </tr>
+  </tbody>
+</table>

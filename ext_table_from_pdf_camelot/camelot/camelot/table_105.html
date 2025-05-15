@@ -1,0 +1,42 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>[attr]\n&lt;div attr&gt;\nWith attribute attr\n2</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Where attribute attr has value \n[attr='val']\n&lt;div attr="val"&gt;\n2\nval</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Where val appears in the \n&lt;div attr="val val2 \n[attr~='val']\n2\nval3"&gt;\nwhitespace-separated list of attr</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Where attr's value begins with \n[attr^='val']\n&lt;div attr="val1 val2"&gt;\n3\nval</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Where the attr's value ends with \n[attr$='val']\n&lt;div attr="sth aval"&gt;\n3\nval</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Where attr contains val \n[attr*='val']\n&lt;div attr="somevalhere"&gt;\n3\nanywhere</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Where attr's value is exactly val, \n[attr|='val']\n&lt;div attr="val-sth etc"&gt;\nor starts with val and immediately \n2\nfollowed by - (U+002D)</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Where attr has value val, \n[attr='val' i]\n&lt;div attr="val"&gt;\n4(2)\nignoring val's letter casing.</td>
+    </tr>
+  </tbody>
+</table>

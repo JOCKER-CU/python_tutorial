@@ -1,0 +1,66 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Name</th>
+      <th>Storage Size</th>
+      <th>Description</th>
+      <th>Representation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>point</td>
+      <td>16 bytes</td>
+      <td>Point on a plane</td>
+      <td>(x,y)</td>
+    </tr>
+    <tr>
+      <td>line</td>
+      <td>32 bytes</td>
+      <td>Infinite line</td>
+      <td>{A,B,C}</td>
+    </tr>
+    <tr>
+      <td>lseg</td>
+      <td>32 bytes</td>
+      <td>Finite line segment</td>
+      <td>((x1,y1),(x2,y2))</td>
+    </tr>
+    <tr>
+      <td>box</td>
+      <td>32 bytes</td>
+      <td>Rectangular box</td>
+      <td>((x1,y1),(x2,y2))</td>
+    </tr>
+    <tr>
+      <td>path</td>
+      <td>16+16n bytes</td>
+      <td>Closed path (similar to polygon)</td>
+      <td>((x1,y1),...)</td>
+    </tr>
+    <tr>
+      <td>path</td>
+      <td>16+16n bytes</td>
+      <td>Open path</td>
+      <td>[(x1,y1),...]</td>
+    </tr>
+    <tr>
+      <td>polygon</td>
+      <td>40+16n bytes</td>
+      <td>Polygon (similar to closed path)</td>
+      <td>((x1,y1),...)</td>
+    </tr>
+    <tr>
+      <td>circle</td>
+      <td>24 bytes</td>
+      <td>Circle</td>
+      <td>&lt;(x,y),r&gt; (center</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>point and radius)</td>
+    </tr>
+  </tbody>
+</table>

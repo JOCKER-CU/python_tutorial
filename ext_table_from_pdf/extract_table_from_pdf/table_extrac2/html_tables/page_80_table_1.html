@@ -1,0 +1,34 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Parameter</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>clip-source</td>
+      <td>A URL which can point to an inline SVG element (or) an SVG element in an\rexternal file that contains the clip path's definition.</td>
+    </tr>
+    <tr>
+      <td>basic-shape</td>
+      <td>Refers to one among inset(), circle(), ellipse() or polygon(). Using one of\rthese functions the clipping path is defined. These shape functions work\rexactly the same way as they do in Shapes for Floats</td>
+    </tr>
+    <tr>
+      <td>clip-\rgeometry-box</td>
+      <td>This can have one among content-box, padding-box, border-box, margin-box,\rfill-box, stroke-box, view-box as values. When this is provided without any\rvalue for &lt;basic-shape&gt;, the edges of the corresponding box is used as the\rpath for clipping. When used with a &lt;basic-shape&gt;, this acts as the\rreference box for the shape.</td>
+    </tr>
+    <tr>
+      <td>mask-\rreference</td>
+      <td>This can be none or an image or a reference URL to a mask image source.</td>
+    </tr>
+    <tr>
+      <td>repeat-style</td>
+      <td>This specifies how the mask should be repeated or tiled in the X and Y axes.\rThe supported values are repeat-x, repeat-y, repeat, space, round, no-repeat.</td>
+    </tr>
+    <tr>
+      <td>mask-mode</td>
+      <td>Can be alpha or luminance or auto and indicates whether the mask should be\rtreated as a alpha mask or a luminance mask. If no value is provided and the\rmask-reference is a direct image then it would be considered as alpha mask\r(or) if the mask-reference is a URL then it would be considered as luminance</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,48 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>tor of the socket underlying the database connection. (Caution: do not assume that the socket re-</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>mains the same across PQconnectPoll calls.) Loop thus: If PQconnectPoll(conn) last re-</td>
+    </tr>
+    <tr>
+      <td>turned PGRES_POLLING_READING, wait until the socket is ready to read (as indicated by se-</td>
+    </tr>
+    <tr>
+      <td>lect(), poll(), or similar system function). Then call PQconnectPoll(conn) again. Con-</td>
+    </tr>
+    <tr>
+      <td>versely, if PQconnectPoll(conn) last returned PGRES_POLLING_WRITING, wait until the</td>
+    </tr>
+    <tr>
+      <td>socket is ready to write, then call PQconnectPoll(conn) again. On the first iteration, i.e., if</td>
+    </tr>
+    <tr>
+      <td>you have yet to call PQconnectPoll, behave as if it last returned PGRES_POLLING_WRITING.</td>
+    </tr>
+    <tr>
+      <td>Continue this loop until PQconnectPoll(conn) returns PGRES_POLLING_FAILED, indicat-</td>
+    </tr>
+    <tr>
+      <td>ing the connection procedure has failed, or PGRES_POLLING_OK, indicating the connection has</td>
+    </tr>
+    <tr>
+      <td>been successfully made.</td>
+    </tr>
+    <tr>
+      <td>At any time during connection, the status of the connection can be checked by calling PQstatus.</td>
+    </tr>
+    <tr>
+      <td>If this call returns CONNECTION_BAD, then the connection procedure has failed; if the call returns</td>
+    </tr>
+    <tr>
+      <td>CONNECTION_OK, then the connection is ready. Both of these states are equally detectable from the</td>
+    </tr>
+    <tr>
+      <td>return value of PQconnectPoll, described above. Other states might also occur during (and only</td>
+    </tr>
+  </tbody>
+</table>

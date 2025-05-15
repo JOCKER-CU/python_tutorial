@@ -1,0 +1,63 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>to determine its identity. If multiple principals are listed in the keytab file, the server will accept any one</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>of them. The server's realm name is the preferred realm specified in the Kerberos configuration file(s)</td>
+    </tr>
+    <tr>
+      <td>accessible to the server.</td>
+    </tr>
+    <tr>
+      <td>When connecting, the client must know the principal name of the server it intends to connect to. The</td>
+    </tr>
+    <tr>
+      <td>servicename part of the principal is ordinarily postgres, but another value can be selected via libpq's</td>
+    </tr>
+    <tr>
+      <td>krbsrvname connection parameter. The hostname part is the fully qualified host name that libpq is told to</td>
+    </tr>
+    <tr>
+      <td>connect to. The realm name is the preferred realm specified in the Kerberos configuration file(s) accessible</td>
+    </tr>
+    <tr>
+      <td>to the client.</td>
+    </tr>
+    <tr>
+      <td>The client will also have a principal name for its own identity (and it must have a valid ticket for this</td>
+    </tr>
+    <tr>
+      <td>principal). To use GSSAPI for authentication, the client principal must be associated with a PostgreSQL</td>
+    </tr>
+    <tr>
+      <td>database user name. The pg_ident.conf configuration file can be used to map principals to user names;</td>
+    </tr>
+    <tr>
+      <td>for example, pgusername@realm could be mapped to just pgusername. Alternatively, you can use</td>
+    </tr>
+    <tr>
+      <td>the full username@realm principal as the role name in PostgreSQL without any mapping.</td>
+    </tr>
+    <tr>
+      <td>PostgreSQL also supports mapping client principals to user names by just stripping the realm from the</td>
+    </tr>
+    <tr>
+      <td>principal. This method is supported for backwards compatibility and is strongly discouraged as it is then</td>
+    </tr>
+    <tr>
+      <td>impossible to distinguish different users with the same user name but coming from different realms. To</td>
+    </tr>
+    <tr>
+      <td>enable this, set include_realm to 0. For simple single-realm installations, doing that combined with</td>
+    </tr>
+    <tr>
+      <td>setting the krb_realm parameter (which checks that the principal's realm matches exactly what is in</td>
+    </tr>
+    <tr>
+      <td>the krb_realm parameter) is still secure; but this is a less capable approach compared to specifying an</td>
+    </tr>
+  </tbody>
+</table>

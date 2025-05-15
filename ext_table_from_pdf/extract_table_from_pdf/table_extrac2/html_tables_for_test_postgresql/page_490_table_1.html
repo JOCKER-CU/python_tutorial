@@ -1,0 +1,108 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Field</th>
+      <th>Type</th>
+      <th>Length</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>pd_lsn</td>
+      <td>PageXLogRecPtr</td>
+      <td>8 bytes</td>
+      <td>LSN: next byte after last</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>byte of WAL record for</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>last change to this page</td>
+    </tr>
+    <tr>
+      <td>pd_checksum</td>
+      <td>uint16</td>
+      <td>2 bytes</td>
+      <td>Page checksum</td>
+    </tr>
+    <tr>
+      <td>pd_flags</td>
+      <td>uint16</td>
+      <td>2 bytes</td>
+      <td>Flag bits</td>
+    </tr>
+    <tr>
+      <td>pd_lower</td>
+      <td>LocationIndex</td>
+      <td>2 bytes</td>
+      <td>Offset to start of free</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>space</td>
+    </tr>
+    <tr>
+      <td>pd_upper</td>
+      <td>LocationIndex</td>
+      <td>2 bytes</td>
+      <td>Offset to end of free</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>space</td>
+    </tr>
+    <tr>
+      <td>pd_special</td>
+      <td>LocationIndex</td>
+      <td>2 bytes</td>
+      <td>Offset to start of special</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>space</td>
+    </tr>
+    <tr>
+      <td>pd_pagesize_version</td>
+      <td>uint16</td>
+      <td>2 bytes</td>
+      <td>Page size and layout</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>version number informa-</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>tion</td>
+    </tr>
+    <tr>
+      <td>pd_prune_xid</td>
+      <td>TransactionId</td>
+      <td>4 bytes</td>
+      <td>Oldest unpruned XMAX</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>on page, or zero if none</td>
+    </tr>
+  </tbody>
+</table>

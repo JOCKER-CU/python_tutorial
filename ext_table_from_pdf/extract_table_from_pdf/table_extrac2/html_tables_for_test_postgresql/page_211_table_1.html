@@ -1,0 +1,74 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>View Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>pg_stat_archiver</td>
+      <td>One row only, showing statistics about the\rWAL archiver process's activity. See  pg_s-\rtat_archiver for details.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_bgwriter</td>
+      <td>One row only, showing statistics about the back-\rground writer process's activity. See  pg_s-\rtat_bgwriter for details.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_wal</td>
+      <td>One row only, showing statistics about WAL ac-\rtivity. See  pg_stat_wal for details.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_database</td>
+      <td>One row per database, showing database-wide sta-\rtistics. See  pg_stat_database for details.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_database_conflicts</td>
+      <td>One row per database, showing database-wide\rstatistics about query cancels due to conflict\rwith recovery on standby servers. See  pg_s-\rtat_database_conflicts for details.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_all_tables</td>
+      <td>One row for each table in the current database,\rshowing statistics about accesses to that specific\rtable. See  pg_stat_all_tables for details.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_sys_tables</td>
+      <td>Same as pg_stat_all_tables, except that\ronly system tables are shown.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_user_tables</td>
+      <td>Same as pg_stat_all_tables, except that\ronly user tables are shown.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_xact_all_tables</td>
+      <td>Similar to pg_stat_all_tables, but counts\ractions taken so far within the current transaction\r(which are not yet included in pg_stat_al-\rl_tables and related views). The columns for\rnumbers of live and dead rows and vacuum and\ranalyze actions are not present in this view.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_xact_sys_tables</td>
+      <td>Same as pg_stat_xact_all_tables, except\rthat only system tables are shown.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_xact_user_tables</td>
+      <td>Same as pg_stat_xact_all_tables, except\rthat only user tables are shown.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_all_indexes</td>
+      <td>One row for each index in the current database,\rshowing statistics about accesses to that specific\rindex. See  pg_stat_all_indexes for de-\rtails.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_sys_indexes</td>
+      <td>Same as pg_stat_all_indexes, except that\ronly indexes on system tables are shown.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_user_indexes</td>
+      <td>Same as pg_stat_all_indexes, except that\ronly indexes on user tables are shown.</td>
+    </tr>
+    <tr>
+      <td>pg_statio_all_tables</td>
+      <td>One row for each table in the current database,\rshowing statistics about I/O on that specific table.\rSee  pg_statio_all_tables for details.</td>
+    </tr>
+    <tr>
+      <td>pg_statio_sys_tables</td>
+      <td>Same as pg_statio_all_tables, except that\ronly system tables are shown.</td>
+    </tr>
+  </tbody>
+</table>

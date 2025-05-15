@@ -1,0 +1,30 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>feature_id character_data\rIdentifier string of the feature</td>
+    </tr>
+    <tr>
+      <td>feature_name character_data\rDescriptive name of the feature</td>
+    </tr>
+    <tr>
+      <td>sub_feature_id character_data\rIdentifier string of the subfeature, or a zero-length string if not a subfeature</td>
+    </tr>
+    <tr>
+      <td>sub_feature_name character_data\rDescriptive name of the subfeature, or a zero-length string if not a subfeature</td>
+    </tr>
+    <tr>
+      <td>is_supported yes_or_no\rYES if the feature is fully supported by the current version of PostgreSQL, NO if not</td>
+    </tr>
+    <tr>
+      <td>is_verified_by character_data\rAlways null, since the PostgreSQL development group does not perform formal testing of\rfeature conformance</td>
+    </tr>
+    <tr>
+      <td>comments character_data\rPossibly a comment about the supported status of the feature</td>
+    </tr>
+  </tbody>
+</table>

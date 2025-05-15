@@ -1,0 +1,51 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>technique is to put the NOTIFY in a statement trigger that is triggered by table updates. In this way,</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>notification happens automatically when the table is changed, and the application programmer cannot</td>
+    </tr>
+    <tr>
+      <td>accidentally forget to do it.</td>
+    </tr>
+    <tr>
+      <td>NOTIFY interacts with SQL transactions in some important ways. Firstly, if a NOTIFY is executed inside</td>
+    </tr>
+    <tr>
+      <td>a transaction, the notify events are not delivered until and unless the transaction is committed. This is</td>
+    </tr>
+    <tr>
+      <td>appropriate, since if the transaction is aborted, all the commands within it have had no effect, including</td>
+    </tr>
+    <tr>
+      <td>NOTIFY. But it can be disconcerting if one is expecting the notification events to be delivered immedi-</td>
+    </tr>
+    <tr>
+      <td>ately. Secondly, if a listening session receives a notification signal while it is within a transaction, the</td>
+    </tr>
+    <tr>
+      <td>notification event will not be delivered to its connected client until just after the transaction is completed</td>
+    </tr>
+    <tr>
+      <td>(either committed or aborted). Again, the reasoning is that if a notification were delivered within a trans-</td>
+    </tr>
+    <tr>
+      <td>action that was later aborted, one would want the notification to be undone somehow — but the server</td>
+    </tr>
+    <tr>
+      <td>cannot “take back” a notification once it has sent it to the client. So notification events are only delivered</td>
+    </tr>
+    <tr>
+      <td>between transactions. The upshot of this is that applications using NOTIFY for real-time signaling should</td>
+    </tr>
+    <tr>
+      <td>try to keep their transactions short.</td>
+    </tr>
+    <tr>
+      <td>If the same channel name is signaled multiple times with identical payload strings within the same trans-</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,677 @@
+[
+    {
+        "data_type": "table",
+        "page_id": 1,
+        "data": [
+            [
+                "11006960"
+            ],
+            [
+                ""
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 1,
+        "data": [
+            [
+                "",
+                null,
+                "Policy Owner (PO)",
+                "Life Insured (LI), complete this column\nonly if LI is different from PO\n(Relationship between LI and PO)"
+            ],
+            [
+                "Name",
+                "Myanmar",
+                "",
+                ""
+            ],
+            [
+                null,
+                "English",
+                "MIN MIN HTUN",
+                ""
+            ],
+            [
+                "Gender",
+                null,
+                "\u2611 Male \u25a1 Female \u25a1 Other",
+                "\u25a1 Male \u25a1 Female \u25a1 Other"
+            ],
+            [
+                "Marital Status",
+                null,
+                "\u2611 Married \u25a1 Single \u25a1 Other",
+                "\u25a1 Married \u25a1 Single \u25a1 Other"
+            ],
+            [
+                "Date of Birth (English Only)",
+                null,
+                "17/12/1983",
+                ""
+            ],
+            [
+                "Place of Birth (Country)",
+                null,
+                "\u2611 Myanmar\n\u25a1 Other (please specify)",
+                "\u25a1 Myanmar\n\u25a1 Other (please specify)"
+            ],
+            [
+                "Nationality",
+                null,
+                "\u2611 Myanmar\n\u25a1 Other (please specify)",
+                "\u25a1 Myanmar\n\u25a1 Other (please specify)"
+            ],
+            [
+                "NRC/Passport No.",
+                null,
+                "8/KhaMaNa(N)045667",
+                ""
+            ],
+            [
+                "Do you have to file a tax return\nin the USA?",
+                null,
+                "\u25a1 Yes \u2611 No",
+                "\u25a1 Yes \u25a1 No"
+            ],
+            [
+                "Correspondence Address",
+                null,
+                "Vhjvhjcgchg\nHnaring, Chin State",
+                ""
+            ],
+            [
+                "Permanent Address",
+                null,
+                "",
+                ""
+            ],
+            [
+                "Contact info:",
+                "Primary Contact\nNo.\n<Communication\nPurpose>",
+                "+95925004576755",
+                ""
+            ],
+            [
+                null,
+                "Secondary\nContact No.\n<Communication\nPurpose>",
+                "",
+                ""
+            ],
+            [
+                null,
+                "Viber No.",
+                "925004576755",
+                ""
+            ]
+        ]
+    },
+    {
+        "data_type": "text",
+        "page_id": 1,
+        "data": "Dai-ichi Life Pro Insurance Proposal Form\nApplication No. (office use) 11006960\nPolicy No. (office use)\nPART 1: PERSONAL INFORMATION\nPolicy Owner (PO) Life Insured (LI), complete this column\nonly if LI is different from PO\n(Relationship between LI and PO)\nName Myanmar\nEnglish MIN MIN HTUN\nGender\n\u2611 Male \u25a1 Female \u25a1 Other \u25a1 Male \u25a1 Female \u25a1 Other\nMarital Status\n\u2611 Married \u25a1 Single \u25a1 Other \u25a1 Married \u25a1 Single \u25a1 Other\nDate of Birth (English Only)\n17/12/1983\nPlace of Birth (Country) \u2611 Myanmar \u25a1 Myanmar\n\u25a1 Other (please specify) \u25a1 Other (please specify)\nNationality \u2611 Myanmar \u25a1 Myanmar\n\u25a1 Other (please specify) \u25a1 Other (please specify)\nNRC/Passport No. 8/KhaMaNa(N)045667\nDo you have to file a tax return \u25a1 Yes \u2611 No \u25a1 Yes \u25a1 No\nin the USA?\nCorrespondence Address Vhjvhjcgchg\nHnaring, Chin State\nPermanent Address\nContact info: Primary Contact +95925004576755\nNo.\n<Communication\nPurpose>\nSecondary\nContact No.\n<Communication\nPurpose>\nViber No. 925004576755\nNB-LP-APP-DEC2022"
+    },
+    {
+        "data_type": "table",
+        "page_id": 2,
+        "data": [
+            [
+                "",
+                null,
+                "Policy Owner (PO)",
+                "Life Insured (LI), complete this column\nonly if LI is different from PO\n(Relationship between LI and PO)"
+            ],
+            [
+                "",
+                "Email:",
+                "",
+                ""
+            ],
+            [
+                "Current\nOccupation:",
+                "Job title",
+                "Administration - Economist",
+                ""
+            ],
+            [
+                null,
+                "Exact nature of\nduties",
+                "",
+                ""
+            ],
+            [
+                null,
+                "Location",
+                "",
+                ""
+            ],
+            [
+                "Average monthly income in the\nlast 12 months (MMK)",
+                null,
+                "1,250,000",
+                ""
+            ],
+            [
+                "Number of Children",
+                null,
+                "0",
+                ""
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 2,
+        "data": [
+            [
+                "\u201cDai-ichi Life\nPro\u201d",
+                "Sum Insured\n(MMK)",
+                "Premium Amount\n(MMK)",
+                "Policy Term (years)",
+                "Premium Payment Term\n(years)"
+            ],
+            [
+                null,
+                "5,600,000",
+                "343,504",
+                "\u25a1 6yrs\n\u25a1 9yrs\n\u25a1 12yrs\n\u2611 15yrs",
+                "\u25a1 6yrs\n\u25a1 9yrs\n\u25a1 12yrs\n\u2611 15yrs"
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 2,
+        "data": [
+            [
+                "Rider Name",
+                "Sum Insured\n(MMK)",
+                "Premium Amount\n(MMK)",
+                "Policy Term (years)",
+                "Premium Payment Term\n(years)"
+            ],
+            [
+                "Dai-ichi\nGuard",
+                "5,000,000",
+                "61,850",
+                "15",
+                "15"
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 2,
+        "data": [
+            [
+                "Mode of Premium\nPayment",
+                "\u25a1 Monthly \u25a1 Quarterly \u25a1 Semi-annually \u2611 Annually",
+                null,
+                null,
+                null
+            ],
+            [
+                "Method of Premium\nPayment",
+                "\u25a1 Cheque",
+                "\u25a1 Bank Transfer\n( Bank)",
+                "\u25a1 Standing Order\n( Bank)",
+                "\u25a1 Direct Debit\n( Bank)"
+            ],
+            [
+                null,
+                "\u2611 Other (Please, specify)\nCash",
+                null,
+                null,
+                null
+            ],
+            [
+                "Total Installment\nPremium (MMK)",
+                "405,354",
+                null,
+                null,
+                null
+            ],
+            [
+                "Bank Name",
+                "",
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    {
+        "data_type": "text",
+        "page_id": 2,
+        "data": "Policy Owner (PO) Life Insured (LI), complete this column\nonly if LI is different from PO\n(Relationship between LI and PO)\nEmail:\nCurrent Job title Administration - Economist\nOccupation: Exact nature of\nduties\nLocation\nAverage monthly income in the 1,250,000\nlast 12 months (MMK)\nNumber of Children 0\nPART 2: DETAILS OF PROPOSED INSURANCE BENEFITS\nBasic Insurance\nSum Insured Premium Amount Premium Payment Term\nPolicy Term (years)\n(MMK) (MMK) (years)\n\u201cDai-ichi Life 5,600,000 343,504 \u25a1 6yrs \u25a1 6yrs\nPro\u201d \u25a1 9yrs \u25a1 9yrs\n\u25a1 12yrs \u25a1 12yrs\n\u2611 15yrs \u2611 15yrs\nRider Benefits, if any\nRider Name Sum Insured Premium Amount Premium Payment Term\nPolicy Term (years)\n(MMK) (MMK) (years)\nDai-ichi 5,000,000 61,850 15 15\nGuard\nPART 3: DETAILS OF PREMIUM PAYMENT\nMode of Premium \u25a1 Monthly \u25a1 Quarterly \u25a1 Semi-annually \u2611 Annually\nPayment\nMethod of Premium \u25a1 Cheque \u25a1 Bank Transfer \u25a1 Standing Order \u25a1 Direct Debit\nPayment ( Bank) ( Bank) ( Bank)\n\u2611 Other (Please, specify)\nCash\nTotal Installment 405,354\nPremium (MMK)\nBank Name\nNB-LP-APP-DEC2022"
+    },
+    {
+        "data_type": "table",
+        "page_id": 3,
+        "data": [
+            [
+                "Bank Account Number",
+                ""
+            ],
+            [
+                "Bank Account Owner\nName",
+                "HTET WIN OO"
+            ],
+            [
+                "Bank Branch Name\n(Or) Code",
+                ""
+            ],
+            [
+                "Bank Account Type",
+                ""
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 3,
+        "data": [
+            [
+                "No",
+                "Name",
+                "DOB",
+                "NRC/Passport\nNo.",
+                "Relationship to\nLife Insured",
+                "Contact info",
+                null,
+                "Percentage\n(100%)"
+            ],
+            [
+                null,
+                "English Only",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "1",
+                "HTET WIN\nOO",
+                "20/12/1987",
+                "3/KaSaKa(N)0\n65756",
+                "BROTHER",
+                "Phone\nAddress",
+                "+9592500375357\n7\nUftyuvhgchcf\nGyobingauk,\nBago Region",
+                "100%"
+            ]
+        ]
+    },
+    {
+        "data_type": "text",
+        "page_id": 3,
+        "data": "Bank Account Number\nBank Account Owner HTET WIN OO\nName\nBank Branch Name\n(Or) Code\nBank Account Type\nPART 4: BENEFICIARY INFORMATION\nNRC/Passport Relationship to\nName DOB Percentage\nNo No. Life Insured Contact info\n(100%)\nEnglish Only\n1 20/12/1987 3/KaSaKa(N)0 BROTHER Phone +9592500375357 100%\nHTET WIN\n65756 7\nOO\nAddress\nUftyuvhgchcf\nGyobingauk,\nBago Region\nNB-LP-APP-DEC2022"
+    },
+    {
+        "data_type": "table",
+        "page_id": 4,
+        "data": [
+            [
+                "1(a)",
+                "Height and Weight: 5 ft 8 in, 169 lb.",
+                null
+            ],
+            [
+                "1(b)",
+                "During the past 6 months, has your weight changed more than 10 pounds?\nIf yes, please give the reason(s) for losing or gaining weight, and the amount of weight\nchange:",
+                "\u25a1 Yes \u2611 No"
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 4,
+        "data": [
+            [
+                "2(a)",
+                "Do you smoke or have you ever smoked cigarettes during the last 12 months?\nIf yes, please specify the average number of cigarettes smoked per day is 0.",
+                "\u2610 Yes \u2611 No"
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 4,
+        "data": [
+            [
+                "2(b)",
+                "Do you or have you ever taken alcohol, narcotics or any other psychoactive drugs or\nsubstances? If yes, please answer the questions below:",
+                "\u2610 Yes \u2611 No"
+            ],
+            [
+                null,
+                "(i) Specify the type and quantity of alcohol, narcotics taken per week:\n- Type of alcohol: \u2610 Myanmar traditional liquor \u2610 Beer \u2610 Wine \u2610 Whisky \u2610 Vodka \u2610 Rum\n\u2610 Other\n- Amount of alcohol: 0 per week",
+                null
+            ],
+            [
+                null,
+                "(ii) Have you ever been advised by a doctor to reduce/stop drinking?",
+                "\u2610 Yes \u2610 No"
+            ],
+            [
+                "",
+                "If yes, please provide details below:",
+                null
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 4,
+        "data": [
+            [
+                "2(c)",
+                "Are you currently taking any kind of medication, on any treatment, or any tests/checks\nbeing performed or planned?\nIf yes, please provide details of the reasons for its use, name of the medication, and daily\ndosage:",
+                "\u2610 Yes \u2611 No"
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 4,
+        "data": [
+            [
+                "3.",
+                "In the last 10 years, have you ever had symptoms of, received tests or investigations, been hospitalized for,\nbeen diagnosed with, or had treatment for any of the following conditions?\nFor you answer \u2018Yes\u2019 to any of the Questions 3(a) to 3(l) below, please provide full details in Section 10.",
+                null
+            ],
+            [
+                "(a)",
+                "High cholesterol, high blood pressure, low blood pressure, stroke, heart attack, heart\nmurmurs, cardiac dysrhythmia, breathing difficulty, chest pain, heart valve disorder, or\nother disorders of the blood vessels.",
+                "\u2610 Yes \u2611 No"
+            ],
+            [
+                "(b)",
+                "Asthma, bronchitis, pneumonia, tuberculosis, coughing up blood or other respiratory\ndisorders.",
+                "\u2610 Yes \u2611 No"
+            ],
+            [
+                "(c)",
+                "Diabetes mellitus, hyperglycemia, thyroid disorders or other endocrine disorders.",
+                "\u2610 Yes \u2611 No"
+            ],
+            [
+                "(d)",
+                "(i) Epilepsy, chronic headache, other neurological and nervous system disorders.",
+                "\u2610 Yes \u2611 No"
+            ],
+            [
+                null,
+                "(ii) Depression, anxiety disorder, schizophrenia, other mental disorders.",
+                "\u2610 Yes \u2611 No"
+            ]
+        ]
+    },
+    {
+        "data_type": "text",
+        "page_id": 4,
+        "data": "PART 5: HEALTH INFORMATION\nA: General Information of the Life Insured\n1(a) Height and Weight: 5 ft 8 in, 169 lb.\n1(b) During the past 6 months, has your weight changed more than 10 pounds? \u25a1 Yes \u2611 No\nIf yes, please give the reason(s) for losing or gaining weight, and the amount of weight\nchange:\n2(a) Do you smoke or have you ever smoked cigarettes during the last 12 months? \u2610 Yes \u2611 No\nIf yes, please specify the average number of cigarettes smoked per day is 0.\n2(b) Do you or have you ever taken alcohol, narcotics or any other psychoactive drugs or \u2610 Yes \u2611 No\nsubstances? If yes, please answer the questions below:\n(i) Specify the type and quantity of alcohol, narcotics taken per week:\n- Type of alcohol: \u2610 Myanmar traditional liquor \u2610 Beer \u2610 Wine \u2610 Whisky \u2610 Vodka \u2610 Rum\n\u2610 Other\n- Amount of alcohol: 0 per week\n(ii) Have you ever been advised by a doctor to reduce/stop drinking? \u2610 Yes \u2610 No\nIf yes, please provide details below:\n2(c) Are you currently taking any kind of medication, on any treatment, or any tests/checks \u2610 Yes \u2611 No\nbeing performed or planned?\nIf yes, please provide details of the reasons for its use, name of the medication, and daily\ndosage:\n3. In the last 10 years, have you ever had symptoms of, received tests or investigations, been hospitalized for,\nbeen diagnosed with, or had treatment for any of the following conditions?\nFor you answer \u2018Yes\u2019 to any of the Questions 3(a) to 3(l) below, please provide full details in Section 10.\n(a) High cholesterol, high blood pressure, low blood pressure, stroke, heart attack, heart \u2610 Yes \u2611 No\nmurmurs, cardiac dysrhythmia, breathing difficulty, chest pain, heart valve disorder, or\nother disorders of the blood vessels.\n(b) Asthma, bronchitis, pneumonia, tuberculosis, coughing up blood or other respiratory \u2610 Yes \u2611 No\ndisorders.\n(c) Diabetes mellitus, hyperglycemia, thyroid disorders or other endocrine disorders. \u2610 Yes \u2611 No\n(d) (i) Epilepsy, chronic headache, other neurological and nervous system disorders. \u2610 Yes \u2611 No\n(ii) Depression, anxiety disorder, schizophrenia, other mental disorders. \u2610 Yes \u2611 No\nNB-LP-APP-DEC2022"
+    },
+    {
+        "data_type": "table",
+        "page_id": 5,
+        "data": [
+            [
+                "(e)",
+                "Nasal bleeding, poor vision, hearing impairment, or other disorders affecting the ears,\neyes, nose and throat.",
+                "\u2610 Yes \u2611 No"
+            ],
+            [
+                "(f)",
+                "Gastric or duodenal ulcer, chronic diarrhea, gallstones, hepatitis B, hepatitis C or other\nliver disorders, typhoid, colitis, bloody bowel movement or other digestive disorders.",
+                "\u2610 Yes \u2611 No"
+            ],
+            [
+                "(g)",
+                "Blood, protein or sugar in the urine; kidney stones, disorder affecting the kidneys, urinary\ntract or genitalia.",
+                "\u2610 Yes \u2611 No"
+            ],
+            [
+                "(h)",
+                "Sexually transmitted diseases, such as gonorrhea, syphilis and HIV/AIDS.",
+                "\u2610 Yes \u2611 No"
+            ],
+            [
+                "(i)",
+                "Anemia, lymphatic diseases, myeloma, hemorrhagic bleeding.",
+                "\u2610 Yes \u2611 No"
+            ],
+            [
+                "(j)",
+                "Arthritis, paralysis, deformities or disorders affecting the muscles, the skin, bones or joints.",
+                "\u2610 Yes \u2611 No"
+            ],
+            [
+                "(k)",
+                "Cancer, tumors, or abnormal growth or enlargement of the any of the organs or lymph\nnodes.",
+                "\u2610 Yes \u2611 No"
+            ],
+            [
+                "(l)",
+                "Autoimmune disorders, such as scabies, lupus erythematosus.",
+                "\u2610 Yes \u2611 No"
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 5,
+        "data": [
+            [
+                "4.(a)",
+                "Have you in the last 5 years ever taken, or are you intending to take, any of the following\nchecks?\nChest X-ray, electrocardiogram, echocardiogram, CT scan/MRI/ultrasound, biopsy,\nmammogram, blood count, surgical procedure.\nIf yes, please give details in Section 10.",
+                "\u2610 Yes \u2611 No"
+            ],
+            [
+                "4.(b)",
+                "During the last 5 years, have you off work or received treatment for more than a week, or\nhave you ever had any of the following symptoms that lasted more than a week: fatigue,\nweight loss, diarrhoea, prolonged fever, enlarged lymph nodes or abnormal skin lesions?\nIf yes, please give details in Section 10.",
+                "\u2610 Yes \u2611 No"
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 5,
+        "data": [
+            [
+                "5.",
+                "(Females only) Please answer the following questions.",
+                ""
+            ],
+            [
+                "(a)",
+                "Are you now pregnant?\nIf yes, how many months pregnant? month(s).",
+                "\u2610 Yes \u2610 No"
+            ],
+            [
+                "(b)",
+                "Have you in the last 10 years ever suffered from breast or gynecological disorders?\nIf yes, please give details in Section 10.",
+                "\u2610 Yes \u2610 No"
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 5,
+        "data": [
+            [
+                "6.",
+                "Do you have, or have you in the last 5 years ever had, any other medical or mental\nconditions, impairments, diseases or disorders which are not mentioned in the above\nquestions?\nIf yes, please provide the details in Section 10.",
+                "\u2610 Yes \u2611 No"
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 5,
+        "data": [
+            [
+                "7.",
+                "Are you participating or intending to participate in hazardous sports, such as scuba diving,\nmountaineering, parachuting, hang gliding and motor racing?\nIf yes, please give details here:",
+                "\u2610 Yes \u2611 No"
+            ]
+        ]
+    },
+    {
+        "data_type": "text",
+        "page_id": 5,
+        "data": "(e) Nasal bleeding, poor vision, hearing impairment, or other disorders affecting the ears, \u2610 Yes \u2611 No\neyes, nose and throat.\n(f) Gastric or duodenal ulcer, chronic diarrhea, gallstones, hepatitis B, hepatitis C or other \u2610 Yes \u2611 No\nliver disorders, typhoid, colitis, bloody bowel movement or other digestive disorders.\n(g) Blood, protein or sugar in the urine; kidney stones, disorder affecting the kidneys, urinary \u2610 Yes \u2611 No\ntract or genitalia.\n(h) Sexually transmitted diseases, such as gonorrhea, syphilis and HIV/AIDS. \u2610 Yes \u2611 No\n(i) Anemia, lymphatic diseases, myeloma, hemorrhagic bleeding. \u2610 Yes \u2611 No\n(j) Arthritis, paralysis, deformities or disorders affecting the muscles, the skin, bones or joints. \u2610 Yes \u2611 No\n(k) Cancer, tumors, or abnormal growth or enlargement of the any of the organs or lymph \u2610 Yes \u2611 No\nnodes.\n(l) Autoimmune disorders, such as scabies, lupus erythematosus. \u2610 Yes \u2611 No\n4.(a) Have you in the last 5 years ever taken, or are you intending to take, any of the following \u2610 Yes \u2611 No\nchecks?\nChest X-ray, electrocardiogram, echocardiogram, CT scan/MRI/ultrasound, biopsy,\nmammogram, blood count, surgical procedure.\nIf yes, please give details in Section 10.\n4.(b) During the last 5 years, have you off work or received treatment for more than a week, or \u2610 Yes \u2611 No\nhave you ever had any of the following symptoms that lasted more than a week: fatigue,\nweight loss, diarrhoea, prolonged fever, enlarged lymph nodes or abnormal skin lesions?\nIf yes, please give details in Section 10.\n5. (Females only) Please answer the following questions.\n(a) Are you now pregnant? \u2610 Yes \u2610 No\nIf yes, how many months pregnant? month(s).\n(b) Have you in the last 10 years ever suffered from breast or gynecological disorders? \u2610 Yes \u2610 No\nIf yes, please give details in Section 10.\n6. Do you have, or have you in the last 5 years ever had, any other medical or mental \u2610 Yes \u2611 No\nconditions, impairments, diseases or disorders which are not mentioned in the above\nquestions?\nIf yes, please provide the details in Section 10.\n7. Are you participating or intending to participate in hazardous sports, such as scuba diving, \u2610 Yes \u2611 No\nmountaineering, parachuting, hang gliding and motor racing?\nIf yes, please give details here:\nNB-LP-APP-DEC2022"
+    },
+    {
+        "data_type": "table",
+        "page_id": 6,
+        "data": [
+            [
+                "8.",
+                "Apart from this insurance proposal, have you ever had, or are you proposing or intending to\npropose, an application for life insurance with Dai-ichi Life Insurance Myanmar Ltd. or any\nother life insurance companies?\nIf yes, please give details below:",
+                "\u2610 Yes \u2611 No"
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 6,
+        "data": [
+            [
+                "Life\nInsurance\nCompany",
+                "Year",
+                "Sum\nInsured\n(MMK)",
+                "Policy\nTerm",
+                "Type of Insurance",
+                "Outcome of application\n(Standard rates,\nincreased premium,\nexclusions, postponed\nor declined)",
+                "Current status of\napplication/\npolicy"
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 6,
+        "data": [
+            [
+                "9.",
+                "Family history: Did any of your parents suffer from, or die of cancer, diabetes, heart\ndisease, stroke, hypertension or kidney disorders before they reached age 60?",
+                "\u2610 Yes \u2611 No"
+            ],
+            [
+                "If yes, please give details here:\nFather: At age , suffered from\nMother: At age , suffered from",
+                null,
+                ""
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 6,
+        "data": [
+            [
+                "10.",
+                "If you answered \u2018Yes\u2019 to any of the Questions 3,4, 5 and 6 above, please provide full details below and\nprovide old medical records (if any) required."
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 6,
+        "data": [
+            [
+                "Question\nNo.",
+                "Details of the health\ncondition/disorder/disease,\ntests or investigations\ndone, and any treatment\ngiven",
+                "Reason for\ntests or\ninvestigations\ndone,\ntreatment",
+                "(Approximate)\nDate\n(mm/yyyy)",
+                "Name and address\nof\nhospital/clinic/doctor",
+                "Result of the\ntests,investigation,\ntreatment, and\ncurrent health"
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ]
+        ]
+    },
+    {
+        "data_type": "text",
+        "page_id": 6,
+        "data": "8. Apart from this insurance proposal, have you ever had, or are you proposing or intending to \u2610 Yes \u2611 No\npropose, an application for life insurance with Dai-ichi Life Insurance Myanmar Ltd. or any\nother life insurance companies?\nIf yes, please give details below:\nOutcome of application Current status of\nLife Year Sum Policy Type of Insurance (Standard rates, application/\nInsurance Insured Term increased premium, policy\nCompany (MMK) exclusions, postponed\nor declined)\n9. Family history: Did any of your parents suffer from, or die of cancer, diabetes, heart \u2610 Yes \u2611 No\ndisease, stroke, hypertension or kidney disorders before they reached age 60?\nIf yes, please give details here:\nFather: At age , suffered from\nMother: At age , suffered from\n10. If you answered \u2018Yes\u2019 to any of the Questions 3,4, 5 and 6 above, please provide full details below and\nprovide old medical records (if any) required.\nQuestion Details of the health Reason for (Approximate) Name and address Result of the\nNo. condition/disorder/disease, tests or Date of tests,investigation,\ntests or investigations investigations (mm/yyyy) hospital/clinic/doctor treatment, and\ndone, and any treatment done, current health\ngiven treatment\nNB-LP-APP-DEC2022"
+    },
+    {
+        "data_type": "table",
+        "page_id": 7,
+        "data": [
+            [
+                "Policy Owner\u2019s signature",
+                "Date of signing\n(DD/MM/YYYY)"
+            ],
+            [
+                "Signature:\nFull name:\nMIN MIN HTUN",
+                "23/12/2024"
+            ],
+            [
+                "Life Insured\u2019s signature (if different from the Policy Owner)",
+                "Date of signing\n(DD/MM/YYYY)"
+            ],
+            [
+                "Signature:\nFull name:",
+                ""
+            ]
+        ]
+    },
+    {
+        "data_type": "text",
+        "page_id": 7,
+        "data": "PART 6: THE DECLARATION\nI/We hereby authorize and grant permission to Dai-ichi Life Insurance Myanmar Ltd. (Dai-ichi Life) that personal\ninformation completed in this Proposal Form can be disclosed, transferred to, and maintained at Head Quarter(s),\ncompetent authority, and other related corporations and/or can be sued for any legal purpose but not limited to\nmarketing, market research/survey and servicing customer by Dai-ichi Life, its affiliates, business partners. I/We confirm\nthat every answer I/We have given in this Proposal Form and every declaration to the Dai-ichi Life are true and correct\nin all respects. I/We understand that if I omit to disclose any fact, Dai-ichi Life has the right to decline my proposal and\nclaim.\nI have seen a copy of the benefit illustration and I understand the benefits including the surrender values and maturity\nvalues (if any). I am aware that a copy of this benefit illustration would be included in my policy documents that would\nbe sent to me subsequent to the issuance of the policy that I have applied for.\nI understand and acknowledge my duty of disclosure and agree to inform Dai-ichi Life promptly of any changes in my\nhealth, occupation, hobbies, or any other factors that may affect the underwriting decision of this policy, from the date\nof this application until the policy is issued.\nBy signing below, I/We hereby acknowledge that I/We have completely read and fully understand everything as stated\nin this Proposal Form.\nDate of signing\nPolicy Owner\u2019s signature\n(DD/MM/YYYY)\nSignature:\nFull name: 23/12/2024\nMIN MIN HTUN\nDate of signing\nLife Insured\u2019s signature (if different from the Policy Owner)\n(DD/MM/YYYY)\nSignature:\nFull name:\nNB-LP-APP-DEC2022"
+    },
+    {
+        "data_type": "table",
+        "page_id": 8,
+        "data": [
+            [
+                "Financial Planner\u2019s/Insurance Advisor\u2019s Code",
+                "BSS_11",
+                "Branch Name:",
+                "ADMINISTRATION -\nHOME OFFICE"
+            ],
+            [
+                "Introducer Name",
+                "Khaing",
+                "Introducer ID\nNumber",
+                "BSS_11"
+            ],
+            [
+                "Witness\u2019s signature (Financial Planner/ Insurance Advisor)",
+                null,
+                "Date of signing (DD/MM/YYYY)",
+                null
+            ],
+            [
+                "Signature:\nFull name:\nKhaing",
+                null,
+                "23/12/2024",
+                null
+            ]
+        ]
+    },
+    {
+        "data_type": "text",
+        "page_id": 8,
+        "data": "PART 7: FINANCIAL PLANNER/ INSURANCE ADVISOR\u2019S STATEMENT\nI declare that I have validated the identity of the Policy Owner and the Life Insured with the original NRC/passport\nprovided, and that they have signed on this Proposal Form in my presence.\n* If the Financial Planner/Insurance Advisor is the Policy Owner and/or Life Insured, please provide the signature of the Financial\nPlanner\u2019s/Insurance Advisor\u2019s supervisor as witness below.\nADMINISTRATION -\nFinancial Planner\u2019s/Insurance Advisor\u2019s Code BSS_11 Branch Name:\nHOME OFFICE\nKhaing Introducer ID\nIntroducer Name BSS_11\nNumber\nWitness\u2019s signature (Financial Planner/ Insurance Advisor) Date of signing (DD/MM/YYYY)\nSignature:\nFull name: 23/12/2024\nKhaing\nNB-LP-APP-DEC2022"
+    }
+]

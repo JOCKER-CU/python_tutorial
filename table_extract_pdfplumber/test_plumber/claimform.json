@@ -1,0 +1,130 @@
+[
+    {
+        "data_type": "table",
+        "page_id": 1,
+        "data": [
+            [
+                "Claimant Information",
+                null
+            ],
+            [
+                "Attribute",
+                "Details"
+            ],
+            [
+                "Name",
+                ""
+            ],
+            [
+                "Address",
+                ""
+            ],
+            [
+                "Phone",
+                ""
+            ],
+            [
+                "Email",
+                ""
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 1,
+        "data": [
+            [
+                "",
+                null
+            ],
+            [
+                "Incident Information",
+                null
+            ],
+            [
+                "Attribute",
+                "Details"
+            ],
+            [
+                "Date of Incident",
+                ""
+            ],
+            [
+                "Location",
+                ""
+            ],
+            [
+                "Description",
+                ""
+            ],
+            [
+                "Claim Amount ($)",
+                ""
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 1,
+        "data": [
+            [
+                "\u25cf Police Report (if applicable)"
+            ],
+            [
+                "\u25cf Photos of Damage"
+            ],
+            [
+                "\u25cf Repair Estimates"
+            ]
+        ]
+    },
+    {
+        "data_type": "text",
+        "page_id": 1,
+        "data": "Insurance Claim Form\nClaimant Information\nAttribute Details\nName\nAddress\nPhone\nEmail\nIncident Information\nAttribute Details\nDate of Incident\nLocation\nDescription\nClaim Amount ($)\nRequired Documentation\n\u25cf Police Report (if applicable)\n\u25cf Photos of Damage\n\u25cf Repair Estimates\nCopyright@SampleForms.com"
+    },
+    {
+        "data_type": "table",
+        "page_id": 2,
+        "data": [
+            [
+                null,
+                "",
+                null
+            ],
+            [
+                "",
+                "",
+                "2"
+            ],
+            [
+                null,
+                "\u25cf Medical Bills (if any)\nDeclaration:\nI certify that the above information is true and correct.\nSignature: _________________________ Date: _________________\nCopyright@SampleForms.com",
+                null
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 2,
+        "data": [
+            [
+                "Declaration:"
+            ],
+            [
+                "I certify that the above information is true and correct."
+            ],
+            [
+                "Signature: _________________________ Date: _________________"
+            ],
+            [
+                ""
+            ]
+        ]
+    },
+    {
+        "data_type": "text",
+        "page_id": 2,
+        "data": "2\n\u25cf Medical Bills (if any)\nDeclaration:\nI certify that the above information is true and correct.\nSignature: _________________________ Date: _________________\nCopyright@SampleForms.com"
+    }
+]

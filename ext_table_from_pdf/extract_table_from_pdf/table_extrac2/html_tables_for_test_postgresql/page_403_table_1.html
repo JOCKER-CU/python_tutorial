@@ -1,0 +1,39 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>later database states; but do this by waiting for a point in the transaction stream at which no anom-</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>alies can be present, so that there isn't a risk of the dump failing or causing other transactions to roll</td>
+    </tr>
+    <tr>
+      <td>back with a serialization_failure. See Chapter 13 for more information about transaction</td>
+    </tr>
+    <tr>
+      <td>isolation and concurrency control.</td>
+    </tr>
+    <tr>
+      <td>This option is not beneficial for a dump which is intended only for disaster recovery. It could be useful</td>
+    </tr>
+    <tr>
+      <td>for a dump used to load a copy of the database for reporting or other read-only load sharing while</td>
+    </tr>
+    <tr>
+      <td>the original database continues to be updated. Without it the dump may reflect a state which is not</td>
+    </tr>
+    <tr>
+      <td>consistent with any serial execution of the transactions eventually committed. For example, if batch</td>
+    </tr>
+    <tr>
+      <td>processing techniques are used, a batch may show as closed in the dump without all of the items which</td>
+    </tr>
+    <tr>
+      <td>are in the batch appearing.</td>
+    </tr>
+    <tr>
+      <td>This option will make no difference if there are no read-write transactions active when pg_dump is</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,33 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>in the parallel portion of the query performs an aggregation step, producing a partial result for each group</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>of which that process is aware. This is reflected in the plan as a Partial Aggregate node. Second,</td>
+    </tr>
+    <tr>
+      <td>the partial results are transferred to the leader via Gather or Gather Merge. Finally, the leader re-</td>
+    </tr>
+    <tr>
+      <td>aggregates the results across all workers in order to produce the final result. This is reflected in the plan</td>
+    </tr>
+    <tr>
+      <td>as a Finalize Aggregate node.</td>
+    </tr>
+    <tr>
+      <td>Because the Finalize Aggregate node runs on the leader process, queries that produce a relatively</td>
+    </tr>
+    <tr>
+      <td>large number of groups in comparison to the number of input rows will appear less favorable to the query</td>
+    </tr>
+    <tr>
+      <td>planner. For example, in the worst-case scenario the number of groups seen by the Finalize Aggre-</td>
+    </tr>
+    <tr>
+      <td>gate node could be as many as the number of input rows that were seen by all worker processes in the</td>
+    </tr>
+  </tbody>
+</table>

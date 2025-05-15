@@ -1,0 +1,54 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>schemaname name (references pg_namespace.nspname)\rName of schema containing table</td>
+    </tr>
+    <tr>
+      <td>tablename name (references pg_class.relname)\rName of table</td>
+    </tr>
+    <tr>
+      <td>statistics_schemaname name (references pg_namespace.nspname)\rName of schema containing extended statistics object</td>
+    </tr>
+    <tr>
+      <td>statistics_name name (references pg_statistic_ext.stxname)\rName of extended statistics object</td>
+    </tr>
+    <tr>
+      <td>statistics_owner name (references pg_authid.rolname)\rOwner of the extended statistics object</td>
+    </tr>
+    <tr>
+      <td>attnames name[] (references pg_attribute.attname)\rNames of the columns included in the extended statistics object</td>
+    </tr>
+    <tr>
+      <td>exprs text[]\rExpressions included in the extended statistics object</td>
+    </tr>
+    <tr>
+      <td>kinds char[]\rTypes of extended statistics object enabled for this record</td>
+    </tr>
+    <tr>
+      <td>inherited bool (references pg_statistic_ext_data.stxdinherit)\rIf true, the stats include values from child tables, not just the values in the specified relation</td>
+    </tr>
+    <tr>
+      <td>n_distinct pg_ndistinct\rN-distinct counts for combinations of column values. If greater than zero, the estimated num-\rber of distinct values in the combination. If less than zero, the negative of the number of dis-\rtinct values divided by the number of rows. (The negated form is used when ANALYZE be-\rlieves that the number of distinct values is likely to increase as the table grows; the positive\rform is used when the column seems to have a fixed number of possible values.) For exam-\rple, -1 indicates a unique combination of columns in which the number of distinct combina-\rtions is the same as the number of rows.</td>
+    </tr>
+    <tr>
+      <td>dependencies pg_dependencies\rFunctional dependency statistics</td>
+    </tr>
+    <tr>
+      <td>most_common_vals text[]\rA list of the most common combinations of values in the columns. (Null if no combinations\rseem to be more common than any others.)</td>
+    </tr>
+    <tr>
+      <td>most_common_val_nulls bool[]\rA list of NULL flags for the most common combinations of values. (Null when most_com-\rmon_vals is.)</td>
+    </tr>
+    <tr>
+      <td>most_common_freqs float8[]\rA list of the frequencies of the most common combinations, i.e., number of occurrences of\reach divided by total number of rows. (Null when most_common_vals is.)</td>
+    </tr>
+    <tr>
+      <td>most_common_base_freqs float8[]\rA list of the base frequencies of the most common combinations, i.e., product of per-value\rfrequencies. (Null when most_common_vals is.)</td>
+    </tr>
+  </tbody>
+</table>

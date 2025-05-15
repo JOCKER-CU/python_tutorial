@@ -1,0 +1,33 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>pid integer\rProcess ID of a backend or WAL sender process</td>
+    </tr>
+    <tr>
+      <td>ssl boolean\rTrue if SSL is used on this connection</td>
+    </tr>
+    <tr>
+      <td>version text\rVersion of SSL in use, or NULL if SSL is not in use on this connection</td>
+    </tr>
+    <tr>
+      <td>cipher text\rName of SSL cipher in use, or NULL if SSL is not in use on this connection</td>
+    </tr>
+    <tr>
+      <td>bits integer\rNumber of bits in the encryption algorithm used, or NULL if SSL is not used on this connec-\rtion</td>
+    </tr>
+    <tr>
+      <td>client_dn text\rDistinguished Name (DN) field from the client certificate used, or NULL if no client certifi-\rcate was supplied or if SSL is not in use on this connection. This field is truncated if the DN\rfield is longer than NAMEDATALEN (64 characters in a standard build).</td>
+    </tr>
+    <tr>
+      <td>client_serial numeric\rSerial number of the client certificate, or NULL if no client certificate was supplied or if SSL\ris not in use on this connection. The combination of certificate serial number and certificate\rissuer uniquely identifies a certificate (unless the issuer erroneously reuses serial numbers).</td>
+    </tr>
+    <tr>
+      <td>issuer_dn text\rDN of the issuer of the client certificate, or NULL if no client certificate was supplied or if\rSSL is not in use on this connection. This field is truncated like client_dn.</td>
+    </tr>
+  </tbody>
+</table>

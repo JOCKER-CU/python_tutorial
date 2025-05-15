@@ -1,0 +1,56 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>classid</td>
+      <td>oid</td>
+      <td>OID of catalog the object belongs\rin</td>
+    </tr>
+    <tr>
+      <td>objid</td>
+      <td>oid</td>
+      <td>OID of the object itself</td>
+    </tr>
+    <tr>
+      <td>objsubid</td>
+      <td>integer</td>
+      <td>Sub-object ID (e.g., attribute\rnumber for a column)</td>
+    </tr>
+    <tr>
+      <td>command_tag</td>
+      <td>text</td>
+      <td>Command tag</td>
+    </tr>
+    <tr>
+      <td>object_type</td>
+      <td>text</td>
+      <td>Type of the object</td>
+    </tr>
+    <tr>
+      <td>schema_name</td>
+      <td>text</td>
+      <td>Name of the schema the object\rbelongs in, if any; otherwise\rNULL. No quoting is applied.</td>
+    </tr>
+    <tr>
+      <td>object_identity</td>
+      <td>text</td>
+      <td>Text rendering of the object iden-\rtity, schema-qualified. Each iden-\rtifier included in the identity is\rquoted if necessary.</td>
+    </tr>
+    <tr>
+      <td>in_extension</td>
+      <td>boolean</td>
+      <td>True if the command is part of an\rextension script</td>
+    </tr>
+    <tr>
+      <td>command</td>
+      <td>pg_ddl_command</td>
+      <td>A complete representation of the\rcommand, in internal format.\rThis cannot be output directly,\rbut it can be passed to other func-\rtions to obtain different pieces of\rinformation about the command.</td>
+    </tr>
+  </tbody>
+</table>

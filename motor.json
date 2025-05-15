@@ -1,0 +1,93 @@
+[
+    {
+        "Motor_Vehicle_Insurance": {
+            "Description": "Hit the road with assurance! Our motor insurance not only shields your car from damage but also boosts your confidence, knowing you're protected from all angles."
+        }
+    },
+    {
+        "Product_Highlights": {
+            "Coverage": [
+                "Loss or Damage to Your Vehicle",
+                "Liability to Third Parties",
+                "Personal Accident and Medical Treatment Fee"
+            ],
+            "Basic_Premium": {
+                "Description": "Minimum of 1.072% to Maximum of 1.734% of the sum insured amount"
+            }
+        }
+    },
+    {
+        "Loading_Premium": {
+            "Description": "Maximum of 10% of the total premium, depending on utilization in a risk area and claim experience"
+        },
+        "Excess": {
+            "Description": "Excess is the first amount that Insured has to bear in respect of each and every claim under the Policy."
+        }
+    },
+    {
+        "Covers": {
+            "Loss_or_Damage_to_Your_Vehicle": {
+                "Accidental_collision_or_overturning": "",
+                "Collision_or_overturning_caused_by_mechanical_breakdown": "",
+                "Collision_or_overturning_caused_by_wear_and_tear": "Cost of Repair or Replacement (Up to Market Value or Sum Insured Amount whichever is lesser)",
+                "Fire_external_explosion_self-ignition_or_lighting": "",
+                "Of_mischief_malicious_act": "",
+                "Impact_damage_caused_by_falling_objects_provided_no_convulsions_of_nature_is_involved": "",
+                "Towing_Fee": "Up to 300,000 MMK"
+            },
+            "Liability_to_Third_Parties": {
+                "Common_Limit": "Up to 50,000,000 MMK",
+                "Bodily_Injury_or_Death_or_Disability": "Up to 3,000,000 MMK per person",
+                "Legal_Costs": "Up to 500,000 MMK",
+                "Medical_Treatment": "25,000 MMK per week (Up to 52 weeks)"
+            },
+            "Personal_Accident_and_Medical_Treatment": {
+                "Common_Limit": "Up to 50,000,000 MMK",
+                "Bodily_Injury_or_Death_or_Disability": "Up to 3,000,000 MMK per person",
+                "Medical_Treatment": "25,000 MMK per week (Up to 52 weeks)"
+            }
+        }
+    },
+    {
+        "Additional_Covers": {
+            "Windscreen_Damage": {
+                "Description": "Compulsory",
+                "Premium_Rate": "6.5% of the value of windscreen"
+            },
+            "Strike_Riots_Civil_Commotion_Risk": {
+                "Description": "Compulsory",
+                "Premium_Rate": "0.065% of the sum insured"
+            },
+            "Theft": {
+                "Premium_Rate": "15% of the basic premium"
+            },
+            "Betterment": {
+                "Premium_Rate": "30% on basic premium"
+            },
+            "War_Risk": {
+                "Premium_Rate": "0.065% of the sum insured"
+            },
+            "Acts_of_God": {
+                "Premium_Rate": "0.065% of the sum insured"
+            }
+        }
+    },
+    {
+        "Fleet_Discount": {
+            "Description": "10% discount on the basis premium when 10 vehicles and above is insured simultaneously"
+        },
+        "No_Claim_Bonus_(NCB)": {
+            "Description": "If there is no claim for a continuous period of 12 months, NCB will be applied at each renewal. The applicable NCB ranges from 25% – 40% for Private vehicle and 15% – 25% for Commercial Vehicle depending on the no claim period.",
+            "Note": "NCB is personal to the Insured and not transferable."
+        },
+        "Insurance_Eligibility": {
+            "What_can_be_insured": "Any vehicle that is legally registered with the Road Transport Administrative Department can be insured.",
+            "Period_of_Insurance": [
+                "3 months",
+                "6 months",
+                "9 months",
+                "1 year"
+            ]
+        }
+    }
+]

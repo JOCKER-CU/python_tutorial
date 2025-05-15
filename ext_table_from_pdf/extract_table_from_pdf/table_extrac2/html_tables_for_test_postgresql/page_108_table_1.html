@@ -1,0 +1,39 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>FunctionDescriptionExample(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>abbrev ( inet ) → text\rCreates an abbreviated display format as text. (The result is the same as the inet output\rfunction produces; it is “abbreviated” only in comparison to the result of an explicit cast to\rtext, which for historical reasons will never suppress the netmask part.)\rabbrev(inet '10.1.0.0/32') → 10.1.0.0</td>
+    </tr>
+    <tr>
+      <td>abbrev ( cidr ) → text\rCreates an abbreviated display format as text. (The abbreviation consists of dropping all-zero\roctets to the right of the netmask; more examples are in Table 8.22.)\rabbrev(cidr '10.1.0.0/16') → 10.1/16</td>
+    </tr>
+    <tr>
+      <td>broadcast ( inet ) → inet\rComputes the broadcast address for the address's network.\rbroadcast(inet '192.168.1.5/24') → 192.168.1.255/24</td>
+    </tr>
+    <tr>
+      <td>family ( inet ) → integer\rReturns the address's family: 4 for IPv4, 6 for IPv6.\rfamily(inet '::1') → 6</td>
+    </tr>
+    <tr>
+      <td>host ( inet ) → text\rReturns the IP address as text, ignoring the netmask.\rhost(inet '192.168.1.0/24') → 192.168.1.0</td>
+    </tr>
+    <tr>
+      <td>hostmask ( inet ) → inet\rComputes the host mask for the address's network.\rhostmask(inet '192.168.23.20/30') → 0.0.0.3</td>
+    </tr>
+    <tr>
+      <td>inet_merge ( inet, inet ) → cidr\rComputes the smallest network that includes both of the given networks.\rinet_merge(inet '192.168.1.5/24', inet '192.168.2.5/24') →\r192.168.0.0/22</td>
+    </tr>
+    <tr>
+      <td>inet_same_family ( inet, inet ) → boolean\rTests whether the addresses belong to the same IP family.\rinet_same_family(inet '192.168.1.5/24', inet '::1') → f</td>
+    </tr>
+    <tr>
+      <td>masklen ( inet ) → integer\rReturns the netmask length in bits.\rmasklen(inet '192.168.1.5/24') → 24</td>
+    </tr>
+    <tr>
+      <td>netmask ( inet ) → inet\rComputes the network mask for the address's network.\rnetmask(inet '192.168.1.5/24') → 255.255.255.0</td>
+    </tr>
+  </tbody>
+</table>

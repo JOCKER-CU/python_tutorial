@@ -1,0 +1,26 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>clusterable</td>
+      <td>Can the index be used in a CLUSTER command?</td>
+    </tr>
+    <tr>
+      <td>index_scan</td>
+      <td>Does the index support plain (non-bitmap) scans?</td>
+    </tr>
+    <tr>
+      <td>bitmap_scan</td>
+      <td>Does the index support bitmap scans?</td>
+    </tr>
+    <tr>
+      <td>backward_scan</td>
+      <td>Can the scan direction be changed in mid-scan (to\rsupport FETCH BACKWARD on a cursor without\rneeding materialization)?</td>
+    </tr>
+  </tbody>
+</table>

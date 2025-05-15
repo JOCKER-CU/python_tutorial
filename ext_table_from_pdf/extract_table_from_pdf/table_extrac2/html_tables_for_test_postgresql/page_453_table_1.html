@@ -1,0 +1,33 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>objoid oid (references any OID column)\rThe OID of the object this security label pertains to</td>
+    </tr>
+    <tr>
+      <td>classoid oid (references pg_class.oid)\rThe OID of the system catalog this object appears in</td>
+    </tr>
+    <tr>
+      <td>objsubid int4\rFor a security label on a table column, this is the column number (the objoid and clas-\rsoid refer to the table itself). For all other object types, this column is zero.</td>
+    </tr>
+    <tr>
+      <td>objtype text\rThe type of object to which this label applies, as text.</td>
+    </tr>
+    <tr>
+      <td>objnamespace oid (references pg_namespace.oid)\rThe OID of the namespace for this object, if applicable; otherwise NULL.</td>
+    </tr>
+    <tr>
+      <td>objname text\rThe name of the object to which this label applies, as text.</td>
+    </tr>
+    <tr>
+      <td>provider text (references pg_seclabel.provider)\rThe label provider associated with this label.</td>
+    </tr>
+    <tr>
+      <td>label text (references pg_seclabel.label)\rThe security label applied to this object.</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,63 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>your PostgreSQL database, it will not restore changes made to configuration files (that is, post-</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>gresql.conf, pg_hba.conf and pg_ident.conf), since those are edited manually rather than</td>
+    </tr>
+    <tr>
+      <td>through SQL operations. You might wish to keep the configuration files in a location that will be backed up</td>
+    </tr>
+    <tr>
+      <td>by your regular file system backup procedures. See Section 20.2 for how to relocate the configuration files.</td>
+    </tr>
+    <tr>
+      <td>The archive command or function is only invoked on completed WAL segments. Hence, if your server</td>
+    </tr>
+    <tr>
+      <td>generates only little WAL traffic (or has slack periods where it does so), there could be a long delay</td>
+    </tr>
+    <tr>
+      <td>between the completion of a transaction and its safe recording in archive storage. To put a limit on how old</td>
+    </tr>
+    <tr>
+      <td>unarchived data can be, you can set archive_timeout to force the server to switch to a new WAL segment</td>
+    </tr>
+    <tr>
+      <td>file at least that often. Note that archived files that are archived early due to a forced switch are still the</td>
+    </tr>
+    <tr>
+      <td>same length as completely full files. It is therefore unwise to set a very short archive_timeout — it</td>
+    </tr>
+    <tr>
+      <td>will bloat your archive storage. archive_timeout settings of a minute or so are usually reasonable.</td>
+    </tr>
+    <tr>
+      <td>Also, you can force a segment switch manually with pg_switch_wal if you want to ensure that a just-</td>
+    </tr>
+    <tr>
+      <td>finished transaction is archived as soon as possible. Other utility functions related to WAL management</td>
+    </tr>
+    <tr>
+      <td>are listed in Table 9.89.</td>
+    </tr>
+    <tr>
+      <td>When wal_level is minimal some SQL commands are optimized to avoid WAL logging, as described</td>
+    </tr>
+    <tr>
+      <td>in Section 14.4.7. If archiving or streaming replication were turned on during execution of one of these</td>
+    </tr>
+    <tr>
+      <td>statements, WAL would not contain enough information for archive recovery. (Crash recovery is unaffect-</td>
+    </tr>
+    <tr>
+      <td>ed.) For this reason, wal_level can only be changed at server start. However, archive_command</td>
+    </tr>
+    <tr>
+      <td>and archive_library can be changed with a configuration file reload. If you are archiving via shell</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,118 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>0.0060</th>
+      <th>0  \set aid random(1, 100000 * :scale)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0.0010</td>
+      <td>0  \set bid random(1, 1 * :scale)</td>
+    </tr>
+    <tr>
+      <td>0.0010</td>
+      <td>0  \set tid random(1, 10 * :scale)</td>
+    </tr>
+    <tr>
+      <td>0.0010</td>
+      <td>0  \set delta random(-5000, 5000)</td>
+    </tr>
+    <tr>
+      <td>0.3850</td>
+      <td>0  BEGIN;</td>
+    </tr>
+    <tr>
+      <td>0.7730</td>
+      <td>1  UPDATE pgbench_accounts SET abalance = abalance</td>
+    </tr>
+    <tr>
+      <td>+ :delta WHERE aid = :aid;</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>0.6240</td>
+      <td>0  SELECT abalance FROM pgbench_accounts WHERE aid</td>
+    </tr>
+    <tr>
+      <td>= :aid;</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>1.098320</td>
+      <td>3762  UPDATE pgbench_tellers SET tbalance = tbalance</td>
+    </tr>
+    <tr>
+      <td>+ :delta WHERE tid = :tid;</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>0.582  3363  41576  UPDATE pgbench_branches SET bbalance = bbalance</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>+ :delta WHERE bid = :bid;</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>0.4650</td>
+      <td>0  INSERT INTO pgbench_history (tid, bid, aid,</td>
+    </tr>
+    <tr>
+      <td>delta, mtime) VALUES (:tid, :bid, :aid, :delta, CURRENT_TIMESTAMP);</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>1.9330</td>
+      <td>0  END;</td>
+    </tr>
+    <tr>
+      <td>If multiple script files are specified, all statistics are reported separately for each script file.</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Note that collecting the additional timing information needed for per-statement latency computation adds</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>some overhead. This will slow average execution speed and lower the computed TPS. The amount of</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>slowdown varies significantly depending on platform and hardware. Comparing average TPS values with</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>and without latency reporting enabled is a good way to measure if the timing overhead is significant.</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s and Serialization/Deadlock Retries</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>When executing pgbench, there are three main types of errors:</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>• Errors of the main program. They are the most serious and always result in an immediate exit from</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>pgbench with the corresponding error message. They include:</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>• errors at the beginning of pgbench (e.g. an invalid option value);</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>• errors in the initialization mode (e.g. the query to create tables for built-in scripts fails);</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>• errors before starting threads (e.g. could not connect to the database server, syntax error in the meta</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,42 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>as a part of query, or using fast-path invocation. If this function is a trusted procedure, it also checks</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>db_procedure:{entrypoint} permission to check whether it can perform as entry point of trusted</td>
+    </tr>
+    <tr>
+      <td>procedure.</td>
+    </tr>
+    <tr>
+      <td>In order to access any schema object, db_schema:search permission is required on the containing</td>
+    </tr>
+    <tr>
+      <td>schema. When an object is referenced without schema qualification, schemas on which this permission</td>
+    </tr>
+    <tr>
+      <td>is not present will not be searched (just as if the user did not have USAGE privilege on the schema).</td>
+    </tr>
+    <tr>
+      <td>If an explicit schema qualification is present, an error will occur if the user does not have the requisite</td>
+    </tr>
+    <tr>
+      <td>permission on the named schema.</td>
+    </tr>
+    <tr>
+      <td>The client must be allowed to access all referenced tables and columns, even if they originated from views</td>
+    </tr>
+    <tr>
+      <td>which were then expanded, so that we apply consistent access control rules independent of the manner in</td>
+    </tr>
+    <tr>
+      <td>which the table contents are referenced.</td>
+    </tr>
+    <tr>
+      <td>The default database privilege system allows database superusers to modify system catalogs using DML</td>
+    </tr>
+  </tbody>
+</table>

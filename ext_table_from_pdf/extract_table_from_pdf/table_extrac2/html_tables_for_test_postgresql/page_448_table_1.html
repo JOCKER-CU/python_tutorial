@@ -1,0 +1,24 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>name text\rName of the memory context</td>
+    </tr>
+    <tr>
+      <td>ident text\rIdentification information of the memory context. This field is truncated at 1024 bytes</td>
+    </tr>
+    <tr>
+      <td>parent text\rName of the parent of this memory context</td>
+    </tr>
+    <tr>
+      <td>level int4\rDistance from TopMemoryContext in context tree</td>
+    </tr>
+    <tr>
+      <td>total_bytes int8\rTotal bytes allocated for this memory context</td>
+    </tr>
+  </tbody>
+</table>

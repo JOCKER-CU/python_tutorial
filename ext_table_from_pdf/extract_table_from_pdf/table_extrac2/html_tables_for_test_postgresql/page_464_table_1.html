@@ -1,0 +1,33 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>unnecessary repeat searches of the index, the index access method should do a preliminary uniqueness</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>check during the initial insertion. If this shows that there is definitely no conflicting live tuple, we are</td>
+    </tr>
+    <tr>
+      <td>done. Otherwise, we schedule a recheck to occur when it is time to enforce the constraint. If, at the time</td>
+    </tr>
+    <tr>
+      <td>of the recheck, both the inserted tuple and some other tuple with the same key are live, then the error must</td>
+    </tr>
+    <tr>
+      <td>be reported. (Note that for this purpose, “live” actually means “any tuple in the index entry's HOT chain</td>
+    </tr>
+    <tr>
+      <td>is live”.) To implement this, the aminsert function is passed a checkUnique parameter having one</td>
+    </tr>
+    <tr>
+      <td>of the following values:</td>
+    </tr>
+    <tr>
+      <td>• UNIQUE_CHECK_NO indicates that no uniqueness checking should be done (this is not a unique index).</td>
+    </tr>
+    <tr>
+      <td>• UNIQUE_CHECK_YES indicates that this is a non-deferrable unique index, and the uniqueness check</td>
+    </tr>
+  </tbody>
+</table>

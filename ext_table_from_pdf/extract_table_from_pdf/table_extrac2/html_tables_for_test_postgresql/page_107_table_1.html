@@ -1,0 +1,42 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>FunctionDescriptionExample(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>area ( geometric_type ) → double precision\rComputes area. Available for box, path, circle. A path input must be closed, else\rNULL is returned. Also, if the path is self-intersecting, the result may be meaningless.\rarea(box '(2,2),(0,0)') → 4</td>
+    </tr>
+    <tr>
+      <td>center ( geometric_type ) → point\rComputes center point. Available for box, circle.\rcenter(box '(1,2),(0,0)') → (0.5,1)</td>
+    </tr>
+    <tr>
+      <td>diagonal ( box ) → lseg\rExtracts box's diagonal as a line segment (same as lseg(box)).\rdiagonal(box '(1,2),(0,0)') → [(1,2),(0,0)]</td>
+    </tr>
+    <tr>
+      <td>diameter ( circle ) → double precision\rComputes diameter of circle.\rdiameter(circle '&lt;(0,0),2&gt;') → 4</td>
+    </tr>
+    <tr>
+      <td>height ( box ) → double precision\rComputes vertical size of box.\rheight(box '(1,2),(0,0)') → 2</td>
+    </tr>
+    <tr>
+      <td>isclosed ( path ) → boolean\rIs path closed?\risclosed(path '((0,0),(1,1),(2,0))') → t</td>
+    </tr>
+    <tr>
+      <td>isopen ( path ) → boolean\rIs path open?\risopen(path '[(0,0),(1,1),(2,0)]') → t</td>
+    </tr>
+    <tr>
+      <td>length ( geometric_type ) → double precision\rComputes the total length. Available for lseg, path.\rlength(path '((-1,0),(1,0))') → 4</td>
+    </tr>
+    <tr>
+      <td>npoints ( geometric_type ) → integer\rReturns the number of points. Available for path, polygon.\rnpoints(path '[(0,0),(1,1),(2,0)]') → 3</td>
+    </tr>
+    <tr>
+      <td>pclose ( path ) → path\rConverts path to closed form.\rpclose(path '[(0,0),(1,1),(2,0)]') → ((0,0),(1,1),(2,0))</td>
+    </tr>
+    <tr>
+      <td>popen ( path ) → path\rConverts path to open form.\rpopen(path '((0,0),(1,1),(2,0))') → [(0,0),(1,1),(2,0)]</td>
+    </tr>
+  </tbody>
+</table>

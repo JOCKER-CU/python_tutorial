@@ -1,0 +1,248 @@
+{
+    "Page_1_Table_1": [
+        {
+            "Customer Information": "Name Gender Age"
+        },
+        {
+            "Customer Information": [
+                "Policy Owner KHANT TI KYI Male 31",
+                "Life Insured KHANT TI KYI Male 31"
+            ]
+        },
+        {
+            "Customer Information": ""
+        },
+        {
+            "Customer Information": "Plan Information"
+        },
+        {
+            "Customer Information": "Plan LifeInsured Policy Term Premium Term Sum Insured"
+        },
+        {
+            "Customer Information": [
+                "Dai-ichi Life Pro KHANT TI KYI 15 15 54,999,000",
+                "Dai-ichi CI Plus KHANT TI KYI 15 15 6,700,000"
+            ]
+        },
+        {
+            "Customer Information": ""
+        },
+        {
+            "Customer Information": "Premium Frequencies Monthly (MMK) Quarterly (MMK) Semi Annually (MMK) Annually (MMK)"
+        },
+        {
+            "Customer Information": [
+                "Dai-ichi Life Pro 289,817 837,250 1,674,500 3,220,191",
+                "Dai-ichi CI Plus 12,304 35,545 71,089 136,710",
+                "Total Premium 302,121 872,795 1,745,589 3,356,901"
+            ]
+        }
+    ],
+    "Page_1_Table_2": [
+        {
+            "Plan": "Dai-ichi Life Pro",
+            "Life Insured": "KHANT TI KYI",
+            "Death/TPD\nBenefit": "54,999,000",
+            "Early Stage\nCritical Illness\nBenefit": "0",
+            "Late Stage\nCritical Illness\nBenefit": "0",
+            "Living Benefit": "6,599,880",
+            "Maturity Benefit": "54,999,000"
+        },
+        {
+            "Plan": "Dai-ichi CI Plus",
+            "Life Insured": "KHANT TI KYI",
+            "Death/TPD\nBenefit": "6,700,000",
+            "Early Stage\nCritical Illness\nBenefit": "1,675,000",
+            "Late Stage\nCritical Illness\nBenefit": "6,700,000",
+            "Living Benefit": "0",
+            "Maturity Benefit": "0"
+        },
+        {
+            "Plan": "Total Benefit",
+            "Life Insured": "",
+            "Death/TPD\nBenefit": "61,699,000",
+            "Early Stage\nCritical Illness\nBenefit": "1,675,000",
+            "Late Stage\nCritical Illness\nBenefit": "6,700,000",
+            "Living Benefit": "6,599,880",
+            "Maturity Benefit": "54,999,000"
+        }
+    ],
+    "Page_1_Table_3": [
+        {
+            "Policy\nYear": "",
+            "Li Age": "",
+            "Accumulate\nd Premium": "",
+            "Savings": [
+                "Living",
+                "Benefit"
+            ],
+            "": "Total Benefit",
+            "Protection": [
+                "Protection",
+                "Benefit"
+            ],
+            "Surrender\nValue (MMK)": ""
+        },
+        {
+            "Policy\nYear": "1",
+            "Li Age": "31",
+            "Accumulate\nd Premium": "3,220,191",
+            "Savings": "0",
+            "": "0",
+            "Protection": "54,999,000",
+            "Surrender\nValue (MMK)": "0"
+        },
+        {
+            "Policy\nYear": "2",
+            "Li Age": "32",
+            "Accumulate\nd Premium": "6,440,382",
+            "Savings": "0",
+            "": "0",
+            "Protection": "54,999,000",
+            "Surrender\nValue (MMK)": "0"
+        },
+        {
+            "Policy\nYear": "3",
+            "Li Age": "33",
+            "Accumulate\nd Premium": "9,660,573",
+            "Savings": "1,649,970",
+            "": "1,649,970",
+            "Protection": "54,999,000",
+            "Surrender\nValue (MMK)": "549,990"
+        },
+        {
+            "Policy\nYear": "4",
+            "Li Age": "34",
+            "Accumulate\nd Premium": "12,880,764",
+            "Savings": "0",
+            "": "1,649,970",
+            "Protection": "54,999,000",
+            "Surrender\nValue (MMK)": "2,749,950"
+        },
+        {
+            "Policy\nYear": "5",
+            "Li Age": "35",
+            "Accumulate\nd Premium": "16,100,955",
+            "Savings": "0",
+            "": "1,649,970",
+            "Protection": "54,999,000",
+            "Surrender\nValue (MMK)": "5,499,900"
+        }
+    ],
+    "Page_2_Table_1": [
+        {
+            "Policy\nYear": "",
+            "Li Age": "",
+            "Accumulate\nd Premium": "",
+            "Savings": [
+                "Living",
+                "Benefit"
+            ],
+            "": "Total Benefit",
+            "Protection": [
+                "Protection",
+                "Benefit"
+            ],
+            "Surrender\nValue (MMK)": ""
+        },
+        {
+            "Policy\nYear": "6",
+            "Li Age": "36",
+            "Accumulate\nd Premium": "19,321,146",
+            "Savings": "1,649,970",
+            "": "3,299,940",
+            "Protection": "54,999,000",
+            "Surrender\nValue (MMK)": "8,249,850"
+        },
+        {
+            "Policy\nYear": "7",
+            "Li Age": "37",
+            "Accumulate\nd Premium": "22,541,337",
+            "Savings": "0",
+            "": "3,299,940",
+            "Protection": "54,999,000",
+            "Surrender\nValue (MMK)": "10,999,800"
+        },
+        {
+            "Policy\nYear": "8",
+            "Li Age": "38",
+            "Accumulate\nd Premium": "25,761,528",
+            "Savings": "0",
+            "": "3,299,940",
+            "Protection": "54,999,000",
+            "Surrender\nValue (MMK)": "16,499,700"
+        },
+        {
+            "Policy\nYear": "9",
+            "Li Age": "39",
+            "Accumulate\nd Premium": "28,981,719",
+            "Savings": "1,649,970",
+            "": "4,949,910",
+            "Protection": "54,999,000",
+            "Surrender\nValue (MMK)": "19,249,650"
+        },
+        {
+            "Policy\nYear": "10",
+            "Li Age": "40",
+            "Accumulate\nd Premium": "32,201,910",
+            "Savings": "0",
+            "": "4,949,910",
+            "Protection": "54,999,000",
+            "Surrender\nValue (MMK)": "21,999,600"
+        },
+        {
+            "Policy\nYear": "11",
+            "Li Age": "41",
+            "Accumulate\nd Premium": "35,422,101",
+            "Savings": "0",
+            "": "4,949,910",
+            "Protection": "54,999,000",
+            "Surrender\nValue (MMK)": "27,499,500"
+        },
+        {
+            "Policy\nYear": "12",
+            "Li Age": "42",
+            "Accumulate\nd Premium": "38,642,292",
+            "Savings": "1,649,970",
+            "": "6,599,880",
+            "Protection": "54,999,000",
+            "Surrender\nValue (MMK)": "32,999,400"
+        },
+        {
+            "Policy\nYear": "13",
+            "Li Age": "43",
+            "Accumulate\nd Premium": "41,862,483",
+            "Savings": "0",
+            "": "6,599,880",
+            "Protection": "54,999,000",
+            "Surrender\nValue (MMK)": "38,499,300"
+        },
+        {
+            "Policy\nYear": "14",
+            "Li Age": "44",
+            "Accumulate\nd Premium": "45,082,674",
+            "Savings": "0",
+            "": "6,599,880",
+            "Protection": "54,999,000",
+            "Surrender\nValue (MMK)": "43,999,200"
+        },
+        {
+            "Policy\nYear": "15",
+            "Li Age": "45",
+            "Accumulate\nd Premium": "48,302,865",
+            "Savings": "0",
+            "": "61,598,880",
+            "Protection": "54,999,000",
+            "Surrender\nValue (MMK)": "0"
+        },
+        {
+            "Policy\nYear": "Total",
+            "Li Age": "",
+            "Accumulate\nd Premium": "48,302,865",
+            "Savings": "",
+            "": "61,598,880",
+            "Protection": "",
+            "Surrender\nValue (MMK)": ""
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+[
+    {
+        "Critical Illness Insurance": {
+            "Description": "Your health is your most important asset. Protect yourself and your family from medical and surgical expenses with our Health Insurance."
+        }
+    },
+    {
+        "Product Highlights": {
+            "Critical Illness Insurance": {
+                "Description": "This critical illness insurance provides the death coverage and the medical expenses incurred by ten most common critical illnesses.",
+                "Covered Illnesses": [
+                    "Heart Attack",
+                    "Stroke",
+                    "Cancer (Life-Threatening)",
+                    "Renal Failure",
+                    "Major Organ Transplant",
+                    "Heart Valve Replacement or Repair",
+                    "Coronary Artery Bypass Surgery",
+                    "Severe Burns",
+                    "Coma",
+                    "Bacterial Meningitis"
+                ]
+            }
+        }
+    },
+    {
+        "Product Highlights": {
+            "Critical Illness Insurance": {
+                "Description": "This critical illness insurance provides the death coverage and the medical expenses incurred by ten most common critical illnesses.",
+                "Covered Illnesses": [
+                    "Heart Attack",
+                    "Stroke",
+                    "Cancer (Life-Threatening)",
+                    "Renal Failure",
+                    "Major Organ Transplant",
+                    "Heart Valve Replacement or Repair",
+                    "Coronary Artery Bypass Surgery",
+                    "Severe Burns",
+                    "Coma",
+                    "Bacterial Meningitis"
+                ]
+            }
+        }
+    },
+    {
+        "Annual Premium (MMK)": {
+            "6 ~ 30": {
+                "Individual": "8,800",
+                "Group": "8,400"
+            },
+            "31 ~ 40": {
+                "Individual": "15,400",
+                "Group": "14,600"
+            },
+            "41 ~ 50": {
+                "Individual": "24,200",
+                "Group": "23,000"
+            },
+            "51 ~ 60": {
+                "Individual": "37,400",
+                "Group": "35,500"
+            }
+        }
+    },
+    {
+        "Available Units": "Up to 10 units"
+    },
+    {
+        "Covers": {
+            "Death": {
+                "Benefit": "1,000,000 MMK per unit"
+            },
+            "Treatment_for_the_Predetermined_Critical_Illness_Diseases": {
+                "Benefit": "1,000,000 MMK per unit"
+            }
+        }
+    },
+    {
+        "Insurance Eligibility": {
+            "Who can be Insured": "6 to 60 years old, who are in good health",
+            "Under 18 years old": "the guardian is required"
+        },
+        "Period of Insurance": "1 year"
+    }
+]

@@ -1,0 +1,27 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>indexes may be much smaller than B-trees when indexing longer data items such as UUIDs, URLs, etc.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>The absence of the column value also makes all hash index scans lossy. Hash indexes may take part in</td>
+    </tr>
+    <tr>
+      <td>bitmap index scans and backward scans.</td>
+    </tr>
+    <tr>
+      <td>Hash indexes are best optimized for SELECT and UPDATE-heavy workloads that use equality scans on</td>
+    </tr>
+    <tr>
+      <td>larger tables. In a B-tree index, searches must descend through the tree until the leaf page is found. In</td>
+    </tr>
+    <tr>
+      <td>tables with millions of rows, this descent can increase access time to data. The equivalent of a leaf page</td>
+    </tr>
+    <tr>
+      <td>in a hash index is referred to as a bucket page. In contrast, a hash index allows accessing the bucket pages</td>
+    </tr>
+  </tbody>
+</table>

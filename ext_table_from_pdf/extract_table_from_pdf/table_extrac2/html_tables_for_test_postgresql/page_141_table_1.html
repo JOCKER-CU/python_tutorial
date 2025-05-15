@@ -1,0 +1,57 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>with a = 5. Index entries with c &gt;= 77 would be skipped, but they'd still have to be scanned through. This</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>index could in principle be used for queries that have constraints on b and/or c with no constraint on a</td>
+    </tr>
+    <tr>
+      <td>— but the entire index would have to be scanned, so in most cases the planner would prefer a sequential</td>
+    </tr>
+    <tr>
+      <td>table scan over using the index.</td>
+    </tr>
+    <tr>
+      <td>A multicolumn GiST index can be used with query conditions that involve any subset of the index's</td>
+    </tr>
+    <tr>
+      <td>columns. Conditions on additional columns restrict the entries returned by the index, but the condition on</td>
+    </tr>
+    <tr>
+      <td>the first column is the most important one for determining how much of the index needs to be scanned.</td>
+    </tr>
+    <tr>
+      <td>A GiST index will be relatively ineffective if its first column has only a few distinct values, even if there</td>
+    </tr>
+    <tr>
+      <td>are many distinct values in additional columns.</td>
+    </tr>
+    <tr>
+      <td>A multicolumn GIN index can be used with query conditions that involve any subset of the index's columns.</td>
+    </tr>
+    <tr>
+      <td>Unlike B-tree or GiST, index search effectiveness is the same regardless of which index column(s) the</td>
+    </tr>
+    <tr>
+      <td>query conditions use.</td>
+    </tr>
+    <tr>
+      <td>A multicolumn BRIN index can be used with query conditions that involve any subset of the index's</td>
+    </tr>
+    <tr>
+      <td>columns. Like GIN and unlike B-tree or GiST, index search effectiveness is the same regardless of which</td>
+    </tr>
+    <tr>
+      <td>index column(s) the query conditions use. The only reason to have multiple BRIN indexes instead of one</td>
+    </tr>
+    <tr>
+      <td>multicolumn BRIN index on a single table is to have a different pages_per_range storage parameter.</td>
+    </tr>
+    <tr>
+      <td>Of course, each column must be used with operators appropriate to the index type; clauses that involve</td>
+    </tr>
+  </tbody>
+</table>

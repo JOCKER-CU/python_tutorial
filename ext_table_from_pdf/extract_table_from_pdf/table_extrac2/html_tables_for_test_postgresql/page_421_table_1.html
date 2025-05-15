@@ -1,0 +1,39 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>aggfnoid regproc (references pg_proc.oid)\rpg_proc OID of the aggregate function</td>
+    </tr>
+    <tr>
+      <td>aggkind char\rAggregate kind: n for “normal” aggregates, o for “ordered-set” aggregates, or h for “hypo-\rthetical-set” aggregates</td>
+    </tr>
+    <tr>
+      <td>aggnumdirectargs int2\rNumber of direct (non-aggregated) arguments of an ordered-set or hypothetical-set aggre-\rgate, counting a variadic array as one argument. If equal to pronargs, the aggregate must\rbe variadic and the variadic array describes the aggregated arguments as well as the final di-\rrect arguments. Always zero for normal aggregates.</td>
+    </tr>
+    <tr>
+      <td>aggtransfn regproc (references pg_proc.oid)\rTransition function</td>
+    </tr>
+    <tr>
+      <td>aggfinalfn regproc (references pg_proc.oid)\rFinal function (zero if none)</td>
+    </tr>
+    <tr>
+      <td>aggcombinefn regproc (references pg_proc.oid)\rCombine function (zero if none)</td>
+    </tr>
+    <tr>
+      <td>aggserialfn regproc (references pg_proc.oid)\rSerialization function (zero if none)</td>
+    </tr>
+    <tr>
+      <td>aggdeserialfn regproc (references pg_proc.oid)\rDeserialization function (zero if none)</td>
+    </tr>
+    <tr>
+      <td>aggmtransfn regproc (references pg_proc.oid)\rForward transition function for moving-aggregate mode (zero if none)</td>
+    </tr>
+    <tr>
+      <td>aggminvtransfn regproc (references pg_proc.oid)\rInverse transition function for moving-aggregate mode (zero if none)</td>
+    </tr>
+  </tbody>
+</table>

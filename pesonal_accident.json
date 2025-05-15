@@ -1,0 +1,63 @@
+[
+    {
+        "Personal_Accident_Insurance": {
+            "Description": "Accidents can happen when you least expect it. Cover yourself and your loved ones in case of accidents or mishaps for your peace of mind."
+        }
+    },
+    {
+        "Product_Highlights": {
+            "Warranty_Period_Options": [
+                "3 months warranty",
+                "6 months warranty",
+                "12 months (1y) warranty"
+            ]
+        }
+    },
+    {
+        "Personal_Accident_Insurance": {
+            "Description": "KBZMS Personal Accident Insurance provides coverage in the event of unforeseen losses resulting from accidents such as death, permanent disability, injuries, hospitalization and/or disability to work.",
+            "Basic_Premium": {
+                "Standard": "0.7% on sum insured",
+                "High_Risk_Occupation": "0.707% on sum insured"
+            },
+            "Sum_Insured": {
+                "Minimum": "500,000 MMK",
+                "Maximum": "20,000,000 MMK"
+            }
+        }
+    },
+    {
+        "Covers": {
+            "Accidental_Death": {
+                "Benefit": "100% of Sum Insured"
+            },
+            "Total_Permanent_Disability": {
+                "Benefit": "100% of Sum Insured"
+            },
+            "Bodily_Injuries": {
+                "Description": "In accordance with the bodily injury compensation table",
+                "Specific_Injuries": {
+                    "Total_Loss_of_Vision_in_One_Eye": "50% of Sum Insured",
+                    "Loss_of_One_Arm_or_One_Leg": "50% of Sum Insured"
+                }
+            },
+            "Accidental_Injury": {
+                "Weekly_Hospitalization_Benefit": "3% of sum insured (Up to 15% of sum insured)",
+                "Weekly_Loss_of_Income_Benefit": "3% of sum insured (Up to 15% of sum insured)"
+            }
+        }
+    },
+    {
+        "Insurance_Eligibility": {
+            "Who_can_be_Insured": {
+                "Age_Range": "16 to 65 years old, who are in good health",
+                "Under_18": "The guardian is required"
+            },
+            "Period_of_Insurance": [
+                "3 months",
+                "6 months",
+                "1 year"
+            ]
+        }
+    }
+]

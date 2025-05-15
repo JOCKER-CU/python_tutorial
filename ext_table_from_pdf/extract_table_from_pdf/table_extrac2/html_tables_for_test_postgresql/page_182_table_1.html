@@ -1,0 +1,51 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>should be reserved for development purposes. The recommended way to set this parameter is in the</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>postgresql.conf configuration file.</td>
+    </tr>
+    <tr>
+      <td>_fuzzy_search_limit (integer)</td>
+    </tr>
+    <tr>
+      <td>Soft upper limit of the size of the set returned by GIN index scans. For more information see Sec-</td>
+    </tr>
+    <tr>
+      <td>tion 70.5.</td>
+    </tr>
+    <tr>
+      <td>ock Management</td>
+    </tr>
+    <tr>
+      <td>dlock_timeout (integer)</td>
+    </tr>
+    <tr>
+      <td>This is the amount of time to wait on a lock before checking to see if there is a deadlock condition.</td>
+    </tr>
+    <tr>
+      <td>The check for deadlock is relatively expensive, so the server doesn't run it every time it waits for a</td>
+    </tr>
+    <tr>
+      <td>lock. We optimistically assume that deadlocks are not common in production applications and just</td>
+    </tr>
+    <tr>
+      <td>wait on the lock for a while before checking for a deadlock. Increasing this value reduces the amount</td>
+    </tr>
+    <tr>
+      <td>of time wasted in needless deadlock checks, but slows down reporting of real deadlock errors. If this</td>
+    </tr>
+    <tr>
+      <td>value is specified without units, it is taken as milliseconds. The default is one second (1s), which is</td>
+    </tr>
+    <tr>
+      <td>probably about the smallest value you would want in practice. On a heavily loaded server you might</td>
+    </tr>
+    <tr>
+      <td>want to raise it. Ideally the setting should exceed your typical transaction time, so as to improve the</td>
+    </tr>
+  </tbody>
+</table>

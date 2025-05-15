@@ -1,0 +1,95 @@
+[
+    {
+        "Product_Highlights": {
+            "Properties_you_can_buy_fire_insurance_for": {
+                "Buildings": "Excludes land value.",
+                "Furniture_and_Household_Contents": "",
+                "Plant_Machinery_Equipment_and_Related_Materials": "",
+                "Stocks_of_Goods": {
+                    "Description": "Includes production materials, raw materials, work-in-progress, and finished goods.",
+                    "Insurance_Options": {
+                        "Fixed_Policy": "Provides coverage based on a pre-determined sum insured, agreed upon at the policy’s inception, ideal for businesses with consistent inventory levels.",
+                        "Declaration_Policy": {
+                            "Description": "An annual policy offering flexible coverage for businesses with fluctuating inventory. The sum insured is adjusted monthly based on declared values, aligning with the Market Value at the time of loss.",
+                            "Note": "Declaration policy is designed for long-term (one-year) coverage and is not suitable for short-term insurance needs."
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "insurance_type": "Fire & Allied Perils Insurance",
+        "description": "Safeguard your valuable assets and ensure a secure future with KBZMS's Fire Insurance, offering comprehensive protection against unforeseen events."
+    },
+    {
+        "Basic_Premium": {
+            "Description": "In accordance with the tariff based on the classes of the building to be insured, its occupation, and its surrounding buildings, the premium ratings will vary from 0.20% to 3.5% on the sum insured."
+        }
+    },
+    {
+        "Additional Premium": {
+            "Premium_Rates": {
+                "Riot_Strike_and_Malicious_damage": "0.06%",
+                "Aircraft_damage": "0.10%",
+                "Impact_damage": "0.10%",
+                "Subsidence_and_landslide": "0.10%",
+                "Earthquake_fire_fire_and_shock_damage_caused_by_earthquake": "0.10%",
+                "Explosion": "0.10%",
+                "Spontaneous_combustion": "0.08%",
+                "Storm_Typhoon_Hurricane_Tempest": "0.20% or 0.25%",
+                "Flood_and_Inundation": "0.10%",
+                "Burglary": "0.25% or 1.00%",
+                "War_risk": "0.10%"
+            }
+        }
+    },
+    {
+        "Sum Insured": {
+            "Subject_Matters_of_Insurance": {
+                "Basis_of_Sum_Insured": "Replacement cost based on current",
+                "Buildings": "Reconstruction expenses.",
+                "Plant_and_Machinery": "Replacement cost for equivalent items.",
+                "Furniture_&_Household_Contents": "Replacement cost at current prices.",
+                "Stocks_of_Goods": "Current market value."
+            }
+        }
+    },
+    {
+        "Coverage_&_Benefits": {
+            "What_is_Covered": {
+                "Basic_Coverage": [
+                    "Fire",
+                    "Lightning",
+                    "Explosion of gas used for domestic purposes only"
+                ],
+                "Additional_Coverage": [
+                    "Riot, Strike and Malicious damage",
+                    "Aircraft damage",
+                    "Impact damage",
+                    "Subsidence and landslide",
+                    "Earthquake fire, fire and shock damage caused by earthquake",
+                    "Explosion",
+                    "Spontaneous combustion",
+                    "Storm tempest – Storm, Typhoon, Hurricane, Tempest (Various Storms)",
+                    "Flood and Inundation",
+                    "Burglary",
+                    "War risk"
+                ]
+            },
+            "No_Claim_Bonus_(NCB)": {
+                "Description": "If no claims are made within a year, the insured may be eligible for a discount upon renewal. When renewing the policy, the total premium from the previous year is compared to the renewal premium for the current year. The insured will receive 25% of the lower premium as a no claim bonus."
+            },
+            "Insurance_Eligibility": {
+                "Who_can_be_Insured": "Anyone who has an insurable interest has the right to be insured.",
+                "Period_of_Insurance": [
+                    "10 days",
+                    "1 month",
+                    "3 months",
+                    "6 months",
+                    "1 year"
+                ]
+            }
+        }
+    }
+]

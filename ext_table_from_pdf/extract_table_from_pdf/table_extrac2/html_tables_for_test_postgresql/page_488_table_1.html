@@ -1,0 +1,84 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Expanded TOAST pointers are useful for complex data types whose on-disk representation is not espe-</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>cially suited for computational purposes. As an example, the standard varlena representation of a Post-</td>
+    </tr>
+    <tr>
+      <td>greSQL array includes dimensionality information, a nulls bitmap if there are any null elements, then</td>
+    </tr>
+    <tr>
+      <td>the values of all the elements in order. When the element type itself is variable-length, the only way to</td>
+    </tr>
+    <tr>
+      <td>find the N'th element is to scan through all the preceding elements. This representation is appropriate for</td>
+    </tr>
+    <tr>
+      <td>on-disk storage because of its compactness, but for computations with the array it's much nicer to have</td>
+    </tr>
+    <tr>
+      <td>an “expanded” or “deconstructed” representation in which all the element starting locations have been</td>
+    </tr>
+    <tr>
+      <td>identified. The TOAST pointer mechanism supports this need by allowing a pass-by-reference Datum to</td>
+    </tr>
+    <tr>
+      <td>point to either a standard varlena value (the on-disk representation) or a TOAST pointer that points to</td>
+    </tr>
+    <tr>
+      <td>an expanded representation somewhere in memory. The details of this expanded representation are up to</td>
+    </tr>
+    <tr>
+      <td>the data type, though it must have a standard header and meet the other API requirements given in src/</td>
+    </tr>
+    <tr>
+      <td>include/utils/expandeddatum.h. C-level functions working with the data type can choose to</td>
+    </tr>
+    <tr>
+      <td>handle either representation. Functions that do not know about the expanded representation, but simply</td>
+    </tr>
+    <tr>
+      <td>apply PG_DETOAST_DATUM to their inputs, will automatically receive the traditional varlena represen-</td>
+    </tr>
+    <tr>
+      <td>tation; so support for an expanded representation can be introduced incrementally, one function at a time.</td>
+    </tr>
+    <tr>
+      <td>TOAST pointers to expanded values are further broken down into read-write and read-only pointers. The</td>
+    </tr>
+    <tr>
+      <td>pointed-to representation is the same either way, but a function that receives a read-write pointer is allowed</td>
+    </tr>
+    <tr>
+      <td>to modify the referenced value in-place, whereas one that receives a read-only pointer must not; it must</td>
+    </tr>
+    <tr>
+      <td>first create a copy if it wants to make a modified version of the value. This distinction and some associated</td>
+    </tr>
+    <tr>
+      <td>conventions make it possible to avoid unnecessary copying of expanded values during query execution.</td>
+    </tr>
+    <tr>
+      <td>For all types of in-memory TOAST pointer, the TOAST management code ensures that no such pointer</td>
+    </tr>
+    <tr>
+      <td>datum can accidentally get stored on disk. In-memory TOAST pointers are automatically expanded to</td>
+    </tr>
+    <tr>
+      <td>normal in-line varlena values before storage — and then possibly converted to on-disk TOAST pointers,</td>
+    </tr>
+    <tr>
+      <td>if the containing tuple would otherwise be too big.</td>
+    </tr>
+    <tr>
+      <td>73.3. Free Space Map</td>
+    </tr>
+    <tr>
+      <td>Each heap and index relation, except for hash indexes, has a Free Space Map (FSM) to keep track of</td>
+    </tr>
+  </tbody>
+</table>

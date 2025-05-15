@@ -1,0 +1,42 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>same logical table row; to an index, each tuple is an independent object that needs its own index entry.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>“Version churn” tuples may sometimes accumulate and adversely affect query latency and throughput.</td>
+    </tr>
+    <tr>
+      <td>This typically occurs with UPDATE-heavy workloads where most individual updates cannot apply the HOT</td>
+    </tr>
+    <tr>
+      <td>optimization. Changing the value of only one column covered by one index during an UPDATE always</td>
+    </tr>
+    <tr>
+      <td>necessitates a new set of index tuples — one for each and every index on the table. Note in particular that</td>
+    </tr>
+    <tr>
+      <td>this includes indexes that were not “logically modified” by the UPDATE. All indexes will need a successor</td>
+    </tr>
+    <tr>
+      <td>physical index tuple that points to the latest version in the table. Each new tuple within each index will</td>
+    </tr>
+    <tr>
+      <td>generally need to coexist with the original “updated” tuple for a short period of time (typically until shortly</td>
+    </tr>
+    <tr>
+      <td>after the UPDATE transaction commits).</td>
+    </tr>
+    <tr>
+      <td>B-Tree indexes incrementally delete version churn index tuples by performing bottom-up index deletion</td>
+    </tr>
+    <tr>
+      <td>passes. Each deletion pass is triggered in reaction to an anticipated “version churn page split”. This only</td>
+    </tr>
+    <tr>
+      <td>happens with indexes that are not logically modified by UPDATE statements, where concentrated build</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,30 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ALTER TABLE will propagate any changes in column data definitions and check constraints down the</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>inheritance hierarchy. Again, dropping columns that are depended on by other tables is only possible when</td>
+    </tr>
+    <tr>
+      <td>using the CASCADE option. ALTER TABLE follows the same rules for duplicate column merging and</td>
+    </tr>
+    <tr>
+      <td>rejection that apply during CREATE TABLE.</td>
+    </tr>
+    <tr>
+      <td>Inherited queries perform access permission checks on the parent table only. Thus, for example, granting</td>
+    </tr>
+    <tr>
+      <td>UPDATE permission on the cities table implies permission to update rows in the capitals table as</td>
+    </tr>
+    <tr>
+      <td>well, when they are accessed through cities. This preserves the appearance that the data is (also) in</td>
+    </tr>
+    <tr>
+      <td>the parent table. But the capitals table could not be updated directly without an additional grant. In</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,21 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>oid oid\rRow identifier</td>
+    </tr>
+    <tr>
+      <td>umuser oid (references pg_authid.oid)\rOID of the local role being mapped, or zero if the user mapping is public</td>
+    </tr>
+    <tr>
+      <td>umserver oid (references pg_foreign_server.oid)\rThe OID of the foreign server that contains this mapping</td>
+    </tr>
+    <tr>
+      <td>umoptions text[]\rUser mapping specific options, as “keyword=value” strings</td>
+    </tr>
+  </tbody>
+</table>

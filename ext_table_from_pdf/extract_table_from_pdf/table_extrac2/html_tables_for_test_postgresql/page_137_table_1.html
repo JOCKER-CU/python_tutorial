@@ -1,0 +1,41 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>classid</td>
+      <td>oid</td>
+      <td>OID of catalog the object be-\rlonged in</td>
+    </tr>
+    <tr>
+      <td>objid</td>
+      <td>oid</td>
+      <td>OID of the object itself</td>
+    </tr>
+    <tr>
+      <td>objsubid</td>
+      <td>integer</td>
+      <td>Sub-object ID (e.g., attribute\rnumber for a column)</td>
+    </tr>
+    <tr>
+      <td>original</td>
+      <td>boolean</td>
+      <td>True if this was one of the root\robject(s) of the deletion</td>
+    </tr>
+    <tr>
+      <td>normal</td>
+      <td>boolean</td>
+      <td>True if there was a normal de-\rpendency relationship in the de-\rpendency graph leading to this\robject</td>
+    </tr>
+    <tr>
+      <td>is_temporary</td>
+      <td>boolean</td>
+      <td>True if this was a temporary ob-\rject</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,48 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Object Type</th>
+      <th>All Privileges</th>
+      <th>Default PUBLICPrivileges</th>
+      <th>psql Command</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SCHEMA</td>
+      <td>UC</td>
+      <td>none</td>
+      <td>\dn+</td>
+    </tr>
+    <tr>
+      <td>SEQUENCE</td>
+      <td>rwU</td>
+      <td>none</td>
+      <td>\dp</td>
+    </tr>
+    <tr>
+      <td>TABLE (and table-like objects)</td>
+      <td>arwdDxt</td>
+      <td>none</td>
+      <td>\dp</td>
+    </tr>
+    <tr>
+      <td>Table column</td>
+      <td>arwx</td>
+      <td>none</td>
+      <td>\dp</td>
+    </tr>
+    <tr>
+      <td>TABLESPACE</td>
+      <td>C</td>
+      <td>none</td>
+      <td>\db+</td>
+    </tr>
+    <tr>
+      <td>TYPE</td>
+      <td>U</td>
+      <td>U</td>
+      <td>\dT+</td>
+    </tr>
+  </tbody>
+</table>

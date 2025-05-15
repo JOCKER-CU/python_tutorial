@@ -1,0 +1,106 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>LWLock Wait Event</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CommitTsBuffer</td>
+      <td>Waiting for I/O on a commit timestamp SLRU\rbuffer.</td>
+    </tr>
+    <tr>
+      <td>CommitTsSLRU</td>
+      <td>Waiting to access the commit timestamp SLRU\rcache.</td>
+    </tr>
+    <tr>
+      <td>ControlFile</td>
+      <td>Waiting to read or update the pg_control file\ror create a new WAL file.</td>
+    </tr>
+    <tr>
+      <td>DynamicSharedMemoryControl</td>
+      <td>Waiting to read or update dynamic shared memory\rallocation information.</td>
+    </tr>
+    <tr>
+      <td>LockFastPath</td>
+      <td>Waiting to read or update a process' fast-path lock\rinformation.</td>
+    </tr>
+    <tr>
+      <td>LockManager</td>
+      <td>Waiting to read or update information about\r“heavyweight” locks.</td>
+    </tr>
+    <tr>
+      <td>LogicalRepWorker</td>
+      <td>Waiting to read or update the state of logical repli-\rcation workers.</td>
+    </tr>
+    <tr>
+      <td>MultiXactGen</td>
+      <td>Waiting to read or update shared multixact state.</td>
+    </tr>
+    <tr>
+      <td>MultiXactMemberBuffer</td>
+      <td>Waiting for I/O on a multixact member SLRU\rbuffer.</td>
+    </tr>
+    <tr>
+      <td>MultiXactMemberSLRU</td>
+      <td>Waiting to access the multixact member SLRU\rcache.</td>
+    </tr>
+    <tr>
+      <td>MultiXactOffsetBuffer</td>
+      <td>Waiting for I/O on a multixact offset SLRU buffer.</td>
+    </tr>
+    <tr>
+      <td>MultiXactOffsetSLRU</td>
+      <td>Waiting to access the multixact offset SLRU\rcache.</td>
+    </tr>
+    <tr>
+      <td>MultiXactTruncation</td>
+      <td>Waiting to read or truncate multixact information.</td>
+    </tr>
+    <tr>
+      <td>NotifyBuffer</td>
+      <td>Waiting for I/O on a NOTIFY message SLRU\rbuffer.</td>
+    </tr>
+    <tr>
+      <td>NotifyQueue</td>
+      <td>Waiting to read or update NOTIFY messages.</td>
+    </tr>
+    <tr>
+      <td>NotifyQueueTail</td>
+      <td>Waiting to update limit on NOTIFY message stor-\rage.</td>
+    </tr>
+    <tr>
+      <td>NotifySLRU</td>
+      <td>Waiting to access the NOTIFY message SLRU\rcache.</td>
+    </tr>
+    <tr>
+      <td>OidGen</td>
+      <td>Waiting to allocate a new OID.</td>
+    </tr>
+    <tr>
+      <td>OldSnapshotTimeMap</td>
+      <td>Waiting to read or update old snapshot control in-\rformation.</td>
+    </tr>
+    <tr>
+      <td>ParallelAppend</td>
+      <td>Waiting to choose the next subplan during Parallel\rAppend plan execution.</td>
+    </tr>
+    <tr>
+      <td>ParallelHashJoin</td>
+      <td>Waiting to synchronize workers during Parallel\rHash Join plan execution.</td>
+    </tr>
+    <tr>
+      <td>ParallelQueryDSA</td>
+      <td>Waiting for parallel query dynamic shared memo-\rry allocation.</td>
+    </tr>
+    <tr>
+      <td>PerSessionDSA</td>
+      <td>Waiting for parallel query dynamic shared memo-\rry allocation.</td>
+    </tr>
+    <tr>
+      <td>PerSessionRecordType</td>
+      <td>Waiting to access a parallel query's information\rabout composite types.</td>
+    </tr>
+  </tbody>
+</table>

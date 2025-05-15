@@ -1,0 +1,29 @@
+[
+    {
+        "Plan":"Dai-ichi Life Pro",
+        "Life Insured":"KHANT TI KYI",
+        "Death\/TPD\nBenefit":"54,999,000",
+        "Early Stage\nCritical Illness\nBenefit":"0",
+        "Late Stage\nCritical Illness\nBenefit":"0",
+        "Living Benefit":"6,599,880",
+        "Maturity Benefit":"54,999,000"
+    },
+    {
+        "Plan":"Dai-ichi CI Plus",
+        "Life Insured":"KHANT TI KYI",
+        "Death\/TPD\nBenefit":"6,700,000",
+        "Early Stage\nCritical Illness\nBenefit":"1,675,000",
+        "Late Stage\nCritical Illness\nBenefit":"6,700,000",
+        "Living Benefit":"0",
+        "Maturity Benefit":"0"
+    },
+    {
+        "Plan":"Total Benefit",
+        "Life Insured":null,
+        "Death\/TPD\nBenefit":"61,699,000",
+        "Early Stage\nCritical Illness\nBenefit":"1,675,000",
+        "Late Stage\nCritical Illness\nBenefit":"6,700,000",
+        "Living Benefit":"6,599,880",
+        "Maturity Benefit":"54,999,000"
+    }
+]

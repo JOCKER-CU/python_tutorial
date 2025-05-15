@@ -1,0 +1,94 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Unnamed: 0</th>
+      <th>The new options are server to write the backup locally and blackhole to discard the backup (for</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NaN</td>
+      <td>testing).</td>
+    </tr>
+    <tr>
+      <td>•</td>
+      <td>Allow pg_basebackup to do server-side gzip, LZ4, and Zstandard compression and client-side LZ4 and</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>Zstandard compression of base backup files (Dipesh Pandit, Jeevan Ladhe)</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>Client-side gzip compression was already supported.</td>
+    </tr>
+    <tr>
+      <td>•</td>
+      <td>Allow pg_basebackup to compress on the server side and decompress on the client side before storage</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>(Dipesh Pandit)</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>This is accomplished by specifying compression on the server side and plain output format.</td>
+    </tr>
+    <tr>
+      <td>•</td>
+      <td>Allow pg_basebackup's --compress option to control the compression location (server or client),</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>compression method, and compression options (Michael Paquier, Robert Haas)</td>
+    </tr>
+    <tr>
+      <td>•</td>
+      <td>Add the LZ4 compression method to pg_receivewal (Georgios Kokolatos)</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>This is enabled via --compress=lz4 and requires binaries to be built using --with-lz4.</td>
+    </tr>
+    <tr>
+      <td>•</td>
+      <td>Add additional capabilities to pg_receivewal's --compress option (Georgios Kokolatos)</td>
+    </tr>
+    <tr>
+      <td>•</td>
+      <td>Improve pg_receivewal's ability to restart at the proper WAL location (Ronan Dunklau)</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>Previously, pg_receivewal would start based on the WAL file stored in the local archive directory, or</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>at the sending server's current WAL flush location. With this change, if the sending server is running</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>Postgres 15 or later, the local archive directory is empty, and a replication slot is specified, the replication</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>slot's restart point will be used.</td>
+    </tr>
+    <tr>
+      <td>•</td>
+      <td>Add pg_rewind option --config-file to simplify use when server configuration files are stored</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>outside the data directory (Gunnar Bluth)</td>
+    </tr>
+    <tr>
+      <td>E.4.3.9.1. pg_upgrade</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>•</td>
+      <td>Store pg_upgrade's log and temporary files in a subdirectory of the new cluster called pg_up-</td>
+    </tr>
+  </tbody>
+</table>

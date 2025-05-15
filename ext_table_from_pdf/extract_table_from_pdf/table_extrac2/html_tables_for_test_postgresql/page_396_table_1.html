@@ -1,0 +1,33 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>rows. Also, you can write table_name.* as a shorthand for the columns coming from just that table.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>In these cases it is not possible to specify new names with AS; the output column names will be the same</td>
+    </tr>
+    <tr>
+      <td>as the table columns' names.</td>
+    </tr>
+    <tr>
+      <td>According to the SQL standard, the expressions in the output list should be computed before applying</td>
+    </tr>
+    <tr>
+      <td>DISTINCT, ORDER BY, or LIMIT. This is obviously necessary when using DISTINCT, since other-</td>
+    </tr>
+    <tr>
+      <td>wise it's not clear what values are being made distinct. However, in many cases it is convenient if output</td>
+    </tr>
+    <tr>
+      <td>expressions are computed after ORDER BY and LIMIT; particularly if the output list contains any volatile</td>
+    </tr>
+    <tr>
+      <td>or expensive functions. With that behavior, the order of function evaluations is more intuitive and there</td>
+    </tr>
+    <tr>
+      <td>will not be evaluations corresponding to rows that never appear in the output. PostgreSQL will effectively</td>
+    </tr>
+  </tbody>
+</table>

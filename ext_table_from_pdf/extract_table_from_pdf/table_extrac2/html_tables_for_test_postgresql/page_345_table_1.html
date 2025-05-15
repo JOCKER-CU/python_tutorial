@@ -1,0 +1,42 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Section 67.2. For each operator in the family there must be a support function having the same two input</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>data types as the operator. It is recommended that a family be complete, i.e., for each combination of data</td>
+    </tr>
+    <tr>
+      <td>types, all operators are included. Each operator class should include just the non-cross-type operators and</td>
+    </tr>
+    <tr>
+      <td>support function for its data type.</td>
+    </tr>
+    <tr>
+      <td>To build a multiple-data-type hash operator family, compatible hash support functions must be created</td>
+    </tr>
+    <tr>
+      <td>for each data type supported by the family. Here compatibility means that the functions are guaranteed to</td>
+    </tr>
+    <tr>
+      <td>return the same hash code for any two values that are considered equal by the family's equality operators,</td>
+    </tr>
+    <tr>
+      <td>even when the values are of different types. This is usually difficult to accomplish when the types have</td>
+    </tr>
+    <tr>
+      <td>different physical representations, but it can be done in some cases. Furthermore, casting a value from one</td>
+    </tr>
+    <tr>
+      <td>data type represented in the operator family to another data type also represented in the operator family via</td>
+    </tr>
+    <tr>
+      <td>an implicit or binary coercion cast must not change the computed hash value. Notice that there is only one</td>
+    </tr>
+    <tr>
+      <td>support function per data type, not one per equality operator. It is recommended that a family be complete,</td>
+    </tr>
+  </tbody>
+</table>

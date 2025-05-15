@@ -1,0 +1,87 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Adding a column with a volatile DEFAULT or changing the type of an existing column will require the</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>entire table and its indexes to be rewritten. As an exception, when changing the type of an existing column,</td>
+    </tr>
+    <tr>
+      <td>if the USING clause does not change the column contents and the old type is either binary coercible to the</td>
+    </tr>
+    <tr>
+      <td>new type or an unconstrained domain over the new type, a table rewrite is not needed. However, indexes</td>
+    </tr>
+    <tr>
+      <td>must always be rebuilt unless the system can verify that the new index would be logically equivalent to</td>
+    </tr>
+    <tr>
+      <td>the existing one. For example, if the collation for a column has been changed, an index rebuild is always</td>
+    </tr>
+    <tr>
+      <td>required because the new sort order might be different. However, in the absence of a collation change, a</td>
+    </tr>
+    <tr>
+      <td>column can be changed from text to varchar (or vice versa) without rebuilding the indexes because</td>
+    </tr>
+    <tr>
+      <td>these data types sort identically. Table and/or index rebuilds may take a significant amount of time for a</td>
+    </tr>
+    <tr>
+      <td>large table; and will temporarily require as much as double the disk space.</td>
+    </tr>
+    <tr>
+      <td>Adding a CHECK or NOT NULL constraint requires scanning the table to verify that existing rows meet</td>
+    </tr>
+    <tr>
+      <td>the constraint, but does not require a table rewrite.</td>
+    </tr>
+    <tr>
+      <td>Similarly, when attaching a new partition it may be scanned to verify that existing rows meet the partition</td>
+    </tr>
+    <tr>
+      <td>constraint.</td>
+    </tr>
+    <tr>
+      <td>The main reason for providing the option to specify multiple changes in a single ALTER TABLE is that</td>
+    </tr>
+    <tr>
+      <td>multiple table scans or rewrites can thereby be combined into a single pass over the table.</td>
+    </tr>
+    <tr>
+      <td>Scanning a large table to verify a new foreign key or check constraint can take a long time, and other</td>
+    </tr>
+    <tr>
+      <td>updates to the table are locked out until the ALTER TABLE ADD CONSTRAINT command is committed.</td>
+    </tr>
+    <tr>
+      <td>The main purpose of the NOT VALID constraint option is to reduce the impact of adding a constraint</td>
+    </tr>
+    <tr>
+      <td>on concurrent updates. With NOT VALID, the ADD CONSTRAINT command does not scan the table</td>
+    </tr>
+    <tr>
+      <td>and can be committed immediately. After that, a VALIDATE CONSTRAINT command can be issued to</td>
+    </tr>
+    <tr>
+      <td>verify that existing rows satisfy the constraint. The validation step does not need to lock out concurrent</td>
+    </tr>
+    <tr>
+      <td>updates, since it knows that other transactions will be enforcing the constraint for rows that they insert or</td>
+    </tr>
+    <tr>
+      <td>update; only pre-existing rows need to be checked. Hence, validation acquires only a SHARE UPDATE</td>
+    </tr>
+    <tr>
+      <td>EXCLUSIVE lock on the table being altered. (If the constraint is a foreign key then a ROW SHARE lock</td>
+    </tr>
+    <tr>
+      <td>is also required on the table referenced by the constraint.) In addition to improving concurrency, it can be</td>
+    </tr>
+    <tr>
+      <td>useful to use NOT VALID and VALIDATE CONSTRAINT in cases where the table is known to contain</td>
+    </tr>
+  </tbody>
+</table>

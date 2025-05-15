@@ -1,0 +1,75 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>large values are unlikely to provide a significant benefit. However, setting this value to at least a few</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>megabytes can improve write performance on a busy server where many clients are committing at</td>
+    </tr>
+    <tr>
+      <td>once. The auto-tuning selected by the default setting of -1 should give reasonable results in most cases.</td>
+    </tr>
+    <tr>
+      <td>_writer_delay (integer)</td>
+    </tr>
+    <tr>
+      <td>Specifies how often the WAL writer flushes WAL, in time terms. After flushing WAL the writer sleeps</td>
+    </tr>
+    <tr>
+      <td>for the length of time given by wal_writer_delay, unless woken up sooner by an asynchronously</td>
+    </tr>
+    <tr>
+      <td>committing transaction. If the last flush happened less than wal_writer_delay ago and less than</td>
+    </tr>
+    <tr>
+      <td>wal_writer_flush_after worth of WAL has been produced since, then WAL is only written</td>
+    </tr>
+    <tr>
+      <td>to the operating system, not flushed to disk. If this value is specified without units, it is taken as</td>
+    </tr>
+    <tr>
+      <td>milliseconds. The default value is 200 milliseconds (200ms). Note that on many systems, the effective</td>
+    </tr>
+    <tr>
+      <td>resolution of sleep delays is 10 milliseconds; setting wal_writer_delay to a value that is not a</td>
+    </tr>
+    <tr>
+      <td>multiple of 10 might have the same results as setting it to the next higher multiple of 10. This parameter</td>
+    </tr>
+    <tr>
+      <td>can only be set in the postgresql.conf file or on the server command line.</td>
+    </tr>
+    <tr>
+      <td>_writer_flush_after (integer)</td>
+    </tr>
+    <tr>
+      <td>Specifies how often the WAL writer flushes WAL, in volume terms. If the last flush happened</td>
+    </tr>
+    <tr>
+      <td>less than wal_writer_delay ago and less than wal_writer_flush_after worth of WAL</td>
+    </tr>
+    <tr>
+      <td>has been produced since, then WAL is only written to the operating system, not flushed to disk. If</td>
+    </tr>
+    <tr>
+      <td>wal_writer_flush_after is set to 0 then WAL data is always flushed immediately. If this</td>
+    </tr>
+    <tr>
+      <td>value is specified without units, it is taken as WAL blocks, that is XLOG_BLCKSZ bytes, typically</td>
+    </tr>
+    <tr>
+      <td>8kB. The default is 1MB. This parameter can only be set in the postgresql.conf file or on the</td>
+    </tr>
+    <tr>
+      <td>server command line.</td>
+    </tr>
+    <tr>
+      <td>_skip_threshold (integer)</td>
+    </tr>
+    <tr>
+      <td>When wal_level is minimal and a transaction commits after creating or rewriting a permanent</td>
+    </tr>
+  </tbody>
+</table>

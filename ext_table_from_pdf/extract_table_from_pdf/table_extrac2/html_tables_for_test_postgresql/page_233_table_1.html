@@ -1,0 +1,30 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>pid integer\rProcess ID of a WAL sender process</td>
+    </tr>
+    <tr>
+      <td>usesysid oid\rOID of the user logged into this WAL sender process</td>
+    </tr>
+    <tr>
+      <td>usename name\rName of the user logged into this WAL sender process</td>
+    </tr>
+    <tr>
+      <td>application_name text\rName of the application that is connected to this WAL sender</td>
+    </tr>
+    <tr>
+      <td>client_addr inet\rIP address of the client connected to this WAL sender. If this field is null, it indicates that the\rclient is connected via a Unix socket on the server machine.</td>
+    </tr>
+    <tr>
+      <td>client_hostname text\rHost name of the connected client, as reported by a reverse DNS lookup of client_addr.\rThis field will only be non-null for IP connections, and only when log_hostname is enabled.</td>
+    </tr>
+    <tr>
+      <td>client_port integer\rTCP port number that the client is using for communication with this WAL sender, or -1 if a\rUnix socket is used</td>
+    </tr>
+  </tbody>
+</table>

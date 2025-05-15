@@ -1,0 +1,45 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>FunctionDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>pg_stat_get_backend_idset () → setof integer\rReturns the set of currently active backend ID numbers (from 1 to the number of active back-\rends).</td>
+    </tr>
+    <tr>
+      <td>pg_stat_get_backend_activity ( integer ) → text\rReturns the text of this backend's most recent query.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_get_backend_activity_start ( integer ) → timestamp with time\rzone\rReturns the time when the backend's most recent query was started.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_get_backend_client_addr ( integer ) → inet\rReturns the IP address of the client connected to this backend.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_get_backend_client_port ( integer ) → integer\rReturns the TCP port number that the client is using for communication.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_get_backend_dbid ( integer ) → oid\rReturns the OID of the database this backend is connected to.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_get_backend_pid ( integer ) → integer\rReturns the process ID of this backend.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_get_backend_start ( integer ) → timestamp with time zone\rReturns the time when this process was started.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_get_backend_userid ( integer ) → oid\rReturns the OID of the user logged into this backend.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_get_backend_wait_event_type ( integer ) → text\rReturns the wait event type name if this backend is currently waiting, otherwise NULL. See\rTable 28.4 for details.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_get_backend_wait_event ( integer ) → text\rReturns the wait event name if this backend is currently waiting, otherwise NULL. See Ta-\rble 28.5 through Table 28.13.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_get_backend_xact_start ( integer ) → timestamp with time zone\rReturns the time when the backend's current transaction was started.</td>
+    </tr>
+  </tbody>
+</table>

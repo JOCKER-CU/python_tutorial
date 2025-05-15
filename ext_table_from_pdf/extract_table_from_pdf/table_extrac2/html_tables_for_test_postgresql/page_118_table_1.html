@@ -1,0 +1,42 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>FunctionDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>current_catalog → name\rcurrent_database () → name\rReturns the name of the current database. (Databases are called “catalogs” in the SQL stan-\rdard, so current_catalog is the standard's spelling.)</td>
+    </tr>
+    <tr>
+      <td>current_query () → text\rReturns the text of the currently executing query, as submitted by the client (which might\rcontain more than one statement).</td>
+    </tr>
+    <tr>
+      <td>current_role → name\rThis is equivalent to current_user.</td>
+    </tr>
+    <tr>
+      <td>current_schema → name\rcurrent_schema () → name\rReturns the name of the schema that is first in the search path (or a null value if the search\rpath is empty). This is the schema that will be used for any tables or other named objects that\rare created without specifying a target schema.</td>
+    </tr>
+    <tr>
+      <td>current_schemas ( include_implicit boolean ) → name[]\rReturns an array of the names of all schemas presently in the effective search path, in their\rpriority order. (Items in the current search_path setting that do not correspond to existing,\rsearchable schemas are omitted.) If the Boolean argument is true, then implicitly-searched\rsystem schemas such as pg_catalog are included in the result.</td>
+    </tr>
+    <tr>
+      <td>current_user → name\rReturns the user name of the current execution context.</td>
+    </tr>
+    <tr>
+      <td>inet_client_addr () → inet\rReturns the IP address of the current client, or NULL if the current connection is via a Unix-\rdomain socket.</td>
+    </tr>
+    <tr>
+      <td>inet_client_port () → integer\rReturns the IP port number of the current client, or NULL if the current connection is via a\rUnix-domain socket.</td>
+    </tr>
+    <tr>
+      <td>inet_server_addr () → inet\rReturns the IP address on which the server accepted the current connection, or NULL if the\rcurrent connection is via a Unix-domain socket.</td>
+    </tr>
+    <tr>
+      <td>inet_server_port () → integer\rReturns the IP port number on which the server accepted the current connection, or NULL if\rthe current connection is via a Unix-domain socket.</td>
+    </tr>
+    <tr>
+      <td>pg_backend_pid () → integer\rReturns the process ID of the server process attached to the current session.</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,42 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Phase</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>initializing</td>
+      <td>The command is preparing to begin scanning the heap. This phase is\rexpected to be very brief.</td>
+    </tr>
+    <tr>
+      <td>seq scanning heap</td>
+      <td>The command is currently scanning the table using a sequential\rscan.</td>
+    </tr>
+    <tr>
+      <td>index scanning heap</td>
+      <td>CLUSTER is currently scanning the table using an index scan.</td>
+    </tr>
+    <tr>
+      <td>sorting tuples</td>
+      <td>CLUSTER is currently sorting tuples.</td>
+    </tr>
+    <tr>
+      <td>writing new heap</td>
+      <td>CLUSTER is currently writing the new heap.</td>
+    </tr>
+    <tr>
+      <td>swapping relation\rfiles</td>
+      <td>The command is currently swapping newly-built files into place.</td>
+    </tr>
+    <tr>
+      <td>rebuilding index</td>
+      <td>The command is currently rebuilding an index.</td>
+    </tr>
+    <tr>
+      <td>performing final\rcleanup</td>
+      <td>The command is performing final cleanup. When this phase is com-\rpleted, CLUSTER or VACUUM FULL will end.</td>
+    </tr>
+  </tbody>
+</table>

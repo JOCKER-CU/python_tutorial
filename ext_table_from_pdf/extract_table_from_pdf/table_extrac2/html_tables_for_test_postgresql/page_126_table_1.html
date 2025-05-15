@@ -1,0 +1,24 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>FunctionDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Returns a current snapshot, a data structure showing which transaction IDs are now in-\rprogress.</td>
+    </tr>
+    <tr>
+      <td>pg_snapshot_xip ( pg_snapshot ) → setof xid8\rReturns the set of in-progress transaction IDs contained in a snapshot.</td>
+    </tr>
+    <tr>
+      <td>pg_snapshot_xmax ( pg_snapshot ) → xid8\rReturns the xmax of a snapshot.</td>
+    </tr>
+    <tr>
+      <td>pg_snapshot_xmin ( pg_snapshot ) → xid8\rReturns the xmin of a snapshot.</td>
+    </tr>
+    <tr>
+      <td>pg_visible_in_snapshot ( xid8, pg_snapshot ) → boolean\rIs the given transaction ID visible according to this snapshot (that is, was it completed before\rthe snapshot was taken)? Note that this function will not give the correct answer for a sub-\rtransaction ID.</td>
+    </tr>
+  </tbody>
+</table>

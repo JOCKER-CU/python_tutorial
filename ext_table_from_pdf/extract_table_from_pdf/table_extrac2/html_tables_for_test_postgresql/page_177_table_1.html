@@ -1,0 +1,106 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Escape</th>
+      <th>Effect</th>
+      <th>Session only</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>%d</td>
+      <td>Database name</td>
+      <td>yes</td>
+    </tr>
+    <tr>
+      <td>%r</td>
+      <td>Remote host name or IP ad-\rdress, and remote port</td>
+      <td>yes</td>
+    </tr>
+    <tr>
+      <td>%h</td>
+      <td>Remote host name or IP address</td>
+      <td>yes</td>
+    </tr>
+    <tr>
+      <td>%b</td>
+      <td>Backend type</td>
+      <td>no</td>
+    </tr>
+    <tr>
+      <td>%p</td>
+      <td>Process ID</td>
+      <td>no</td>
+    </tr>
+    <tr>
+      <td>%P</td>
+      <td>Process ID of the parallel group\rleader, if this process is a paral-\rlel query worker</td>
+      <td>no</td>
+    </tr>
+    <tr>
+      <td>%t</td>
+      <td>Time stamp without millisec-\ronds</td>
+      <td>no</td>
+    </tr>
+    <tr>
+      <td>%m</td>
+      <td>Time stamp with milliseconds</td>
+      <td>no</td>
+    </tr>
+    <tr>
+      <td>%n</td>
+      <td>Time stamp with milliseconds\r(as a Unix epoch)</td>
+      <td>no</td>
+    </tr>
+    <tr>
+      <td>%i</td>
+      <td>Command tag: type of session's\rcurrent command</td>
+      <td>yes</td>
+    </tr>
+    <tr>
+      <td>%e</td>
+      <td>SQLSTATE error code</td>
+      <td>no</td>
+    </tr>
+    <tr>
+      <td>%c</td>
+      <td>Session ID: see below</td>
+      <td>no</td>
+    </tr>
+    <tr>
+      <td>%l</td>
+      <td>Number of the log line for each\rsession or process, starting at 1</td>
+      <td>no</td>
+    </tr>
+    <tr>
+      <td>%s</td>
+      <td>Process start time stamp</td>
+      <td>no</td>
+    </tr>
+    <tr>
+      <td>%v</td>
+      <td>Virtual transaction ID (back-\rendID/localXID)</td>
+      <td>no</td>
+    </tr>
+    <tr>
+      <td>%x</td>
+      <td>Transaction ID (0 if none is as-\rsigned)</td>
+      <td>no</td>
+    </tr>
+    <tr>
+      <td>%q</td>
+      <td>Produces no output, but tells\rnon-session processes to stop at\rthis point in the string; ignored\rby session processes</td>
+      <td>no</td>
+    </tr>
+    <tr>
+      <td>%Q</td>
+      <td>Query identifier of the current\rquery. Query identifiers are not\rcomputed by default, so this\rfield will be zero unless com-\rpute_query_id parameter is en-\rabled or a third-party module\rthat computes query identifiers\ris configured.</td>
+      <td>yes</td>
+    </tr>
+    <tr>
+      <td>%%</td>
+      <td>Literal %</td>
+      <td>no</td>
+    </tr>
+  </tbody>
+</table>

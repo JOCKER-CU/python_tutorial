@@ -1,0 +1,36 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>portnodes.h in the PostgreSQL source code. Here we provide just an overview of what planner sup-</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>port functions can do. The set of possible requests to a support function is extensible, so more things might</td>
+    </tr>
+    <tr>
+      <td>be possible in future versions.</td>
+    </tr>
+    <tr>
+      <td>Some function calls can be simplified during planning based on properties specific to the function. For</td>
+    </tr>
+    <tr>
+      <td>example, int4mul(n, 1) could be simplified to just n. This type of transformation can be performed</td>
+    </tr>
+    <tr>
+      <td>by a planner support function, by having it implement the SupportRequestSimplify request type.</td>
+    </tr>
+    <tr>
+      <td>The support function will be called for each instance of its target function found in a query parse tree. If</td>
+    </tr>
+    <tr>
+      <td>it finds that the particular call can be simplified into some other form, it can build and return a parse tree</td>
+    </tr>
+    <tr>
+      <td>representing that expression. This will automatically work for operators based on the function, too — in</td>
+    </tr>
+    <tr>
+      <td>the example just given, n * 1 would also be simplified to n. (But note that this is just an example; this</td>
+    </tr>
+  </tbody>
+</table>

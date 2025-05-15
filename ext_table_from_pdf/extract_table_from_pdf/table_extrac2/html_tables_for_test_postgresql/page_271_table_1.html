@@ -1,0 +1,45 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>The second selection mechanism for variant comparison files is much more automatic: it simply uses the</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>“best match” among several supplied comparison files. The regression test driver script considers both the</td>
+    </tr>
+    <tr>
+      <td>standard comparison file for a test, testname.out, and variant files named testname_digit.out</td>
+    </tr>
+    <tr>
+      <td>(where the digit is any single digit 0-9). If any such file is an exact match, the test is considered to</td>
+    </tr>
+    <tr>
+      <td>pass; otherwise, the one that generates the shortest diff is used to create the failure report. (If resultmap</td>
+    </tr>
+    <tr>
+      <td>includes an entry for the particular test, then the base testname is the substitute name given in re-</td>
+    </tr>
+    <tr>
+      <td>sultmap.)</td>
+    </tr>
+    <tr>
+      <td>For example, for the char test, the comparison file char.out contains results that are expected in the</td>
+    </tr>
+    <tr>
+      <td>C and POSIX locales, while the file char_1.out contains results sorted as they appear in many other</td>
+    </tr>
+    <tr>
+      <td>locales.</td>
+    </tr>
+    <tr>
+      <td>The best-match mechanism was devised to cope with locale-dependent results, but it can be used in any</td>
+    </tr>
+    <tr>
+      <td>situation where the test results cannot be predicted easily from the platform name alone. A limitation of this</td>
+    </tr>
+    <tr>
+      <td>mechanism is that the test driver cannot tell which variant is actually “correct” for the current environment;</td>
+    </tr>
+  </tbody>
+</table>

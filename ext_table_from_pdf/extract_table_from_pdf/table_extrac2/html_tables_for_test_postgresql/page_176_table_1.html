@@ -1,0 +1,45 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>sidered. Note that a parallel index scan typically won't touch the entire index; it is the number of pages</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>which the planner believes will actually be touched by the scan which is relevant. This parameter is</td>
+    </tr>
+    <tr>
+      <td>also used to decide whether a particular index can participate in a parallel vacuum. See VACUUM.</td>
+    </tr>
+    <tr>
+      <td>If this value is specified without units, it is taken as blocks, that is BLCKSZ bytes, typically 8kB. The</td>
+    </tr>
+    <tr>
+      <td>default is 512 kilobytes (512kB).</td>
+    </tr>
+    <tr>
+      <td>ective_cache_size (integer)</td>
+    </tr>
+    <tr>
+      <td>Sets the planner's assumption about the effective size of the disk cache that is available to a single</td>
+    </tr>
+    <tr>
+      <td>query. This is factored into estimates of the cost of using an index; a higher value makes it more</td>
+    </tr>
+    <tr>
+      <td>likely index scans will be used, a lower value makes it more likely sequential scans will be used.</td>
+    </tr>
+    <tr>
+      <td>When setting this parameter you should consider both PostgreSQL's shared buffers and the portion</td>
+    </tr>
+    <tr>
+      <td>of the kernel's disk cache that will be used for PostgreSQL data files, though some data might exist</td>
+    </tr>
+    <tr>
+      <td>in both places. Also, take into account the expected number of concurrent queries on different tables,</td>
+    </tr>
+    <tr>
+      <td>since they will have to share the available space. This parameter has no effect on the size of shared</td>
+    </tr>
+  </tbody>
+</table>

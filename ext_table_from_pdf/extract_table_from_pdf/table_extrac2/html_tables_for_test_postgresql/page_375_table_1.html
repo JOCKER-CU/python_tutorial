@@ -1,0 +1,30 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>COPY handles this by quoting. A NULL is output as the NULL parameter string and is not quoted, while</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>a non-NULL value matching the NULL parameter string is quoted. For example, with the default settings,</td>
+    </tr>
+    <tr>
+      <td>a NULL is written as an unquoted empty string, while an empty string data value is written with double</td>
+    </tr>
+    <tr>
+      <td>quotes (""). Reading values follows similar rules. You can use FORCE_NOT_NULL to prevent NULL</td>
+    </tr>
+    <tr>
+      <td>input comparisons for specific columns. You can also use FORCE_NULL to convert quoted null string</td>
+    </tr>
+    <tr>
+      <td>data values to NULL.</td>
+    </tr>
+    <tr>
+      <td>Because backslash is not a special character in the CSV format, \., the end-of-data marker, could also</td>
+    </tr>
+    <tr>
+      <td>appear as a data value. To avoid any misinterpretation, a \. data value appearing as a lone entry on a line</td>
+    </tr>
+  </tbody>
+</table>

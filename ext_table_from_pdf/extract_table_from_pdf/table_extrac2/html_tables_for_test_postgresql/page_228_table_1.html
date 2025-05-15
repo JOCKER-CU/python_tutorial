@@ -1,0 +1,102 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>LWLock Wait Event</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PerSessionRecordTypmod</td>
+      <td>Waiting to access a parallel query's information\rabout type modifiers that identify anonymous\rrecord types.</td>
+    </tr>
+    <tr>
+      <td>PerXactPredicateList</td>
+      <td>Waiting to access the list of predicate locks held\rby the current serializable transaction during a par-\rallel query.</td>
+    </tr>
+    <tr>
+      <td>PredicateLockManager</td>
+      <td>Waiting to access predicate lock information used\rby serializable transactions.</td>
+    </tr>
+    <tr>
+      <td>ProcArray</td>
+      <td>Waiting to access the shared per-process data\rstructures (typically, to get a snapshot or report a\rsession's transaction ID).</td>
+    </tr>
+    <tr>
+      <td>RelationMapping</td>
+      <td>Waiting to read or update a pg_filenode.map\rfile (used to track the filenode assignments of cer-\rtain system catalogs).</td>
+    </tr>
+    <tr>
+      <td>RelCacheInit</td>
+      <td>Waiting to read or update a pg_inter-\rnal.init relation cache initialization file.</td>
+    </tr>
+    <tr>
+      <td>ReplicationOrigin</td>
+      <td>Waiting to create, drop or use a replication origin.</td>
+    </tr>
+    <tr>
+      <td>ReplicationOriginState</td>
+      <td>Waiting to read or update the progress of one repli-\rcation origin.</td>
+    </tr>
+    <tr>
+      <td>ReplicationSlotAllocation</td>
+      <td>Waiting to allocate or free a replication slot.</td>
+    </tr>
+    <tr>
+      <td>ReplicationSlotControl</td>
+      <td>Waiting to read or update replication slot state.</td>
+    </tr>
+    <tr>
+      <td>ReplicationSlotIO</td>
+      <td>Waiting for I/O on a replication slot.</td>
+    </tr>
+    <tr>
+      <td>SerialBuffer</td>
+      <td>Waiting for I/O on a serializable transaction con-\rflict SLRU buffer.</td>
+    </tr>
+    <tr>
+      <td>SerializableFinishedList</td>
+      <td>Waiting to access the list of finished serializable\rtransactions.</td>
+    </tr>
+    <tr>
+      <td>SerializablePredicateList</td>
+      <td>Waiting to access the list of predicate locks held\rby serializable transactions.</td>
+    </tr>
+    <tr>
+      <td>PgStatsDSA</td>
+      <td>Waiting for stats dynamic shared memory alloca-\rtor access</td>
+    </tr>
+    <tr>
+      <td>PgStatsHash</td>
+      <td>Waiting for stats shared memory hash table access</td>
+    </tr>
+    <tr>
+      <td>PgStatsData</td>
+      <td>Waiting for shared memory stats data access</td>
+    </tr>
+    <tr>
+      <td>SerializableXactHash</td>
+      <td>Waiting to read or update information about serial-\rizable transactions.</td>
+    </tr>
+    <tr>
+      <td>SerialSLRU</td>
+      <td>Waiting to access the serializable transaction con-\rflict SLRU cache.</td>
+    </tr>
+    <tr>
+      <td>SharedTidBitmap</td>
+      <td>Waiting to access a shared TID bitmap during a\rparallel bitmap index scan.</td>
+    </tr>
+    <tr>
+      <td>SharedTupleStore</td>
+      <td>Waiting to access a shared tuple store during paral-\rlel query.</td>
+    </tr>
+    <tr>
+      <td>ShmemIndex</td>
+      <td>Waiting to find or allocate space in shared memo-\rry.</td>
+    </tr>
+    <tr>
+      <td>SInvalRead</td>
+      <td>Waiting to retrieve messages from the shared cata-\rlog invalidation queue.</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,36 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>pid integer\rProcess ID of backend.</td>
+    </tr>
+    <tr>
+      <td>datid oid\rOID of the database to which this backend is connected.</td>
+    </tr>
+    <tr>
+      <td>datname name\rName of the database to which this backend is connected.</td>
+    </tr>
+    <tr>
+      <td>relid oid\rOID of the table being clustered.</td>
+    </tr>
+    <tr>
+      <td>command text\rThe command that is running. Either CLUSTER or VACUUM FULL.</td>
+    </tr>
+    <tr>
+      <td>phase text\rCurrent processing phase. See Table 28.43.</td>
+    </tr>
+    <tr>
+      <td>cluster_index_relid oid\rIf the table is being scanned using an index, this is the OID of the index being used; other-\rwise, it is zero.</td>
+    </tr>
+    <tr>
+      <td>heap_tuples_scanned bigint\rNumber of heap tuples scanned. This counter only advances when the phase is seq scan-\rning heap, index scanning heap or writing new heap.</td>
+    </tr>
+    <tr>
+      <td>heap_tuples_written bigint\rNumber of heap tuples written. This counter only advances when the phase is seq scan-\rning heap, index scanning heap or writing new heap.</td>
+    </tr>
+  </tbody>
+</table>

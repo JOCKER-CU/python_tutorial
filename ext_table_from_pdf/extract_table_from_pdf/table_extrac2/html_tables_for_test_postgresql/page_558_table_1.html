@@ -1,0 +1,134 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Unnamed: 0</th>
+      <th>crashes while using 15.0, and there might have been large tables dropped just before such crashes, it's</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NaN</td>
+      <td>advisable to check the database directories for files named according to the pattern NNNN.NN. If there</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>is no matching file named just NNNN (without the .NN suffix), these files should be removed manually.</td>
+    </tr>
+    <tr>
+      <td>•</td>
+      <td>Fix handling of DEFAULT tokens that appear in a multi-row VALUES clause of an INSERT on an</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>updatable view (Tom Lane)</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>This oversight could lead to “cache lookup failed for type” errors, or in older branches even to crashes.</td>
+    </tr>
+    <tr>
+      <td>•</td>
+      <td>Disallow rules named _RETURN that are not ON SELECT (Tom Lane)</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>This avoids confusion between a view's ON SELECT rule and any other rules it may have.</td>
+    </tr>
+    <tr>
+      <td>•</td>
+      <td>Avoid failure in EXPLAIN VERBOSE for a query using SEARCH BREADTH FIRST with constant</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>initial values (Tom Lane)</td>
+    </tr>
+    <tr>
+      <td>•</td>
+      <td>Prevent use of MERGE on a partitioned table with foreign-table partitions (Álvaro Herrera)</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>The case isn't supported, and previously threw an incomprehensible error.</td>
+    </tr>
+    <tr>
+      <td>•</td>
+      <td>Fix construction of per-partition foreign key constraints while doing ALTER TABLE ATTACH</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>PARTITION (Jehan-Guillaume de Rorthais, Álvaro Herrera)</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>Previously, incorrect or duplicate constraints could be constructed for the newly-added partition.</td>
+    </tr>
+    <tr>
+      <td>•</td>
+      <td>Fix planner failure with extended statistics on partitioned or inherited tables (Richard Guo, Justin Pryz-</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>by)</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>Some cases failed with “cache lookup failed for statistics object”.</td>
+    </tr>
+    <tr>
+      <td>•</td>
+      <td>Fix mis-ordering of WAL operations in fast insert path for GIN indexes (Matthias van de Meent, Zhang</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>Mingli)</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>This mistake is not known to have any negative consequences within core PostgreSQL, but it did cause</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>issues for some extensions.</td>
+    </tr>
+    <tr>
+      <td>•</td>
+      <td>Fix bugs in logical decoding when replay starts from a point between the beginning of a transaction and</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>the beginning of its subtransaction (Masahiko Sawada, Kuroda Hayato)</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>These errors could lead to assertion failures in debug builds, and otherwise to memory leaks.</td>
+    </tr>
+    <tr>
+      <td>•</td>
+      <td>Accept interrupts in more places during logical decoding (Amit Kapila, Masahiko Sawada)</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>This ameliorates problems with slow shutdown of replication workers.</td>
+    </tr>
+    <tr>
+      <td>•</td>
+      <td>Prevent attempts to replicate into a foreign-table partition in replication workers (Shi Yu, Tom Lane)</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>Although partitioned tables can have foreign tables as partitions, replicating into such a partition isn't</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>currently supported. The logical replication worker process would crash if it was attempted. Now, an</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>error is thrown.</td>
+    </tr>
+    <tr>
+      <td>•</td>
+      <td>Avoid crash after function syntax error in replication workers (Maxim Orlov, Anton Melnikov,</td>
+    </tr>
+  </tbody>
+</table>

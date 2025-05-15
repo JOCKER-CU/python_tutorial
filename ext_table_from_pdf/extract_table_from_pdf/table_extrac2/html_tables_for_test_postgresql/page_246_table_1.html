@@ -1,0 +1,36 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>name text\rName of the SLRU</td>
+    </tr>
+    <tr>
+      <td>blks_zeroed bigint\rNumber of blocks zeroed during initializations</td>
+    </tr>
+    <tr>
+      <td>blks_hit bigint\rNumber of times disk blocks were found already in the SLRU, so that a read was not neces-\rsary (this only includes hits in the SLRU, not the operating system's file system cache)</td>
+    </tr>
+    <tr>
+      <td>blks_read bigint\rNumber of disk blocks read for this SLRU</td>
+    </tr>
+    <tr>
+      <td>blks_written bigint\rNumber of disk blocks written for this SLRU</td>
+    </tr>
+    <tr>
+      <td>blks_exists bigint\rNumber of blocks checked for existence for this SLRU</td>
+    </tr>
+    <tr>
+      <td>flushes bigint\rNumber of flushes of dirty data for this SLRU</td>
+    </tr>
+    <tr>
+      <td>truncates bigint\rNumber of truncates for this SLRU</td>
+    </tr>
+    <tr>
+      <td>stats_reset timestamp with time zone\rTime at which these statistics were last reset</td>
+    </tr>
+  </tbody>
+</table>

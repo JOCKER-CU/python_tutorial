@@ -1,0 +1,30 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>oid oid\rRow identifier</td>
+    </tr>
+    <tr>
+      <td>fdwname name\rName of the foreign-data wrapper</td>
+    </tr>
+    <tr>
+      <td>fdwowner oid (references pg_authid.oid)\rOwner of the foreign-data wrapper</td>
+    </tr>
+    <tr>
+      <td>fdwhandler oid (references pg_proc.oid)\rReferences a handler function that is responsible for supplying execution routines for the for-\reign-data wrapper. Zero if no handler is provided</td>
+    </tr>
+    <tr>
+      <td>fdwvalidator oid (references pg_proc.oid)\rReferences a validator function that is responsible for checking the validity of the options\rgiven to the foreign-data wrapper, as well as options for foreign servers and user mappings\rusing the foreign-data wrapper. Zero if no validator is provided</td>
+    </tr>
+    <tr>
+      <td>fdwacl aclitem[]\rAccess privileges; see Section 5.7 for details</td>
+    </tr>
+    <tr>
+      <td>fdwoptions text[]\rForeign-data wrapper specific options, as “keyword=value” strings</td>
+    </tr>
+  </tbody>
+</table>

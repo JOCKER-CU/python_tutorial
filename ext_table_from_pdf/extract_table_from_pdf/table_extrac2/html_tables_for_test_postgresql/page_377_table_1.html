@@ -1,0 +1,48 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>The initial setting for the state value, when using moving-aggregate mode. This works the same as</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>initial_condition.</td>
+    </tr>
+    <tr>
+      <td>t_operator</td>
+    </tr>
+    <tr>
+      <td>The associated sort operator for a MIN- or MAX-like aggregate. This is just an operator name (possibly</td>
+    </tr>
+    <tr>
+      <td>schema-qualified). The operator is assumed to have the same input data types as the aggregate (which</td>
+    </tr>
+    <tr>
+      <td>must be a single-argument normal aggregate).</td>
+    </tr>
+    <tr>
+      <td>ALLEL = { SAFE | RESTRICTED | UNSAFE }</td>
+    </tr>
+    <tr>
+      <td>The meanings of PARALLEL SAFE, PARALLEL RESTRICTED, and PARALLEL UNSAFE are</td>
+    </tr>
+    <tr>
+      <td>the same as in CREATE FUNCTION. An aggregate will not be considered for parallelization if it is</td>
+    </tr>
+    <tr>
+      <td>marked PARALLEL UNSAFE (which is the default!) or PARALLEL RESTRICTED. Note that the</td>
+    </tr>
+    <tr>
+      <td>parallel-safety markings of the aggregate's support functions are not consulted by the planner, only</td>
+    </tr>
+    <tr>
+      <td>the marking of the aggregate itself.</td>
+    </tr>
+    <tr>
+      <td>OTHETICAL</td>
+    </tr>
+    <tr>
+      <td>For ordered-set aggregates only, this flag specifies that the aggregate arguments are to be processed</td>
+    </tr>
+  </tbody>
+</table>

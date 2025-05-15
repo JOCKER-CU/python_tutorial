@@ -1,0 +1,85 @@
+[
+    {
+        "data_type": "table",
+        "page_id": 1,
+        "data": "| Name of Policy Owner: | KYAW MG | AGENT Name: | May Lwin |\n| --- | --- | --- | --- |\n| Name of Life Insured of\nBasic Plan: | KYAW MG | Agent Phone No.: | 9123456789 |\n"
+    },
+    {
+        "data_type": "table",
+        "page_id": 1,
+        "data": "| If ticked \u201cOther\u201d, please provide full\ndetails |  |\n| --- | --- |\n"
+    },
+    {
+        "data_type": "table",
+        "page_id": 1,
+        "data": "| Policy Owner | 76ttufutd |\n| --- | --- |\n| Life Insured (if different) |  |\n"
+    },
+    {
+        "data_type": "table",
+        "page_id": 1,
+        "data": "| If \u201cticked\u201d, please provide full details |  |\n| --- | --- |\n"
+    },
+    {
+        "data_type": "text",
+        "page_id": 1,
+        "data": [
+            "Application No: 11006755 May Lwin",
+            "Name of Policy Owner: KYAW MG AGENT Name: May Lwin",
+            "Name of Life Insured of KYAW MG Agent Phone No.: 9123456789",
+            "Basic Plan:",
+            "GENERAL INFORMATION",
+            "1. How do you know the Policy Owner and the Life Insured OR What is your relationship to them?",
+            "personal friend parent spouse sibling",
+            "relative acquaintance neighbor cold call",
+            "new customer self referral from bank referral from existing",
+            "customer",
+            "existing customer other",
+            "If ticked \u201cOther\u201d, please provide full",
+            "details",
+            "2. Please describe the job of the Policy Owner and Life Insured in detail, such as duties, workplace and working conditions (including",
+            "full-time job and part-time/extra work) only if significantly different from what has been disclosed in the application form.",
+            "Policy Owner 76ttufutd",
+            "Life Insured (if different)",
+            "3. Based on your estimation, what is the annual income of the Policy Owner and the sources of this income of the Policy Owner:",
+            "Less than 2,400,000 MMK",
+            "From 2,400,000 MMK to 7,200,000 MMK",
+            "From 7,201,000 MMK to 24,000,000 MMK",
+            "More than 24,000,000 MMK",
+            "Any other sources of Income: Fuyuctdty",
+            "4. Please tick the appropriate check boxes below, if there is any visible physical or mental disability, impairment, incapacity OR any",
+            "other detail which is significantly different from the information disclosed by Life Insured that would be / may be material for Dai-ichi Life",
+            "Insurance Myanmar Ltd. to be aware of to underwrite and accept the application. If none, please tick None.",
+            "Hearing issue Eye Vision Height",
+            "Weight Avocation Drinking Habit",
+            "Smoking Habit Additional information (if any) None",
+            "If \u201cticked\u201d, please provide full details"
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 2,
+        "data": "| May Lwin |\n| --- |\n| 10/12/2024 |\n"
+    },
+    {
+        "data_type": "table",
+        "page_id": 2,
+        "data": "|  |\n| --- |\n|  |\n"
+    },
+    {
+        "data_type": "text",
+        "page_id": 2,
+        "data": [
+            "AGENT\u2019S DECLARATION",
+            "I declare that I have personally validated the identity of the Policy Owner and the Life Insured with the NRC/passport provided, and that",
+            "they have personally signed on this Application. I also have no further information to supplement the information provided by the Policy",
+            "Owner and the Life Insured with regards to the acceptance of this Application Dai-ichi Life Insurance Myanmar Ltd..",
+            "Signature of Agent",
+            "Full Name May Lwin",
+            "Date 10/12/2024",
+            "If the Agent is a Policy Owner and/or the Life Insured, please provide the signature of his/her Supervisor below.",
+            "Signature of Supervisor of Agent",
+            "Full Name",
+            "Date"
+        ]
+    }
+]

@@ -1,0 +1,66 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>04:05:06.789</td>
+      <td>ISO 8601</td>
+    </tr>
+    <tr>
+      <td>04:05:06</td>
+      <td>ISO 8601</td>
+    </tr>
+    <tr>
+      <td>04:05</td>
+      <td>ISO 8601</td>
+    </tr>
+    <tr>
+      <td>040506</td>
+      <td>ISO 8601</td>
+    </tr>
+    <tr>
+      <td>04:05 AM</td>
+      <td>same as 04:05; AM does not affect val-\rue</td>
+    </tr>
+    <tr>
+      <td>04:05 PM</td>
+      <td>same as 16:05; input hour must be &lt;= 12</td>
+    </tr>
+    <tr>
+      <td>04:05:06.789-8</td>
+      <td>ISO 8601, with time zone as UTC offset</td>
+    </tr>
+    <tr>
+      <td>04:05:06-08:00</td>
+      <td>ISO 8601, with time zone as UTC offset</td>
+    </tr>
+    <tr>
+      <td>04:05-08:00</td>
+      <td>ISO 8601, with time zone as UTC offset</td>
+    </tr>
+    <tr>
+      <td>040506-08</td>
+      <td>ISO 8601, with time zone as UTC offset</td>
+    </tr>
+    <tr>
+      <td>040506+0730</td>
+      <td>ISO 8601, with fractional-hour time\rzone as UTC offset</td>
+    </tr>
+    <tr>
+      <td>040506+07:30:00</td>
+      <td>UTC offset specified to seconds (not al-\rlowed in ISO 8601)</td>
+    </tr>
+    <tr>
+      <td>04:05:06 PST</td>
+      <td>time zone specified by abbreviation</td>
+    </tr>
+    <tr>
+      <td>2003-04-12 04:05:06 America/New_York</td>
+      <td>time zone specified by full name</td>
+    </tr>
+  </tbody>
+</table>

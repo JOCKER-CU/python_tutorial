@@ -1,0 +1,34 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Phase</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>initializing</td>
+      <td>The WAL sender process is preparing to begin the backup. This\rphase is expected to be very brief.</td>
+    </tr>
+    <tr>
+      <td>waiting for checkpoint\rto finish</td>
+      <td>The WAL sender process is currently performing pg_backup_s-\rtart to prepare to take a base backup, and waiting for the start-of-\rbackup checkpoint to finish.</td>
+    </tr>
+    <tr>
+      <td>estimating backup size</td>
+      <td>The WAL sender process is currently estimating the total amount of\rdatabase files that will be streamed as a base backup.</td>
+    </tr>
+    <tr>
+      <td>streaming database\rfiles</td>
+      <td>The WAL sender process is currently streaming database files as a\rbase backup.</td>
+    </tr>
+    <tr>
+      <td>waiting for wal\rarchiving to finish</td>
+      <td>The WAL sender process is currently performing pg_back-\rup_stop to finish the backup, and waiting for all the WAL files\rrequired for the base backup to be successfully archived. If either\r--wal-method=none or --wal-method=stream is speci-\rfied in pg_basebackup, the backup will end when this phase is com-\rpleted.</td>
+    </tr>
+    <tr>
+      <td>transferring wal files</td>
+      <td>The WAL sender process is currently transferring all WAL logs\rgenerated during the backup. This phase occurs after wait-\ring for wal archiving to finish phase if --wal-\rmethod=fetch is specified in pg_basebackup. The backup will\rend when this phase is completed.</td>
+    </tr>
+  </tbody>
+</table>

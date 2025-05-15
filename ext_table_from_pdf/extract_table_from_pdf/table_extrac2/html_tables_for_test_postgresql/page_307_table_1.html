@@ -1,0 +1,60 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>specific_catalog sql_identifier\rName of the database containing the function (always the current database)</td>
+    </tr>
+    <tr>
+      <td>specific_schema sql_identifier\rName of the schema containing the function</td>
+    </tr>
+    <tr>
+      <td>specific_name sql_identifier\rThe “specific name” of the function. See Section 37.45 for more information.</td>
+    </tr>
+    <tr>
+      <td>ordinal_position cardinal_number\rOrdinal position of the parameter in the argument list of the function (count starts at 1)</td>
+    </tr>
+    <tr>
+      <td>parameter_mode character_data\rIN for input parameter, OUT for output parameter, and INOUT for input/output parameter.</td>
+    </tr>
+    <tr>
+      <td>is_result yes_or_no\rApplies to a feature not available in PostgreSQL</td>
+    </tr>
+    <tr>
+      <td>as_locator yes_or_no\rApplies to a feature not available in PostgreSQL</td>
+    </tr>
+    <tr>
+      <td>parameter_name sql_identifier\rName of the parameter, or null if the parameter has no name</td>
+    </tr>
+    <tr>
+      <td>data_type character_data\rData type of the parameter, if it is a built-in type, or ARRAY if it is some array (in that case,\rsee the view element_types), else USER-DEFINED (in that case, the type is identified\rin udt_name and associated columns).</td>
+    </tr>
+    <tr>
+      <td>character_maximum_length cardinal_number\rAlways null, since this information is not applied to parameter data types in PostgreSQL</td>
+    </tr>
+    <tr>
+      <td>character_octet_length cardinal_number\rAlways null, since this information is not applied to parameter data types in PostgreSQL</td>
+    </tr>
+    <tr>
+      <td>character_set_catalog sql_identifier\rApplies to a feature not available in PostgreSQL</td>
+    </tr>
+    <tr>
+      <td>character_set_schema sql_identifier\rApplies to a feature not available in PostgreSQL</td>
+    </tr>
+    <tr>
+      <td>character_set_name sql_identifier\rApplies to a feature not available in PostgreSQL</td>
+    </tr>
+    <tr>
+      <td>collation_catalog sql_identifier\rAlways null, since this information is not applied to parameter data types in PostgreSQL</td>
+    </tr>
+    <tr>
+      <td>collation_schema sql_identifier\rAlways null, since this information is not applied to parameter data types in PostgreSQL</td>
+    </tr>
+    <tr>
+      <td>collation_name sql_identifier\rAlways null, since this information is not applied to parameter data types in PostgreSQL</td>
+    </tr>
+  </tbody>
+</table>

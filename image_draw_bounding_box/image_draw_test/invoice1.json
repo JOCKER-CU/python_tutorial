@@ -1,0 +1,177 @@
+[
+    {
+        "bbox_2d": [
+            34,
+            105,
+            397,
+            308
+        ],
+        "text_content": "ลูกค้า Customer C00262 บริษัท แอสแอนด์อินเตอร์เนชั่นแนล จำกัด (สำนักงานใหญ่) เลขที่ 556 ถนนหน้าวัด แขวงบางซื่อ เขตบางซื่อ กรุงเทพมหานคร 10800 Tmz เลขประจำตัวผู้เสียภาษี 0105557150403 Tax ID ถึงงวด Reference"
+    },
+    {
+        "bbox_2d": [
+            416,
+            105,
+            792,
+            308
+        ],
+        "text_content": "เลขที่ No. IV-202209055 วันที่ Date 15/09/2022 เครดิต Credit 30 วัน Days ครบกี่วันคืน Due Date 15/10/2022 เลขที่ใบสั่งขาย Sales Order No. พนักงานขาย Sales Representative เขตการขาย Territory"
+    },
+    {
+        "bbox_2d": [
+            34,
+            318,
+            792,
+            735
+        ],
+        "text_content": "ลำดับ Product Code/Descriptions จำนวน Quantity หน่วยละ Unit Price ลด Discount จำนวนเงิน Amount No. 14 [I-FRNN-IPUB4-003] โครงเหล็กยึดหนูสีขาว PU 4 in ผิวเรียบ ขนาด W1300xD71xH70cm 2 EA 4,200.00 0.00 7,850.47 15 [I-OTST-2K-046] แผ่นเหล็กยึดหนู 2K 6 EA 800.00 0.00 4,485.98 16 [S-CASS-PU3-001] ครอบเครื่องโทรทัศน์และเครื่องเสียงสีขาว สี PU 3 in Test dfgjds;ifgjos ความดันในระบบหรือร 12 EA 4,600.00 0.00 51,588.79 -กรณีมีการเปลี่ยนแปลงครั้ง -พื้นที่ใช้งาน -กรณีใช้เกินกำหนดส่งหรือเกิดความเสียหายในระหว่าง การใช้งานให้แจ้งทางบริษัทเพื่อทำการแก้ไขทันท่วงที"
+    },
+    {
+        "bbox_2d": [
+            34,
+            745,
+            792,
+            903
+        ],
+        "text_content": "ใบเสร็จรับเงินฉบับนี้เป็นใบสำคัญที่ยืนยันว่าผู้รับมอบอำนาจและลายเซ็นผู้รับเงิน และได้รับเงินตามจำนวนเงินที่ระบุไว้แล้ว รวมราคา Sub Total 260,257.01 ส่วนลด Discount 500.00 เงินมัดจำ Deposit จำนวนเงินสุทธิ Total 259,757.01 ภาษีมูลค่าเพิ่ม VAT 7.00% 18,182.99 รวมเงินทั้งสิ้น Grand Total 277,940.00"
+    },
+    {
+        "bbox_2d": [
+            34,
+            903,
+            792,
+            1085
+        ],
+        "text_content": "ชำระโดย Paid by ☐ เงินสด Cash ☐ โอนเงิน Wire transfers ☐ เช็ค Cheque ☐ อื่นๆ Others ธนาคาร Bank สาขา Branch หมายเลข Chq. No. วันที่ Date / / จำนวนเงิน Amount ภาษี ภาระภาษีที่ต้องจ่าย Rate ผู้รับเงิน/ Collector วันที่/ Date ใบเสร็จรับเงินนี้ออกแทน On behalf of IRONTEC Co., Ltd. ผู้รับมอบอำนาจ/ Authorized Signature 3 / 3 ผู้เตรียมเอกสาร/ Documents Prepared by"
+    }
+]
+
+
+# medical-bill2
+[
+    {
+        "bbox_2d": [
+            16,
+            250,
+            478,
+            349
+        ],
+        "text_content": "รายการ Items"
+    },
+    {
+        "bbox_2d": [
+            496,
+            250,
+            588,
+            349
+        ],
+        "text_content": "จำนวน Baht"
+    },
+]
+
+
+# C:\Users\hanna\Downloads\sales-invoice3.png
+[
+    {
+        "bbox_2d": [
+            28,
+            10,
+            956,
+            743
+        ],
+        "label": "tables"
+    },
+    {
+        "bbox_2d": [
+            28,
+            743,
+            956,
+            838
+        ],
+        "label": "tables"
+    },
+    {
+        "bbox_2d": [
+            28,
+            838,
+            956,
+            933
+        ],
+        "label": "tables"
+    }
+]
+
+
+# C:\Users\hanna\Downloads\sales-invoice3.png
+{
+    "table1": [
+        25,
+        10,
+        956,
+        178
+    ],
+    "table2": [
+        25,
+        178,
+        956,
+        729
+    ],
+    "table3": [
+        25,
+        729,
+        956,
+        839
+    ]
+}
+
+
+# C:\Users\hanna\Downloads\invoice4.png
+{
+    "table1": [
+        19,
+        118,
+        957,
+        306
+    ],
+    "table2": [
+        19,
+        306,
+        957,
+        427
+    ]
+}
+
+"I have an image of an invoice containing a table. The table can have different formats, sizes, and structures. I need to extract the bounding box positions (X, Y, width, height) of the table from the image. The table contains invoice details such as item names, quantities, prices, and totals. Please analyze the image and provide the bounding box coordinates of the detected table."
+
+"Task:
+Extract the bounding box positions of the table from the provided invoice image. The extracted table should include itemized details such as item number, description, quantity, unit price, discount, and total amount.
+
+Instructions for the AI Model:
+Identify the Table Region
+
+Locate the table within the invoice image and return its bounding box coordinates in [x1, y1, x2, y2
+] format."
+
+
+# invoice1.jpg
+
+{
+    "table1": [
+        40,
+        153,
+        1169,
+        879
+    ],
+    "table2": [
+        40,
+        942,
+        1169,
+        1290
+    ],
+    "table3": [
+        40,
+        1358,
+        1169,
+        1656
+    ]
+}

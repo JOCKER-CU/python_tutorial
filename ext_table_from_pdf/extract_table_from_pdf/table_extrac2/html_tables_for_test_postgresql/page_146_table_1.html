@@ -1,0 +1,41 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Isolation Level</th>
+      <th>Dirty Read</th>
+      <th>NonrepeatableRead</th>
+      <th>Phantom Read</th>
+      <th>SerializationAnomaly</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Read uncommitted</td>
+      <td>Allowed, but not in\rPG</td>
+      <td>Possible</td>
+      <td>Possible</td>
+      <td>Possible</td>
+    </tr>
+    <tr>
+      <td>Read committed</td>
+      <td>Not possible</td>
+      <td>Possible</td>
+      <td>Possible</td>
+      <td>Possible</td>
+    </tr>
+    <tr>
+      <td>Repeatable read</td>
+      <td>Not possible</td>
+      <td>Not possible</td>
+      <td>Allowed, but not in\rPG</td>
+      <td>Possible</td>
+    </tr>
+    <tr>
+      <td>Serializable</td>
+      <td>Not possible</td>
+      <td>Not possible</td>
+      <td>Not possible</td>
+      <td>Not possible</td>
+    </tr>
+  </tbody>
+</table>

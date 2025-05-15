@@ -1,0 +1,33 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>indexrelid oid (references pg_class.oid)\rThe OID of the pg_class entry for this index</td>
+    </tr>
+    <tr>
+      <td>indrelid oid (references pg_class.oid)\rThe OID of the pg_class entry for the table this index is for</td>
+    </tr>
+    <tr>
+      <td>indnatts int2\rThe total number of columns in the index (duplicates pg_class.relnatts); this number\rincludes both key and included attributes</td>
+    </tr>
+    <tr>
+      <td>indnkeyatts int2\rThe number of key columns in the index, not counting any included columns, which are\rmerely stored and do not participate in the index semantics</td>
+    </tr>
+    <tr>
+      <td>indisunique bool\rIf true, this is a unique index</td>
+    </tr>
+    <tr>
+      <td>indnullsnotdistinct bool\rThis value is only used for unique indexes. If false, this unique index will consider null val-\rues distinct (so the index can contain multiple null values in a column, the default Post-\rgreSQL behavior). If it is true, it will consider null values to be equal (so the index can only\rcontain one null value in a column).</td>
+    </tr>
+    <tr>
+      <td>indisprimary bool\rIf true, this index represents the primary key of the table (indisunique should always be\rtrue when this is true)</td>
+    </tr>
+    <tr>
+      <td>indisexclusion bool\rIf true, this index supports an exclusion constraint</td>
+    </tr>
+  </tbody>
+</table>

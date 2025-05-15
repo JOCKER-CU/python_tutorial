@@ -1,0 +1,18 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>FunctionDescription</th>
+      <th>PartialMode</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>mode () WITHIN GROUP ( ORDER BY anyelement ) → anyelement\rComputes the mode, the most frequent value of the aggregated argument (arbitrarily\rchoosing the first one if there are multiple equally-frequent values). The aggregated\rargument must be of a sortable type.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>percentile_cont ( fraction double precision ) WITHIN GROUP ( ORDER\rBY double precision ) → double precision\rpercentile_cont ( fraction double precision ) WITHIN GROUP ( ORDER\rBY interval ) → interval\rComputes the continuous percentile, a value corresponding to the specified frac-\rtion within the ordered set of aggregated argument values. This will interpolate\rbetween adjacent input items if needed.</td>
+      <td>No</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,26 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Timeout Wait Event</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>RecoveryRetrieveRetryInterval</td>
+      <td>Waiting during recovery when WAL data is not\ravailable from any source (pg_wal, archive or\rstream).</td>
+    </tr>
+    <tr>
+      <td>RegisterSyncRequest</td>
+      <td>Waiting while sending synchronization requests to\rthe checkpointer, because the request queue is full.</td>
+    </tr>
+    <tr>
+      <td>VacuumDelay</td>
+      <td>Waiting in a cost-based vacuum delay point.</td>
+    </tr>
+    <tr>
+      <td>VacuumTruncate</td>
+      <td>Waiting to acquire an exclusive lock to truncate\roff any empty pages at the end of a table vacu-\rumed.</td>
+    </tr>
+  </tbody>
+</table>

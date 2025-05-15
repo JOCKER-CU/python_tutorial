@@ -1,0 +1,39 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>run within a parallel worker. This will generally not be the case if the remote data source has transaction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>semantics, unless the worker's connection to the data can somehow be made to share the same transaction</td>
+    </tr>
+    <tr>
+      <td>context as the leader.</td>
+    </tr>
+    <tr>
+      <td>If this function is not defined, it is assumed that the scan must take place within the parallel leader. Note</td>
+    </tr>
+    <tr>
+      <td>that returning true does not mean that the scan itself can be done in parallel, only that the scan can be</td>
+    </tr>
+    <tr>
+      <td>performed within a parallel worker. Therefore, it can be useful to define this method even when parallel</td>
+    </tr>
+    <tr>
+      <td>execution is not supported.</td>
+    </tr>
+    <tr>
+      <td>Size</td>
+    </tr>
+    <tr>
+      <td>EstimateDSMForeignScan(ForeignScanState *node, ParallelContext *pcxt);</td>
+    </tr>
+    <tr>
+      <td>Estimate the amount of dynamic shared memory that will be required for parallel operation. This may be</td>
+    </tr>
+    <tr>
+      <td>higher than the amount that will actually be used, but it must not be lower. The return value is in bytes.</td>
+    </tr>
+  </tbody>
+</table>

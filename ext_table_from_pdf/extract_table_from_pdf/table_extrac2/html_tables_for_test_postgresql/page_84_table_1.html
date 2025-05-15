@@ -1,0 +1,42 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Atom</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>(re)</td>
+      <td>(where re is any regular expression) matches a\rmatch for re, with the match noted for possible re-\rporting</td>
+    </tr>
+    <tr>
+      <td>(?:re)</td>
+      <td>as above, but the match is not noted for reporting\r(a “non-capturing” set of parentheses) (AREs only)</td>
+    </tr>
+    <tr>
+      <td>.</td>
+      <td>matches any single character</td>
+    </tr>
+    <tr>
+      <td>[chars]</td>
+      <td>a bracket expression, matching any one of the\rchars (see Section 9.7.3.2 for more detail)</td>
+    </tr>
+    <tr>
+      <td>\k</td>
+      <td>(where k is a non-alphanumeric character) matches\rthat character taken as an ordinary character, e.g.,\r\\ matches a backslash character</td>
+    </tr>
+    <tr>
+      <td>\c</td>
+      <td>where c is alphanumeric (possibly followed by\rother characters) is an escape, see Section 9.7.3.3\r(AREs only; in EREs and BREs, this matches c)</td>
+    </tr>
+    <tr>
+      <td>{</td>
+      <td>when followed by a character other than a digit,\rmatches the left-brace character {; when followed\rby a digit, it is the beginning of a bound (see be-\rlow)</td>
+    </tr>
+    <tr>
+      <td>x</td>
+      <td>where x is a single character with no other signifi-\rcance, matches that character</td>
+    </tr>
+  </tbody>
+</table>

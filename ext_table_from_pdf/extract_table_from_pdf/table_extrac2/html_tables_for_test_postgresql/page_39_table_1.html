@@ -1,0 +1,27 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>effectively part of the search path. If it is not named explicitly in the path then it is implicitly searched</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>before searching the path's schemas. This ensures that built-in names will always be findable. However,</td>
+    </tr>
+    <tr>
+      <td>you can explicitly place pg_catalog at the end of your search path if you prefer to have user-defined</td>
+    </tr>
+    <tr>
+      <td>names override built-in names.</td>
+    </tr>
+    <tr>
+      <td>Since system table names begin with pg_, it is best to avoid such names to ensure that you won't suffer a</td>
+    </tr>
+    <tr>
+      <td>conflict if some future version defines a system table named the same as your table. (With the default search</td>
+    </tr>
+    <tr>
+      <td>path, an unqualified reference to your table name would then be resolved as the system table instead.)</td>
+    </tr>
+  </tbody>
+</table>

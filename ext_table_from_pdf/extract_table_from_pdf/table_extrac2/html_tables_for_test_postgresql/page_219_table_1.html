@@ -1,0 +1,114 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>IO Wait Event</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BaseBackupRead</td>
+      <td>Waiting for base backup to read from a file.</td>
+    </tr>
+    <tr>
+      <td>BaseBackupSync</td>
+      <td>Waiting for data written by a base backup to reach\rdurable storage.</td>
+    </tr>
+    <tr>
+      <td>BaseBackupWrite</td>
+      <td>Waiting for base backup to write to a file.</td>
+    </tr>
+    <tr>
+      <td>BufFileRead</td>
+      <td>Waiting for a read from a buffered file.</td>
+    </tr>
+    <tr>
+      <td>BufFileWrite</td>
+      <td>Waiting for a write to a buffered file.</td>
+    </tr>
+    <tr>
+      <td>BufFileTruncate</td>
+      <td>Waiting for a buffered file to be truncated.</td>
+    </tr>
+    <tr>
+      <td>ControlFileRead</td>
+      <td>Waiting for a read from the pg_control file.</td>
+    </tr>
+    <tr>
+      <td>ControlFileSync</td>
+      <td>Waiting for the pg_control file to reach\rdurable storage.</td>
+    </tr>
+    <tr>
+      <td>ControlFileSyncUpdate</td>
+      <td>Waiting for an update to the pg_control file to\rreach durable storage.</td>
+    </tr>
+    <tr>
+      <td>ControlFileWrite</td>
+      <td>Waiting for a write to the pg_control file.</td>
+    </tr>
+    <tr>
+      <td>ControlFileWriteUpdate</td>
+      <td>Waiting for a write to update the pg_control\rfile.</td>
+    </tr>
+    <tr>
+      <td>CopyFileRead</td>
+      <td>Waiting for a read during a file copy operation.</td>
+    </tr>
+    <tr>
+      <td>CopyFileWrite</td>
+      <td>Waiting for a write during a file copy operation.</td>
+    </tr>
+    <tr>
+      <td>DSMFillZeroWrite</td>
+      <td>Waiting to fill a dynamic shared memory backing\rfile with zeroes.</td>
+    </tr>
+    <tr>
+      <td>DataFileExtend</td>
+      <td>Waiting for a relation data file to be extended.</td>
+    </tr>
+    <tr>
+      <td>DataFileFlush</td>
+      <td>Waiting for a relation data file to reach durable\rstorage.</td>
+    </tr>
+    <tr>
+      <td>DataFileImmediateSync</td>
+      <td>Waiting for an immediate synchronization of a re-\rlation data file to durable storage.</td>
+    </tr>
+    <tr>
+      <td>DataFilePrefetch</td>
+      <td>Waiting for an asynchronous prefetch from a rela-\rtion data file.</td>
+    </tr>
+    <tr>
+      <td>DataFileRead</td>
+      <td>Waiting for a read from a relation data file.</td>
+    </tr>
+    <tr>
+      <td>DataFileSync</td>
+      <td>Waiting for changes to a relation data file to reach\rdurable storage.</td>
+    </tr>
+    <tr>
+      <td>DataFileTruncate</td>
+      <td>Waiting for a relation data file to be truncated.</td>
+    </tr>
+    <tr>
+      <td>DataFileWrite</td>
+      <td>Waiting for a write to a relation data file.</td>
+    </tr>
+    <tr>
+      <td>LockFileAddToDataDirRead</td>
+      <td>Waiting for a read while adding a line to the data\rdirectory lock file.</td>
+    </tr>
+    <tr>
+      <td>LockFileAddToDataDirSync</td>
+      <td>Waiting for data to reach durable storage while\radding a line to the data directory lock file.</td>
+    </tr>
+    <tr>
+      <td>LockFileAddToDataDirWrite</td>
+      <td>Waiting for a write while adding a line to the data\rdirectory lock file.</td>
+    </tr>
+    <tr>
+      <td>LockFileCreateRead</td>
+      <td>Waiting to read while creating the data directory\rlock file.</td>
+    </tr>
+  </tbody>
+</table>

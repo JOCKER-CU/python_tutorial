@@ -1,0 +1,33 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>other tables used in the SELECT are simply read as usual. A locking clause without a table list affects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>all tables used in the statement. If a locking clause is applied to a view or sub-query, it affects all tables</td>
+    </tr>
+    <tr>
+      <td>used in the view or sub-query. However, these clauses do not apply to WITH queries referenced by the</td>
+    </tr>
+    <tr>
+      <td>primary query. If you want row locking to occur within a WITH query, specify a locking clause within</td>
+    </tr>
+    <tr>
+      <td>the WITH query.</td>
+    </tr>
+    <tr>
+      <td>Multiple locking clauses can be written if it is necessary to specify different locking behavior for different</td>
+    </tr>
+    <tr>
+      <td>tables. If the same table is mentioned (or implicitly affected) by more than one locking clause, then it is</td>
+    </tr>
+    <tr>
+      <td>processed as if it was only specified by the strongest one. Similarly, a table is processed as NOWAIT if</td>
+    </tr>
+    <tr>
+      <td>that is specified in any of the clauses affecting it. Otherwise, it is processed as SKIP LOCKED if that is</td>
+    </tr>
+  </tbody>
+</table>

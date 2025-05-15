@@ -1,0 +1,26 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Phase</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NaN</td>
+      <td>heap_blks_total, the system will return to scanning the heap\rafter this phase is completed; otherwise, it will begin cleaning up in-\rdexes after this phase is completed.</td>
+    </tr>
+    <tr>
+      <td>cleaning up indexes</td>
+      <td>VACUUM is currently cleaning up indexes. This occurs after the heap\rhas been completely scanned and all vacuuming of the indexes and\rthe heap has been completed.</td>
+    </tr>
+    <tr>
+      <td>truncating heap</td>
+      <td>VACUUM is currently truncating the heap so as to return empty pages\rat the end of the relation to the operating system. This occurs after\rcleaning up indexes.</td>
+    </tr>
+    <tr>
+      <td>performing final\rcleanup</td>
+      <td>VACUUM is performing final cleanup. During this phase, VACUUM\rwill vacuum the free space map, update statistics in pg_class,\rand report statistics to the cumulative statistics system. When this\rphase is completed, VACUUM will end.</td>
+    </tr>
+  </tbody>
+</table>

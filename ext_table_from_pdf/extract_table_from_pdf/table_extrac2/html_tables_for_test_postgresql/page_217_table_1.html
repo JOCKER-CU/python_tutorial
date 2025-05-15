@@ -1,0 +1,42 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Client Wait Event</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ClientRead</td>
+      <td>Waiting to read data from the client.</td>
+    </tr>
+    <tr>
+      <td>ClientWrite</td>
+      <td>Waiting to write data to the client.</td>
+    </tr>
+    <tr>
+      <td>GSSOpenServer</td>
+      <td>Waiting to read data from the client while estab-\rlishing a GSSAPI session.</td>
+    </tr>
+    <tr>
+      <td>LibPQWalReceiverConnect</td>
+      <td>Waiting in WAL receiver to establish connection\rto remote server.</td>
+    </tr>
+    <tr>
+      <td>LibPQWalReceiverReceive</td>
+      <td>Waiting in WAL receiver to receive data from re-\rmote server.</td>
+    </tr>
+    <tr>
+      <td>SSLOpenServer</td>
+      <td>Waiting for SSL while attempting connection.</td>
+    </tr>
+    <tr>
+      <td>WalSenderWaitForWAL</td>
+      <td>Waiting for WAL to be flushed in WAL sender\rprocess.</td>
+    </tr>
+    <tr>
+      <td>WalSenderWriteData</td>
+      <td>Waiting for any activity when processing replies\rfrom WAL receiver in WAL sender process.</td>
+    </tr>
+  </tbody>
+</table>

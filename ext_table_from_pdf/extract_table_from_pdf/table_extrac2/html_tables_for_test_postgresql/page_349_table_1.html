@@ -1,0 +1,69 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>alphabetical order by trigger name. In the case of BEFORE and INSTEAD OF triggers, the possibly-mod-</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ified row returned by each trigger becomes the input to the next trigger. If any BEFORE or INSTEAD</td>
+    </tr>
+    <tr>
+      <td>OF trigger returns NULL, the operation is abandoned for that row and subsequent triggers are not fired</td>
+    </tr>
+    <tr>
+      <td>(for that row).</td>
+    </tr>
+    <tr>
+      <td>A trigger definition can also specify a Boolean WHEN condition, which will be tested to see whether the</td>
+    </tr>
+    <tr>
+      <td>trigger should be fired. In row-level triggers the WHEN condition can examine the old and/or new values</td>
+    </tr>
+    <tr>
+      <td>of columns of the row. (Statement-level triggers can also have WHEN conditions, although the feature is</td>
+    </tr>
+    <tr>
+      <td>not so useful for them.) In a BEFORE trigger, the WHEN condition is evaluated just before the function</td>
+    </tr>
+    <tr>
+      <td>is or would be executed, so using WHEN is not materially different from testing the same condition at the</td>
+    </tr>
+    <tr>
+      <td>beginning of the trigger function. However, in an AFTER trigger, the WHEN condition is evaluated just</td>
+    </tr>
+    <tr>
+      <td>after the row update occurs, and it determines whether an event is queued to fire the trigger at the end of</td>
+    </tr>
+    <tr>
+      <td>statement. So when an AFTER trigger's WHEN condition does not return true, it is not necessary to queue</td>
+    </tr>
+    <tr>
+      <td>an event nor to re-fetch the row at end of statement. This can result in significant speedups in statements</td>
+    </tr>
+    <tr>
+      <td>that modify many rows, if the trigger only needs to be fired for a few of the rows. INSTEAD OF triggers</td>
+    </tr>
+    <tr>
+      <td>do not support WHEN conditions.</td>
+    </tr>
+    <tr>
+      <td>Typically, row-level BEFORE triggers are used for checking or modifying the data that will be inserted</td>
+    </tr>
+    <tr>
+      <td>or updated. For example, a BEFORE trigger might be used to insert the current time into a timestamp</td>
+    </tr>
+    <tr>
+      <td>column, or to check that two elements of the row are consistent. Row-level AFTER triggers are most</td>
+    </tr>
+    <tr>
+      <td>sensibly used to propagate the updates to other tables, or make consistency checks against other tables.</td>
+    </tr>
+    <tr>
+      <td>The reason for this division of labor is that an AFTER trigger can be certain it is seeing the final value</td>
+    </tr>
+    <tr>
+      <td>of the row, while a BEFORE trigger cannot; there might be other BEFORE triggers firing after it. If you</td>
+    </tr>
+  </tbody>
+</table>

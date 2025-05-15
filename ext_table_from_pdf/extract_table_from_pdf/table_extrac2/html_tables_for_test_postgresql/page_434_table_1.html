@@ -1,0 +1,33 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>oid oid\rRow identifier</td>
+    </tr>
+    <tr>
+      <td>rulename name\rRule name</td>
+    </tr>
+    <tr>
+      <td>ev_class oid (references pg_class.oid)\rThe table this rule is for</td>
+    </tr>
+    <tr>
+      <td>ev_type char\rEvent type that the rule is for: 1 = SELECT, 2 = UPDATE, 3 = INSERT, 4 = DELETE</td>
+    </tr>
+    <tr>
+      <td>ev_enabled char\rControls in which session_replication_role modes the rule fires. O = rule fires in “origin” and\r“local” modes, D = rule is disabled, R = rule fires in “replica” mode, A = rule fires always.</td>
+    </tr>
+    <tr>
+      <td>is_instead bool\rTrue if the rule is an INSTEAD rule</td>
+    </tr>
+    <tr>
+      <td>ev_qual pg_node_tree\rExpression tree (in the form of a nodeToString() representation) for the rule's qualifying\rcondition</td>
+    </tr>
+    <tr>
+      <td>ev_action pg_node_tree\rQuery tree (in the form of a nodeToString() representation) for the rule's action</td>
+    </tr>
+  </tbody>
+</table>

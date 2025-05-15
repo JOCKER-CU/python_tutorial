@@ -1,0 +1,51 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ifying this function does not cause the type to be considered a “true” array type; for example, it will not be</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>a candidate for the result type of ARRAY[] constructs. But if subscripting a value of the type is a natural</td>
+    </tr>
+    <tr>
+      <td>notation for extracting data from it, then a subscript_function can be written to define what that</td>
+    </tr>
+    <tr>
+      <td>means. The subscript function must be declared to take a single argument of type internal, and return</td>
+    </tr>
+    <tr>
+      <td>an internal result, which is a pointer to a struct of methods (functions) that implement subscripting.</td>
+    </tr>
+    <tr>
+      <td>The detailed API for subscript functions appears in src/include/nodes/subscripting.h. It</td>
+    </tr>
+    <tr>
+      <td>may also be useful to read the array implementation in src/backend/utils/adt/arraysubs.c,</td>
+    </tr>
+    <tr>
+      <td>or the simpler code in contrib/hstore/hstore_subs.c. Additional information appears in Array</td>
+    </tr>
+    <tr>
+      <td>Types below.</td>
+    </tr>
+    <tr>
+      <td>While the details of the new type's internal representation are only known to the I/O functions and other</td>
+    </tr>
+    <tr>
+      <td>functions you create to work with the type, there are several properties of the internal representation that</td>
+    </tr>
+    <tr>
+      <td>must be declared to PostgreSQL. Foremost of these is internallength. Base data types can be fixed-</td>
+    </tr>
+    <tr>
+      <td>length, in which case internallength is a positive integer, or variable-length, indicated by setting</td>
+    </tr>
+    <tr>
+      <td>internallength to VARIABLE. (Internally, this is represented by setting typlen to -1.) The internal</td>
+    </tr>
+    <tr>
+      <td>representation of all variable-length types must start with a 4-byte integer giving the total length of this</td>
+    </tr>
+  </tbody>
+</table>

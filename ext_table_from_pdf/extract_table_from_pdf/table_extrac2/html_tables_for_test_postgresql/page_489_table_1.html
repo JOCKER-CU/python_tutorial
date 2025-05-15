@@ -1,0 +1,30 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Item</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PageHeaderData</td>
+      <td>24 bytes long. Contains general information about\rthe page, including free space pointers.</td>
+    </tr>
+    <tr>
+      <td>ItemIdData</td>
+      <td>Array of item identifiers pointing to the actual\ritems. Each entry is an (offset,length) pair. 4 bytes\rper item.</td>
+    </tr>
+    <tr>
+      <td>Free space</td>
+      <td>The unallocated space. New item identifiers are al-\rlocated from the start of this area, new items from\rthe end.</td>
+    </tr>
+    <tr>
+      <td>Items</td>
+      <td>The actual items themselves.</td>
+    </tr>
+    <tr>
+      <td>Special space</td>
+      <td>Index access method specific data. Different meth-\rods store different data. Empty in ordinary tables.</td>
+    </tr>
+  </tbody>
+</table>

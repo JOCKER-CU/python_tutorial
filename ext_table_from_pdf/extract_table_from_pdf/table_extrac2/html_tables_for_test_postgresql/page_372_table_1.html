@@ -1,0 +1,36 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ciated with the index to the new tablespace. To change the tablespace of an index, you must own the</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>index and have CREATE privilege on the new tablespace. All indexes in the current database in a</td>
+    </tr>
+    <tr>
+      <td>tablespace can be moved by using the ALL IN TABLESPACE form, which will lock all indexes</td>
+    </tr>
+    <tr>
+      <td>to be moved and then move each one. This form also supports OWNED BY, which will only move</td>
+    </tr>
+    <tr>
+      <td>indexes owned by the roles specified. If the NOWAIT option is specified then the command will fail</td>
+    </tr>
+    <tr>
+      <td>if it is unable to acquire all of the locks required immediately. Note that system catalogs will not be</td>
+    </tr>
+    <tr>
+      <td>moved by this command, use ALTER DATABASE or explicit ALTER INDEX invocations instead</td>
+    </tr>
+    <tr>
+      <td>if desired. See also CREATE TABLESPACE.</td>
+    </tr>
+    <tr>
+      <td>ACH PARTITION</td>
+    </tr>
+    <tr>
+      <td>Causes the named index to become attached to the altered index. The named index must be on a</td>
+    </tr>
+  </tbody>
+</table>

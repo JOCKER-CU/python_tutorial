@@ -1,0 +1,34 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Phase</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>initializing</td>
+      <td>The command is preparing to begin scanning the heap. This phase is\rexpected to be very brief.</td>
+    </tr>
+    <tr>
+      <td>acquiring sample rows</td>
+      <td>The command is currently scanning the table given by relid to\robtain sample rows.</td>
+    </tr>
+    <tr>
+      <td>acquiring inherited\rsample rows</td>
+      <td>The command is currently scanning child tables to obtain sam-\rple rows. Columns child_tables_total, child_ta-\rbles_done, and current_child_table_relid contain the\rprogress information for this phase.</td>
+    </tr>
+    <tr>
+      <td>computing statistics</td>
+      <td>The command is computing statistics from the sample rows obtained\rduring the table scan.</td>
+    </tr>
+    <tr>
+      <td>computing extended\rstatistics</td>
+      <td>The command is computing extended statistics from the sample\rrows obtained during the table scan.</td>
+    </tr>
+    <tr>
+      <td>finalizing analyze</td>
+      <td>The command is updating pg_class. When this phase is complet-\red, ANALYZE will end.</td>
+    </tr>
+  </tbody>
+</table>

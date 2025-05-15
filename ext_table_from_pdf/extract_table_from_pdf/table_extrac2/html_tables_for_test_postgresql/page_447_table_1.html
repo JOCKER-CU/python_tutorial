@@ -1,0 +1,36 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>name name\rExtension name</td>
+    </tr>
+    <tr>
+      <td>version text\rVersion name</td>
+    </tr>
+    <tr>
+      <td>installed bool\rTrue if this version of this extension is currently installed</td>
+    </tr>
+    <tr>
+      <td>superuser bool\rTrue if only superusers are allowed to install this extension (but see trusted)</td>
+    </tr>
+    <tr>
+      <td>trusted bool\rTrue if the extension can be installed by non-superusers with appropriate privileges</td>
+    </tr>
+    <tr>
+      <td>relocatable bool\rTrue if extension can be relocated to another schema</td>
+    </tr>
+    <tr>
+      <td>schema name\rName of the schema that the extension must be installed into, or NULL if partially or fully re-\rlocatable</td>
+    </tr>
+    <tr>
+      <td>requires name[]\rNames of prerequisite extensions, or NULL if none</td>
+    </tr>
+    <tr>
+      <td>comment text\rComment string from the extension's control file</td>
+    </tr>
+  </tbody>
+</table>

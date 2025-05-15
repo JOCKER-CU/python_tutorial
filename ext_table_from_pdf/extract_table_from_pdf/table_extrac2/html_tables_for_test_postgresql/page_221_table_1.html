@@ -1,0 +1,102 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>IO Wait Event</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SnapbuildSync</td>
+      <td>Waiting for a serialized historical catalog snapshot\rto reach durable storage.</td>
+    </tr>
+    <tr>
+      <td>SnapbuildWrite</td>
+      <td>Waiting for a write of a serialized historical cata-\rlog snapshot.</td>
+    </tr>
+    <tr>
+      <td>TimelineHistoryFileSync</td>
+      <td>Waiting for a timeline history file received via\rstreaming replication to reach durable storage.</td>
+    </tr>
+    <tr>
+      <td>TimelineHistoryFileWrite</td>
+      <td>Waiting for a write of a timeline history file re-\rceived via streaming replication.</td>
+    </tr>
+    <tr>
+      <td>TimelineHistoryRead</td>
+      <td>Waiting for a read of a timeline history file.</td>
+    </tr>
+    <tr>
+      <td>TimelineHistorySync</td>
+      <td>Waiting for a newly created timeline history file to\rreach durable storage.</td>
+    </tr>
+    <tr>
+      <td>TimelineHistoryWrite</td>
+      <td>Waiting for a write of a newly created timeline his-\rtory file.</td>
+    </tr>
+    <tr>
+      <td>TwophaseFileRead</td>
+      <td>Waiting for a read of a two phase state file.</td>
+    </tr>
+    <tr>
+      <td>TwophaseFileSync</td>
+      <td>Waiting for a two phase state file to reach durable\rstorage.</td>
+    </tr>
+    <tr>
+      <td>TwophaseFileWrite</td>
+      <td>Waiting for a write of a two phase state file.</td>
+    </tr>
+    <tr>
+      <td>VersionFileWrite</td>
+      <td>Waiting for the version file to be written while cre-\rating a database.</td>
+    </tr>
+    <tr>
+      <td>WALBootstrapSync</td>
+      <td>Waiting for WAL to reach durable storage during\rbootstrapping.</td>
+    </tr>
+    <tr>
+      <td>WALBootstrapWrite</td>
+      <td>Waiting for a write of a WAL page during boot-\rstrapping.</td>
+    </tr>
+    <tr>
+      <td>WALCopyRead</td>
+      <td>Waiting for a read when creating a new WAL seg-\rment by copying an existing one.</td>
+    </tr>
+    <tr>
+      <td>WALCopySync</td>
+      <td>Waiting for a new WAL segment created by copy-\ring an existing one to reach durable storage.</td>
+    </tr>
+    <tr>
+      <td>WALCopyWrite</td>
+      <td>Waiting for a write when creating a new WAL\rsegment by copying an existing one.</td>
+    </tr>
+    <tr>
+      <td>WALInitSync</td>
+      <td>Waiting for a newly initialized WAL file to reach\rdurable storage.</td>
+    </tr>
+    <tr>
+      <td>WALInitWrite</td>
+      <td>Waiting for a write while initializing a new WAL\rfile.</td>
+    </tr>
+    <tr>
+      <td>WALRead</td>
+      <td>Waiting for a read from a WAL file.</td>
+    </tr>
+    <tr>
+      <td>WALSenderTimelineHistoryRead</td>
+      <td>Waiting for a read from a timeline history file dur-\ring a walsender timeline command.</td>
+    </tr>
+    <tr>
+      <td>WALSync</td>
+      <td>Waiting for a WAL file to reach durable storage.</td>
+    </tr>
+    <tr>
+      <td>WALSyncMethodAssign</td>
+      <td>Waiting for data to reach durable storage while as-\rsigning a new WAL sync method.</td>
+    </tr>
+    <tr>
+      <td>WALWrite</td>
+      <td>Waiting for a write to a WAL file.</td>
+    </tr>
+  </tbody>
+</table>

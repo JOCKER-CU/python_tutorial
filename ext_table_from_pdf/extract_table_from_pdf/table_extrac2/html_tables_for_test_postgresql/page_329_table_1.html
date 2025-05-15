@@ -1,0 +1,33 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>to combine the state values resulting from those subsets to produce the same state value that would have</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>resulted from scanning all the input in a single operation. This mode can be used for parallel aggregation</td>
+    </tr>
+    <tr>
+      <td>by having different worker processes scan different portions of a table. Each worker produces a partial</td>
+    </tr>
+    <tr>
+      <td>state value, and at the end those state values are combined to produce a final state value. (In the future</td>
+    </tr>
+    <tr>
+      <td>this mode might also be used for purposes such as combining aggregations over local and remote tables;</td>
+    </tr>
+    <tr>
+      <td>but that is not implemented yet.)</td>
+    </tr>
+    <tr>
+      <td>To support partial aggregation, the aggregate definition must provide a combine function, which takes</td>
+    </tr>
+    <tr>
+      <td>two values of the aggregate's state type (representing the results of aggregating over two subsets of the</td>
+    </tr>
+    <tr>
+      <td>input rows) and produces a new value of the state type, representing what the state would have been after</td>
+    </tr>
+  </tbody>
+</table>

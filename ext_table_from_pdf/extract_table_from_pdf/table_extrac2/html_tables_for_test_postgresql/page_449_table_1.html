@@ -1,0 +1,27 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>name text\rThe name of the cursor</td>
+    </tr>
+    <tr>
+      <td>statement text\rThe verbatim query string submitted to declare this cursor</td>
+    </tr>
+    <tr>
+      <td>is_holdable bool\rtrue if the cursor is holdable (that is, it can be accessed after the transaction that declared\rthe cursor has committed); false otherwise</td>
+    </tr>
+    <tr>
+      <td>is_binary bool\rtrue if the cursor was declared BINARY; false otherwise</td>
+    </tr>
+    <tr>
+      <td>is_scrollable bool\rtrue if the cursor is scrollable (that is, it allows rows to be retrieved in a nonsequential man-\rner); false otherwise</td>
+    </tr>
+    <tr>
+      <td>creation_time timestamptz\rThe time at which the cursor was declared</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,21 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>once the amount of data streamed exceeds the estimated total size. If the estimation is dis-\rabled in pg_basebackup (i.e., --no-estimate-size option is specified), this is NULL.</td>
+    </tr>
+    <tr>
+      <td>backup_streamed bigint\rAmount of data streamed. This counter only advances when the phase is streaming\rdatabase files or transferring wal files.</td>
+    </tr>
+    <tr>
+      <td>tablespaces_total bigint\rTotal number of tablespaces that will be streamed.</td>
+    </tr>
+    <tr>
+      <td>tablespaces_streamed bigint\rNumber of tablespaces streamed. This counter only advances when the phase is streaming\rdatabase files.</td>
+    </tr>
+  </tbody>
+</table>

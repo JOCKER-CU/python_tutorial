@@ -1,0 +1,45 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>insignificant (except within a quoted parameter value) and blank lines are ignored. Hash marks (#) desig-</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>nate the remainder of the line as a comment. Parameter values that are not simple identifiers or numbers</td>
+    </tr>
+    <tr>
+      <td>must be single-quoted. To embed a single quote in a parameter value, write either two quotes (preferred) or</td>
+    </tr>
+    <tr>
+      <td>backslash-quote. If the file contains multiple entries for the same parameter, all but the last one are ignored.</td>
+    </tr>
+    <tr>
+      <td>Parameters set in this way provide default values for the cluster. The settings seen by active sessions will be</td>
+    </tr>
+    <tr>
+      <td>these values unless they are overridden. The following sections describe ways in which the administrator</td>
+    </tr>
+    <tr>
+      <td>or user can override these defaults.</td>
+    </tr>
+    <tr>
+      <td>The configuration file is reread whenever the main server process receives a SIGHUP signal; this signal</td>
+    </tr>
+    <tr>
+      <td>is most easily sent by running pg_ctl reload from the command line or by calling the SQL function</td>
+    </tr>
+    <tr>
+      <td>pg_reload_conf(). The main server process also propagates this signal to all currently running server</td>
+    </tr>
+    <tr>
+      <td>processes, so that existing sessions also adopt the new values (this will happen after they complete any</td>
+    </tr>
+    <tr>
+      <td>currently-executing client command). Alternatively, you can send the signal to a single server process</td>
+    </tr>
+    <tr>
+      <td>directly. Some parameters can only be set at server start; any changes to their entries in the configuration</td>
+    </tr>
+  </tbody>
+</table>

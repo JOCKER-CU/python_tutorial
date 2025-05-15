@@ -1,0 +1,30 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>•</th>
+      <th>If you are fetching very large data sets using spi_exec_query, you should be aware that these will</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NaN</td>
+      <td>all go into memory. You can avoid this by using spi_query/spi_fetchrow as illustrated earlier.</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>A similar problem occurs if a set-returning function passes a large set of rows back to PostgreSQL via</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>return. You can avoid this problem too by instead using return_next for each row returned, as</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>shown previously.</td>
+    </tr>
+    <tr>
+      <td>•</td>
+      <td>When a session ends normally, not due to a fatal error, any END blocks that have been defined are</td>
+    </tr>
+  </tbody>
+</table>

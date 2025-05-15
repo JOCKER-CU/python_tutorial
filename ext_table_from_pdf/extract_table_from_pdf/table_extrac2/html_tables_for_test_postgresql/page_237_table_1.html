@@ -1,0 +1,30 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>archived_count bigint\rNumber of WAL files that have been successfully archived</td>
+    </tr>
+    <tr>
+      <td>last_archived_wal text\rName of the WAL file most recently successfully archived</td>
+    </tr>
+    <tr>
+      <td>last_archived_time timestamp with time zone\rTime of the most recent successful archive operation</td>
+    </tr>
+    <tr>
+      <td>failed_count bigint\rNumber of failed attempts for archiving WAL files</td>
+    </tr>
+    <tr>
+      <td>last_failed_wal text\rName of the WAL file of the most recent failed archival operation</td>
+    </tr>
+    <tr>
+      <td>last_failed_time timestamp with time zone\rTime of the most recent failed archival operation</td>
+    </tr>
+    <tr>
+      <td>stats_reset timestamp with time zone\rTime at which these statistics were last reset</td>
+    </tr>
+  </tbody>
+</table>

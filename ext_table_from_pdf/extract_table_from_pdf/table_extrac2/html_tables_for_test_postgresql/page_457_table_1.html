@@ -1,0 +1,45 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>schemaname name (references pg_namespace.nspname)\rName of schema containing table</td>
+    </tr>
+    <tr>
+      <td>tablename name (references pg_class.relname)\rName of table the statistics object is defined on</td>
+    </tr>
+    <tr>
+      <td>statistics_schemaname name (references pg_namespace.nspname)\rName of schema containing extended statistics object</td>
+    </tr>
+    <tr>
+      <td>statistics_name name (references pg_statistic_ext.stxname)\rName of extended statistics object</td>
+    </tr>
+    <tr>
+      <td>statistics_owner name (references pg_authid.rolname)\rOwner of the extended statistics object</td>
+    </tr>
+    <tr>
+      <td>expr text\rExpression included in the extended statistics object</td>
+    </tr>
+    <tr>
+      <td>inherited bool (references pg_statistic_ext_data.stxdinherit)\rIf true, the stats include values from child tables, not just the values in the specified relation</td>
+    </tr>
+    <tr>
+      <td>null_frac float4\rFraction of expression entries that are null</td>
+    </tr>
+    <tr>
+      <td>avg_width int4\rAverage width in bytes of expression's entries</td>
+    </tr>
+    <tr>
+      <td>n_distinct float4\rIf greater than zero, the estimated number of distinct values in the expression. If less than ze-\rro, the negative of the number of distinct values divided by the number of rows. (The negated\rform is used when ANALYZE believes that the number of distinct values is likely to increase\ras the table grows; the positive form is used when the expression seems to have a fixed num-\rber of possible values.) For example, -1 indicates a unique expression in which the number of\rdistinct values is the same as the number of rows.</td>
+    </tr>
+    <tr>
+      <td>most_common_vals anyarray\rA list of the most common values in the expression. (Null if no values seem to be more com-\rmon than any others.)</td>
+    </tr>
+    <tr>
+      <td>most_common_freqs float4[]\rA list of the frequencies of the most common values, i.e., number of occurrences of each di-\rvided by total number of rows. (Null when most_common_vals is.)</td>
+    </tr>
+  </tbody>
+</table>

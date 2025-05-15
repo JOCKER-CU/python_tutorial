@@ -1,0 +1,62 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>View Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>pg_stat_activity</td>
+      <td>One row per server process, showing information\rrelated to the current activity of that process, such\ras state and current query. See  pg_stat_ac-\rtivity for details.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_replication</td>
+      <td>One row per WAL sender process, showing sta-\rtistics about replication to that sender's connected\rstandby server. See  pg_stat_replication\rfor details.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_wal_receiver</td>
+      <td>Only one row, showing statistics about the WAL\rreceiver from that receiver's connected server. See\rpg_stat_wal_receiver for details.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_recovery_prefetch</td>
+      <td>Only one row, showing statistics about blocks\rprefetched during recovery. See  pg_stat_re-\rcovery_prefetch for details.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_subscription</td>
+      <td>At least one row per subscription, showing in-\rformation about the subscription workers. See\rpg_stat_subscription for details.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_ssl</td>
+      <td>One row per connection (regular and replication),\rshowing information about SSL used on this con-\rnection. See  pg_stat_ssl for details.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_gssapi</td>
+      <td>One row per connection (regular and replication),\rshowing information about GSSAPI authentica-\rtion and encryption used on this connection. See\rpg_stat_gssapi for details.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_progress_analyze</td>
+      <td>One row for each backend (including autovacu-\rum worker processes) running ANALYZE, showing\rcurrent progress. See Section 28.4.1.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_progress_create_index</td>
+      <td>One row for each backend running CREATE IN-\rDEX or REINDEX, showing current progress. See\rSection 28.4.2.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_progress_vacuum</td>
+      <td>One row for each backend (including autovacuum\rworker processes) running VACUUM, showing cur-\rrent progress. See Section 28.4.3.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_progress_cluster</td>
+      <td>One row for each backend running CLUSTER or\rVACUUM FULL, showing current progress. See\rSection 28.4.4.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_progress_basebackup</td>
+      <td>One row for each WAL sender process streaming\ra base backup, showing current progress. See Sec-\rtion 28.4.5.</td>
+    </tr>
+    <tr>
+      <td>pg_stat_progress_copy</td>
+      <td>One row for each backend running COPY, showing\rcurrent progress. See Section 28.4.6.</td>
+    </tr>
+  </tbody>
+</table>

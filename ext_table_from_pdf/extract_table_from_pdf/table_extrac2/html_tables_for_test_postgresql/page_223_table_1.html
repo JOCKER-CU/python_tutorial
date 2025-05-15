@@ -1,0 +1,110 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>IPC Wait Event</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HashGrowBucketsAllocate</td>
+      <td>Waiting for an elected Parallel Hash participant to\rfinish allocating more buckets.</td>
+    </tr>
+    <tr>
+      <td>HashGrowBucketsElect</td>
+      <td>Waiting to elect a Parallel Hash participant to allo-\rcate more buckets.</td>
+    </tr>
+    <tr>
+      <td>HashGrowBucketsReinsert</td>
+      <td>Waiting for other Parallel Hash participants to fin-\rish inserting tuples into new buckets.</td>
+    </tr>
+    <tr>
+      <td>LogicalSyncData</td>
+      <td>Waiting for a logical replication remote server to\rsend data for initial table synchronization.</td>
+    </tr>
+    <tr>
+      <td>LogicalSyncStateChange</td>
+      <td>Waiting for a logical replication remote server to\rchange state.</td>
+    </tr>
+    <tr>
+      <td>MessageQueueInternal</td>
+      <td>Waiting for another process to be attached to a\rshared message queue.</td>
+    </tr>
+    <tr>
+      <td>MessageQueuePutMessage</td>
+      <td>Waiting to write a protocol message to a shared\rmessage queue.</td>
+    </tr>
+    <tr>
+      <td>MessageQueueReceive</td>
+      <td>Waiting to receive bytes from a shared message\rqueue.</td>
+    </tr>
+    <tr>
+      <td>MessageQueueSend</td>
+      <td>Waiting to send bytes to a shared message queue.</td>
+    </tr>
+    <tr>
+      <td>ParallelBitmapScan</td>
+      <td>Waiting for parallel bitmap scan to become initial-\rized.</td>
+    </tr>
+    <tr>
+      <td>ParallelCreateIndexScan</td>
+      <td>Waiting for parallel CREATE INDEX workers to\rfinish heap scan.</td>
+    </tr>
+    <tr>
+      <td>ParallelFinish</td>
+      <td>Waiting for parallel workers to finish computing.</td>
+    </tr>
+    <tr>
+      <td>ProcArrayGroupUpdate</td>
+      <td>Waiting for the group leader to clear the transac-\rtion ID at end of a parallel operation.</td>
+    </tr>
+    <tr>
+      <td>ProcSignalBarrier</td>
+      <td>Waiting for a barrier event to be processed by all\rbackends.</td>
+    </tr>
+    <tr>
+      <td>Promote</td>
+      <td>Waiting for standby promotion.</td>
+    </tr>
+    <tr>
+      <td>RecoveryConflictSnapshot</td>
+      <td>Waiting for recovery conflict resolution for a vacu-\rum cleanup.</td>
+    </tr>
+    <tr>
+      <td>RecoveryConflictTablespace</td>
+      <td>Waiting for recovery conflict resolution for drop-\rping a tablespace.</td>
+    </tr>
+    <tr>
+      <td>RecoveryEndCommand</td>
+      <td>Waiting for recovery_end_command to complete.</td>
+    </tr>
+    <tr>
+      <td>RecoveryPause</td>
+      <td>Waiting for recovery to be resumed.</td>
+    </tr>
+    <tr>
+      <td>ReplicationOriginDrop</td>
+      <td>Waiting for a replication origin to become inactive\rso it can be dropped.</td>
+    </tr>
+    <tr>
+      <td>ReplicationSlotDrop</td>
+      <td>Waiting for a replication slot to become inactive so\rit can be dropped.</td>
+    </tr>
+    <tr>
+      <td>RestoreCommand</td>
+      <td>Waiting for restore_command to complete.</td>
+    </tr>
+    <tr>
+      <td>SafeSnapshot</td>
+      <td>Waiting to obtain a valid snapshot for a READ\rONLY DEFERRABLE transaction.</td>
+    </tr>
+    <tr>
+      <td>SyncRep</td>
+      <td>Waiting for confirmation from a remote server\rduring synchronous replication.</td>
+    </tr>
+    <tr>
+      <td>WalReceiverExit</td>
+      <td>Waiting for the WAL receiver to exit.</td>
+    </tr>
+  </tbody>
+</table>

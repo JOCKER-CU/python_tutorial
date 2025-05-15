@@ -1,0 +1,51 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>are posix (for POSIX shared memory allocated using shm_open), sysv (for System V shared</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>memory allocated via shmget), windows (for Windows shared memory), and mmap (to simulate</td>
+    </tr>
+    <tr>
+      <td>shared memory using memory-mapped files stored in the data directory). Not all values are supported</td>
+    </tr>
+    <tr>
+      <td>on all platforms; the first supported option is usually the default for that platform. The use of the</td>
+    </tr>
+    <tr>
+      <td>mmap option, which is not the default on any platform, is generally discouraged because the operating</td>
+    </tr>
+    <tr>
+      <td>system may write modified pages back to disk repeatedly, increasing system I/O load; however, it</td>
+    </tr>
+    <tr>
+      <td>may be useful for debugging, when the pg_dynshmem directory is stored on a RAM disk, or when</td>
+    </tr>
+    <tr>
+      <td>other shared memory facilities are not available.</td>
+    </tr>
+    <tr>
+      <td>_dynamic_shared_memory (integer)</td>
+    </tr>
+    <tr>
+      <td>Specifies the amount of memory that should be allocated at server startup for use by parallel queries.</td>
+    </tr>
+    <tr>
+      <td>When this memory region is insufficient or exhausted by concurrent queries, new parallel queries</td>
+    </tr>
+    <tr>
+      <td>try to allocate extra shared memory temporarily from the operating system using the method config-</td>
+    </tr>
+    <tr>
+      <td>ured with dynamic_shared_memory_type, which may be slower due to memory management</td>
+    </tr>
+    <tr>
+      <td>overheads. Memory that is allocated at startup with min_dynamic_shared_memory is affected</td>
+    </tr>
+    <tr>
+      <td>by the huge_pages setting on operating systems where that is supported, and may be more likely</td>
+    </tr>
+  </tbody>
+</table>

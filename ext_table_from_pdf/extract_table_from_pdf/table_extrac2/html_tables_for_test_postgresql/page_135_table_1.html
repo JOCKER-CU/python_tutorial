@@ -1,0 +1,30 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>is visible to the transaction that is using the snapshot. Synchronized snapshots are necessary when two</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>or more sessions need to see identical content in the database. If two sessions just start their transactions</td>
+    </tr>
+    <tr>
+      <td>independently, there is always a possibility that some third transaction commits between the executions</td>
+    </tr>
+    <tr>
+      <td>of the two START TRANSACTION commands, so that one session sees the effects of that transaction</td>
+    </tr>
+    <tr>
+      <td>and the other does not.</td>
+    </tr>
+    <tr>
+      <td>To solve this problem, PostgreSQL allows a transaction to export the snapshot it is using. As long as the</td>
+    </tr>
+    <tr>
+      <td>exporting transaction remains open, other transactions can import its snapshot, and thereby be guaranteed</td>
+    </tr>
+    <tr>
+      <td>that they see exactly the same view of the database that the first transaction sees. But note that any database</td>
+    </tr>
+  </tbody>
+</table>

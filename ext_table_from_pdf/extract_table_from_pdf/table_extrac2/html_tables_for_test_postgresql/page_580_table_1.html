@@ -1,0 +1,30 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>eign servers. This is done by sending query WHERE clauses to the remote server for execution, and by</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>not retrieving table columns that are not needed for the current query. To reduce the risk of misexecution</td>
+    </tr>
+    <tr>
+      <td>of queries, WHERE clauses are not sent to the remote server unless they use only data types, operators,</td>
+    </tr>
+    <tr>
+      <td>and functions that are built-in or belong to an extension that's listed in the foreign server's extensions</td>
+    </tr>
+    <tr>
+      <td>option. Operators and functions in such clauses must be IMMUTABLE as well. For an UPDATE or DELETE</td>
+    </tr>
+    <tr>
+      <td>query, postgres_fdw attempts to optimize the query execution by sending the whole query to the re-</td>
+    </tr>
+    <tr>
+      <td>mote server if there are no query WHERE clauses that cannot be sent to the remote server, no local joins</td>
+    </tr>
+    <tr>
+      <td>for the query, no row-level local BEFORE or AFTER triggers or stored generated columns on the target</td>
+    </tr>
+  </tbody>
+</table>

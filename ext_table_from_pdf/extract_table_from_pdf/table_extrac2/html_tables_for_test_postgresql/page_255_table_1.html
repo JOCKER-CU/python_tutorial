@@ -1,0 +1,22 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Phase</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>initializing</td>
+      <td>VACUUM is preparing to begin scanning the heap. This phase is ex-\rpected to be very brief.</td>
+    </tr>
+    <tr>
+      <td>scanning heap</td>
+      <td>VACUUM is currently scanning the heap. It will prune and defrag-\rment each page if required, and possibly perform freezing activity.\rThe heap_blks_scanned column can be used to monitor the\rprogress of the scan.</td>
+    </tr>
+    <tr>
+      <td>vacuuming indexes</td>
+      <td>VACUUM is currently vacuuming the indexes. If a table has any in-\rdexes, this will happen at least once per vacuum, after the heap has\rbeen completely scanned. It may happen multiple times per vacuum\rif maintenance_work_mem (or, in the case of autovacuum, autovac-\ruum_work_mem if set) is insufficient to store the number of dead\rtuples found.</td>
+    </tr>
+  </tbody>
+</table>

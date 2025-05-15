@@ -1,0 +1,22 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>xmin</td>
+      <td>Lowest transaction ID that was still active. All\rtransaction IDs less than xmin are either commit-\rted and visible, or rolled back and dead.</td>
+    </tr>
+    <tr>
+      <td>xmax</td>
+      <td>One past the highest completed transaction ID. All\rtransaction IDs greater than or equal to xmax had\rnot yet completed as of the time of the snapshot,\rand thus are invisible.</td>
+    </tr>
+    <tr>
+      <td>xip_list</td>
+      <td>Transactions in progress at the time of the snap-\rshot. A transaction ID that is xmin &lt;= X &lt;\rxmax and not in this list was already completed\rat the time of the snapshot, and thus is either visi-\rble or dead according to its commit status. This list\rdoes not include the transaction IDs of subtransac-\rtions.</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,87 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>• Store cumulative statistics system data in shared memory (Kyotaro Horiguchi, Andres Freund, Melanie</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Plageman)</td>
+    </tr>
+    <tr>
+      <td>Previously this data was sent to a statistics collector process via UDP packets, and could only be read by</td>
+    </tr>
+    <tr>
+      <td>sessions after transferring it via the file system. There is no longer a separate statistics collector process.</td>
+    </tr>
+    <tr>
+      <td>• Add additional information to VACUUM VERBOSE and autovacuum logging messages (Peter Geoghe-</td>
+    </tr>
+    <tr>
+      <td>gan)</td>
+    </tr>
+    <tr>
+      <td>• Add EXPLAIN (BUFFERS) output for temporary file block I/O (Masahiko Sawada)</td>
+    </tr>
+    <tr>
+      <td>• Allow log output in JSON format (Sehrope Sarkuni, Michael Paquier)</td>
+    </tr>
+    <tr>
+      <td>The new setting is log_destination = jsonlog.</td>
+    </tr>
+    <tr>
+      <td>• Allow pg_stat_reset_single_table_counters() to reset the counters of relations shared</td>
+    </tr>
+    <tr>
+      <td>across all databases (Sadhuprasad Patro)</td>
+    </tr>
+    <tr>
+      <td>• Add wait events for local shell commands (Fujii Masao)</td>
+    </tr>
+    <tr>
+      <td>The new wait events are used when calling archive_command, archive_cleanup_command,</td>
+    </tr>
+    <tr>
+      <td>restore_command and recovery_end_command.</td>
+    </tr>
+    <tr>
+      <td>E.4.3.1.6. Privileges</td>
+    </tr>
+    <tr>
+      <td>• Allow table accesses done by a view to optionally be controlled by privileges of the view's caller</td>
+    </tr>
+    <tr>
+      <td>(Christoph Heiss)</td>
+    </tr>
+    <tr>
+      <td>Previously, view accesses were always treated as being done by the view's owner. That's still the default.</td>
+    </tr>
+    <tr>
+      <td>• Allow members of the pg_write_server_files predefined role to perform server-side base back-</td>
+    </tr>
+    <tr>
+      <td>ups (Dagfinn Ilmari Mannsåker)</td>
+    </tr>
+    <tr>
+      <td>Previously only superusers could perform such backups.</td>
+    </tr>
+    <tr>
+      <td>• Allow GRANT to grant permissions to change individual server variables via SET and ALTER SYSTEM</td>
+    </tr>
+    <tr>
+      <td>(Mark Dilger)</td>
+    </tr>
+    <tr>
+      <td>The new function has_parameter_privilege() reports on this privilege.</td>
+    </tr>
+    <tr>
+      <td>• Add predefined role pg_checkpoint that allows members to run CHECKPOINT (Jeff Davis)</td>
+    </tr>
+    <tr>
+      <td>Previously checkpoints could only be run by superusers.</td>
+    </tr>
+    <tr>
+      <td>• Allow members of the pg_read_all_stats predefined role to access the views pg_back-</td>
+    </tr>
+  </tbody>
+</table>

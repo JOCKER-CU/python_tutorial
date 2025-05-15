@@ -1,0 +1,66 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>three arguments of types cstring, oid, integer. The first argument is the input text as a C string,</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>the second argument is the type's own OID (except for array types, which instead receive their element</td>
+    </tr>
+    <tr>
+      <td>type's OID), and the third is the typmod of the destination column, if known (-1 will be passed if not).</td>
+    </tr>
+    <tr>
+      <td>The input function must return a value of the data type itself. Usually, an input function should be declared</td>
+    </tr>
+    <tr>
+      <td>STRICT; if it is not, it will be called with a NULL first parameter when reading a NULL input value.</td>
+    </tr>
+    <tr>
+      <td>The function must still return NULL in this case, unless it raises an error. (This case is mainly meant to</td>
+    </tr>
+    <tr>
+      <td>support domain input functions, which might need to reject NULL inputs.) The output function must be</td>
+    </tr>
+    <tr>
+      <td>declared as taking one argument of the new data type. The output function must return type cstring.</td>
+    </tr>
+    <tr>
+      <td>Output functions are not invoked for NULL values.</td>
+    </tr>
+    <tr>
+      <td>The optional receive_function converts the type's external binary representation to the internal rep-</td>
+    </tr>
+    <tr>
+      <td>resentation. If this function is not supplied, the type cannot participate in binary input. The binary repre-</td>
+    </tr>
+    <tr>
+      <td>sentation should be chosen to be cheap to convert to internal form, while being reasonably portable. (For</td>
+    </tr>
+    <tr>
+      <td>example, the standard integer data types use network byte order as the external binary representation, while</td>
+    </tr>
+    <tr>
+      <td>the internal representation is in the machine's native byte order.) The receive function should perform ad-</td>
+    </tr>
+    <tr>
+      <td>equate checking to ensure that the value is valid. The receive function can be declared as taking one argu-</td>
+    </tr>
+    <tr>
+      <td>ment of type internal, or as taking three arguments of types internal, oid, integer. The first</td>
+    </tr>
+    <tr>
+      <td>argument is a pointer to a StringInfo buffer holding the received byte string; the optional arguments</td>
+    </tr>
+    <tr>
+      <td>are the same as for the text input function. The receive function must return a value of the data type itself.</td>
+    </tr>
+    <tr>
+      <td>Usually, a receive function should be declared STRICT; if it is not, it will be called with a NULL first</td>
+    </tr>
+    <tr>
+      <td>parameter when reading a NULL input value. The function must still return NULL in this case, unless it</td>
+    </tr>
+  </tbody>
+</table>

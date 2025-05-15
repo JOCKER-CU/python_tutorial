@@ -1,0 +1,98 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>a.</th>
+      <th>Discard candidate operators for which the input types do not match and cannot be converted</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NaN</td>
+      <td>(using an implicit conversion) to match. unknown literals are assumed to be convertible to</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>anything for this purpose. If only one candidate remains, use it; else continue to the next step.</td>
+    </tr>
+    <tr>
+      <td>b.</td>
+      <td>If any input argument is of a domain type, treat it as being of the domain's base type for all</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>subsequent steps. This ensures that domains act like their base types for purposes of ambigu-</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>ous-operator resolution.</td>
+    </tr>
+    <tr>
+      <td>c.</td>
+      <td>Run through all candidates and keep those with the most exact matches on input types. Keep</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>all candidates if none have exact matches. If only one candidate remains, use it; else continue</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>to the next step.</td>
+    </tr>
+    <tr>
+      <td>d.</td>
+      <td>Run through all candidates and keep those that accept preferred types (of the input data type's</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>type category) at the most positions where type conversion will be required. Keep all candidates</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>if none accept preferred types. If only one candidate remains, use it; else continue to the next step.</td>
+    </tr>
+    <tr>
+      <td>e.</td>
+      <td>If any input arguments are unknown, check the type categories accepted at those argument po-</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>sitions by the remaining candidates. At each position, select the string category if any candi-</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>date accepts that category. (This bias towards string is appropriate since an unknown-type literal</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>looks like a string.) Otherwise, if all the remaining candidates accept the same type category,</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>select that category; otherwise fail because the correct choice cannot be deduced without more</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>clues. Now discard candidates that do not accept the selected type category. Furthermore, if any</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>candidate accepts a preferred type in that category, discard candidates that accept non-preferred</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>types for that argument. Keep all candidates if none survive these tests. If only one candidate</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>remains, use it; else continue to the next step.</td>
+    </tr>
+    <tr>
+      <td>f.</td>
+      <td>If there are both unknown and known-type arguments, and all the known-type arguments have</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>the same type, assume that the unknown arguments are also of that type, and check which</td>
+    </tr>
+  </tbody>
+</table>

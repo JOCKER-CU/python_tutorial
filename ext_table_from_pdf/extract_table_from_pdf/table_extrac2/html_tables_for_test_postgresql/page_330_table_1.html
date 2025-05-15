@@ -1,0 +1,36 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>scribes how to define new base types, which are data types defined below the level of the SQL language.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Creating a new base type requires implementing functions to operate on the type in a low-level language,</td>
+    </tr>
+    <tr>
+      <td>usually C.</td>
+    </tr>
+    <tr>
+      <td>The examples in this section can be found in complex.sql and complex.c in the src/tutorial</td>
+    </tr>
+    <tr>
+      <td>directory of the source distribution. See the README file in that directory for instructions about running</td>
+    </tr>
+    <tr>
+      <td>the examples.</td>
+    </tr>
+    <tr>
+      <td>A user-defined type must always have input and output functions. These functions determine how the</td>
+    </tr>
+    <tr>
+      <td>type appears in strings (for input by the user and output to the user) and how the type is organized in</td>
+    </tr>
+    <tr>
+      <td>memory. The input function takes a null-terminated character string as its argument and returns the internal</td>
+    </tr>
+    <tr>
+      <td>(in memory) representation of the type. The output function takes the internal representation of the type</td>
+    </tr>
+  </tbody>
+</table>

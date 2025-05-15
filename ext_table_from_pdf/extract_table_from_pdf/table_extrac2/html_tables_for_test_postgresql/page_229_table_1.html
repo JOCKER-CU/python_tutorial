@@ -1,0 +1,70 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>LWLock Wait Event</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SInvalWrite</td>
+      <td>Waiting to add a message to the shared catalog in-\rvalidation queue.</td>
+    </tr>
+    <tr>
+      <td>SubtransBuffer</td>
+      <td>Waiting for I/O on a sub-transaction SLRU buffer.</td>
+    </tr>
+    <tr>
+      <td>SubtransSLRU</td>
+      <td>Waiting to access the sub-transaction SLRU cache.</td>
+    </tr>
+    <tr>
+      <td>SyncRep</td>
+      <td>Waiting to read or update information about the\rstate of synchronous replication.</td>
+    </tr>
+    <tr>
+      <td>SyncScan</td>
+      <td>Waiting to select the starting location of a synchro-\rnized table scan.</td>
+    </tr>
+    <tr>
+      <td>TablespaceCreate</td>
+      <td>Waiting to create or drop a tablespace.</td>
+    </tr>
+    <tr>
+      <td>TwoPhaseState</td>
+      <td>Waiting to read or update the state of prepared\rtransactions.</td>
+    </tr>
+    <tr>
+      <td>WALBufMapping</td>
+      <td>Waiting to replace a page in WAL buffers.</td>
+    </tr>
+    <tr>
+      <td>WALInsert</td>
+      <td>Waiting to insert WAL data into a memory buffer.</td>
+    </tr>
+    <tr>
+      <td>WALWrite</td>
+      <td>Waiting for WAL buffers to be written to disk.</td>
+    </tr>
+    <tr>
+      <td>WrapLimitsVacuum</td>
+      <td>Waiting to update limits on transaction id and mul-\rtixact consumption.</td>
+    </tr>
+    <tr>
+      <td>XactBuffer</td>
+      <td>Waiting for I/O on a transaction status SLRU\rbuffer.</td>
+    </tr>
+    <tr>
+      <td>XactSLRU</td>
+      <td>Waiting to access the transaction status SLRU\rcache.</td>
+    </tr>
+    <tr>
+      <td>XactTruncation</td>
+      <td>Waiting to execute pg_xact_status or update\rthe oldest transaction ID available to it.</td>
+    </tr>
+    <tr>
+      <td>XidGen</td>
+      <td>Waiting to allocate a new transaction ID.</td>
+    </tr>
+  </tbody>
+</table>

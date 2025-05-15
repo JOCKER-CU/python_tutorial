@@ -1,0 +1,88 @@
+[
+    {
+        "data_type": "table",
+        "page_id": 1,
+        "data": [
+            [
+                "Name of Policy Owner:",
+                "KYAW MG",
+                "AGENT Name:",
+                "May Lwin"
+            ],
+            [
+                "Name of Life Insured of\nBasic Plan:",
+                "KYAW MG",
+                "Agent Phone No.:",
+                "9123456789"
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 1,
+        "data": [
+            [
+                "If ticked \u201cOther\u201d, please provide full\ndetails",
+                ""
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 1,
+        "data": [
+            [
+                "Policy Owner",
+                "76ttufutd"
+            ],
+            [
+                "Life Insured (if different)",
+                ""
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 1,
+        "data": [
+            [
+                "If \u201cticked\u201d, please provide full details",
+                ""
+            ]
+        ]
+    },
+    {
+        "data_type": "text",
+        "page_id": 1,
+        "data": "Application No: 11006755 May Lwin\nName of Policy Owner: KYAW MG AGENT Name: May Lwin\nName of Life Insured of KYAW MG Agent Phone No.: 9123456789\nBasic Plan:\nGENERAL INFORMATION\n1. How do you know the Policy Owner and the Life Insured OR What is your relationship to them?\npersonal friend parent spouse sibling\nrelative acquaintance neighbor cold call\nnew customer self referral from bank referral from existing\ncustomer\nexisting customer other\nIf ticked \u201cOther\u201d, please provide full\ndetails\n2. Please describe the job of the Policy Owner and Life Insured in detail, such as duties, workplace and working conditions (including\nfull-time job and part-time/extra work) only if significantly different from what has been disclosed in the application form.\nPolicy Owner 76ttufutd\nLife Insured (if different)\n3. Based on your estimation, what is the annual income of the Policy Owner and the sources of this income of the Policy Owner:\nLess than 2,400,000 MMK\nFrom 2,400,000 MMK to 7,200,000 MMK\nFrom 7,201,000 MMK to 24,000,000 MMK\nMore than 24,000,000 MMK\nAny other sources of Income: Fuyuctdty\n4. Please tick the appropriate check boxes below, if there is any visible physical or mental disability, impairment, incapacity OR any\nother detail which is significantly different from the information disclosed by Life Insured that would be / may be material for Dai-ichi Life\nInsurance Myanmar Ltd. to be aware of to underwrite and accept the application. If none, please tick None.\nHearing issue Eye Vision Height\nWeight Avocation Drinking Habit\nSmoking Habit Additional information (if any) None\nIf \u201cticked\u201d, please provide full details"
+    },
+    {
+        "data_type": "table",
+        "page_id": 2,
+        "data": [
+            [
+                "May Lwin"
+            ],
+            [
+                "10/12/2024"
+            ]
+        ]
+    },
+    {
+        "data_type": "table",
+        "page_id": 2,
+        "data": [
+            [
+                ""
+            ],
+            [
+                ""
+            ]
+        ]
+    },
+    {
+        "data_type": "text",
+        "page_id": 2,
+        "data": "AGENT\u2019S DECLARATION\nI declare that I have personally validated the identity of the Policy Owner and the Life Insured with the NRC/passport provided, and that\nthey have personally signed on this Application. I also have no further information to supplement the information provided by the Policy\nOwner and the Life Insured with regards to the acceptance of this Application Dai-ichi Life Insurance Myanmar Ltd..\nSignature of Agent\nFull Name May Lwin\nDate 10/12/2024\nIf the Agent is a Policy Owner and/or the Life Insured, please provide the signature of his/her Supervisor below.\nSignature of Supervisor of Agent\nFull Name\nDate"
+    }
+]

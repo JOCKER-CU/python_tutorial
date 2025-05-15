@@ -1,0 +1,36 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>sslmode</th>
+      <th>Eavesdroppingprotection</th>
+      <th>MITM protection</th>
+      <th>Statement</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>prefer</td>
+      <td>Maybe</td>
+      <td>No</td>
+      <td>I don't care about encryption, but I wish\rto pay the overhead of encryption if the\rserver supports it.</td>
+    </tr>
+    <tr>
+      <td>require</td>
+      <td>Yes</td>
+      <td>No</td>
+      <td>I want my data to be encrypted, and I\raccept the overhead. I trust that the net-\rwork will make sure I always connect to\rthe server I want.</td>
+    </tr>
+    <tr>
+      <td>verify-ca</td>
+      <td>Yes</td>
+      <td>Depends on CA\rpolicy</td>
+      <td>I want my data encrypted, and I accept\rthe overhead. I want to be sure that I\rconnect to a server that I trust.</td>
+    </tr>
+    <tr>
+      <td>verify-full</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>I want my data encrypted, and I accept\rthe overhead. I want to be sure that I\rconnect to a server I trust, and that it's\rthe one I specify.</td>
+    </tr>
+  </tbody>
+</table>

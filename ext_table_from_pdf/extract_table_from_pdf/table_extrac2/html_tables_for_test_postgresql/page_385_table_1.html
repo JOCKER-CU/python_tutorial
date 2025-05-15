@@ -1,0 +1,39 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>of the columns match in each of the parent tables. If there is no conflict, then the duplicate columns</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>are merged to form a single column in the new table. If the column name list of the new table contains</td>
+    </tr>
+    <tr>
+      <td>a column name that is also inherited, the data type must likewise match the inherited column(s), and</td>
+    </tr>
+    <tr>
+      <td>the column definitions are merged into one. If the new table explicitly specifies a default value for</td>
+    </tr>
+    <tr>
+      <td>the column, this default overrides any defaults from inherited declarations of the column. Otherwise,</td>
+    </tr>
+    <tr>
+      <td>any parents that specify default values for the column must all specify the same default, or an error</td>
+    </tr>
+    <tr>
+      <td>will be reported.</td>
+    </tr>
+    <tr>
+      <td>CHECK constraints are merged in essentially the same way as columns: if multiple parent tables and/</td>
+    </tr>
+    <tr>
+      <td>or the new table definition contain identically-named CHECK constraints, these constraints must all</td>
+    </tr>
+    <tr>
+      <td>have the same check expression, or an error will be reported. Constraints having the same name and</td>
+    </tr>
+    <tr>
+      <td>expression will be merged into one copy. A constraint marked NO INHERIT in a parent will not be</td>
+    </tr>
+  </tbody>
+</table>

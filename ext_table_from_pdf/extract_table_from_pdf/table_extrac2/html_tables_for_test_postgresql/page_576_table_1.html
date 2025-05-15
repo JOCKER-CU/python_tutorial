@@ -1,0 +1,63 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>userid oid (references pg_authid.oid)\rOID of user who executed the statement</td>
+    </tr>
+    <tr>
+      <td>dbid oid (references pg_database.oid)\rOID of database in which the statement was executed</td>
+    </tr>
+    <tr>
+      <td>toplevel bool\rTrue if the query was executed as a top-level statement (always true if pg_stat_state-\rments.track is set to top)</td>
+    </tr>
+    <tr>
+      <td>queryid bigint\rHash code to identify identical normalized queries.</td>
+    </tr>
+    <tr>
+      <td>query text\rText of a representative statement</td>
+    </tr>
+    <tr>
+      <td>plans bigint\rNumber of times the statement was planned (if pg_stat_statements.track_plan-\rning is enabled, otherwise zero)</td>
+    </tr>
+    <tr>
+      <td>total_plan_time double precision\rTotal time spent planning the statement, in milliseconds (if pg_stat_state-\rments.track_planning is enabled, otherwise zero)</td>
+    </tr>
+    <tr>
+      <td>min_plan_time double precision\rMinimum time spent planning the statement, in milliseconds (if pg_stat_state-\rments.track_planning is enabled, otherwise zero)</td>
+    </tr>
+    <tr>
+      <td>max_plan_time double precision\rMaximum time spent planning the statement, in milliseconds (if pg_stat_state-\rments.track_planning is enabled, otherwise zero)</td>
+    </tr>
+    <tr>
+      <td>mean_plan_time double precision\rMean time spent planning the statement, in milliseconds (if pg_stat_state-\rments.track_planning is enabled, otherwise zero)</td>
+    </tr>
+    <tr>
+      <td>stddev_plan_time double precision\rPopulation standard deviation of time spent planning the statement, in milliseconds (if\rpg_stat_statements.track_planning is enabled, otherwise zero)</td>
+    </tr>
+    <tr>
+      <td>calls bigint\rNumber of times the statement was executed</td>
+    </tr>
+    <tr>
+      <td>total_exec_time double precision\rTotal time spent executing the statement, in milliseconds</td>
+    </tr>
+    <tr>
+      <td>min_exec_time double precision\rMinimum time spent executing the statement, in milliseconds</td>
+    </tr>
+    <tr>
+      <td>max_exec_time double precision\rMaximum time spent executing the statement, in milliseconds</td>
+    </tr>
+    <tr>
+      <td>mean_exec_time double precision\rMean time spent executing the statement, in milliseconds</td>
+    </tr>
+    <tr>
+      <td>stddev_exec_time double precision\rPopulation standard deviation of time spent executing the statement, in milliseconds</td>
+    </tr>
+    <tr>
+      <td>rows bigint\rTotal number of rows retrieved or affected by the statement</td>
+    </tr>
+  </tbody>
+</table>

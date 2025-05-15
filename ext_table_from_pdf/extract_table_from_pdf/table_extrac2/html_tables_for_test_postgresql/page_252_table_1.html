@@ -1,0 +1,45 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>index_relid oid\rOID of the index being created or reindexed. During a non-concurrent CREATE INDEX, this\ris 0.</td>
+    </tr>
+    <tr>
+      <td>command text\rThe command that is running: CREATE INDEX, CREATE INDEX CONCURRENTLY,\rREINDEX, or REINDEX CONCURRENTLY.</td>
+    </tr>
+    <tr>
+      <td>phase text\rCurrent processing phase of index creation. See Table 28.39.</td>
+    </tr>
+    <tr>
+      <td>lockers_total bigint\rTotal number of lockers to wait for, when applicable.</td>
+    </tr>
+    <tr>
+      <td>lockers_done bigint\rNumber of lockers already waited for.</td>
+    </tr>
+    <tr>
+      <td>current_locker_pid bigint\rProcess ID of the locker currently being waited for.</td>
+    </tr>
+    <tr>
+      <td>blocks_total bigint\rTotal number of blocks to be processed in the current phase.</td>
+    </tr>
+    <tr>
+      <td>blocks_done bigint\rNumber of blocks already processed in the current phase.</td>
+    </tr>
+    <tr>
+      <td>tuples_total bigint\rTotal number of tuples to be processed in the current phase.</td>
+    </tr>
+    <tr>
+      <td>tuples_done bigint\rNumber of tuples already processed in the current phase.</td>
+    </tr>
+    <tr>
+      <td>partitions_total bigint\rWhen creating an index on a partitioned table, this column is set to the total number of parti-\rtions on which the index is to be created. This field is 0 during a REINDEX.</td>
+    </tr>
+    <tr>
+      <td>partitions_done bigint\rWhen creating an index on a partitioned table, this column is set to the number of partitions\ron which the index has been created. This field is 0 during a REINDEX.</td>
+    </tr>
+  </tbody>
+</table>

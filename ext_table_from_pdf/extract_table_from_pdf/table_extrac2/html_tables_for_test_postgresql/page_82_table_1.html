@@ -1,0 +1,42 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>FunctionDescriptionExample(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>bit_count ( bytes bytea ) → bigint\rReturns the number of bits set in the binary string (also known as “popcount”).\rbit_count('\x1234567890'::bytea) → 15</td>
+    </tr>
+    <tr>
+      <td>btrim ( bytes bytea, bytesremoved bytea ) → bytea\rRemoves the longest string containing only bytes appearing in bytesremoved from the\rstart and end of bytes.\rbtrim('\x1234567890'::bytea, '\x9012'::bytea) → \x345678</td>
+    </tr>
+    <tr>
+      <td>get_bit ( bytes bytea, n bigint ) → integer\rExtracts n'th bit from binary string.\rget_bit('\x1234567890'::bytea, 30) → 1</td>
+    </tr>
+    <tr>
+      <td>get_byte ( bytes bytea, n integer ) → integer\rExtracts n'th byte from binary string.\rget_byte('\x1234567890'::bytea, 4) → 144</td>
+    </tr>
+    <tr>
+      <td>length ( bytea ) → integer\rReturns the number of bytes in the binary string.\rlength('\x1234567890'::bytea) → 5</td>
+    </tr>
+    <tr>
+      <td>length ( bytes bytea, encoding name ) → integer\rReturns the number of characters in the binary string, assuming that it is text in the given\rencoding.\rlength('jose'::bytea, 'UTF8') → 4</td>
+    </tr>
+    <tr>
+      <td>ltrim ( bytes bytea, bytesremoved bytea ) → bytea\rRemoves the longest string containing only bytes appearing in bytesremoved from the\rstart of bytes.\rltrim('\x1234567890'::bytea, '\x9012'::bytea) → \x34567890</td>
+    </tr>
+    <tr>
+      <td>md5 ( bytea ) → text\rComputes the MD5 hash of the binary string, with the result written in hexadecimal.\rmd5('Th\000omas'::bytea) → 8ab2d3c9689aaf18b4958c334c82d8b1</td>
+    </tr>
+    <tr>
+      <td>rtrim ( bytes bytea, bytesremoved bytea ) → bytea\rRemoves the longest string containing only bytes appearing in bytesremoved from the\rend of bytes.\rrtrim('\x1234567890'::bytea, '\x9012'::bytea) → \x12345678</td>
+    </tr>
+    <tr>
+      <td>set_bit ( bytes bytea, n bigint, newvalue integer ) → bytea\rSets n'th bit in binary string to newvalue.\rset_bit('\x1234567890'::bytea, 30, 0) → \x1234563890</td>
+    </tr>
+    <tr>
+      <td>set_byte ( bytes bytea, n integer, newvalue integer ) → bytea\rSets n'th byte in binary string to newvalue.\rset_byte('\x1234567890'::bytea, 4, 64) → \x1234567840</td>
+    </tr>
+  </tbody>
+</table>

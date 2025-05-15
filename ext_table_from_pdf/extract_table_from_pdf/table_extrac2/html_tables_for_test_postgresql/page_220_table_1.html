@@ -1,0 +1,106 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>IO Wait Event</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LockFileCreateSync</td>
+      <td>Waiting for data to reach durable storage while\rcreating the data directory lock file.</td>
+    </tr>
+    <tr>
+      <td>LockFileCreateWrite</td>
+      <td>Waiting for a write while creating the data directo-\rry lock file.</td>
+    </tr>
+    <tr>
+      <td>LockFileReCheckDataDirRead</td>
+      <td>Waiting for a read during recheck of the data di-\rrectory lock file.</td>
+    </tr>
+    <tr>
+      <td>LogicalRewriteCheckpointSync</td>
+      <td>Waiting for logical rewrite mappings to reach\rdurable storage during a checkpoint.</td>
+    </tr>
+    <tr>
+      <td>LogicalRewriteMappingSync</td>
+      <td>Waiting for mapping data to reach durable storage\rduring a logical rewrite.</td>
+    </tr>
+    <tr>
+      <td>LogicalRewriteMappingWrite</td>
+      <td>Waiting for a write of mapping data during a logi-\rcal rewrite.</td>
+    </tr>
+    <tr>
+      <td>LogicalRewriteSync</td>
+      <td>Waiting for logical rewrite mappings to reach\rdurable storage.</td>
+    </tr>
+    <tr>
+      <td>LogicalRewriteTruncate</td>
+      <td>Waiting for truncate of mapping data during a log-\rical rewrite.</td>
+    </tr>
+    <tr>
+      <td>LogicalRewriteWrite</td>
+      <td>Waiting for a write of logical rewrite mappings.</td>
+    </tr>
+    <tr>
+      <td>RelationMapRead</td>
+      <td>Waiting for a read of the relation map file.</td>
+    </tr>
+    <tr>
+      <td>RelationMapSync</td>
+      <td>Waiting for the relation map file to reach durable\rstorage.</td>
+    </tr>
+    <tr>
+      <td>RelationMapWrite</td>
+      <td>Waiting for a write to the relation map file.</td>
+    </tr>
+    <tr>
+      <td>ReorderBufferRead</td>
+      <td>Waiting for a read during reorder buffer manage-\rment.</td>
+    </tr>
+    <tr>
+      <td>ReorderBufferWrite</td>
+      <td>Waiting for a write during reorder buffer manage-\rment.</td>
+    </tr>
+    <tr>
+      <td>ReorderLogicalMappingRead</td>
+      <td>Waiting for a read of a logical mapping during re-\rorder buffer management.</td>
+    </tr>
+    <tr>
+      <td>ReplicationSlotRead</td>
+      <td>Waiting for a read from a replication slot control\rfile.</td>
+    </tr>
+    <tr>
+      <td>ReplicationSlotRestoreSync</td>
+      <td>Waiting for a replication slot control file to reach\rdurable storage while restoring it to memory.</td>
+    </tr>
+    <tr>
+      <td>ReplicationSlotSync</td>
+      <td>Waiting for a replication slot control file to reach\rdurable storage.</td>
+    </tr>
+    <tr>
+      <td>ReplicationSlotWrite</td>
+      <td>Waiting for a write to a replication slot control file.</td>
+    </tr>
+    <tr>
+      <td>SLRUFlushSync</td>
+      <td>Waiting for SLRU data to reach durable storage\rduring a checkpoint or database shutdown.</td>
+    </tr>
+    <tr>
+      <td>SLRURead</td>
+      <td>Waiting for a read of an SLRU page.</td>
+    </tr>
+    <tr>
+      <td>SLRUSync</td>
+      <td>Waiting for SLRU data to reach durable storage\rfollowing a page write.</td>
+    </tr>
+    <tr>
+      <td>SLRUWrite</td>
+      <td>Waiting for a write of an SLRU page.</td>
+    </tr>
+    <tr>
+      <td>SnapbuildRead</td>
+      <td>Waiting for a read of a serialized historical catalog\rsnapshot.</td>
+    </tr>
+  </tbody>
+</table>

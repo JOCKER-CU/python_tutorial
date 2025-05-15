@@ -1,0 +1,42 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>schemaname name (references pg_namespace.nspname)\rName of schema containing sequence</td>
+    </tr>
+    <tr>
+      <td>sequencename name (references pg_class.relname)\rName of sequence</td>
+    </tr>
+    <tr>
+      <td>sequenceowner name (references pg_authid.rolname)\rName of sequence's owner</td>
+    </tr>
+    <tr>
+      <td>data_type regtype (references pg_type.oid)\rData type of the sequence</td>
+    </tr>
+    <tr>
+      <td>start_value int8\rStart value of the sequence</td>
+    </tr>
+    <tr>
+      <td>min_value int8\rMinimum value of the sequence</td>
+    </tr>
+    <tr>
+      <td>max_value int8\rMaximum value of the sequence</td>
+    </tr>
+    <tr>
+      <td>increment_by int8\rIncrement value of the sequence</td>
+    </tr>
+    <tr>
+      <td>cycle bool\rWhether the sequence cycles</td>
+    </tr>
+    <tr>
+      <td>cache_size int8\rCache size of the sequence</td>
+    </tr>
+    <tr>
+      <td>last_value int8\rThe last sequence value written to disk. If caching is used, this value can be greater than the\rlast value handed out from the sequence. Null if the sequence has not been read from yet. Al-\rso, if the current user does not have USAGE or SELECT privilege on the sequence, the value\ris null.</td>
+    </tr>
+  </tbody>
+</table>

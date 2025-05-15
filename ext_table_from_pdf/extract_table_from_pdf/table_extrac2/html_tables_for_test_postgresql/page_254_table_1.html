@@ -1,0 +1,39 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>datid oid\rOID of the database to which this backend is connected.</td>
+    </tr>
+    <tr>
+      <td>datname name\rName of the database to which this backend is connected.</td>
+    </tr>
+    <tr>
+      <td>relid oid\rOID of the table being vacuumed.</td>
+    </tr>
+    <tr>
+      <td>phase text\rCurrent processing phase of vacuum. See Table 28.41.</td>
+    </tr>
+    <tr>
+      <td>heap_blks_total bigint\rTotal number of heap blocks in the table. This number is reported as of the beginning of the\rscan; blocks added later will not be (and need not be) visited by this VACUUM.</td>
+    </tr>
+    <tr>
+      <td>heap_blks_scanned bigint\rNumber of heap blocks scanned. Because the visibility map is used to optimize scans, some\rblocks will be skipped without inspection; skipped blocks are included in this total, so that\rthis number will eventually become equal to heap_blks_total when the vacuum is\rcomplete. This counter only advances when the phase is scanning heap.</td>
+    </tr>
+    <tr>
+      <td>heap_blks_vacuumed bigint\rNumber of heap blocks vacuumed. Unless the table has no indexes, this counter only ad-\rvances when the phase is vacuuming heap. Blocks that contain no dead tuples are\rskipped, so the counter may sometimes skip forward in large increments.</td>
+    </tr>
+    <tr>
+      <td>index_vacuum_count bigint\rNumber of completed index vacuum cycles.</td>
+    </tr>
+    <tr>
+      <td>max_dead_tuples bigint\rNumber of dead tuples that we can store before needing to perform an index vacuum cycle,\rbased on maintenance_work_mem.</td>
+    </tr>
+    <tr>
+      <td>num_dead_tuples bigint\rNumber of dead tuples collected since the last index vacuum cycle.</td>
+    </tr>
+  </tbody>
+</table>

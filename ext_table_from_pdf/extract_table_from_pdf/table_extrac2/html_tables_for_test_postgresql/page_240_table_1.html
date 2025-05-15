@@ -1,0 +1,66 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>relid oid\rOID of a table</td>
+    </tr>
+    <tr>
+      <td>schemaname name\rName of the schema that this table is in</td>
+    </tr>
+    <tr>
+      <td>relname name\rName of this table</td>
+    </tr>
+    <tr>
+      <td>seq_scan bigint\rNumber of sequential scans initiated on this table</td>
+    </tr>
+    <tr>
+      <td>seq_tup_read bigint\rNumber of live rows fetched by sequential scans</td>
+    </tr>
+    <tr>
+      <td>idx_scan bigint\rNumber of index scans initiated on this table</td>
+    </tr>
+    <tr>
+      <td>idx_tup_fetch bigint\rNumber of live rows fetched by index scans</td>
+    </tr>
+    <tr>
+      <td>n_tup_ins bigint\rNumber of rows inserted</td>
+    </tr>
+    <tr>
+      <td>n_tup_upd bigint\rNumber of rows updated (includes HOT updated rows)</td>
+    </tr>
+    <tr>
+      <td>n_tup_del bigint\rNumber of rows deleted</td>
+    </tr>
+    <tr>
+      <td>n_tup_hot_upd bigint\rNumber of rows HOT updated (i.e., with no separate index update required)</td>
+    </tr>
+    <tr>
+      <td>n_live_tup bigint\rEstimated number of live rows</td>
+    </tr>
+    <tr>
+      <td>n_dead_tup bigint\rEstimated number of dead rows</td>
+    </tr>
+    <tr>
+      <td>n_mod_since_analyze bigint\rEstimated number of rows modified since this table was last analyzed</td>
+    </tr>
+    <tr>
+      <td>n_ins_since_vacuum bigint\rEstimated number of rows inserted since this table was last vacuumed</td>
+    </tr>
+    <tr>
+      <td>last_vacuum timestamp with time zone\rLast time at which this table was manually vacuumed (not counting VACUUM FULL)</td>
+    </tr>
+    <tr>
+      <td>last_autovacuum timestamp with time zone\rLast time at which this table was vacuumed by the autovacuum daemon</td>
+    </tr>
+    <tr>
+      <td>last_analyze timestamp with time zone\rLast time at which this table was manually analyzed</td>
+    </tr>
+    <tr>
+      <td>last_autoanalyze timestamp with time zone\rLast time at which this table was analyzed by the autovacuum daemon</td>
+    </tr>
+  </tbody>
+</table>

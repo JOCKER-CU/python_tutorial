@@ -1,0 +1,36 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>to remove syntax not understood by the older server. Use of the --quote-all-identifiers option</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>is recommended in cross-version cases, as it can prevent problems arising from varying reserved-word</td>
+    </tr>
+    <tr>
+      <td>lists in different PostgreSQL versions.</td>
+    </tr>
+    <tr>
+      <td>When dumping logical replication subscriptions, pg_dump will generate CREATE SUBSCRIPTION com-</td>
+    </tr>
+    <tr>
+      <td>mands that use the connect = false option, so that restoring the subscription does not make remote</td>
+    </tr>
+    <tr>
+      <td>connections for creating a replication slot or for initial table copy. That way, the dump can be restored</td>
+    </tr>
+    <tr>
+      <td>without requiring network access to the remote servers. It is then up to the user to reactivate the subscrip-</td>
+    </tr>
+    <tr>
+      <td>tions in a suitable way. If the involved hosts have changed, the connection information might have to be</td>
+    </tr>
+    <tr>
+      <td>changed. It might also be appropriate to truncate the target tables before initiating a new full table copy.</td>
+    </tr>
+    <tr>
+      <td>If users intend to copy initial data during refresh they must create the slot with two_phase = false.</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,79 @@
+[
+    {
+        "Health_Insurance": {
+            "Description": "Your health is your most important asset. Protect yourself and your family from medical and surgical expenses with our Health Insurance."
+        }
+    },
+    {
+        "Product_Highlights": {
+            "Health_Insurance": {
+                "Description": "This health insurance plan offers affordable premiums and flexible installment options to help mitigate medical costs for people in Myanmar, covering hospitalization, surgery, and death."
+            }
+        }
+    },
+    {
+        "Basic Cover (1 unit)": {
+            "6 ~ 30": {
+                "Individual": 11000,
+                "Group": 10500
+            },
+            "31 ~ 40": {
+                "Individual": 14300,
+                "Group": 13600
+            },
+            "41 ~ 50": {
+                "Individual": 17600,
+                "Group": 16700
+            },
+            "51 ~ 60": {
+                "Individual": 28600,
+                "Group": 27200
+            },
+            "61 ~ 75": {
+                "Individual": 61600,
+                "Group": 58500
+            }
+        },
+        "Optional Cover (1) (1 unit)": {
+            "6 ~ 75": {
+                "Individual": 16500,
+                "Group": 15700
+            }
+        },
+        "Optional Cover (2) (1 unit)": {
+            "6 ~ 75": {
+                "Individual": 8800,
+                "Group": 8400
+            }
+        },
+        "Remarks": [
+            "All covers can be purchased together.",
+            "Basic Cover can be purchased independently.",
+            "Optional Covers cannot be purchased separately.",
+            "Optional Covers can be purchased up to number of purchased Basic Covers unit."
+        ]
+    },
+    {
+        "Available Units": "Up to 25 units"
+    },
+    {
+        "Basic Cover": {
+            "Hospitalization due to illness or accident": "10,000 MMK per unit per day (Up to 60 days)",
+            "Death": "1,000,000 MMK per unit"
+        },
+        "Optional Cover (1)": {
+            "Surgical expenses": "Actual incurred surgical expenses (Up to 500,000 MMK per unit)",
+            "Medical expenses for miscarriage": "300,000 MMK (Unrelated to unit purchased)"
+        },
+        "Optional Cover (2)": {
+            "Clinical and hospital treatment expenses": "2,500 MMK per unit per hospital/clinic visit (Up to 10,000 MMK)"
+        }
+    },
+    {
+        "Insurance Eligibility": {
+            "Who can be Insured": "6 to 75 years old, who are in good health",
+            "Under 18 years old": "the guardian is required"
+        },
+        "Period of Insurance": "1 year"
+    }
+]

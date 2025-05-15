@@ -1,0 +1,96 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Field</th>
+      <th>Type</th>
+      <th>Length</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>t_xmin</td>
+      <td>TransactionId</td>
+      <td>4 bytes</td>
+      <td>insert XID stamp</td>
+    </tr>
+    <tr>
+      <td>t_xmax</td>
+      <td>TransactionId</td>
+      <td>4 bytes</td>
+      <td>delete XID stamp</td>
+    </tr>
+    <tr>
+      <td>t_cid</td>
+      <td>CommandId</td>
+      <td>4 bytes</td>
+      <td>insert and/or delete CID</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>stamp (overlays with</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>t_xvac)</td>
+    </tr>
+    <tr>
+      <td>t_xvac</td>
+      <td>TransactionId</td>
+      <td>4 bytes</td>
+      <td>XID for VACUUM op-</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>eration moving a row</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>version</td>
+    </tr>
+    <tr>
+      <td>t_ctid</td>
+      <td>ItemPointerData</td>
+      <td>6 bytes</td>
+      <td>current TID of this or</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>newer row version</td>
+    </tr>
+    <tr>
+      <td>t_infomask2</td>
+      <td>uint16</td>
+      <td>2 bytes</td>
+      <td>number of attributes,</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>plus various flag bits</td>
+    </tr>
+    <tr>
+      <td>t_infomask</td>
+      <td>uint16</td>
+      <td>2 bytes</td>
+      <td>various flag bits</td>
+    </tr>
+    <tr>
+      <td>t_hoff</td>
+      <td>uint8</td>
+      <td>1 byte</td>
+      <td>offset to user data</td>
+    </tr>
+  </tbody>
+</table>

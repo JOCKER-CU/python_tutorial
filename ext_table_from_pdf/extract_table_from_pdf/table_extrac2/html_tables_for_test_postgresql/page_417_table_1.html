@@ -1,0 +1,24 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>possibility of performing a sequential scan on a relation, so a sequential scan plan is always created. As-</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sume an index is defined on a relation (for example a B-tree index) and a query contains the restriction</td>
+    </tr>
+    <tr>
+      <td>relation.attribute OPR constant. If relation.attribute happens to match the key</td>
+    </tr>
+    <tr>
+      <td>of the B-tree index and OPR is one of the operators listed in the index's operator class, another plan is</td>
+    </tr>
+    <tr>
+      <td>created using the B-tree index to scan the relation. If there are further indexes present and the restrictions</td>
+    </tr>
+    <tr>
+      <td>in the query happen to match a key of an index, further plans will be considered. Index scan plans are also</td>
+    </tr>
+  </tbody>
+</table>

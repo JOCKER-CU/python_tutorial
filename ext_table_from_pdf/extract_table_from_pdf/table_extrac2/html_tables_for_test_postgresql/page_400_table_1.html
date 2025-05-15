@@ -1,0 +1,36 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>taken without affecting other clients of the database, and can be used both for point-in-time recovery</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>(see Section 26.3) and as the starting point for a log-shipping or streaming-replication standby server (see</td>
+    </tr>
+    <tr>
+      <td>Section 27.2).</td>
+    </tr>
+    <tr>
+      <td>pg_basebackup makes an exact copy of the database cluster's files, while making sure the server is put</td>
+    </tr>
+    <tr>
+      <td>into and out of backup mode automatically. Backups are always taken of the entire database cluster; it is</td>
+    </tr>
+    <tr>
+      <td>not possible to back up individual databases or database objects. For selective backups, another tool such</td>
+    </tr>
+    <tr>
+      <td>as pg_dump must be used.</td>
+    </tr>
+    <tr>
+      <td>The backup is made over a regular PostgreSQL connection that uses the replication protocol. The connec-</td>
+    </tr>
+    <tr>
+      <td>tion must be made with a user ID that has REPLICATION permissions (see Section 22.2) or is a supe-</td>
+    </tr>
+    <tr>
+      <td>ruser, and pg_hba.conf must permit the replication connection. The server must also be configured</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,108 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>• Constraint exclusion is only applied during query planning, unlike partition pruning, which can also be</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>applied during query execution.</td>
+    </tr>
+    <tr>
+      <td>• Constraint exclusion only works when the query's WHERE clause contains constants (or externally sup-</td>
+    </tr>
+    <tr>
+      <td>plied parameters). For example, a comparison against a non-immutable function such as CURREN-</td>
+    </tr>
+    <tr>
+      <td>T_TIMESTAMP cannot be optimized, since the planner cannot know which child table the function's</td>
+    </tr>
+    <tr>
+      <td>value might fall into at run time.</td>
+    </tr>
+    <tr>
+      <td>• Keep the partitioning constraints simple, else the planner may not be able to prove that child tables</td>
+    </tr>
+    <tr>
+      <td>might not need to be visited. Use simple equality conditions for list partitioning, or simple range tests</td>
+    </tr>
+    <tr>
+      <td>for range partitioning, as illustrated in the preceding examples. A good rule of thumb is that partitioning</td>
+    </tr>
+    <tr>
+      <td>constraints should contain only comparisons of the partitioning column(s) to constants using B-tree-</td>
+    </tr>
+    <tr>
+      <td>indexable operators, because only B-tree-indexable column(s) are allowed in the partition key.</td>
+    </tr>
+    <tr>
+      <td>• All constraints on all children of the parent table are examined during constraint exclusion, so large</td>
+    </tr>
+    <tr>
+      <td>numbers of children are likely to increase query planning time considerably. So the legacy inheritance</td>
+    </tr>
+    <tr>
+      <td>based partitioning will work well with up to perhaps a hundred child tables; don't try to use many</td>
+    </tr>
+    <tr>
+      <td>thousands of children.</td>
+    </tr>
+    <tr>
+      <td>. Best Practices for Declarative Partitioning</td>
+    </tr>
+    <tr>
+      <td>The choice of how to partition a table should be made carefully, as the performance of query planning and</td>
+    </tr>
+    <tr>
+      <td>execution can be negatively affected by poor design.</td>
+    </tr>
+    <tr>
+      <td>One of the most critical design decisions will be the column or columns by which you partition your data.</td>
+    </tr>
+    <tr>
+      <td>Often the best choice will be to partition by the column or set of columns which most commonly appear in</td>
+    </tr>
+    <tr>
+      <td>WHERE clauses of queries being executed on the partitioned table. WHERE clauses that are compatible with</td>
+    </tr>
+    <tr>
+      <td>the partition bound constraints can be used to prune unneeded partitions. However, you may be forced</td>
+    </tr>
+    <tr>
+      <td>into making other decisions by requirements for the PRIMARY KEY or a UNIQUE constraint. Removal</td>
+    </tr>
+    <tr>
+      <td>of unwanted data is also a factor to consider when planning your partitioning strategy. An entire partition</td>
+    </tr>
+    <tr>
+      <td>can be detached fairly quickly, so it may be beneficial to design the partition strategy in such a way that</td>
+    </tr>
+    <tr>
+      <td>all data to be removed at once is located in a single partition.</td>
+    </tr>
+    <tr>
+      <td>Choosing the target number of partitions that the table should be divided into is also a critical decision to</td>
+    </tr>
+    <tr>
+      <td>make. Not having enough partitions may mean that indexes remain too large and that data locality remains</td>
+    </tr>
+    <tr>
+      <td>poor which could result in low cache hit ratios. However, dividing the table into too many partitions can</td>
+    </tr>
+    <tr>
+      <td>also cause issues. Too many partitions can mean longer query planning times and higher memory con-</td>
+    </tr>
+    <tr>
+      <td>sumption during both query planning and execution, as further described below. When choosing how to</td>
+    </tr>
+    <tr>
+      <td>partition your table, it's also important to consider what changes may occur in the future. For example, if</td>
+    </tr>
+    <tr>
+      <td>you choose to have one partition per customer and you currently have a small number of large customers,</td>
+    </tr>
+    <tr>
+      <td>consider the implications if in several years you instead find yourself with a large number of small cus-</td>
+    </tr>
+  </tbody>
+</table>

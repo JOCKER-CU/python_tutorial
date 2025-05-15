@@ -1,0 +1,39 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>of the node summary lines reflects the plan tree structure. The join's first, or “outer”, child is a bitmap</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>scan similar to those we saw before. Its cost and row count are the same as we'd get from SELECT ...</td>
+    </tr>
+    <tr>
+      <td>WHERE unique1 &lt; 10 because we are applying the WHERE clause unique1 &lt; 10 at that node.</td>
+    </tr>
+    <tr>
+      <td>The t1.unique2 = t2.unique2 clause is not relevant yet, so it doesn't affect the row count of the</td>
+    </tr>
+    <tr>
+      <td>outer scan. The nested-loop join node will run its second, or “inner” child once for each row obtained from</td>
+    </tr>
+    <tr>
+      <td>the outer child. Column values from the current outer row can be plugged into the inner scan; here, the</td>
+    </tr>
+    <tr>
+      <td>t1.unique2 value from the outer row is available, so we get a plan and costs similar to what we saw</td>
+    </tr>
+    <tr>
+      <td>above for a simple SELECT ... WHERE t2.unique2 = constant case. (The estimated cost</td>
+    </tr>
+    <tr>
+      <td>is actually a bit lower than what was seen above, as a result of caching that's expected to occur during</td>
+    </tr>
+    <tr>
+      <td>the repeated index scans on t2.) The costs of the loop node are then set on the basis of the cost of the</td>
+    </tr>
+    <tr>
+      <td>outer scan, plus one repetition of the inner scan for each outer row (10 * 7.91, here), plus a little CPU</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,34 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>nulls_last</td>
+      <td>Does the column sort with nulls last on a forward\rscan?</td>
+    </tr>
+    <tr>
+      <td>orderable</td>
+      <td>Does the column possess any defined sort order-\ring?</td>
+    </tr>
+    <tr>
+      <td>distance_orderable</td>
+      <td>Can the column be scanned in order by a “dis-\rtance” operator, for example ORDER BY col\r&lt;-&gt; constant ?</td>
+    </tr>
+    <tr>
+      <td>returnable</td>
+      <td>Can the column value be returned by an index-on-\rly scan?</td>
+    </tr>
+    <tr>
+      <td>search_array</td>
+      <td>Does the column natively support col =\rANY(array) searches?</td>
+    </tr>
+    <tr>
+      <td>search_nulls</td>
+      <td>Does the column support IS NULL and IS NOT\rNULL searches?</td>
+    </tr>
+  </tbody>
+</table>

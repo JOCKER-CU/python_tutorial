@@ -1,0 +1,238 @@
+{
+    "1": {
+        "text": "Sales Illustration\n1. Customer and Plan Information\nCustomer Information\nName\nGender\nAge\nPolicy Owner\nKHANT TI KYI\nMale\n31\nLife Insured\nKHANT TI KYI\nMale\n31\nPlan Information\nPlan\nLifeInsured\nPolicy Term\nPremium Term\nSum Insured\nDai-ichi Life Pro\nKHANT TI KYI\n15\n15\n54,999,000\nDai-ichi CI Plus\nKHANT TI KYI\n15\n15\n6,700,000\nPremium Frequencies\nMonthly (MMK)\nQuarterly (MMK)\nSemi Annually (MMK)\nAnnually (MMK)\nDai-ichi Life Pro\n289,817\n837,250\n1,674,500\n3,220,191\nDai-ichi CI Plus\n12,304\n35,545\n71,089\n136,710\nTotal Premium\n302,121\n872,795\n1,745,589\n3,356,901\nNote.  Premiums are calculated based on the currently applicable frequency loadings.\nPremiums for Dai-ichi CI Plus are not guaranteed and may be subject to change in the future, subject to future regulatory approval.\n2. Summary of Insurance Benefits (MMK)\nPlan\nLife Insured\nDeath/TPD \nBenefit\nEarly Stage \nCritical Illness \nBenefit\nLate Stage \nCritical Illness \nBenefit\nLiving Benefit\nMaturity Benefit\nDai-ichi Life Pro\nKHANT TI KYI\n54,999,000\n0\n0\n6,599,880\n54,999,000\nDai-ichi CI Plus\nKHANT TI KYI\n6,700,000\n1,675,000\n6,700,000\n0\n0\nTotal Benefit\n61,699,000\n1,675,000\n6,700,000\n6,599,880\n54,999,000\n3. Illustration of Product Benefits: Dai-ichi Life Pro (Basic Plan only)\nPolicy \nYear\nLi Age\nAccumulate\nd Premium\nSavings\nProtection\nSurrender \nValue (MMK)\n Living \nBenefit\n Accumulated \nLiving Benefit\n Maturity \nBenefit\n Total Benefit\n Protection \nBenefit\n1\n31\n3,220,191\n0\n0\n0\n0\n54,999,000\n0\n2\n32\n6,440,382\n0\n0\n0\n0\n54,999,000\n0\n3\n33\n9,660,573\n1,649,970\n1,649,970\n0\n1,649,970\n54,999,000\n549,990\n4\n34\n12,880,764\n0\n1,649,970\n0\n1,649,970\n54,999,000\n2,749,950\n5\n35\n16,100,955\n0\n1,649,970\n0\n1,649,970\n54,999,000\n5,499,900\n",
+        "tables": [
+            [
+                {
+                    "Unnamed: 0": "1. Customer and Plan Information",
+                    "Sales Illustration": NaN,
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": NaN
+                },
+                {
+                    "Unnamed: 0": "Customer Information",
+                    "Sales Illustration": NaN,
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": NaN
+                },
+                {
+                    "Unnamed: 0": NaN,
+                    "Sales Illustration": "Name Gender",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": "Age"
+                },
+                {
+                    "Unnamed: 0": "Policy Owner",
+                    "Sales Illustration": "KHANT TI KYI Male",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": "31"
+                },
+                {
+                    "Unnamed: 0": "Life Insured",
+                    "Sales Illustration": "KHANT TI KYI Male",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": "31"
+                },
+                {
+                    "Unnamed: 0": "Plan Information",
+                    "Sales Illustration": NaN,
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": NaN
+                },
+                {
+                    "Unnamed: 0": "Plan",
+                    "Sales Illustration": "LifeInsured Policy Term Premium Term",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": "Sum Insured"
+                },
+                {
+                    "Unnamed: 0": "Dai-ichi Life Pro",
+                    "Sales Illustration": "KHANT TI KYI 15 15",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": "54,999,000"
+                },
+                {
+                    "Unnamed: 0": "Dai-ichi CI Plus",
+                    "Sales Illustration": "KHANT TI KYI 15 15",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": "6,700,000"
+                },
+                {
+                    "Unnamed: 0": "Premium Frequencies",
+                    "Sales Illustration": "Monthly (MMK) Quarterly (MMK) Semi Annually (MMK)",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": "Annually (MMK)"
+                },
+                {
+                    "Unnamed: 0": "Dai-ichi Life Pro",
+                    "Sales Illustration": "289,817 837,250 1,674,500",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": "3,220,191"
+                },
+                {
+                    "Unnamed: 0": "Dai-ichi CI Plus",
+                    "Sales Illustration": "12,304 35,545 71,089",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": "136,710"
+                },
+                {
+                    "Unnamed: 0": "Total Premium",
+                    "Sales Illustration": "302,121 872,795 1,745,589",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": "3,356,901"
+                },
+                {
+                    "Unnamed: 0": "Note.  Premiums are calculated based on the currently applicable frequency loadings.",
+                    "Sales Illustration": NaN,
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": NaN
+                },
+                {
+                    "Unnamed: 0": "Premiums for Dai-ichi CI Plus are not guaranteed and may be subject to change in the future, subject to future regulatory approval.",
+                    "Sales Illustration": NaN,
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": NaN
+                },
+                {
+                    "Unnamed: 0": "2. Summary of Insurance Benefits (MMK)",
+                    "Sales Illustration": NaN,
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": NaN
+                },
+                {
+                    "Unnamed: 0": "Plan Life Insured",
+                    "Sales Illustration": "Death/TPD Early Stage Late Stage Living Benefit",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": "Maturity Benefit"
+                },
+                {
+                    "Unnamed: 0": NaN,
+                    "Sales Illustration": "Benefit Critical Illness Critical Illness",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": NaN
+                },
+                {
+                    "Unnamed: 0": NaN,
+                    "Sales Illustration": "Benefit Benefit",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": NaN
+                },
+                {
+                    "Unnamed: 0": "Dai-ichi Life Pro KHANT TI KYI",
+                    "Sales Illustration": "54,999,000 0 0 6,599,880",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": "54,999,000"
+                },
+                {
+                    "Unnamed: 0": "Dai-ichi CI Plus KHANT TI KYI",
+                    "Sales Illustration": "6,700,000 1,675,000 6,700,000 0",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": "0"
+                },
+                {
+                    "Unnamed: 0": "Total Benefit",
+                    "Sales Illustration": "61,699,000 1,675,000 6,700,000 6,599,880",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": "54,999,000"
+                },
+                {
+                    "Unnamed: 0": "3. Illustration of Product Benefits: Dai-ichi Life Pro (Basic Plan only)",
+                    "Sales Illustration": NaN,
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": NaN
+                },
+                {
+                    "Unnamed: 0": "Policy Li Age Accumulate",
+                    "Sales Illustration": "Savings Protection",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": "Surrender"
+                },
+                {
+                    "Unnamed: 0": "Year d Premium",
+                    "Sales Illustration": NaN,
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": "Value (MMK)"
+                },
+                {
+                    "Unnamed: 0": NaN,
+                    "Sales Illustration": "Living  Accumulated  Maturity  Total Benefit  Protection",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": NaN
+                },
+                {
+                    "Unnamed: 0": NaN,
+                    "Sales Illustration": "Benefit Living Benefit Benefit Benefit",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": NaN
+                },
+                {
+                    "Unnamed: 0": "1 31 3,220,191",
+                    "Sales Illustration": "0 0 0 0 54,999,000",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": "0"
+                },
+                {
+                    "Unnamed: 0": "2 32 6,440,382",
+                    "Sales Illustration": "0 0 0 0 54,999,000",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": "0"
+                },
+                {
+                    "Unnamed: 0": "3 33 9,660,573 1,649,970",
+                    "Sales Illustration": "1,649,970 0 1,649,970 54,999,000",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": "549,990"
+                },
+                {
+                    "Unnamed: 0": "4 34 12,880,764",
+                    "Sales Illustration": "0 1,649,970 0 1,649,970 54,999,000",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": "2,749,950"
+                },
+                {
+                    "Unnamed: 0": "5 35 16,100,955",
+                    "Sales Illustration": "0 1,649,970 0 1,649,970 54,999,000",
+                    "Unnamed: 1": NaN,
+                    "Unnamed: 2": "5,499,900"
+                }
+            ]
+        ]
+    },
+    "2": {
+        "text": "Policy \nYear\nLi Age\nAccumulate\nd Premium\nSavings\nProtection\nSurrender \nValue (MMK)\n Living \nBenefit\n Accumulated \nLiving Benefit\n Maturity \nBenefit\n Total Benefit\n Protection \nBenefit\n6\n36\n19,321,146\n1,649,970\n3,299,940\n0\n3,299,940\n54,999,000\n8,249,850\n7\n37\n22,541,337\n0\n3,299,940\n0\n3,299,940\n54,999,000\n10,999,800\n8\n38\n25,761,528\n0\n3,299,940\n0\n3,299,940\n54,999,000\n16,499,700\n9\n39\n28,981,719\n1,649,970\n4,949,910\n0\n4,949,910\n54,999,000\n19,249,650\n10\n40\n32,201,910\n0\n4,949,910\n0\n4,949,910\n54,999,000\n21,999,600\n11\n41\n35,422,101\n0\n4,949,910\n0\n4,949,910\n54,999,000\n27,499,500\n12\n42\n38,642,292\n1,649,970\n6,599,880\n0\n6,599,880\n54,999,000\n32,999,400\n13\n43\n41,862,483\n0\n6,599,880\n0\n6,599,880\n54,999,000\n38,499,300\n14\n44\n45,082,674\n0\n6,599,880\n0\n6,599,880\n54,999,000\n43,999,200\n15\n45\n48,302,865\n0\n6,599,880\n54,999,000\n61,598,880\n54,999,000\n0\nTotal\n48,302,865\n6,599,880\n54,999,000\n61,598,880\nImportant\nThe premiums as mentioned above are for standard health as per the company's guidelines. You may have to pay additional/extra \n1. \npremiums after the underwriting assessment of your policy.\nPremiums for Dai-ichi CI Plus are not guaranteed and may be subject to change in the future, subject to future regulatory approval.\n2. \nThe above benefits are illustrated with the assumption that all the premiums are timely and adequately paid.\n3. \nThe above Surrender Value is illustrated at the end of the respective policy year. It is the amount of policy cash value after the Policy \n4. \nhas been in force for the given number of policy years, less any indebtedness.\nShould you decide not to continue with this Policy, you could cancel it within 21 days from the policy issued date. This period is \n5. \nknown as the Free-Look Period. In case the Policy is canceled within the Free-Look Period, the Company shall refund to the Policy \nOwner: i) all premiums received by the Company without any interest; minus ii) related health-check and examination expenses, if \nany.\nBuying a life insurance policy is a long-term financial commitment. An early surrender of the Policy usually involves high costs and the \n6. \nSurrender Value payable may be less than the total premiums paid.\nUpon the Life Insured's death or Total and Permanent Disability (TPD), the Death or TPD benefits will be paid out and the policy will \n7. \nbe terminated.\nLiving Benefit is the periodic cash payment that is payable to the Policy Owner at the end of every three policy years (except at \n8. \nmaturity date) while the Policy is still in force.\nFor Dai-ichi CI Plus, upon the Life Insured's death, TPD or Late Stage Critical Illness, the Death, TPD or Late Stage Critical Illness \n9. \nbenefits, less any Early Stage Critical Illness benefit paid out.\nThe Early Stage Critical Illness benefits and Late Stage Critical Illness benefits, and Critical Illness definitions are stated in detail in \n10. \nthe Policy Provision of this Plan.\nThe exclusions for Death, TPD, and Critical Illness benefits are stated in detail in the Policy Provision of this Plan.\n11. \nThis illustration will form part of the policy contract and must be read in conjunction with the Policy Provision of this Plan.\n12. \n(This Sales Illustration is only for reference. Details of all benefits are regulated in Policy Provision of this Plan).\n[For your convenience, Dai-ichi Life Insurance Myanmar Ltd. will bear the cost of stamp duty at the rate of MMK30 per MMK100,000 Sum \nInsured.]\nDate - 23/12/2024\n",
+        "tables": [
+            [
+                {
+                    "Policy": "Year",
+                    "Li Age": NaN,
+                    "Accumulate": "d Premium",
+                    "Unnamed: 0": NaN,
+                    "Savings": NaN,
+                    "Unnamed: 1": NaN,
+                    "Protection": NaN,
+                    "Surrender": "Value (MMK)"
+                },
+                {
+                    "Policy": NaN,
+                    "Li Age": NaN,
+                    "Accumulate": NaN,
+                    "Unnamed: 0": "Living",
+                    "Savings": "Accumulated  Maturity",
+                    "Unnamed: 1": "Total Benefit",
+                    "Protection": "Protection",
+                    "Surrender": NaN
+                },
+                {
+                    "Policy": NaN,
+                    "Li Age": NaN,
+                    "Accumulate": NaN,
+                    "Unnamed: 0": "Benefit",
+                    "Savings": "Living Benefit Benefit",
+                    "Unnamed: 1": NaN,
+                    "Protection": "Benefit",
+                    "Surrender": NaN
+                }
+            ]
+        ]
+    }
+}

@@ -1,0 +1,54 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>datid oid\rOID of the database this backend is connected to</td>
+    </tr>
+    <tr>
+      <td>datname name\rName of the database this backend is connected to</td>
+    </tr>
+    <tr>
+      <td>pid integer\rProcess ID of this backend</td>
+    </tr>
+    <tr>
+      <td>leader_pid integer\rProcess ID of the parallel group leader, if this process is a parallel query worker. NULL if this\rprocess is a parallel group leader or does not participate in parallel query.</td>
+    </tr>
+    <tr>
+      <td>usesysid oid\rOID of the user logged into this backend</td>
+    </tr>
+    <tr>
+      <td>usename name\rName of the user logged into this backend</td>
+    </tr>
+    <tr>
+      <td>application_name text\rName of the application that is connected to this backend</td>
+    </tr>
+    <tr>
+      <td>client_addr inet\rIP address of the client connected to this backend. If this field is null, it indicates either that\rthe client is connected via a Unix socket on the server machine or that this is an internal\rprocess such as autovacuum.</td>
+    </tr>
+    <tr>
+      <td>client_hostname text\rHost name of the connected client, as reported by a reverse DNS lookup of client_addr.\rThis field will only be non-null for IP connections, and only when log_hostname is enabled.</td>
+    </tr>
+    <tr>
+      <td>client_port integer\rTCP port number that the client is using for communication with this backend, or -1 if a\rUnix socket is used. If this field is null, it indicates that this is an internal server process.</td>
+    </tr>
+    <tr>
+      <td>backend_start timestamp with time zone\rTime when this process was started. For client backends, this is the time the client connected\rto the server.</td>
+    </tr>
+    <tr>
+      <td>xact_start timestamp with time zone\rTime when this process' current transaction was started, or null if no transaction is active. If\rthe current query is the first of its transaction, this column is equal to the query_start\rcolumn.</td>
+    </tr>
+    <tr>
+      <td>query_start timestamp with time zone\rTime when the currently active query was started, or if state is not active, when the last\rquery was started</td>
+    </tr>
+    <tr>
+      <td>state_change timestamp with time zone\rTime when the state was last changed</td>
+    </tr>
+    <tr>
+      <td>wait_event_type text\rThe type of event for which the backend is waiting, if any; otherwise NULL. See Table 28.4.</td>
+    </tr>
+  </tbody>
+</table>

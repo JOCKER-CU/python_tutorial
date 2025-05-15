@@ -1,0 +1,45 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>In the examples that follow, we assume that you have created a database named mydb, as described in the</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>previous chapter, and have been able to start psql.</td>
+    </tr>
+    <tr>
+      <td>Examples in this manual can also be found in the PostgreSQL source distribution in the directory src/</td>
+    </tr>
+    <tr>
+      <td>tutorial/. (Binary distributions of PostgreSQL might not provide those files.) To use those files, first</td>
+    </tr>
+    <tr>
+      <td>change to that directory and run make:</td>
+    </tr>
+    <tr>
+      <td>$ cd .../src/tutorial</td>
+    </tr>
+    <tr>
+      <td>$ make</td>
+    </tr>
+    <tr>
+      <td>This creates the scripts and compiles the C files containing user-defined functions and types. Then, to start</td>
+    </tr>
+    <tr>
+      <td>the tutorial, do the following:</td>
+    </tr>
+    <tr>
+      <td>$ psql -s mydb</td>
+    </tr>
+    <tr>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>mydb=&gt; \i basics.sql</td>
+    </tr>
+    <tr>
+      <td>The \i command reads in commands from the specified file. psql's -s option puts you in single step</td>
+    </tr>
+  </tbody>
+</table>

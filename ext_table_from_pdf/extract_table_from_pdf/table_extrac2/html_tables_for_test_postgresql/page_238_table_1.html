@@ -1,0 +1,42 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>checkpoints_timed bigint\rNumber of scheduled checkpoints that have been performed</td>
+    </tr>
+    <tr>
+      <td>checkpoints_req bigint\rNumber of requested checkpoints that have been performed</td>
+    </tr>
+    <tr>
+      <td>checkpoint_write_time double precision\rTotal amount of time that has been spent in the portion of checkpoint processing where files\rare written to disk, in milliseconds</td>
+    </tr>
+    <tr>
+      <td>checkpoint_sync_time double precision\rTotal amount of time that has been spent in the portion of checkpoint processing where files\rare synchronized to disk, in milliseconds</td>
+    </tr>
+    <tr>
+      <td>buffers_checkpoint bigint\rNumber of buffers written during checkpoints</td>
+    </tr>
+    <tr>
+      <td>buffers_clean bigint\rNumber of buffers written by the background writer</td>
+    </tr>
+    <tr>
+      <td>maxwritten_clean bigint\rNumber of times the background writer stopped a cleaning scan because it had written too\rmany buffers</td>
+    </tr>
+    <tr>
+      <td>buffers_backend bigint\rNumber of buffers written directly by a backend</td>
+    </tr>
+    <tr>
+      <td>buffers_backend_fsync bigint\rNumber of times a backend had to execute its own fsync call (normally the background\rwriter handles those even when the backend does its own write)</td>
+    </tr>
+    <tr>
+      <td>buffers_alloc bigint\rNumber of buffers allocated</td>
+    </tr>
+    <tr>
+      <td>stats_reset timestamp with time zone\rTime at which these statistics were last reset</td>
+    </tr>
+  </tbody>
+</table>

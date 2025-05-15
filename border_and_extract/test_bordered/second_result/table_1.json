@@ -1,0 +1,21 @@
+this result is false
+[
+    {
+        "Customer Information":"Name Gender Age"
+    },
+    {
+        "Customer Information":"Policy Owner KHANT TI KYI Male 31\nLife Insured KHANT TI KYI Male 31"
+    }
+]
+
+
+the result should be like this 
+[
+    {
+        "Customer Information": "Name" "Gender" "Age"
+    },
+    {
+        "Customer Information": "Policy Owner"  "KHANT TI KYI"  "Male"  "31"
+        "Life Insured" "KHANT TI KYI" "Male" "31"
+    }
+]

@@ -1,0 +1,81 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Operator/Element</th>
+      <th>Associativity</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>.</td>
+      <td>left</td>
+      <td>table/column name separator</td>
+    </tr>
+    <tr>
+      <td>::</td>
+      <td>left</td>
+      <td>PostgreSQL-style typecast</td>
+    </tr>
+    <tr>
+      <td>[ ]</td>
+      <td>left</td>
+      <td>array element selection</td>
+    </tr>
+    <tr>
+      <td>+ -</td>
+      <td>right</td>
+      <td>unary plus, unary minus</td>
+    </tr>
+    <tr>
+      <td>^</td>
+      <td>left</td>
+      <td>exponentiation</td>
+    </tr>
+    <tr>
+      <td>* / %</td>
+      <td>left</td>
+      <td>multiplication, division, modulo</td>
+    </tr>
+    <tr>
+      <td>+ -</td>
+      <td>left</td>
+      <td>addition, subtraction</td>
+    </tr>
+    <tr>
+      <td>(any other operator)</td>
+      <td>left</td>
+      <td>all other native and user-defined opera-\rtors</td>
+    </tr>
+    <tr>
+      <td>BETWEEN IN LIKE ILIKE SIMILAR</td>
+      <td>NaN</td>
+      <td>range containment, set membership,\rstring matching</td>
+    </tr>
+    <tr>
+      <td>&lt; &gt; = &lt;= &gt;= &lt;&gt;</td>
+      <td>NaN</td>
+      <td>comparison operators</td>
+    </tr>
+    <tr>
+      <td>IS ISNULL NOTNULL</td>
+      <td>NaN</td>
+      <td>IS TRUE, IS FALSE, IS NULL, IS\rDISTINCT FROM, etc.</td>
+    </tr>
+    <tr>
+      <td>NOT</td>
+      <td>right</td>
+      <td>logical negation</td>
+    </tr>
+    <tr>
+      <td>AND</td>
+      <td>left</td>
+      <td>logical conjunction</td>
+    </tr>
+    <tr>
+      <td>OR</td>
+      <td>left</td>
+      <td>logical disjunction</td>
+    </tr>
+  </tbody>
+</table>

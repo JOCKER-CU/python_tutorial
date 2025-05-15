@@ -1,0 +1,24 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>the sepgsql_setcon() function from within a trusted procedure; that should take some credential</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>to authorize the request to switch the client label. After that, this session will have the privileges of the</td>
+    </tr>
+    <tr>
+      <td>target user, rather than the connection pooler. The connection pooler can later revert the security label</td>
+    </tr>
+    <tr>
+      <td>change by again using sepgsql_setcon() with NULL argument, again invoked from within a trusted</td>
+    </tr>
+    <tr>
+      <td>procedure with appropriate permissions checks. The point here is that only the trusted procedure actually</td>
+    </tr>
+    <tr>
+      <td>has permission to change the effective security label, and only does so when given proper credentials.</td>
+    </tr>
+  </tbody>
+</table>

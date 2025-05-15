@@ -1,0 +1,90 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>E.4.3.9.2. pg_waldump</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>• Allow pg_waldump output to be filtered by relation file node, block number, fork number, and full page</td>
+    </tr>
+    <tr>
+      <td>images (David Christensen, Thomas Munro)</td>
+    </tr>
+    <tr>
+      <td>• Make pg_waldump report statistics before an interrupted exit (Bharath Rupireddy)</td>
+    </tr>
+    <tr>
+      <td>For example, issuing a control-C in a terminal running pg_waldump --stats --follow will</td>
+    </tr>
+    <tr>
+      <td>report the current statistics before exiting. This does not work on Windows.</td>
+    </tr>
+    <tr>
+      <td>• Improve descriptions of some transaction WAL records reported by pg_waldump (Masahiko Sawada,</td>
+    </tr>
+    <tr>
+      <td>Michael Paquier)</td>
+    </tr>
+    <tr>
+      <td>• Allow pg_waldump to dump information about multiple resource managers (Heikki Linnakangas)</td>
+    </tr>
+    <tr>
+      <td>This is enabled by specifying the --rmgr option multiple times.</td>
+    </tr>
+    <tr>
+      <td>E.4.3.10. Documentation</td>
+    </tr>
+    <tr>
+      <td>• Add documentation for pg_encoding_to_char() and pg_char_to_encoding() (Ian</td>
+    </tr>
+    <tr>
+      <td>Lawrence Barwick)</td>
+    </tr>
+    <tr>
+      <td>• Document the ^@ starts-with operator (Tom Lane)</td>
+    </tr>
+    <tr>
+      <td>E.4.3.11. Source Code</td>
+    </tr>
+    <tr>
+      <td>• Add support for continuous integration testing using cirrus-ci (Andres Freund, Thomas Munro, Melanie</td>
+    </tr>
+    <tr>
+      <td>Plageman)</td>
+    </tr>
+    <tr>
+      <td>• Add configure option --with-zstd to enable Zstandard builds (Jeevan Ladhe, Robert Haas, Michael</td>
+    </tr>
+    <tr>
+      <td>Paquier)</td>
+    </tr>
+    <tr>
+      <td>• Add an ABI identifier field to the magic block in loadable libraries, allowing non-community Post-</td>
+    </tr>
+    <tr>
+      <td>greSQL distributions to identify libraries that are not compatible with other builds (Peter Eisentraut)</td>
+    </tr>
+    <tr>
+      <td>An ABI field mismatch will generate an error at load time.</td>
+    </tr>
+    <tr>
+      <td>• Create a new pg_type.typcategory value for "char" (Tom Lane)</td>
+    </tr>
+    <tr>
+      <td>Some other internal-use-only types have also been assigned to this category.</td>
+    </tr>
+    <tr>
+      <td>• Add new protocol message TARGET to specify a new COPY method to be used for base backups (Robert</td>
+    </tr>
+    <tr>
+      <td>Haas)</td>
+    </tr>
+    <tr>
+      <td>pg_basebackup now uses this method.</td>
+    </tr>
+    <tr>
+      <td>• Add new protocol message COMPRESSION and COMPRESSION_DETAIL to specify the compression</td>
+    </tr>
+  </tbody>
+</table>

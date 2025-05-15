@@ -1,0 +1,61 @@
+[
+    {
+        "Data_ArMaKhan": {
+            "Description": "Data insurance is a service that provides coverage for hospitalization or death resulting from an accident or illness. It includes 15-day auto-renewal data packages along with complimentary health insurance."
+        }
+    },
+    {
+        "Product_Highlights": {
+            "Data_ArMaKhan": {
+                "Description": "Data insurance is a service that provides coverage for hospitalization or death resulting from an accident or illness. It includes 15-day auto-renewal data packages along with complimentary health insurance."
+            }
+        }
+    },
+    {
+        "Data_Packs": [
+            {
+                "Data_Pack_Price_MMK": 300,
+                "Data_Amount_MB": 100,
+                "Death_Coverage_MMK": 100000,
+                "Hospitalization_Coverage_MMK": {
+                    "Maximum_Coverage": 30000,
+                    "Coverage_per_Day": 2000
+                }
+            },
+            {
+                "Data_Pack_Price_MMK": 500,
+                "Data_Amount_MB": 167,
+                "Death_Coverage_MMK": 200000,
+                "Hospitalization_Coverage_MMK": {
+                    "Maximum_Coverage": 60000,
+                    "Coverage_per_Day": 4000
+                }
+            },
+            {
+                "Data_Pack_Price_MMK": 1000,
+                "Data_Amount_MB": 333,
+                "Death_Coverage_MMK": 400000,
+                "Hospitalization_Coverage_MMK": {
+                    "Maximum_Coverage": 120000,
+                    "Coverage_per_Day": 8000
+                }
+            }
+        ]
+    },
+    {
+        "Coverage & Benefits": {
+            "What is Covered": {
+                "Death Coverage": "when the insured passes away because of accident or disease within the insurance period.",
+                "Hospitalization Coverage": "when the insured is hospitalized because of accident or disease within the insurance period. The insured is only eligible for claims for at least 3 days of hospitalization."
+            }
+        },
+        "Insurance Eligibility": {
+            "Who can be Insured": "Anyone between 18 to 60 years old."
+        },
+        "Period of Insurance": "15 days",
+        "Platform to Buy": [
+            "MPT 4U App",
+            "MPT website"
+        ]
+    }
+]

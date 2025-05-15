@@ -1,0 +1,39 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Column TypeDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>udt_catalog sql_identifier\rName of the database containing the data type (always the current database)</td>
+    </tr>
+    <tr>
+      <td>udt_schema sql_identifier\rName of the schema containing the data type</td>
+    </tr>
+    <tr>
+      <td>udt_name sql_identifier\rName of the data type</td>
+    </tr>
+    <tr>
+      <td>attribute_name sql_identifier\rName of the attribute</td>
+    </tr>
+    <tr>
+      <td>ordinal_position cardinal_number\rOrdinal position of the attribute within the data type (count starts at 1)</td>
+    </tr>
+    <tr>
+      <td>attribute_default character_data\rDefault expression of the attribute</td>
+    </tr>
+    <tr>
+      <td>is_nullable yes_or_no\rYES if the attribute is possibly nullable, NO if it is known not nullable.</td>
+    </tr>
+    <tr>
+      <td>data_type character_data\rData type of the attribute, if it is a built-in type, or ARRAY if it is some array (in that case, see\rthe view element_types), else USER-DEFINED (in that case, the type is identified in\rattribute_udt_name and associated columns).</td>
+    </tr>
+    <tr>
+      <td>character_maximum_length cardinal_number\rIf data_type identifies a character or bit string type, the declared maximum length; null\rfor all other data types or if no maximum length was declared.</td>
+    </tr>
+    <tr>
+      <td>character_octet_length cardinal_number\rIf data_type identifies a character type, the maximum possible length in octets (bytes)\rof a datum; null for all other data types. The maximum octet length depends on the declared\rcharacter maximum length (see above) and the server encoding.</td>
+    </tr>
+  </tbody>
+</table>

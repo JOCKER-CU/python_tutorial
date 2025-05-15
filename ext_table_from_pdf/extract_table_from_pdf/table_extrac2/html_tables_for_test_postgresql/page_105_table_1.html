@@ -1,0 +1,42 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Expression</th>
+      <th>Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>to_char(5.2, 'FMRN')</td>
+      <td>'V'</td>
+    </tr>
+    <tr>
+      <td>to_char(482, '999th')</td>
+      <td>' 482nd'</td>
+    </tr>
+    <tr>
+      <td>to_char(485, '"Good number:"999')</td>
+      <td>'Good number: 485'</td>
+    </tr>
+    <tr>
+      <td>to_char(485.8,\r'"Pre:"999" Post:" .999')</td>
+      <td>'Pre: 485 Post: .800'</td>
+    </tr>
+    <tr>
+      <td>to_char(12, '99V999')</td>
+      <td>' 12000'</td>
+    </tr>
+    <tr>
+      <td>to_char(12.4, '99V999')</td>
+      <td>' 12400'</td>
+    </tr>
+    <tr>
+      <td>to_char(12.45, '99V9')</td>
+      <td>' 125'</td>
+    </tr>
+    <tr>
+      <td>to_char(0.0004859, '9.99EEEE')</td>
+      <td>' 4.86e-04'</td>
+    </tr>
+  </tbody>
+</table>

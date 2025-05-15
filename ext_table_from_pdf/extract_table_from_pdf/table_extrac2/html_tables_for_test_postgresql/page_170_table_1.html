@@ -1,0 +1,45 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>server on the command prompt as a standalone process, not as a Windows service, the command</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>prompt must be run as an administrator or User Access Control (UAC) must be disabled. When the</td>
+    </tr>
+    <tr>
+      <td>UAC is enabled, the normal command prompt revokes the user right “Lock pages in memory” when</td>
+    </tr>
+    <tr>
+      <td>started.</td>
+    </tr>
+    <tr>
+      <td>Note that this setting only affects the main shared memory area. Operating systems such as Linux,</td>
+    </tr>
+    <tr>
+      <td>FreeBSD, and Illumos can also use huge pages (also known as “super” pages or “large” pages) auto-</td>
+    </tr>
+    <tr>
+      <td>matically for normal memory allocation, without an explicit request from PostgreSQL. On Linux, this</td>
+    </tr>
+    <tr>
+      <td>is called “transparent huge pages” (THP). That feature has been known to cause performance degra-</td>
+    </tr>
+    <tr>
+      <td>dation with PostgreSQL for some users on some Linux versions, so its use is currently discouraged</td>
+    </tr>
+    <tr>
+      <td>(unlike explicit use of huge_pages).</td>
+    </tr>
+    <tr>
+      <td>e_page_size (integer)</td>
+    </tr>
+    <tr>
+      <td>Controls the size of huge pages, when they are enabled with huge_pages. The default is zero (0).</td>
+    </tr>
+    <tr>
+      <td>When set to 0, the default huge page size on the system will be used. This parameter can only be</td>
+    </tr>
+  </tbody>
+</table>

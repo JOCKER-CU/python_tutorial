@@ -1,0 +1,27 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>WAL segment file periodically. When this parameter is greater than zero, the server will switch to a</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>new segment file whenever this amount of time has elapsed since the last segment file switch, and</td>
+    </tr>
+    <tr>
+      <td>there has been any database activity, including a single checkpoint (checkpoints are skipped if there is</td>
+    </tr>
+    <tr>
+      <td>no database activity). Note that archived files that are closed early due to a forced switch are still the</td>
+    </tr>
+    <tr>
+      <td>same length as completely full files. Therefore, it is unwise to use a very short archive_timeout</td>
+    </tr>
+    <tr>
+      <td>— it will bloat your archive storage. archive_timeout settings of a minute or so are usually</td>
+    </tr>
+    <tr>
+      <td>reasonable. You should consider using streaming replication, instead of archiving, if you want data</td>
+    </tr>
+  </tbody>
+</table>

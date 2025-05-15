@@ -1,0 +1,30 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>There are five user-defined methods that an index operator class for SP-GiST must provide, and two are</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>optional. All five mandatory methods follow the convention of accepting two internal arguments, the</td>
+    </tr>
+    <tr>
+      <td>first of which is a pointer to a C struct containing input values for the support method, while the second</td>
+    </tr>
+    <tr>
+      <td>argument is a pointer to a C struct where output values must be placed. Four of the mandatory methods</td>
+    </tr>
+    <tr>
+      <td>just return void, since all their results appear in the output struct; but leaf_consistent returns a</td>
+    </tr>
+    <tr>
+      <td>boolean result. The methods must not modify any fields of their input structs. In all cases, the output</td>
+    </tr>
+    <tr>
+      <td>struct is initialized to zeroes before calling the user-defined method. The optional sixth method compress</td>
+    </tr>
+    <tr>
+      <td>accepts a datum to be indexed as the only argument and returns a value suitable for physical storage in</td>
+    </tr>
+  </tbody>
+</table>

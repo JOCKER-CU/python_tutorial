@@ -1,0 +1,33 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Throughout running a transaction, a server process holds an exclusive lock on the transaction's virtual</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>transaction ID. If a permanent ID is assigned to the transaction (which normally happens only if the trans-</td>
+    </tr>
+    <tr>
+      <td>action changes the state of the database), it also holds an exclusive lock on the transaction's permanent</td>
+    </tr>
+    <tr>
+      <td>transaction ID until it ends. When a process finds it necessary to wait specifically for another transaction</td>
+    </tr>
+    <tr>
+      <td>to end, it does so by attempting to acquire share lock on the other transaction's ID (either virtual or per-</td>
+    </tr>
+    <tr>
+      <td>manent ID depending on the situation). That will succeed only when the other transaction terminates and</td>
+    </tr>
+    <tr>
+      <td>releases its locks.</td>
+    </tr>
+    <tr>
+      <td>Although tuples are a lockable type of object, information about row-level locks is stored on disk, not in</td>
+    </tr>
+    <tr>
+      <td>memory, and therefore row-level locks normally do not appear in this view. If a process is waiting for a</td>
+    </tr>
+  </tbody>
+</table>

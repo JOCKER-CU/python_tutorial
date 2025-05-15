@@ -1,0 +1,33 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>tend/backend communication link, it is possible for the cancel request to be issued by any process, not</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>just the frontend whose query is to be canceled. This might provide additional flexibility when building</td>
+    </tr>
+    <tr>
+      <td>multiple-process applications. It also introduces a security risk, in that unauthorized persons might try</td>
+    </tr>
+    <tr>
+      <td>to cancel queries. The security risk is addressed by requiring a dynamically generated secret key to be</td>
+    </tr>
+    <tr>
+      <td>supplied in cancel requests.</td>
+    </tr>
+    <tr>
+      <td>. Termination</td>
+    </tr>
+    <tr>
+      <td>The normal, graceful termination procedure is that the frontend sends a Terminate message and immedi-</td>
+    </tr>
+    <tr>
+      <td>ately closes the connection. On receipt of this message, the backend closes the connection and terminates.</td>
+    </tr>
+    <tr>
+      <td>In rare cases (such as an administrator-commanded database shutdown) the backend might disconnect</td>
+    </tr>
+  </tbody>
+</table>

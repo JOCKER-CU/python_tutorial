@@ -1,0 +1,31 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>File</th>
+      <th>Contents</th>
+      <th>Effect</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>~/.postgresql/post-\rgresql.crt</td>
+      <td>client certificate</td>
+      <td>sent to server</td>
+    </tr>
+    <tr>
+      <td>~/.postgresql/post-\rgresql.key</td>
+      <td>client private key</td>
+      <td>proves client certificate sent by\rowner; does not indicate certifi-\rcate owner is trustworthy</td>
+    </tr>
+    <tr>
+      <td>~/.postgresql/root.crt</td>
+      <td>trusted certificate authorities</td>
+      <td>checks that server certificate is\rsigned by a trusted certificate au-\rthority</td>
+    </tr>
+    <tr>
+      <td>~/.postgresql/root.crl</td>
+      <td>certificates revoked by certificate\rauthorities</td>
+      <td>server certificate must not be on\rthis list</td>
+    </tr>
+  </tbody>
+</table>

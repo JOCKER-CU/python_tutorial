@@ -1,0 +1,30 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>SQL standard</th>
+      <th>PostgreSQL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>string LIKE_REGEX pattern</td>
+      <td>regexp_like(string, pattern) or\rstring ~ pattern</td>
+    </tr>
+    <tr>
+      <td>OCCURRENCES_REGEX(pattern IN\rstring)</td>
+      <td>regexp_count(string, pattern)</td>
+    </tr>
+    <tr>
+      <td>POSITION_REGEX(pattern IN string)</td>
+      <td>regexp_instr(string, pattern)</td>
+    </tr>
+    <tr>
+      <td>SUBSTRING_REGEX(pattern IN string)</td>
+      <td>regexp_substr(string, pattern)</td>
+    </tr>
+    <tr>
+      <td>TRANSLATE_REGEX(pattern IN string\rWITH replacement)</td>
+      <td>regexp_replace(string, pattern,\rreplacement)</td>
+    </tr>
+  </tbody>
+</table>

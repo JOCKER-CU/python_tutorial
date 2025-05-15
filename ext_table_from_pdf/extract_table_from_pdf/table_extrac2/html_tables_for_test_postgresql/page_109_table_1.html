@@ -1,0 +1,50 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>FunctionDescription</th>
+      <th>PartialMode</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>array_agg ( anynonarray ) → anyarray\rCollects all the input values, including nulls, into an array.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>array_agg ( anyarray ) → anyarray\rConcatenates all the input arrays into an array of one higher dimension. (The inputs\rmust all have the same dimensionality, and cannot be empty or null.)</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>avg ( smallint ) → numeric\ravg ( integer ) → numeric\ravg ( bigint ) → numeric\ravg ( numeric ) → numeric\ravg ( real ) → double precision\ravg ( double precision ) → double precision\ravg ( interval ) → interval\rComputes the average (arithmetic mean) of all the non-null input values.</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>bit_and ( smallint ) → smallint\rbit_and ( integer ) → integer\rbit_and ( bigint ) → bigint\rbit_and ( bit ) → bit\rComputes the bitwise AND of all non-null input values.</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>bit_or ( smallint ) → smallint\rbit_or ( integer ) → integer\rbit_or ( bigint ) → bigint\rbit_or ( bit ) → bit\rComputes the bitwise OR of all non-null input values.</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>bit_xor ( smallint ) → smallint\rbit_xor ( integer ) → integer\rbit_xor ( bigint ) → bigint\rbit_xor ( bit ) → bit\rComputes the bitwise exclusive OR of all non-null input values. Can be useful as a\rchecksum for an unordered set of values.</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>bool_and ( boolean ) → boolean\rReturns true if all non-null input values are true, otherwise false.</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>bool_or ( boolean ) → boolean\rReturns true if any non-null input value is true, otherwise false.</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>count ( * ) → bigint\rComputes the number of input rows.</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>count ( "any" ) → bigint\rComputes the number of input rows in which the input value is not null.</td>
+      <td>Yes</td>
+    </tr>
+  </tbody>
+</table>

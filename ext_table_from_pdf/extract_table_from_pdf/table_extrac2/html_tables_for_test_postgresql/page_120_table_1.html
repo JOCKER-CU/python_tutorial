@@ -1,0 +1,27 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>FunctionDescription</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Translates a textual operator name to its OID. A similar result is obtained by casting the\rstring to type regoper (see Section 8.19); however, this function will return NULL rather\rthan throwing an error if the name is not found or is ambiguous. Also unlike the cast, this\rdoes not accept a numeric OID as input.</td>
+    </tr>
+    <tr>
+      <td>to_regoperator ( text ) → regoperator\rTranslates a textual operator name (with parameter types) to its OID. A similar result is ob-\rtained by casting the string to type regoperator (see Section 8.19); however, this func-\rtion will return NULL rather than throwing an error if the name is not found. Also unlike the\rcast, this does not accept a numeric OID as input.</td>
+    </tr>
+    <tr>
+      <td>to_regproc ( text ) → regproc\rTranslates a textual function or procedure name to its OID. A similar result is obtained by\rcasting the string to type regproc (see Section 8.19); however, this function will return\rNULL rather than throwing an error if the name is not found or is ambiguous. Also unlike the\rcast, this does not accept a numeric OID as input.</td>
+    </tr>
+    <tr>
+      <td>to_regprocedure ( text ) → regprocedure\rTranslates a textual function or procedure name (with argument types) to its OID. A similar\rresult is obtained by casting the string to type regprocedure (see Section 8.19); howev-\rer, this function will return NULL rather than throwing an error if the name is not found. Also\runlike the cast, this does not accept a numeric OID as input.</td>
+    </tr>
+    <tr>
+      <td>to_regrole ( text ) → regrole\rTranslates a textual role name to its OID. A similar result is obtained by casting the string\rto type regrole (see Section 8.19); however, this function will return NULL rather than\rthrowing an error if the name is not found. Also unlike the cast, this does not accept a numer-\ric OID as input.</td>
+    </tr>
+    <tr>
+      <td>to_regtype ( text ) → regtype\rTranslates a textual type name to its OID. A similar result is obtained by casting the string\rto type regtype (see Section 8.19); however, this function will return NULL rather than\rthrowing an error if the name is not found. Also unlike the cast, this does not accept a numer-\ric OID as input.</td>
+    </tr>
+  </tbody>
+</table>

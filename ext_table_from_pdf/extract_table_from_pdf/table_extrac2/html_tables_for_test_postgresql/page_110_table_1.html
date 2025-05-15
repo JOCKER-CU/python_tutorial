@@ -1,0 +1,174 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Function</th>
+      <th>Partial</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Description</td>
+      <td>Mode</td>
+    </tr>
+    <tr>
+      <td>every ( boolean ) → boolean</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>This is the SQL standard's equivalent to bool_and.</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>json_agg ( anyelement ) → json</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>jsonb_agg ( anyelement ) → jsonb</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Collects all the input values, including nulls, into a JSON array. Values are convert-</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>ed to JSON as per to_json or to_jsonb.</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>json_object_agg ( key "any", value "any" ) → json</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>jsonb_object_agg ( key "any", value "any" ) → jsonb</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Collects all the key/value pairs into a JSON object. Key arguments are coerced to</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>text; value arguments are converted as per to_json or to_jsonb. Values can be</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>null, but not keys.</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>max ( see text ) → same as input type</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Computes the maximum of the non-null input values. Available for any numer-</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>ic, string, date/time, or enum type, as well as inet, interval, money, oid,</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>pg_lsn, tid, xid8, and arrays of any of these types.</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>min ( see text ) → same as input type</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Computes the minimum of the non-null input values. Available for any numer-</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>ic, string, date/time, or enum type, as well as inet, interval, money, oid,</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>pg_lsn, tid, xid8, and arrays of any of these types.</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>range_agg ( value anyrange ) → anymultirange</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>range_agg ( value anymultirange ) → anymultirange</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Computes the union of the non-null input values.</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>range_intersect_agg ( value anyrange ) → anyrange</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>range_intersect_agg ( value anymultirange ) → anymultirange</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Computes the intersection of the non-null input values.</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>string_agg ( value text, delimiter text ) → text</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>string_agg ( value bytea, delimiter bytea ) → bytea</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Concatenates the non-null input values into a string. Each value after the first is pre-</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>ceded by the corresponding delimiter (if it's not null).</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>sum ( smallint ) → bigint</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>sum ( integer ) → bigint</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>sum ( bigint ) → numeric</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>sum ( numeric ) → numeric</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>sum ( real ) → real</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>sum ( double precision ) → double precision</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>sum ( interval ) → interval</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>sum ( money ) → money</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Computes the sum of the non-null input values.</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>xmlagg ( xml ) → xml</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Concatenates the non-null XML input values (see Section 9.15.1.7).</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
